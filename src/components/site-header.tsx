@@ -16,7 +16,7 @@ export function SiteHeader() {
           className="focus-ring font-semibold font-serif text-2xl text-civic-ink"
           href="/"
         >
-          Demos<span className="text-civic-sage">:</span>Cratos
+          Demos<span className="text-civic-blue">:</span>Cratos
         </Link>
         <div className="flex items-center gap-4">
           <nav

@@ -29,7 +29,7 @@ export function VersionWorkshopMock() {
                 <span
                   className={`mt-1 h-2.5 w-2.5 rounded-full border ${
                     index === 0
-                      ? 'border-civic-moss bg-civic-moss'
+                      ? 'border-civic-blue bg-civic-blue'
                       : 'border-civic-line'
                   }`}
                 />
@@ -60,7 +60,7 @@ function DiffColumn({
         <p>
           Citizens exercise it through their representatives
           {tone === 'proposed' ? (
-            <mark className="mx-1 bg-civic-wheat/50 px-1 text-civic-ink">
+            <mark className="mx-1 bg-civic-red-soft px-1 text-civic-ink">
               and citizen consultation
             </mark>
           ) : (
@@ -70,7 +70,7 @@ function DiffColumn({
         </p>
         <p
           className={
-            tone === 'current' ? 'bg-civic-wheat/10 px-2 text-civic-wheat' : ''
+            tone === 'current' ? 'bg-civic-red-soft px-2 text-civic-red' : ''
           }
         >
           No section of the people may claim the exercise of sovereignty.

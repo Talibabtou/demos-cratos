@@ -1,8 +1,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
-import { STORAGE_KEYS } from '@/lib/storage';
-import { THEME_CLASS, THEME_STORAGE_KEY, THEME_VALUES } from '@/lib/theme';
+import { getPreferencesHydrationScript } from '@/lib/preferences';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -25,17 +24,19 @@ export default function RootLayout({
         <script
           // biome-ignore lint/security/noDangerouslySetInnerHtml: this prevents a theme flash before hydration.
           dangerouslySetInnerHTML={{
-            __html: `
-try {
-  var state = JSON.parse(localStorage.getItem('${STORAGE_KEYS.localState}') || '{}');
-  var theme = state && state.values && state.values['preferences.${THEME_STORAGE_KEY}'];
-  document.documentElement.classList.toggle('${THEME_CLASS}', theme === '${THEME_VALUES.dark}');
-} catch (_) {}
-            `.trim(),
+            __html: getPreferencesHydrationScript(),
           }}
         />
       </head>
       <body className="font-sans antialiased">
+        <div
+          aria-hidden="true"
+          className="fixed inset-y-0 left-0 z-50 w-1 bg-civic-blue"
+        />
+        <div
+          aria-hidden="true"
+          className="fixed inset-y-0 right-0 z-50 w-1 bg-civic-red"
+        />
         {children}
         <Analytics />
         <SpeedInsights />

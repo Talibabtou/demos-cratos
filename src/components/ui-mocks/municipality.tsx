@@ -44,7 +44,7 @@ export function MunicipalityMock() {
                   key={name}
                 >
                   <span className="font-medium text-civic-ink">{name}</span>
-                  <span className="text-civic-moss">{status}</span>
+                  <span className="text-civic-blue">{status}</span>
                   <span className="text-civic-muted">{date}</span>
                 </div>
               ))}

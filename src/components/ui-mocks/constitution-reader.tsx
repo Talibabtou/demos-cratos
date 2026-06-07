@@ -35,7 +35,7 @@ export function ConstitutionReaderMock({
           <div className="mb-5 h-9 rounded border border-civic-line bg-civic-paper px-3 py-2 text-civic-muted text-xs">
             Search by title, article, or phrase
           </div>
-          <p className="font-semibold text-civic-sage text-xs uppercase tracking-[0.12em]">
+          <p className="font-semibold text-civic-blue text-xs uppercase tracking-[0.12em]">
             Title I / Article 1
           </p>
           <h3 className="mt-3 font-semibold font-serif text-2xl">Article 1</h3>

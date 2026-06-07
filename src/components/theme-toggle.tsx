@@ -1,20 +1,22 @@
 'use client';
 
-import { createStorageNamespace } from '@/lib/storage';
+import {
+  readPreference,
+  subscribeToPreferences,
+  writePreference,
+} from '@/lib/preferences';
 import { THEME_CLASS, THEME_STORAGE_KEY, THEME_VALUES } from '@/lib/theme';
 import { Moon, Sun } from 'lucide-react';
 import { useEffect, useSyncExternalStore } from 'react';
 
-const preferencesStorage = createStorageNamespace('local', 'preferences');
-
 const readThemePreference = () => {
-  const theme = preferencesStorage.get<string>(THEME_STORAGE_KEY);
+  const theme = readPreference(THEME_STORAGE_KEY);
 
   return theme === THEME_VALUES.dark ? THEME_VALUES.dark : THEME_VALUES.light;
 };
 
 const subscribeToTheme = (onStoreChange: () => void) => {
-  const unsubscribe = preferencesStorage.subscribe(onStoreChange);
+  const unsubscribe = subscribeToPreferences(onStoreChange);
   window.addEventListener('focus', onStoreChange);
 
   return () => {
@@ -42,13 +44,13 @@ export function ThemeToggle() {
       THEME_CLASS,
       nextTheme === THEME_VALUES.dark,
     );
-    preferencesStorage.set(THEME_STORAGE_KEY, nextTheme);
+    writePreference(THEME_STORAGE_KEY, nextTheme);
   };
 
   return (
     <button
       aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-      className="focus-ring inline-flex size-10 items-center justify-center rounded-full border border-civic-line bg-civic-paper text-civic-ink transition hover:border-civic-blue"
+      className="focus-ring inline-flex size-10 items-center justify-center rounded-full border border-civic-blue bg-civic-wash text-civic-ink transition hover:bg-civic-paper"
       onClick={toggleTheme}
       type="button"
     >

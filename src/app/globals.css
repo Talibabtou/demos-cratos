@@ -9,10 +9,12 @@
   --color-civic-line: var(--civic-line);
   --color-civic-paper: var(--civic-paper);
   --color-civic-wash: var(--civic-wash);
-  --color-civic-sage: var(--civic-sage);
-  --color-civic-moss: var(--civic-moss);
   --color-civic-blue: var(--civic-blue);
-  --color-civic-wheat: var(--civic-red);
+  --color-civic-red: var(--civic-red);
+  --color-civic-red-soft: var(--civic-red-soft);
+  --color-civic-action: var(--civic-action);
+  --color-civic-action-hover: var(--civic-action-hover);
+  --color-civic-action-text: var(--civic-action-text);
 
   --font-sans:
     Inter, ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -25,32 +27,52 @@
 
 :root {
   color-scheme: light;
-  --civic-ink: #071b4d;
-  --civic-text: #27324a;
-  --civic-muted: #697184;
-  --civic-line: #d9dfe8;
-  --civic-paper: #ffffff;
-  --civic-wash: #f7f4ee;
-  --civic-sage: #2f5f9f;
-  --civic-moss: #002395;
+  --civic-paper: #f8f1e5;
+  --civic-wash: #eee5d6;
+  --civic-ink: #0a1a3f;
   --civic-blue: #123f7a;
-  --civic-red: #ed2939;
+  --civic-red: #bd2434;
+  --civic-text: color-mix(in srgb, var(--civic-ink) 84%, var(--civic-paper));
+  --civic-muted: color-mix(in srgb, var(--civic-ink) 58%, var(--civic-paper));
+  --civic-line: color-mix(in srgb, var(--civic-blue) 20%, var(--civic-paper));
+  --civic-red-soft: color-mix(
+    in srgb,
+    var(--civic-red) 14%,
+    var(--civic-paper)
+  );
+  --civic-action: var(--civic-blue);
+  --civic-action-hover: color-mix(
+    in srgb,
+    var(--civic-blue) 78%,
+    var(--civic-ink)
+  );
+  --civic-action-text: var(--civic-paper);
   background: var(--civic-wash);
   color: var(--civic-ink);
 }
 
 .dark {
   color-scheme: dark;
-  --civic-ink: #f8f4ea;
-  --civic-text: #d9dfec;
-  --civic-muted: #9ca8bf;
-  --civic-line: #26375b;
-  --civic-paper: #091735;
-  --civic-wash: #040b1d;
-  --civic-sage: #9ebcff;
-  --civic-moss: #adc4ff;
-  --civic-blue: #7fa2ee;
-  --civic-red: #ff6a72;
+  --civic-paper: #10213f;
+  --civic-wash: #071225;
+  --civic-ink: #f3ecdf;
+  --civic-blue: #91b5ff;
+  --civic-red: #ff7a84;
+  --civic-text: color-mix(in srgb, var(--civic-ink) 86%, var(--civic-paper));
+  --civic-muted: color-mix(in srgb, var(--civic-ink) 60%, var(--civic-paper));
+  --civic-line: color-mix(in srgb, var(--civic-blue) 20%, var(--civic-paper));
+  --civic-red-soft: color-mix(
+    in srgb,
+    var(--civic-red) 16%,
+    var(--civic-paper)
+  );
+  --civic-action: var(--civic-blue);
+  --civic-action-hover: color-mix(
+    in srgb,
+    var(--civic-blue) 84%,
+    var(--civic-ink)
+  );
+  --civic-action-text: var(--civic-wash);
 }
 
 * {
@@ -66,11 +88,30 @@ body {
   background:
     linear-gradient(
       180deg,
-      color-mix(in srgb, var(--civic-paper) 76%, transparent) 0,
+      color-mix(in srgb, var(--civic-paper) 68%, transparent) 0,
       color-mix(in srgb, var(--civic-wash) 0%, transparent) 20rem
     ),
     var(--civic-wash);
   color: var(--civic-ink);
+}
+
+@utility civic-container {
+  width: 100%;
+  max-width: 80rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+
+  @media (width >= 64rem) {
+    padding-inline: 3rem;
+  }
+}
+
+@utility civic-section {
+  padding-block: clamp(4.5rem, 8vw, 7.5rem);
 }
 
 a {
@@ -80,7 +121,7 @@ a {
 
 ::selection {
   background: var(--civic-red);
-  color: var(--civic-paper);
+  color: var(--civic-action-text);
 }
 
 .focus-ring {
@@ -101,8 +142,10 @@ a {
     animation: reveal-up 720ms cubic-bezier(0.2, 0.8, 0.2, 1) 120ms both;
   }
 
-  .slow-drift {
-    animation: slow-drift 10s ease-in-out infinite alternate;
+  .scroll-reveal {
+    animation: scroll-reveal both ease-out;
+    animation-range: entry 8% cover 28%;
+    animation-timeline: view();
   }
 }
 
@@ -118,12 +161,14 @@ a {
   }
 }
 
-@keyframes slow-drift {
+@keyframes scroll-reveal {
   from {
-    transform: translateY(0);
+    opacity: 0.45;
+    transform: translateY(1.5rem);
   }
 
   to {
-    transform: translateY(-0.625rem);
+    opacity: 1;
+    transform: translateY(0);
   }
 }

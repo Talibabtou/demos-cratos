@@ -21,14 +21,14 @@ export function SectionPage({
       <SiteHeader />
       <section className="mx-auto max-w-7xl px-6 py-14 md:px-10 lg:px-12">
         <Link
-          className="focus-ring font-semibold text-civic-moss text-sm"
+          className="focus-ring font-semibold text-civic-blue text-sm"
           href="/"
         >
           Back to overview
         </Link>
         <div className="mt-8 grid gap-10 lg:grid-cols-[0.82fr_1.18fr]">
           <div>
-            <p className="font-semibold text-civic-sage text-sm uppercase tracking-[0.12em]">
+            <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
               {status}
             </p>
             <h1 className="mt-4 font-semibold font-serif text-5xl text-civic-ink leading-tight">
@@ -47,7 +47,7 @@ export function SectionPage({
                     className="flex gap-3 text-civic-text text-sm leading-6"
                     key={step}
                   >
-                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-civic-sage" />
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-civic-blue" />
                     {step}
                   </li>
                 ))}

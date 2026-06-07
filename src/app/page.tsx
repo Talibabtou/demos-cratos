@@ -58,12 +58,10 @@ export default function Home() {
 function HeroSection() {
   return (
     <section className="relative overflow-hidden border-civic-line border-b">
-      <div className="absolute inset-y-0 left-0 w-1 bg-civic-moss" />
-      <div className="absolute inset-y-0 right-0 w-1 bg-civic-wheat" />
-      <div className="mx-auto grid min-h-[calc(100svh-73px)] max-w-7xl content-center gap-12 px-6 py-16 md:px-10 lg:grid-cols-[0.9fr_1.1fr] lg:px-12">
+      <div className="civic-container relative grid min-h-[calc(100svh-73px)] content-center gap-12 py-16 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="reveal-up">
           <p className="font-semibold font-serif text-6xl text-civic-ink leading-none sm:text-8xl lg:text-9xl">
-            Demos<span className="text-civic-sage">:</span>Cratos
+            Demos<span className="text-civic-blue">:</span>Cratos
           </p>
           <h1 className="mt-8 max-w-3xl font-semibold font-serif text-4xl text-civic-ink leading-[1.05] sm:text-6xl">
             A public workshop for French democracy.
@@ -78,14 +76,14 @@ function HeroSection() {
           </p>
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
             <Link
-              className="focus-ring inline-flex h-12 items-center justify-center gap-2 rounded-panel bg-civic-ink px-6 font-semibold text-civic-paper text-sm shadow-quiet transition hover:bg-civic-blue"
+              className="focus-ring inline-flex h-12 min-w-44 items-center justify-center gap-2 rounded-panel bg-civic-action px-6 font-semibold text-civic-action-text text-sm shadow-quiet transition hover:bg-civic-action-hover"
               href="#purpose"
             >
               Read the project
               <ArrowRight aria-hidden="true" size={16} strokeWidth={2} />
             </Link>
             <Link
-              className="focus-ring inline-flex h-12 items-center justify-center rounded-panel border border-civic-line bg-civic-paper px-6 font-semibold text-civic-ink text-sm transition hover:border-civic-sage"
+              className="focus-ring inline-flex h-12 min-w-44 items-center justify-center whitespace-nowrap rounded-panel border border-civic-action bg-transparent px-6 font-semibold text-civic-ink text-sm transition hover:bg-civic-action hover:text-civic-action-text"
               href="/research.md"
             >
               Open research notes
@@ -100,34 +98,39 @@ function HeroSection() {
 function PurposeSection() {
   return (
     <section
-      className="border-civic-line border-b bg-civic-paper py-20"
+      className="civic-section border-civic-line border-b bg-civic-paper"
       id="purpose"
     >
-      <div className="mx-auto max-w-7xl px-6 md:px-10 lg:px-12">
+      <div className="civic-container scroll-reveal">
         <div className="grid gap-10 lg:grid-cols-[0.65fr_1.35fr]">
           <div>
-            <p className="font-semibold text-civic-moss text-sm uppercase tracking-[0.12em]">
+            <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
               What this is for
             </p>
             <h2 className="mt-4 font-semibold font-serif text-4xl text-civic-ink leading-tight">
               Less civic theatre. More public memory.
             </h2>
           </div>
-          <div className="grid gap-8 md:grid-cols-2">
-            {platformPillars.map((pillar) => (
+          <div className="grid gap-x-12 gap-y-10 md:grid-cols-2">
+            {platformPillars.map((pillar, index) => (
               <article
-                className="border-civic-line border-t pt-5"
+                className="grid gap-4 border-civic-line border-l pl-5 transition-colors hover:border-civic-blue sm:grid-cols-[2.5rem_1fr]"
                 key={pillar.title}
               >
-                <p className="font-semibold text-civic-wheat text-sm">
-                  {pillar.label}
-                </p>
-                <h3 className="mt-3 font-semibold font-serif text-2xl text-civic-ink">
-                  {pillar.title}
-                </h3>
-                <p className="mt-4 text-civic-text text-sm leading-7">
-                  {pillar.text}
-                </p>
+                <span className="font-semibold text-civic-muted text-sm">
+                  {String(index + 1).padStart(2, '0')}
+                </span>
+                <div>
+                  <p className="font-semibold text-civic-red text-sm">
+                    {pillar.label}
+                  </p>
+                  <h3 className="mt-2 font-semibold font-serif text-2xl text-civic-ink">
+                    {pillar.title}
+                  </h3>
+                  <p className="mt-4 text-civic-text text-sm leading-7">
+                    {pillar.text}
+                  </p>
+                </div>
               </article>
             ))}
           </div>
@@ -139,10 +142,10 @@ function PurposeSection() {
 
 function FeatureSection() {
   return (
-    <section className="border-civic-line border-b py-20">
-      <div className="mx-auto grid max-w-7xl gap-12 px-6 md:px-10 lg:grid-cols-[1fr_1fr] lg:px-12">
+    <section className="civic-section border-civic-line border-b">
+      <div className="civic-container scroll-reveal grid gap-12 lg:grid-cols-[1fr_1fr]">
         <div>
-          <p className="font-semibold text-civic-moss text-sm uppercase tracking-[0.12em]">
+          <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
             The working surface
           </p>
           <h2 className="mt-4 max-w-xl font-semibold font-serif text-4xl text-civic-ink leading-tight">
@@ -150,13 +153,13 @@ function FeatureSection() {
             like a social network.
           </h2>
         </div>
-        <div className="grid gap-x-8 gap-y-4 sm:grid-cols-2">
+        <div className="grid gap-x-10 gap-y-5 sm:grid-cols-2">
           {futureFeatures.map((feature) => (
             <div
-              className="flex items-start gap-3 border-civic-line border-t pt-4"
+              className="flex items-start gap-3 border-civic-line border-l pl-4"
               key={feature}
             >
-              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-civic-sage" />
+              <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-civic-blue" />
               <p className="text-civic-text text-sm leading-6">{feature}</p>
             </div>
           ))}
@@ -168,11 +171,11 @@ function FeatureSection() {
 
 function DoctrineSection() {
   return (
-    <section className="bg-civic-paper py-20">
-      <div className="mx-auto max-w-7xl px-6 md:px-10 lg:px-12">
-        <div className="grid gap-10 border-civic-line border-y py-12 lg:grid-cols-[0.8fr_1.2fr]">
+    <section className="civic-section bg-civic-paper">
+      <div className="civic-container scroll-reveal">
+        <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <p className="font-semibold text-civic-wheat text-sm uppercase tracking-[0.12em]">
+            <p className="font-semibold text-civic-red text-sm uppercase tracking-[0.12em]">
               First doctrine
             </p>
             <h2 className="mt-4 font-semibold font-serif text-4xl text-civic-ink">
@@ -182,7 +185,7 @@ function DoctrineSection() {
           <div className="space-y-6">
             {principles.map((principle, index) => (
               <p
-                className="grid gap-4 border-civic-line border-t pt-5 text-civic-text text-lg leading-8 sm:grid-cols-[4rem_1fr]"
+                className="grid gap-4 border-civic-line border-l py-1 pl-5 text-civic-text text-lg leading-8 sm:grid-cols-[4rem_1fr]"
                 key={principle}
               >
                 <span className="font-semibold text-civic-muted text-sm">
