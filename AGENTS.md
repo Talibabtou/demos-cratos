@@ -39,6 +39,7 @@ Setup, scripts, CI, and project tree: `README.md`.
   debates should become first-class concepts as the product matures.
 - Preserve accessibility: semantic HTML, visible focus states, readable
   contrast, and responsive layouts.
+- Always use $anti-ai-slop-writing skill for website text content.
 
 ## Visual Direction
 
