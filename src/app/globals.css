@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-civic-ink: #0d1b2f;
-  --color-civic-text: #243046;
-  --color-civic-muted: #667085;
-  --color-civic-line: #d7ded8;
+  --color-civic-ink: #071b4d;
+  --color-civic-text: #27324a;
+  --color-civic-muted: #697184;
+  --color-civic-line: #d9dfe8;
   --color-civic-paper: #ffffff;
-  --color-civic-wash: #f5f7f4;
-  --color-civic-sage: #718a6c;
-  --color-civic-moss: #4f6f52;
-  --color-civic-blue: #12355b;
-  --color-civic-wheat: #d6c39a;
+  --color-civic-wash: #f7f4ee;
+  --color-civic-sage: #2f5f9f;
+  --color-civic-moss: #002395;
+  --color-civic-blue: #123f7a;
+  --color-civic-wheat: #ed2939;
 
   --font-sans:
     Inter, ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -23,8 +23,8 @@
 
 :root {
   color-scheme: light;
-  background: #ffffff;
-  color: #0d1b2f;
+  background: #f7f4ee;
+  color: #071b4d;
 }
 
 * {
@@ -40,11 +40,11 @@ body {
   background:
     linear-gradient(
       180deg,
-      rgb(245 247 244 / 0.88) 0,
-      rgb(255 255 255 / 0) 20rem
+      rgb(255 255 255 / 0.78) 0,
+      rgb(247 244 238 / 0) 20rem
     ),
-    #ffffff;
-  color: #0d1b2f;
+    #f7f4ee;
+  color: #071b4d;
 }
 
 a {
@@ -53,8 +53,8 @@ a {
 }
 
 ::selection {
-  background: #d6c39a;
-  color: #0d1b2f;
+  background: #ed2939;
+  color: #ffffff;
 }
 
 .focus-ring {
@@ -63,7 +63,7 @@ a {
 }
 
 .focus-ring:focus-visible {
-  outline-color: #4f6f52;
+  outline-color: #002395;
 }
 
 @media (prefers-reduced-motion: no-preference) {
