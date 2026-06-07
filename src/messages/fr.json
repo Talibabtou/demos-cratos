@@ -1,0 +1,106 @@
+{
+  "home": {
+    "hero": {
+      "title": "A public workshop for French democracy.",
+      "body": "Demos:Cratos helps citizens read the institutions they live under, draft better ones in public, and bring democratic practice back to the municipality.",
+      "primaryAction": "Read the project",
+      "secondaryAction": "Open research notes"
+    },
+    "purpose": {
+      "label": "What this is for",
+      "title": "Less civic theatre. More public memory.",
+      "pillars": [
+        {
+          "label": "Read power",
+          "title": "The Fifth Republic, made inspectable",
+          "text": "The current Constitution becomes a civic document: articles, history, examples, weak points, and plain-language notes in one place."
+        },
+        {
+          "label": "Rewrite institutions",
+          "title": "A Sixth Republic as public work",
+          "text": "Drafts, diffs, forks, review, and visible reasoning turn constitutional writing into a process citizens can follow and contest."
+        },
+        {
+          "label": "Work locally",
+          "title": "Municipal democracy with receipts",
+          "text": "Each city gets a public workspace for debates, petitions, studies, votes, budgets, and official answers that do not disappear."
+        },
+        {
+          "label": "Protect legitimacy",
+          "title": "Rules before participation",
+          "text": "Identity, moderation, delegation, sortition, and audit trails must protect citizens from capture instead of asking them to trust the platform."
+        }
+      ]
+    },
+    "features": {
+      "label": "The working surface",
+      "title": "The site will feel like a civic documentation system before it feels like a social network.",
+      "items": [
+        "Article-level constitutional reader",
+        "Versioned Sixth Republic drafts",
+        "Proposal review and public diffs",
+        "Municipality pages such as /lyon",
+        "Resident verification with privacy safeguards",
+        "Consensus mapping before votes",
+        "Participatory budgeting workflows",
+        "Public follow-up for official decisions"
+      ]
+    },
+    "doctrine": {
+      "label": "First doctrine",
+      "title": "Trust should not be a prerequisite.",
+      "principles": [
+        "Participation should end with an answer.",
+        "Voting comes after shared facts and visible disagreement.",
+        "Identity should prove rights, not expose opinions.",
+        "The software should remember what institutions prefer to forget."
+      ]
+    }
+  },
+  "navigation": {
+    "fifthConstitution": "Fifth Constitution",
+    "sixthRepublic": "Sixth Republic",
+    "municipalityTools": "Municipality Tools",
+    "research": "Research",
+    "github": "GitHub"
+  },
+  "sectionPage": {
+    "backToOverview": "Back to overview",
+    "nextBuildSteps": "Next build steps"
+  },
+  "sections": {
+    "fifthConstitution": {
+      "metadataTitle": "Fifth Constitution",
+      "title": "Fifth Republic Constitution",
+      "description": "A public reader for the Constitution of 4 October 1958, with structure, search, article navigation, analysis notes, and practical examples of institutional strengths and weaknesses.",
+      "status": "Placeholder",
+      "nextSteps": [
+        "Import the full official constitutional text with article-level anchors.",
+        "Attach plain-language explanations and historically grounded examples.",
+        "Add source references and amendment history for each article."
+      ]
+    },
+    "sixthRepublic": {
+      "metadataTitle": "Sixth Republic",
+      "title": "Sixth Republic Workshop",
+      "description": "A collaborative constitutional drafting space inspired by version control: proposals, diffs, branches, forks, comments, and a visual history of how the text evolves.",
+      "status": "Placeholder",
+      "nextSteps": [
+        "Model constitutions as structured documents with article-level versions.",
+        "Design proposal, review, merge, fork, and moderation workflows.",
+        "Create a visual map of drafts and public iteration history."
+      ]
+    },
+    "municipalityTools": {
+      "metadataTitle": "Municipality Tools",
+      "title": "Municipality Tools",
+      "description": "A future operational space for cities and citizens: debates, studies, petitions, votes, participation lists, transparent prioritization, and privacy-preserving citizen access.",
+      "status": "Coming later",
+      "nextSteps": [
+        "Define public viewer mode and verified resident permissions.",
+        "Explore zero-knowledge identity flows for municipality participation.",
+        "Prototype pages such as /lyon for local debates, votes, petitions, and studies."
+      ]
+    }
+  }
+}

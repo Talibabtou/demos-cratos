@@ -1,9 +1,14 @@
 import { SiteHeader } from '@/components/site-header';
+import type { Locale } from '@/i18n/routing';
+import { withLocale } from '@/i18n/routing';
+import type { Messages } from '@/i18n/messages';
 import Link from 'next/link';
 
 type SectionPageProps = {
   children: React.ReactNode;
   description: string;
+  locale: Locale;
+  messages: Pick<Messages, 'navigation' | 'sectionPage'>;
   nextSteps: string[];
   status: string;
   title: string;
@@ -12,19 +17,21 @@ type SectionPageProps = {
 export function SectionPage({
   children,
   description,
+  locale,
+  messages,
   nextSteps,
   status,
   title,
 }: SectionPageProps) {
   return (
     <main>
-      <SiteHeader />
+      <SiteHeader locale={locale} messages={messages.navigation} />
       <section className="mx-auto max-w-7xl px-6 py-14 md:px-10 lg:px-12">
         <Link
           className="focus-ring font-semibold text-civic-blue text-sm"
-          href="/"
+          href={withLocale(locale)}
         >
-          Back to overview
+          {messages.sectionPage.backToOverview}
         </Link>
         <div className="mt-8 grid gap-10 lg:grid-cols-[0.82fr_1.18fr]">
           <div>
@@ -39,7 +46,7 @@ export function SectionPage({
             </p>
             <div className="mt-10 border-civic-line border-t pt-8">
               <h2 className="font-semibold text-civic-ink text-sm uppercase tracking-[0.12em]">
-                Next build steps
+                {messages.sectionPage.nextBuildSteps}
               </h2>
               <ul className="mt-5 space-y-4">
                 {nextSteps.map((step) => (
