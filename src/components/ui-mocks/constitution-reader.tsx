@@ -6,7 +6,7 @@ export function ConstitutionReaderMock({
   compact?: boolean;
 }) {
   return (
-    <div className="overflow-hidden rounded-panel border border-civic-line bg-white text-civic-ink shadow-quiet">
+    <div className="overflow-hidden rounded-panel border border-civic-line bg-civic-paper text-civic-ink shadow-quiet">
       <div className="flex items-center justify-between border-civic-line border-b px-4 py-3">
         <span className="font-semibold text-sm">Constitution reader</span>
         <span className="text-civic-muted text-xs">Article view</span>
@@ -21,7 +21,7 @@ export function ConstitutionReaderMock({
               <div
                 className={`rounded px-2 py-2 text-xs ${
                   index === 1
-                    ? 'bg-white text-civic-ink shadow-sm'
+                    ? 'bg-civic-paper text-civic-ink shadow-sm'
                     : 'text-civic-text'
                 }`}
                 key={article}
@@ -32,7 +32,7 @@ export function ConstitutionReaderMock({
           </div>
         </aside>
         <article className="p-5">
-          <div className="mb-5 h-9 rounded border border-civic-line bg-white px-3 py-2 text-civic-muted text-xs">
+          <div className="mb-5 h-9 rounded border border-civic-line bg-civic-paper px-3 py-2 text-civic-muted text-xs">
             Search by title, article, or phrase
           </div>
           <p className="font-semibold text-civic-sage text-xs uppercase tracking-[0.12em]">

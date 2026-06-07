@@ -6,13 +6,13 @@ const rows = [
 
 export function MunicipalityMock() {
   return (
-    <div className="overflow-hidden rounded-panel border border-civic-line bg-white shadow-quiet">
+    <div className="overflow-hidden rounded-panel border border-civic-line bg-civic-paper shadow-quiet">
       <div className="grid md:grid-cols-[150px_1fr]">
-        <aside className="border-civic-line border-b bg-civic-ink p-4 text-white md:border-r md:border-b-0">
-          <p className="text-white/70 text-xs">Commune</p>
+        <aside className="border-civic-line border-b bg-civic-ink p-4 text-civic-paper md:border-r md:border-b-0">
+          <p className="text-civic-paper/70 text-xs">Commune</p>
           <p className="mt-1 font-semibold text-sm">Lyon</p>
-          <nav className="mt-7 space-y-2 text-white/75 text-xs">
-            <p className="text-white">Dashboard</p>
+          <nav className="mt-7 space-y-2 text-civic-paper/75 text-xs">
+            <p className="text-civic-paper">Dashboard</p>
             <p>Debates</p>
             <p>Votes</p>
             <p>Petitions</p>

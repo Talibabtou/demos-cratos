@@ -2,7 +2,7 @@ const timeline = ['v12 proposed', 'v11 proposed', 'v10 amendment', 'v1 draft'];
 
 export function VersionWorkshopMock() {
   return (
-    <div className="rounded-panel border border-civic-line bg-white shadow-quiet">
+    <div className="rounded-panel border border-civic-line bg-civic-paper shadow-quiet">
       <div className="flex flex-wrap items-center justify-between gap-3 border-civic-line border-b px-4 py-3">
         <span className="font-semibold text-civic-ink text-sm">
           Sixth Republic workshop
@@ -68,7 +68,11 @@ function DiffColumn({
           )}
           and by referendum.
         </p>
-        <p className={tone === 'current' ? 'bg-red-50 px-2 text-red-900' : ''}>
+        <p
+          className={
+            tone === 'current' ? 'bg-civic-wheat/10 px-2 text-civic-wheat' : ''
+          }
+        >
           No section of the people may claim the exercise of sovereignty.
         </p>
       </div>

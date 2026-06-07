@@ -1,16 +1,18 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 @theme inline {
-  --color-civic-ink: #071b4d;
-  --color-civic-text: #27324a;
-  --color-civic-muted: #697184;
-  --color-civic-line: #d9dfe8;
-  --color-civic-paper: #ffffff;
-  --color-civic-wash: #f7f4ee;
-  --color-civic-sage: #2f5f9f;
-  --color-civic-moss: #002395;
-  --color-civic-blue: #123f7a;
-  --color-civic-wheat: #ed2939;
+  --color-civic-ink: var(--civic-ink);
+  --color-civic-text: var(--civic-text);
+  --color-civic-muted: var(--civic-muted);
+  --color-civic-line: var(--civic-line);
+  --color-civic-paper: var(--civic-paper);
+  --color-civic-wash: var(--civic-wash);
+  --color-civic-sage: var(--civic-sage);
+  --color-civic-moss: var(--civic-moss);
+  --color-civic-blue: var(--civic-blue);
+  --color-civic-wheat: var(--civic-red);
 
   --font-sans:
     Inter, ui-sans-serif, system-ui, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -23,8 +25,32 @@
 
 :root {
   color-scheme: light;
-  background: #f7f4ee;
-  color: #071b4d;
+  --civic-ink: #071b4d;
+  --civic-text: #27324a;
+  --civic-muted: #697184;
+  --civic-line: #d9dfe8;
+  --civic-paper: #ffffff;
+  --civic-wash: #f7f4ee;
+  --civic-sage: #2f5f9f;
+  --civic-moss: #002395;
+  --civic-blue: #123f7a;
+  --civic-red: #ed2939;
+  background: var(--civic-wash);
+  color: var(--civic-ink);
+}
+
+.dark {
+  color-scheme: dark;
+  --civic-ink: #f8f4ea;
+  --civic-text: #d9dfec;
+  --civic-muted: #9ca8bf;
+  --civic-line: #26375b;
+  --civic-paper: #091735;
+  --civic-wash: #040b1d;
+  --civic-sage: #9ebcff;
+  --civic-moss: #adc4ff;
+  --civic-blue: #7fa2ee;
+  --civic-red: #ff6a72;
 }
 
 * {
@@ -40,11 +66,11 @@ body {
   background:
     linear-gradient(
       180deg,
-      rgb(255 255 255 / 0.78) 0,
-      rgb(247 244 238 / 0) 20rem
+      color-mix(in srgb, var(--civic-paper) 76%, transparent) 0,
+      color-mix(in srgb, var(--civic-wash) 0%, transparent) 20rem
     ),
-    #f7f4ee;
-  color: #071b4d;
+    var(--civic-wash);
+  color: var(--civic-ink);
 }
 
 a {
@@ -53,8 +79,8 @@ a {
 }
 
 ::selection {
-  background: #ed2939;
-  color: #ffffff;
+  background: var(--civic-red);
+  color: var(--civic-paper);
 }
 
 .focus-ring {
@@ -63,7 +89,7 @@ a {
 }
 
 .focus-ring:focus-visible {
-  outline-color: #002395;
+  outline-color: var(--civic-blue);
 }
 
 @media (prefers-reduced-motion: no-preference) {

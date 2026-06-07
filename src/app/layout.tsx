@@ -1,6 +1,8 @@
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
+import { STORAGE_KEYS } from '@/lib/storage';
+import { THEME_CLASS, THEME_STORAGE_KEY, THEME_VALUES } from '@/lib/theme';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -18,7 +20,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          // biome-ignore lint/security/noDangerouslySetInnerHtml: this prevents a theme flash before hydration.
+          dangerouslySetInnerHTML={{
+            __html: `
+try {
+  var state = JSON.parse(localStorage.getItem('${STORAGE_KEYS.localState}') || '{}');
+  var theme = state && state.values && state.values['preferences.${THEME_STORAGE_KEY}'];
+  document.documentElement.classList.toggle('${THEME_CLASS}', theme === '${THEME_VALUES.dark}');
+} catch (_) {}
+            `.trim(),
+          }}
+        />
+      </head>
       <body className="font-sans antialiased">
         {children}
         <Analytics />
