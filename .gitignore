@@ -35,3 +35,6 @@ pnpm-debug.log*
 # typescript / next generated files
 *.tsbuildinfo
 next-env.d.ts
+
+# fallow
+.fallow/
