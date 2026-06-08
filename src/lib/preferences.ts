@@ -2,6 +2,7 @@ const STORAGE_KEY = 'demos-cratos:preferences';
 const STORAGE_CHANGE_EVENT = 'demos-cratos:preferences-change';
 
 type Preferences = {
+  locale?: string;
   theme?: string;
 };
 

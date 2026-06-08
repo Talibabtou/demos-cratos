@@ -11,13 +11,13 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 
 ## 2. Public Knowledge Base
 
-- Import the official French Fifth Republic Constitution as structured data.
+- Import the official French constitutional corpus as structured data.
 - Split constitutional text by title, article, paragraph, amendment history, and source reference.
 - Build the article reader with search, anchors, table of contents, copyable links, and stable URLs.
 - Add plain-language notes, practical examples, strengths, weaknesses, historical context, and source citations.
 - Define an editorial review workflow before accepting external notes.
 
-## 3. Sixth Republic Workshop
+## 3. Constitution Workshop
 
 - Model a constitution draft as structured articles instead of one large document.
 - Add version history for drafts, articles, proposals, comments, reviews, and decisions.
@@ -34,7 +34,7 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 - Add bibliographic metadata for each source: title, authors, year, institution, link, and project relevance.
 - Write a doctrine page that states the product principles clearly enough to guide feature decisions.
 
-## 5. Municipality Tools
+## 5. Municipal Democracy
 
 - Define the municipality workspace information architecture: overview, debates, petitions, studies, votes, budgets, assemblies, official answers, and archives.
 - Prototype municipality pages such as `/lyon` in public viewer mode first.

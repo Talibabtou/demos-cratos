@@ -1,0 +1,4 @@
+{
+  "$schema": "https://docs.fallow.tools/schema.json",
+  "ignorePatterns": ["public/constitution-archive/**/*.html"]
+}

@@ -18,8 +18,9 @@ Setup, scripts, CI, and project tree: `README.md`.
 
 ## Where To Edit
 
-- Product area metadata: `src/lib/site-data.ts`
-- Routes and page shells: `src/app/`
+- Localized routes and page shells: `src/app/[locale]/`
+- Locale routing and messages: `src/i18n/`, `src/messages/`
+- Feature code and structured product data: `src/features/`
 - Shared UI: `src/components/`
 - Early product mockups: `src/components/ui-mocks/`
 - Civic visual tokens: `src/app/globals.css` via Tailwind 4 `@theme inline`
@@ -34,6 +35,14 @@ Setup, scripts, CI, and project tree: `README.md`.
   tokens, Biome 2, ESLint, typecheck, production build, smoke test, Vercel
   deploy through GitHub Actions.
 - Prefer small focused components over monolithic page files.
+- Respect the i18n structure. User-facing page routes live under
+  `src/app/[locale]/`; shared locale helpers live in `src/i18n/`; visible copy
+  that is not legal/source text should come from `src/messages/en.json` and
+  `src/messages/fr.json` when it belongs to reusable navigation, metadata, or
+  stable page content. Do not create duplicate non-localized page files for
+  redirects; use `next.config.ts` redirects for legacy URLs.
+- Keep original legal/source texts in their source language. Translate the
+  interface around them, explanations, notes, labels, and navigation separately.
 - Keep routes and data models explicit. Constitutional articles, drafts,
   proposals, reviews, municipalities, verified residents, votes, petitions, and
   debates should become first-class concepts as the product matures.

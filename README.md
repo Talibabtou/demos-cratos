@@ -3,11 +3,11 @@
 Demos:Cratos is a civic software suite for French citizens. The project starts
 with three public workspaces:
 
-- Fifth Republic Constitution: consult, search, analyze, and annotate the
+- Constitution Reader: consult, search, analyze, and annotate the
   current constitutional text.
-- Sixth Republic Workshop: collaboratively draft a citizen-centered constitution
+- Constitution Workshop: collaboratively draft a citizen-centered constitution
   with versions, diffs, forks, and review workflows.
-- Municipality Tools: prepare future tools for local debates, petitions, votes,
+- Municipal Democracy: prepare future tools for local debates, petitions, votes,
   budgeting, local news, and transparent municipal participation.
 
 ## Stack

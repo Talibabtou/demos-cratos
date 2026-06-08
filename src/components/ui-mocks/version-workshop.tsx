@@ -5,7 +5,7 @@ export function VersionWorkshopMock() {
     <div className="rounded-panel border border-civic-line bg-civic-paper shadow-quiet">
       <div className="flex flex-wrap items-center justify-between gap-3 border-civic-line border-b px-4 py-3">
         <span className="font-semibold text-civic-ink text-sm">
-          Sixth Republic workshop
+          Constitution Workshop
         </span>
         <button
           className="focus-ring h-8 rounded border border-civic-line px-3 font-semibold text-civic-ink text-xs"

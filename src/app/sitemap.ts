@@ -6,9 +6,9 @@ const baseUrl = 'https://demos-cratos.com';
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     '',
-    '/fifth-constitution',
-    '/sixth-republic',
-    '/municipality-tools',
+    '/constitution-reader',
+    '/constitution-workshop',
+    '/municipal-democracy',
   ];
 
   return locales.flatMap((locale) =>

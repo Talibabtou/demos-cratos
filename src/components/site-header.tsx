@@ -12,16 +12,16 @@ type SiteHeaderProps = {
 export function SiteHeader({ locale, messages }: SiteHeaderProps) {
   const navItems = [
     {
-      href: withLocale(locale, '/fifth-constitution'),
-      label: messages.fifthConstitution,
+      href: withLocale(locale, '/constitution-reader'),
+      label: messages.constitutionReader,
     },
     {
-      href: withLocale(locale, '/sixth-republic'),
-      label: messages.sixthRepublic,
+      href: withLocale(locale, '/constitution-workshop'),
+      label: messages.constitutionWorkshop,
     },
     {
-      href: withLocale(locale, '/municipality-tools'),
-      label: messages.municipalityTools,
+      href: withLocale(locale, '/municipal-democracy'),
+      label: messages.municipalDemocracy,
     },
     { href: '/research.md', label: messages.research },
   ];

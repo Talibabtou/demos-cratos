@@ -1,4 +1,4 @@
-import { VersionWorkshopMock } from '@/components/ui-mocks/version-workshop';
+import { MunicipalityMock } from '@/components/ui-mocks/municipality';
 import type { Metadata } from 'next';
 import {
   generateLocaleStaticParams,
@@ -7,7 +7,7 @@ import {
   renderLocalizedSectionPage,
 } from '../section-route';
 
-const sectionKey = 'sixthRepublic';
+const sectionKey = 'municipalDemocracy';
 
 export const generateStaticParams = generateLocaleStaticParams;
 
@@ -17,10 +17,8 @@ export async function generateMetadata({
   return getSectionMetadata(params, sectionKey);
 }
 
-export default async function SixthRepublicPage({ params }: LocalePageProps) {
-  return renderLocalizedSectionPage(
-    params,
-    sectionKey,
-    <VersionWorkshopMock />,
-  );
+export default async function MunicipalityToolsPage({
+  params,
+}: LocalePageProps) {
+  return renderLocalizedSectionPage(params, sectionKey, <MunicipalityMock />);
 }

@@ -58,9 +58,9 @@
     }
   },
   "navigation": {
-    "fifthConstitution": "Fifth Constitution",
-    "sixthRepublic": "Sixth Republic",
-    "municipalityTools": "Municipality Tools",
+    "constitutionReader": "Constitution Reader",
+    "constitutionWorkshop": "Constitution Workshop",
+    "municipalDemocracy": "Municipal Democracy",
     "research": "Research",
     "github": "GitHub"
   },
@@ -69,9 +69,9 @@
     "nextBuildSteps": "Next build steps"
   },
   "sections": {
-    "fifthConstitution": {
-      "metadataTitle": "Fifth Constitution",
-      "title": "Fifth Republic Constitution",
+    "constitutionReader": {
+      "metadataTitle": "Constitution Reader",
+      "title": "Constitution Reader",
       "description": "A public reader for the Constitution of 4 October 1958, with structure, search, article navigation, analysis notes, and practical examples of institutional strengths and weaknesses.",
       "status": "Placeholder",
       "nextSteps": [
@@ -80,9 +80,9 @@
         "Add source references and amendment history for each article."
       ]
     },
-    "sixthRepublic": {
-      "metadataTitle": "Sixth Republic",
-      "title": "Sixth Republic Workshop",
+    "constitutionWorkshop": {
+      "metadataTitle": "Constitution Workshop",
+      "title": "Constitution Workshop",
       "description": "A collaborative constitutional drafting space inspired by version control: proposals, diffs, branches, forks, comments, and a visual history of how the text evolves.",
       "status": "Placeholder",
       "nextSteps": [
@@ -91,9 +91,9 @@
         "Create a visual map of drafts and public iteration history."
       ]
     },
-    "municipalityTools": {
-      "metadataTitle": "Municipality Tools",
-      "title": "Municipality Tools",
+    "municipalDemocracy": {
+      "metadataTitle": "Municipal Democracy",
+      "title": "Municipal Democracy",
       "description": "A future operational space for cities and citizens: debates, studies, petitions, votes, participation lists, transparent prioritization, and privacy-preserving citizen access.",
       "status": "Coming later",
       "nextSteps": [
