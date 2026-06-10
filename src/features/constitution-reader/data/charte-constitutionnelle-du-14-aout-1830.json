@@ -1,0 +1,581 @@
+{
+  "id": "charte-constitutionnelle-du-14-aout-1830",
+  "year": "1830",
+  "shortLabel": "1830",
+  "title": "Charte constitutionnelle de 1830",
+  "sourceTitle": "Charte de 1830, monarchie de Juillet - 14 août 1830",
+  "regime": "Monarchie de Juillet",
+  "date": "14 août 1830",
+  "sourceUrl": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/charte-constitutionnelle-du-14-aout-1830",
+  "localSourcePath": "/constitution-archive/Charte constitutionnelle du 14 août 1830.pdf",
+  "summary": "Après les Trois Glorieuses, la Charte de 1830 révise la Charte de 1814 dans un sens plus parlementaire et libéral. Le roi n'est plus au-dessus de la nation de la même manière, mais le suffrage reste censitaire.",
+  "revisionGroups": [],
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Texte d'ouverture",
+      "articles": [
+        {
+          "id": "p-1",
+          "title": "Text",
+          "paragraphs": [
+            "LOUIS-PHILIPPE, ROI DES FRANÇAIS, à tous présents et à venir, SALUT.",
+            "NOUS AVONS ORDONNÉ ET ORDONNONS que la Charte constitutionnelle de 1814, telle qu'elle a été amendée par les deux Chambres le 7 août et acceptée par nous le 9, sera de nouveau publiée dans les termes suivants :"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-1-droit-public-des-fran-ais",
+      "title": "Droit public des Français",
+      "articles": [
+        {
+          "id": "a-1",
+          "title": "Article 1.",
+          "paragraphs": [
+            "Les Français sont égaux devant la loi, quels que soient d'ailleurs leurs titres et leurs rangs."
+          ]
+        },
+        {
+          "id": "a-2",
+          "title": "Article 2.",
+          "paragraphs": [
+            "Ils contribuent indistinctement, dans la proportion de leur fortune, aux charges de l'Etat."
+          ]
+        },
+        {
+          "id": "a-3",
+          "title": "Article 3.",
+          "paragraphs": [
+            "Ils sont tous également admissibles aux emplois civils et militaires."
+          ]
+        },
+        {
+          "id": "a-4",
+          "title": "Article 4.",
+          "paragraphs": [
+            "Leur liberté individuelle est également garantie, personne ne pouvant être poursuivi ni arrêté que dans les cas prévus par la loi et dans la forme qu'elle prescrit."
+          ]
+        },
+        {
+          "id": "a-5",
+          "title": "Article 5.",
+          "paragraphs": [
+            "Chacun professe sa religion avec une égale liberté, et obtient pour son culte la même protection."
+          ]
+        },
+        {
+          "id": "a-6",
+          "title": "Article 6.",
+          "paragraphs": [
+            "Les ministres de la religion catholique, apostolique et romaine, professée par la majorité des Français, et ceux des autres cultes chrétiens, reçoivent des traitements du Trésor public."
+          ],
+          "notes": [
+            {
+              "title": "Religion et État",
+              "text": "Le catholicisme n'est plus formulé comme religion d'État de la même manière qu'en 1814. Le changement dit quelque chose du compromis libéral de 1830."
+            }
+          ]
+        },
+        {
+          "id": "a-7",
+          "title": "Article 7.",
+          "paragraphs": [
+            "Les Français ont le droit de publier et de faire imprimer leurs opinions en se conformant aux lois. - La censure ne pourra jamais être rétablie."
+          ],
+          "notes": [
+            {
+              "title": "Presse",
+              "text": "L'interdiction du retour de la censure répond directement aux ordonnances de 1830. La liberté de la presse devient un marqueur du régime."
+            }
+          ]
+        },
+        {
+          "id": "a-8",
+          "title": "Article 8.",
+          "paragraphs": [
+            "Toutes les propriétés sont inviolables, sans aucune exception de celles qu'on appelle nationales, la loi ne mettant aucune différence entre elles."
+          ]
+        },
+        {
+          "id": "a-9",
+          "title": "Article 9.",
+          "paragraphs": [
+            "L'Etat peut exiger le sacrifice d'une propriété pour cause d'intérêt public légalement constaté, mais avec une indemnité préalable."
+          ]
+        },
+        {
+          "id": "a-10",
+          "title": "Article 10.",
+          "paragraphs": [
+            "Toutes recherches des opinions et des votes émis jusqu'à la Restauration sont interdites : le même oubli est commandé aux tribunaux et aux citoyens."
+          ]
+        },
+        {
+          "id": "a-11",
+          "title": "Article 11.",
+          "paragraphs": [
+            "La conscription est abolie. Le mode de recrutement de l'armée de terre et de mer est déterminé par une loi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2-formes-du-gouvernement-du-roi",
+      "title": "Formes du gouvernement du Roi",
+      "articles": [
+        {
+          "id": "a-12",
+          "title": "Article 12.",
+          "paragraphs": [
+            "La personne du roi est inviolable et sacrée. Ses ministres sont responsables. Au roi seul appartient la puissance exécutive."
+          ]
+        },
+        {
+          "id": "a-13",
+          "title": "Article 13.",
+          "paragraphs": [
+            "Le roi est le chef suprême de l'Etat ; il commande les forces de terre et de mer, déclare la guerre, fait les traités de paix, d'alliance et de commerce, nomme à tous les emplois d'administration publique, et fait les règlements et ordonnances nécessaires pour l'exécution des lois, sans pouvoir jamais ni suspendre les lois elles-mêmes ni dispenser de leur exécution. - Toutefois aucune troupe étrangère ne pourra être admise au service de l'Etat qu'en vertu d'une loi."
+          ]
+        },
+        {
+          "id": "a-14",
+          "title": "Article 14.",
+          "paragraphs": [
+            "La puissance législative s'exerce collectivement par le roi, la Chambre des pairs et la Chambre des députés."
+          ]
+        },
+        {
+          "id": "a-15",
+          "title": "Article 15.",
+          "paragraphs": [
+            "La proposition des lois appartient au roi, à la Chambre des pairs et à la Chambre des députés. - Néanmoins toute loi d'impôt doit être d'abord votée par la Chambre des députés."
+          ],
+          "notes": [
+            {
+              "title": "Initiative partagée",
+              "text": "L'initiative de la loi s'ouvre aux chambres. Le Parlement gagne en poids, même si le corps électoral reste socialement restreint."
+            }
+          ]
+        },
+        {
+          "id": "a-16",
+          "title": "Article 16.",
+          "paragraphs": [
+            "Toute loi doit être discutée et votée librement par la majorité de chacune des deux Chambres."
+          ]
+        },
+        {
+          "id": "a-17",
+          "title": "Article 17.",
+          "paragraphs": [
+            "Si une proposition de loi a été rejetée par l'un des trois pouvoirs, elle ne pourra être représentée dans la même session."
+          ]
+        },
+        {
+          "id": "a-18",
+          "title": "Article 18.",
+          "paragraphs": ["Le roi seul sanctionne et promulgue les lois."]
+        },
+        {
+          "id": "a-19",
+          "title": "Article 19.",
+          "paragraphs": [
+            "La liste civile est fixée pour toute la durée du règne par la première législature assemblée depuis l'avènement du roi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3-de-la-chambre-des-pairs",
+      "title": "De la Chambre des Pairs",
+      "articles": [
+        {
+          "id": "a-20",
+          "title": "Article 20.",
+          "paragraphs": [
+            "La Chambre des pairs est une portion essentielle de la puissance législative."
+          ]
+        },
+        {
+          "id": "a-21",
+          "title": "Article 21.",
+          "paragraphs": [
+            "Elle est convoquée par le roi en même temps que la Chambre des députés. La session de l'une commence et finit en même temps que celle de l'autre."
+          ]
+        },
+        {
+          "id": "a-22",
+          "title": "Article 22.",
+          "paragraphs": [
+            "Toute assemblée de la Chambre des pairs qui serait tenue hors du temps de la session de la Chambre des députés, est illicite et nulle de plein droit, sauf le seul cas où elle est réunie comme cour de justice, et alors elle ne peut exercer que des fonctions judiciaires."
+          ]
+        },
+        {
+          "id": "a-23",
+          "title": "Article 23.",
+          "paragraphs": [
+            "La nomination des pairs de France appartient au roi. Leur nombre est illimité : il peut en varier les dignités, les nommer à vie ou les rendre héréditaires, selon sa volonté."
+          ]
+        },
+        {
+          "id": "a-24",
+          "title": "Article 24.",
+          "paragraphs": [
+            "Les pairs ont entrée dans la Chambre à vingt-cinq ans, et voix délibérative à trente ans seulement."
+          ]
+        },
+        {
+          "id": "a-25",
+          "title": "Article 25.",
+          "paragraphs": [
+            "La Chambre des pairs est présidée par le chancelier de France, et, en son absence, par un pair nommé par le roi."
+          ]
+        },
+        {
+          "id": "a-26",
+          "title": "Article 26.",
+          "paragraphs": [
+            "Les princes du sang sont pairs par droit de naissance : ils siègent immédiatement après le président."
+          ]
+        },
+        {
+          "id": "a-27",
+          "title": "Article 27.",
+          "paragraphs": [
+            "Les séances de la Chambre des pairs sont publiques, comme celles de la Chambre des députés."
+          ]
+        },
+        {
+          "id": "a-28",
+          "title": "Article 28.",
+          "paragraphs": [
+            "La Chambre des pairs connaît des crimes de haute trahison et des attentats à la sûreté de l'Etat, qui seront définis par la loi."
+          ]
+        },
+        {
+          "id": "a-29",
+          "title": "Article 29.",
+          "paragraphs": [
+            "Aucun pair ne peut être arrêté que de l'autorité de la Chambre et jugé que par elle en matière criminelle."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4-de-la-chambre-des-d-put-s",
+      "title": "De la Chambre des députés",
+      "articles": [
+        {
+          "id": "a-30",
+          "title": "Article 30.",
+          "paragraphs": [
+            "La Chambre des députés sera composée des députés élus par les collèges électoraux dont l'organisation sera déterminée par des lois."
+          ]
+        },
+        {
+          "id": "a-31",
+          "title": "Article 31.",
+          "paragraphs": ["Les députés sont élus pour cinq ans."]
+        },
+        {
+          "id": "a-32",
+          "title": "Article 32.",
+          "paragraphs": [
+            "Aucun député ne peut être admis dans la Chambre, s'il n'est âgé de trente ans et s'il ne réunit les autres conditions déterminées par la loi."
+          ]
+        },
+        {
+          "id": "a-33",
+          "title": "Article 33.",
+          "paragraphs": [
+            "Si néanmoins il ne se trouvait pas dans le département cinquante personnes de l'âge indiqué payant le cens d'éligibilité déterminé par la loi, leur nombre sera complété par les plus imposés au-dessous du taux de ce cens, et ceux-ci pourront être élus concurremment avec les premiers."
+          ]
+        },
+        {
+          "id": "a-34",
+          "title": "Article 34.",
+          "paragraphs": [
+            "Nul n'est électeur, s'il a moins de vingt-cinq ans, et s'il ne réunit les autres conditions déterminées par la loi."
+          ]
+        },
+        {
+          "id": "a-35",
+          "title": "Article 35.",
+          "paragraphs": [
+            "Les présidents des collèges électoraux sont nommés par les électeurs."
+          ]
+        },
+        {
+          "id": "a-36",
+          "title": "Article 36.",
+          "paragraphs": [
+            "La moitié au moins des députés sera choisie parmi les éligibles qui ont leur domicile dans le département."
+          ]
+        },
+        {
+          "id": "a-37",
+          "title": "Article 37.",
+          "paragraphs": [
+            "Le président de la Chambre des députés est élu par elle à l'ouverture de chaque session."
+          ]
+        },
+        {
+          "id": "a-38",
+          "title": "Article 38.",
+          "paragraphs": [
+            "Les séances de la Chambre sont publiques mais la demande de cinq membres suffit pour qu'elle se forme en Comité secret."
+          ]
+        },
+        {
+          "id": "a-39",
+          "title": "Article 39.",
+          "paragraphs": [
+            "La Chambre se partage en bureaux pour discuter les projets qui lui ont été présentés de la part du roi."
+          ]
+        },
+        {
+          "id": "a-40",
+          "title": "Article 40.",
+          "paragraphs": [
+            "Aucun impôt ne peut être établi ni perçu, s'il n'a été consenti par les deux Chambres et sanctionné par le roi."
+          ]
+        },
+        {
+          "id": "a-41",
+          "title": "Article 41.",
+          "paragraphs": [
+            "L'impôt foncier n'est consenti que pour un an. Les impositions indirectes peuvent l'être pour plusieurs années."
+          ]
+        },
+        {
+          "id": "a-42",
+          "title": "Article 42.",
+          "paragraphs": [
+            "Le roi convoque chaque année les deux Chambres : il les proroge et peut dissoudre celle des députés ; mais, dans ce cas, il doit en convoquer une nouvelle dans le délai de trois mois."
+          ]
+        },
+        {
+          "id": "a-43",
+          "title": "Article 43.",
+          "paragraphs": [
+            "Aucune contrainte par corps ne peut être exercée contre un membre de la Chambre durant la session et dans les six semaines qui l'auront précédée ou suivie."
+          ]
+        },
+        {
+          "id": "a-44",
+          "title": "Article 44.",
+          "paragraphs": [
+            "Aucun membre de la Chambre ne peut, pendant la durée de la session, être poursuivi ni arrêté en matière criminelle, sauf le cas de flagrant délit, qu'après que la Chambre a permis sa poursuite."
+          ]
+        },
+        {
+          "id": "a-45",
+          "title": "Article 45.",
+          "paragraphs": [
+            "Toute pétition à l'une ou à l'autre des Chambres ne peut être faite et présentée que par écrit : la loi interdit d'en apporter en personne et à la barre."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5-des-ministres",
+      "title": "Des ministres",
+      "articles": [
+        {
+          "id": "a-46",
+          "title": "Article 46.",
+          "paragraphs": [
+            "Les ministres peuvent être membres de la Chambre des pairs ou de la Chambre des députés. - Ils ont en outre leur entrée dans l'une ou l'autre Chambre et doivent être entendus quand ils le demandent."
+          ]
+        },
+        {
+          "id": "a-47",
+          "title": "Article 47.",
+          "paragraphs": [
+            "La Chambre des députés a le droit d'accuser les ministres et de les traduire devant la Chambre des pairs qui seule a celui de les juger."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6-de-l-ordre-judiciaire",
+      "title": "De l'Ordre judiciaire",
+      "articles": [
+        {
+          "id": "a-48",
+          "title": "Article 48.",
+          "paragraphs": [
+            "Toute justice émane du roi ; elle s'administre en son nom par des juges qu'il nomme et qu'il institue."
+          ]
+        },
+        {
+          "id": "a-49",
+          "title": "Article 49.",
+          "paragraphs": ["Les juges nommés par le roi sont inamovibles."]
+        },
+        {
+          "id": "a-50",
+          "title": "Article 50.",
+          "paragraphs": [
+            "Les cours et tribunaux ordinaires actuellement existants sont maintenus. Il n'y sera rien changé qu'en vertu d'une loi."
+          ]
+        },
+        {
+          "id": "a-51",
+          "title": "Article 51.",
+          "paragraphs": [
+            "L'institution actuelle des juges de commerce est conservée."
+          ]
+        },
+        {
+          "id": "a-52",
+          "title": "Article 52.",
+          "paragraphs": [
+            "La justice de paix est également conservée. Les juges de paix, quoique nommés par le roi, ne sont point inamovibles."
+          ]
+        },
+        {
+          "id": "a-53",
+          "title": "Article 53.",
+          "paragraphs": ["Nul ne pourra être distrait de ses juges naturels."]
+        },
+        {
+          "id": "a-54",
+          "title": "Article 54.",
+          "paragraphs": [
+            "Il ne pourra en conséquence être créé de commissions et de tribunaux extraordinaires, à quelque titre et sous quelque dénomination que ce puisse être."
+          ]
+        },
+        {
+          "id": "a-55",
+          "title": "Article 55.",
+          "paragraphs": [
+            "Les débats seront publics en matière criminelle, à moins que cette publicité ne soit dangereuse pour l'ordre et les moeurs ; et, dans ce cas, le tribunal le déclare par un jugement."
+          ]
+        },
+        {
+          "id": "a-56",
+          "title": "Article 56.",
+          "paragraphs": [
+            "L'institution des jurés est conservée. Les changements qu'une plus longue expérience ferait juger nécessaires, ne peuvent être effectués que par une loi."
+          ]
+        },
+        {
+          "id": "a-57",
+          "title": "Article 57.",
+          "paragraphs": [
+            "La peine de la confiscation des biens est abolie et ne pourra pas être rétablie."
+          ]
+        },
+        {
+          "id": "a-58",
+          "title": "Article 58.",
+          "paragraphs": [
+            "Le roi a le droit de faire grâce et celui de commuer les peines."
+          ]
+        },
+        {
+          "id": "a-59",
+          "title": "Article 59.",
+          "paragraphs": [
+            "Le Code civil et les lois actuellement existantes qui ne sont pas contraires à la présente charte restent en vigueur jusqu'à ce qu'il y soit légalement dérogé."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-7-droits-particuliers-garantis-par-l-t",
+      "title": "Droits particuliers garantis par l'État",
+      "articles": [
+        {
+          "id": "a-60",
+          "title": "Article 6",
+          "paragraphs": [
+            "o. - Les militaires en activité de service, les officiers et soldats en retraite, les veuves, les officiers, et soldats pensionnés, conserveront leurs grades, honneurs et pensions."
+          ]
+        },
+        {
+          "id": "a-61",
+          "title": "Article 61.",
+          "paragraphs": [
+            "La dette publique est garantie. Toute espèce d'engagement pris par l'Etat avec ses créanciers est inviolable."
+          ]
+        },
+        {
+          "id": "a-62",
+          "title": "Article 62.",
+          "paragraphs": [
+            "La noblesse ancienne reprend ses titres, la nouvelle conserve les siens. Le roi fait des nobles à volonté ; mais il ne leur accorde que des rangs et des honneurs, sans aucune exemption des charges et des devoirs de la société."
+          ]
+        },
+        {
+          "id": "a-63",
+          "title": "Article 63.",
+          "paragraphs": [
+            "La Légion d'honneur est maintenue. Le roi déterminera les règlements intérieurs et la décoration."
+          ]
+        },
+        {
+          "id": "a-64",
+          "title": "Article 64.",
+          "paragraphs": ["Les colonies sont régies par des lois particulières."]
+        },
+        {
+          "id": "a-65",
+          "title": "Article 65.",
+          "paragraphs": [
+            "Le roi et ses successeurs jureront à leur avènement, en présence des Chambres réunies, d'observer fidèlement la Charte constitutionnelle."
+          ]
+        },
+        {
+          "id": "a-66",
+          "title": "Article 66.",
+          "paragraphs": [
+            "La présente Charte et tous les droits qu'elle consacre demeurent confiés au patriotisme et au courage des gardes nationales et de tous les citoyens français."
+          ]
+        },
+        {
+          "id": "a-67",
+          "title": "Article 67.",
+          "paragraphs": [
+            "La France reprend ses couleurs. A l'avenir, il ne sera plus porté d'autre cocarde que la cocarde tricolore."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-8-dispositions-particuli-res",
+      "title": "Dispositions particulières",
+      "articles": [
+        {
+          "id": "a-68",
+          "title": "Article 68.",
+          "paragraphs": [
+            "Toutes les nominations et créations nouvelles de pairs faites sous le règne du roi Charles X sont déclarées nulles et non avenues. - L'article 23 de la charte sera soumis à un nouvel examen dans la session de 1831."
+          ]
+        },
+        {
+          "id": "a-69",
+          "title": "Article 69.",
+          "paragraphs": [
+            "Il sera pourvu successivement par des lois séparées et dans le plus court délai possible aux objets qui suivent : 1 ° L'application du jury aux délits de la presse et aux délits politiques ; 2 ° La responsabilité des ministres et des autres agents du pouvoir ; 3 ° La réélection des députés promus à des fonctions publiques salariées ; 4 ° Le vote annuel du contingent de l'armée ; 5 ° L'organisation de la garde nationale, avec intervention des gardes nationaux dans le choix de leurs officiers ; 6 ° Des dispositions qui assurent d'une manière légale l'état des officiers de tout grade de terre et de mer ; 7 ° Des institutions départementales et municipales fondées sur un système électif ; 8 ° L'instruction publique et la liberté de l'enseignements ; 9 ° L'abolition du double vote et la fixation des conditions électorales et d'éligibilité."
+          ]
+        },
+        {
+          "id": "a-70",
+          "title": "Article 70.",
+          "paragraphs": [
+            "Toutes les lois et ordonnances, en ce qu'elles ont de contraire aux dispositions adoptées pour la réforme de la Charte, sont dès à présent et demeurent annulées et abrogées."
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Une monarchie corrigée par la révolution",
+      "text": "La Charte de 1830 naît d'une crise politique. Elle limite davantage le roi, mais ne donne pas encore le pouvoir politique au suffrage universel."
+    }
+  ]
+}

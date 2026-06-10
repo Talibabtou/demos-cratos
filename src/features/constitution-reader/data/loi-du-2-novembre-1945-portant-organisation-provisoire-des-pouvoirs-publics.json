@@ -1,0 +1,152 @@
+{
+  "id": "loi-du-2-novembre-1945-portant-organisation-provisoire-des-pouvoirs-publics",
+  "year": "1945",
+  "shortLabel": "1945",
+  "title": "Loi constitutionnelle du 2 novembre 1945",
+  "sourceTitle": "Loi constitutionnelle du 2 nov. 1945 - Gouvernement provisoire",
+  "regime": "Gouvernement provisoire",
+  "date": "2 novembre 1945",
+  "sourceUrl": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/loi-du-2-novembre-1945-portant-organisation-provisoire-des-pouvoirs-publics",
+  "localSourcePath": "/constitution-archive/Loi du 2 novembre 1945 portant organisation provisoire des pouvoirs publics.pdf",
+  "summary": "Texte de transition après la Libération. Il organise provisoirement les pouvoirs publics et encadre le travail constituant qui doit remplacer les institutions discréditées de la période précédente.",
+  "revisionGroups": [],
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Texte d'ouverture",
+      "articles": [
+        {
+          "id": "p-1",
+          "title": "Text",
+          "paragraphs": [
+            "Le peuple français a adopté,",
+            "Le Gouvernement provisoire de la République française promulgue la loi dont la teneur suit :"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-1-article-1er",
+      "title": "Article 1er",
+      "articles": [
+        {
+          "id": "p-3",
+          "title": "Text",
+          "paragraphs": [
+            "L'assemblée constituante, issue du scrutin du 21 octobre 1945, élit aussitôt, au scrutin public et à la majorité absolue des membres la composant, le Président du Gouvernement provisoire de la République. Celui-ci constitue son Gouvernement et le soumet à l'approbation de l'Assemblée, en même temps que le programme du Gouvernement.",
+            "Le Gouvernement est responsable devant l'Assemblée ; mais le rejet d'un texte ou d'un crédit n'entraine pas sa démission. Celle-ci n'est obligatoire qu'à la suite du vote distinct d'une motion de censure intervenant au plus tôt deux jours après son dépôt sur le bureau de l'Assemblée et adoptée au moyen d'un scrutin à la tribune par la majorité absolue des membres composant l'Assemblée."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité politique",
+              "text": "Même provisoire, le régime place le gouvernement sous le regard de l'Assemblée. La priorité est d'éviter un pouvoir sans contrôle pendant la transition."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2-article-2",
+      "title": "Article 2",
+      "articles": [
+        {
+          "id": "p-5",
+          "title": "Text",
+          "paragraphs": ["L'Assemblée établit la Constitution nouvelle."]
+        }
+      ]
+    },
+    {
+      "id": "section-3-article-3",
+      "title": "Article 3",
+      "articles": [
+        {
+          "id": "p-6",
+          "title": "Text",
+          "paragraphs": [
+            "La Constitution adoptée par l'assemblée sera soumise à l'approbation du corps électoral des citoyens français, par voie de referendum, dans le mois qui suivra son adoption par l'assemblée."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4-article-4",
+      "title": "Article 4",
+      "articles": [
+        {
+          "id": "p-7",
+          "title": "Text",
+          "paragraphs": [
+            "L'Assemblée a le pouvoir législatif. Elle a l'initiative des lois, concurremment avec le Gouvernement.",
+            "Dans le délai d'un mois imparti pour la promulgation des lois, le Gouvernement a le droit de demander une seconde délibération. Si, à la suite de celle-ci, le premier vote est confirmé à la majorité absolue des membres composant l'Assemblée, la loi est promulguée dans les trois jours."
+          ],
+          "notes": [
+            {
+              "title": "Assemblée constituante",
+              "text": "La souveraineté constituante revient à une assemblée élue après la guerre. Le texte organise le passage de la légitimité résistante à la légitimité électorale."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5-article-5",
+      "title": "Article 5",
+      "articles": [
+        {
+          "id": "p-9",
+          "title": "Text",
+          "paragraphs": [
+            "L'Assemblée vote le budget, mais elle ne peut prendre l'initiative des dépenses."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6-article-6",
+      "title": "Article 6",
+      "articles": [
+        {
+          "id": "p-10",
+          "title": "Text",
+          "paragraphs": [
+            "Les pouvoirs de l'Assemblée expireront le jour de la mise en application de la nouvelle Constitution et, au plus tard, sept mois après la première réunion de l'Assemblée."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-7-article-7",
+      "title": "Article 7",
+      "articles": [
+        {
+          "id": "p-11",
+          "title": "Text",
+          "paragraphs": [
+            "Au cas où le corps électoral rejetterait la Constitution établit par l'Assemblée, ou au cas où celle-ci n'en aurait établi aucune dans le délai fixé à l'article 6, il serait procédé aussitôt, et dans les mêmes formes, à l'élection d'une nouvelle Assemblée constituante jouissant des mêmes pouvoirs, qui se réunirait de plein droit le deuxième mardi après son élection."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-8-article-8",
+      "title": "Article 8",
+      "articles": [
+        {
+          "id": "p-12",
+          "title": "Text",
+          "paragraphs": [
+            "La présente loi, adoptée par le peuple français, aura force constitutionnelle et sera exécutée comme loi de l'État.",
+            "Fait à Paris, le 2 novembre 1945."
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Transition constituante",
+      "text": "Ce texte ne cherche pas à durer. Il sert à faire passer le pays de la Libération vers une nouvelle constitution, avec une Assemblée constituante et un calendrier politique clair."
+    }
+  ]
+}

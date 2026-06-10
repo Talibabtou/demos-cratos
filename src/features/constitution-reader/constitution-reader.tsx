@@ -10,6 +10,7 @@ import {
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import { ExternalLink } from 'lucide-react';
+import Link from 'next/link';
 
 type ConstitutionReaderProps = {
   locale: Locale;
@@ -100,8 +101,9 @@ function ConstitutionalMemoryTimeline({
 
         <nav
           aria-label="French constitutional timeline"
-          className="mt-12 overflow-x-auto pb-5"
+          className="relative mt-12 overflow-x-auto pb-5"
         >
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-14 bg-gradient-to-l from-civic-paper to-transparent" />
           <ol className="relative flex min-w-max items-start gap-3 pr-6">
             <div className="absolute top-[2.68rem] right-10 left-10 h-px bg-civic-line" />
             {constitutionDocuments.map((document) => (
@@ -115,6 +117,9 @@ function ConstitutionalMemoryTimeline({
             ))}
           </ol>
         </nav>
+        <p className="mt-1 text-civic-muted text-xs">
+          Scroll the timeline horizontally to see the whole archive.
+        </p>
 
         <div className="scroll-reveal mt-8 grid gap-8 border-civic-line border-t pt-8 lg:grid-cols-[0.8fr_1.2fr]">
           <div>
@@ -144,7 +149,9 @@ function ConstitutionalMemoryTimeline({
             <p className="max-w-3xl text-civic-text leading-7">
               {selectedConstitution.summary}
             </p>
-            <RevisionList document={selectedConstitution} />
+            {selectedConstitution.revisionGroups.length > 0 ? (
+              <RevisionList document={selectedConstitution} />
+            ) : null}
           </div>
         </div>
       </div>
@@ -162,10 +169,11 @@ function TimelineButton({
   locale: Locale;
 }) {
   return (
-    <a
+    <Link
       aria-current={isSelected ? 'true' : undefined}
       className={getTimelineButtonClassName(isSelected)}
-      href={`/${locale}/constitution-reader?constitution=${document.id}#structured-full-text`}
+      href={`/${locale}/constitution-reader?constitution=${document.id}`}
+      scroll={false}
     >
       <span className={getTimelineDotClassName(isSelected)}>
         <span className="size-2 rounded-full bg-current" />
@@ -177,7 +185,7 @@ function TimelineButton({
         {document.title}
       </span>
       <span className="mt-2 block text-xs leading-5">{document.regime}</span>
-    </a>
+    </Link>
   );
 }
 
@@ -223,30 +231,24 @@ function RevisionList({ document }: { document: ConstitutionDocument }) {
       <h4 className="font-semibold text-civic-ink text-sm uppercase tracking-[0.12em]">
         Revisions and later adjustments
       </h4>
-      {document.revisionGroups.length > 0 ? (
-        <ol className="mt-5 grid gap-4 md:grid-cols-2">
-          {document.revisionGroups.map((period) => (
-            <li
-              className="border-civic-line border-l pl-4"
-              key={`${document.id}-${period.years}-${period.title}`}
-            >
-              <p className="font-semibold text-civic-red text-sm">
-                {period.years}
-              </p>
-              <p className="mt-1 font-serif text-civic-ink text-xl leading-7">
-                {period.title}
-              </p>
-              <p className="mt-2 text-civic-text text-sm leading-6">
-                {period.text}
-              </p>
-            </li>
-          ))}
-        </ol>
-      ) : (
-        <p className="mt-4 border-civic-line border-l pl-4 text-civic-muted text-sm leading-6">
-          No revision set has been structured for this text yet.
-        </p>
-      )}
+      <ol className="mt-5 grid gap-4 md:grid-cols-2">
+        {document.revisionGroups.map((period) => (
+          <li
+            className="border-civic-line border-l pl-4"
+            key={`${document.id}-${period.years}-${period.title}`}
+          >
+            <p className="font-semibold text-civic-red text-sm">
+              {period.years}
+            </p>
+            <p className="mt-1 font-serif text-civic-ink text-xl leading-7">
+              {period.title}
+            </p>
+            <p className="mt-2 text-civic-text text-sm leading-6">
+              {period.text}
+            </p>
+          </li>
+        ))}
+      </ol>
     </div>
   );
 }
@@ -284,12 +286,6 @@ function DocumentNavigation({ document }: { document: ConstitutionDocument }) {
         <p className="font-semibold text-civic-ink text-sm uppercase tracking-[0.12em]">
           Contents
         </p>
-        <a
-          className="focus-ring mt-4 block text-civic-text text-sm hover:text-civic-blue"
-          href="#structured-full-text"
-        >
-          Structured full text
-        </a>
         <nav className="mt-5 space-y-5" aria-label="Constitution contents">
           {document.sections.map((section) => (
             <NavigationSection
@@ -311,25 +307,38 @@ function NavigationSection({
   documentId: string;
   section: ConstitutionSection;
 }) {
+  const sectionTitle = formatSectionTitle(section.title);
+  const visibleArticles = section.articles.filter(
+    (article) => !isGenericArticleTitle(article.title),
+  );
+
+  if (isGenericSectionTitle(sectionTitle) && visibleArticles.length === 0) {
+    return null;
+  }
+
   return (
     <div>
-      <a
-        className="focus-ring block font-semibold text-civic-blue text-xs uppercase tracking-widest"
-        href={`#${getSectionDomId(documentId, section.id)}`}
-      >
-        {section.title}
-      </a>
-      <div className="mt-2 flex flex-wrap gap-2">
-        {section.articles.map((article) => (
-          <a
-            className="focus-ring text-civic-muted text-xs hover:text-civic-ink"
-            href={`#${getArticleDomId(documentId, section.id, article.id)}`}
-            key={`${documentId}-nav-${section.id}-${article.id}`}
-          >
-            {article.title}
-          </a>
-        ))}
-      </div>
+      {isGenericSectionTitle(sectionTitle) ? null : (
+        <a
+          className="focus-ring block font-semibold text-civic-blue text-xs uppercase tracking-widest"
+          href={`#${getSectionDomId(documentId, section.id)}`}
+        >
+          {sectionTitle}
+        </a>
+      )}
+      {visibleArticles.length > 0 ? (
+        <div className="mt-2 flex flex-wrap gap-2">
+          {visibleArticles.map((article) => (
+            <a
+              className="focus-ring text-civic-muted text-xs hover:text-civic-ink"
+              href={`#${getArticleDomId(documentId, section.id, article.id)}`}
+              key={`${documentId}-nav-${section.id}-${article.id}`}
+            >
+              {formatArticleTitle(article.title)}
+            </a>
+          ))}
+        </div>
+      ) : null}
     </div>
   );
 }
@@ -340,10 +349,7 @@ function DocumentOpening({ document }: { document: ConstitutionDocument }) {
       className="mx-auto mb-12 max-w-3xl scroll-mt-24 text-center"
       id="structured-full-text"
     >
-      <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
-        Structured full text
-      </p>
-      <h2 className="mt-4 font-semibold font-serif text-5xl text-civic-ink leading-tight">
+      <h2 className="font-semibold font-serif text-5xl text-civic-ink leading-tight">
         {document.sourceTitle}
       </h2>
       <p className="mt-8 font-serif text-civic-text text-xl leading-9">
@@ -374,19 +380,20 @@ function DocumentSection({
   documentId: string;
   section: ConstitutionSection;
 }) {
+  const sectionTitle = formatSectionTitle(section.title);
+
   return (
     <section
       className="mt-16 scroll-mt-24"
       id={getSectionDomId(documentId, section.id)}
     >
-      <div className="mb-8 border-civic-line border-y py-5 text-center">
-        <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
-          Section
-        </p>
-        <h2 className="mt-2 font-semibold font-serif text-3xl text-civic-ink leading-tight">
-          {section.title}
-        </h2>
-      </div>
+      {isGenericSectionTitle(sectionTitle) ? null : (
+        <div className="mb-8 border-civic-line border-y py-5 text-center">
+          <h2 className="font-semibold font-serif text-3xl text-civic-ink leading-tight">
+            {sectionTitle}
+          </h2>
+        </div>
+      )}
       {section.articles.map((article) => (
         <ArticleBlock
           article={article}
@@ -416,20 +423,20 @@ function ArticleBlock({
       id={getArticleDomId(documentId, sectionId, article.id)}
     >
       <div className="min-w-0">
-        <h3 className="font-semibold font-serif text-3xl text-civic-ink">
-          {article.title}
-        </h3>
+        {isGenericArticleTitle(article.title) ? null : (
+          <h3 className="font-semibold font-serif text-3xl text-civic-ink">
+            {formatArticleTitle(article.title)}
+          </h3>
+        )}
         <div className="mt-7 space-y-8">
-          {article.paragraphs.map((paragraph, index) => (
+          {article.paragraphs.map((paragraph) => (
             <ConstitutionParagraph
-              index={index}
               key={getParagraphKey(
                 documentId,
                 sectionId,
                 article.id,
                 paragraph,
               )}
-              note={index === 0 ? notes[0] : undefined}
               text={paragraph}
             />
           ))}
@@ -452,6 +459,35 @@ function getArticleDomId(
   return `${documentId}-${sectionId}-${articleId}`;
 }
 
+function formatSectionTitle(title: string) {
+  return title
+    .replace(/^Titre\s+[^-–—]+[-–—]\s*/i, '')
+    .replace(/^Chapitre\s+[^-–—]+[-–—]\s*/i, '')
+    .trim();
+}
+
+function formatArticleTitle(title: string) {
+  const normalizedTitle = title.trim().replace(/\.$/, '');
+
+  if (/^\d+/.test(normalizedTitle)) {
+    return `Article ${normalizedTitle}`;
+  }
+
+  return normalizedTitle;
+}
+
+function isGenericArticleTitle(title: string) {
+  return title.trim().toLowerCase() === 'text';
+}
+
+function isGenericSectionTitle(title: string) {
+  return [
+    "texte d'ouverture",
+    'texte d’ouverture',
+    'dispositions initiales',
+  ].includes(title.trim().toLowerCase());
+}
+
 function getParagraphKey(
   documentId: string,
   sectionId: string,
@@ -467,38 +503,12 @@ function getParagraphKey(
   return `${documentId}-${sectionId}-${articleId}-paragraph-${hash.toString(36)}`;
 }
 
-function ConstitutionParagraph({
-  index,
-  note,
-  text,
-}: {
-  index: number;
-  note?: ConstitutionNote;
-  text: string;
-}) {
+function ConstitutionParagraph({ text }: { text: string }) {
   return (
     <div>
       <p className="font-serif text-[1.42rem] text-civic-ink leading-[1.85]">
         {text}
       </p>
-      <details className="group mt-4 border-civic-line border-l pl-4">
-        <summary className="cursor-pointer font-semibold text-civic-blue text-sm transition group-open:text-civic-red">
-          Reading note {index + 1}
-        </summary>
-        <div className="mt-3 max-w-2xl text-civic-text text-sm leading-7">
-          {note ? (
-            <>
-              <p className="font-semibold text-civic-ink">{note.title}</p>
-              <p className="mt-1">{note.text}</p>
-            </>
-          ) : (
-            <p>
-              A reserved space for an explanation, a historical example, a
-              dispute, or a possible rewrite.
-            </p>
-          )}
-        </div>
-      </details>
     </div>
   );
 }

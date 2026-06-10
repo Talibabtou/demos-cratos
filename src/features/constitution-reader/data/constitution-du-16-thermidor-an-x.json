@@ -1,0 +1,744 @@
+{
+  "id": "constitution-du-16-thermidor-an-x",
+  "year": "1802",
+  "shortLabel": "1802",
+  "title": "Constitution de l'an X",
+  "sourceTitle": "Constitution de l'An X - Consulat à vie - 16 thermidor An X - 4 août 1802",
+  "regime": "Consulat à vie",
+  "date": "16 thermidor an X",
+  "sourceUrl": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-16-thermidor-an-x",
+  "localSourcePath": "/constitution-archive/Constitution du 16 thermidor An X.pdf",
+  "summary": "Ce texte consolide le pouvoir personnel de Bonaparte en faisant du Consulat une magistrature à vie. La République demeure dans les mots, mais l'hérédité politique se rapproche.",
+  "revisionGroups": [],
+  "sections": [
+    {
+      "id": "section-1-arr-t-des-consuls-du-20-flor-al-an-x",
+      "title": "Arrêté des Consuls du 20 floréal an X (10 mai 1802)",
+      "articles": [
+        {
+          "id": "a-1",
+          "title": "Article 2.",
+          "paragraphs": [
+            "Il sera ouvert, dans chaque commune, des registres où les citoyens seront invités à consigner leur voeu sur cette question."
+          ]
+        },
+        {
+          "id": "a-2",
+          "title": "Article 3.",
+          "paragraphs": [
+            "Ces registres seront ouverts aux secrétariats de toutes les administrations, aux greffes de tous les tribunaux, chez tous les maires et tous les notaires."
+          ]
+        },
+        {
+          "id": "a-3",
+          "title": "Article 4.",
+          "paragraphs": [
+            "Le délai pour voter dans chaque département sera de trois semaines, à compter du jour où cet arrêté sera parvenu à la préfecture ; et de sept jours, à compter de celui où l'expédition sera parvenue à chaque commune."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2-s-natus-consulte-du-14-thermidor-an-",
+      "title": "Sénatus-consulte du 14 thermidor an X (2 août 1802), qui proclame Napoléon Bonaparte Premier Consul à vie",
+      "articles": [
+        {
+          "id": "a-4",
+          "title": "Article 1.",
+          "paragraphs": [
+            "Le Peuple français nomme, et le Sénat proclame Napoléon Bonaparte Premier Consul à vie."
+          ],
+          "notes": [
+            {
+              "title": "Pouvoir à vie",
+              "text": "La durée du mandat change la logique du régime. Le chef de l'exécutif n'est plus seulement fort ; il devient durablement installé."
+            }
+          ]
+        },
+        {
+          "id": "a-5",
+          "title": "Article 2.",
+          "paragraphs": [
+            "Une statue de la Paix, tenant d'une main le laurier de la Victoire, et de l'autre le décret du Sénat, attestera à la postérité la reconnaissance de la Nation."
+          ]
+        },
+        {
+          "id": "a-6",
+          "title": "Article 3.",
+          "paragraphs": [
+            "Le Sénat portera au Premier consul l'expression de la confiance, de l'amour et de l'admiration du peuple français."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4-titre-i",
+      "title": "Titre I",
+      "articles": [
+        {
+          "id": "a-7",
+          "title": "Article 1.",
+          "paragraphs": [
+            "Chaque ressort de justice de paix a une Assemblée de canton."
+          ]
+        },
+        {
+          "id": "a-8",
+          "title": "Article 2.",
+          "paragraphs": [
+            "Chaque arrondissement communal ou district de sous-préfecture, a un collège électoral d'arrondissement."
+          ]
+        },
+        {
+          "id": "a-9",
+          "title": "Article 3.",
+          "paragraphs": [
+            "Chaque département a un collège électoral de département."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5-titre-ii-des-assembl-es-de-canton",
+      "title": "Titre II - Des assemblées de canton",
+      "articles": [
+        {
+          "id": "a-10",
+          "title": "Article 4.",
+          "paragraphs": [
+            "L'assemblée de canton se compose de tous les citoyens domiciliés dans le canton, et qui y sont inscrits sur la liste communale d'arrondissement. - A dater de l'époque où, aux termes de la Constitution, les listes communales doivent être renouvelées, l'assemblée de canton sera composée de tous les citoyens domiciliés dans le canton, et qui y jouissent des droits de citoyen."
+          ]
+        },
+        {
+          "id": "a-11",
+          "title": "Article 5.",
+          "paragraphs": [
+            "Le Premier consul nomme le président de l'assemblée de canton ; - Ses fonctions durent cinq ans : il peut être renommé indéfiniment. - Il est assisté de quatre scrutateurs, dont deux sont les plus âgés, et les deux autres les plus imposés des citoyens ayant droit de voter dans l'assemblée de canton. - Le président et les quatre scrutateurs nomment le secrétaire."
+          ]
+        },
+        {
+          "id": "a-12",
+          "title": "Article 6.",
+          "paragraphs": [
+            "L'assemblée de canton se divise en sections pour faire les opérations qui lui appartiennent. - Lors de la première convocation de chaque assemblée, l'organisation et les formes en seront déterminées par un règlement émané du gouvernement."
+          ]
+        },
+        {
+          "id": "a-13",
+          "title": "Article 7.",
+          "paragraphs": [
+            "Le président de l'assemblée de canton nomme les présidents des sections. - Leurs fonctions finissent avec chaque assemblée sectionnaire. - Ils sont assistés chacun de deux scrutateurs, dont l'un est le plus âgé, et l'autre le plus imposé des citoyens ayant droit de voter dans la section."
+          ]
+        },
+        {
+          "id": "a-14",
+          "title": "Article 8.",
+          "paragraphs": [
+            "L'assemblée de canton désigne deux citoyens sur lesquels le Premier consul choisit le juge de paix du canton. - Elle désigne pareillement deux citoyens pour chaque place vacante de suppléant de juge de paix."
+          ]
+        },
+        {
+          "id": "a-15",
+          "title": "Article 9.",
+          "paragraphs": [
+            "Les juges de paix et leurs suppléants sont nommés pour dix ans."
+          ]
+        },
+        {
+          "id": "a-16",
+          "title": "Article 10.",
+          "paragraphs": [
+            "Dans les villes de cinq mille âmes, l'assemblée de canton présente deux citoyens pour chacune des places du conseil municipal. Dans les villes où il y aura plusieurs justices de paix ou plusieurs assemblées de canton, chaque assemblée présentera pareillement deux citoyens pour chaque place du conseil municipal."
+          ]
+        },
+        {
+          "id": "a-17",
+          "title": "Article 11.",
+          "paragraphs": [
+            "Les membres des conseils municipaux sont pris par chaque assemblée de canton, sur la liste des cent plus imposés du canton. Cette liste sera arrêtée et imprimée par ordre du préfet."
+          ]
+        },
+        {
+          "id": "a-18",
+          "title": "Article 12.",
+          "paragraphs": [
+            "Les conseils municipaux se renouvellent tous les dix ans par moitié."
+          ]
+        },
+        {
+          "id": "a-19",
+          "title": "Article 13.",
+          "paragraphs": [
+            "Le Premier consul choisit les maires et adjoints dans les conseils municipaux ; ils sont cinq ans en place : ils peuvent être renommés."
+          ]
+        },
+        {
+          "id": "a-20",
+          "title": "Article 14.",
+          "paragraphs": [
+            "L'assemblée de canton nomme au collège électoral d'arrondissement, le nombre de membres qui lui est assigné, en raison du nombre de citoyens dont elle se compose."
+          ]
+        },
+        {
+          "id": "a-21",
+          "title": "Article 15.",
+          "paragraphs": [
+            "Elle nomme au collège électoral de département, sur une liste dont il sera parlé ci-après, le nombre de membres qui lui est attribué."
+          ]
+        },
+        {
+          "id": "a-22",
+          "title": "Article 16.",
+          "paragraphs": [
+            "Les membres des collèges électoraux doivent être domiciliés dans les arrondissements et départements respectifs."
+          ]
+        },
+        {
+          "id": "a-23",
+          "title": "Article 17.",
+          "paragraphs": [
+            "Le gouvernement convoque les assemblées de canton, fixe le temps de leur durée et l'objet de leur réunion."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6-titre-iii-des-coll-ges-lectoraux",
+      "title": "Titre III - Des collèges électoraux",
+      "articles": [
+        {
+          "id": "a-24",
+          "title": "Article 18.",
+          "paragraphs": [
+            "Les collèges électoraux d'arrondissement ont un membre pour cinq cents habitants domiciliés dans l'arrondissement. - Le nombre des membres ne peut néanmoins excéder deux cents, ni être au-dessous de cent vingt."
+          ]
+        },
+        {
+          "id": "a-25",
+          "title": "Article 19.",
+          "paragraphs": [
+            "Les collèges électoraux de département ont un membre par mille habitants domiciliés dans le département ; et néanmoins ces membres ne peuvent excéder trois cents, ni être au-dessous de deux cents."
+          ]
+        },
+        {
+          "id": "a-26",
+          "title": "Article 20.",
+          "paragraphs": ["Les membres des collèges électoraux sont à vie."]
+        },
+        {
+          "id": "a-27",
+          "title": "Article 21.",
+          "paragraphs": [
+            "Si un membre d'un collège électoral est dénoncé au gouvernement, comme s'étant permis quelque acte contraire à l'honneur ou à la patrie, le gouvernement invite le collège à manifester son voeu : il faut les trois quarts des voix pour faire perdre au membre dénoncé sa place dans le collège."
+          ]
+        },
+        {
+          "id": "a-28",
+          "title": "Article 22.",
+          "paragraphs": [
+            "On perd sa place dans les collèges électoraux pour les mêmes causes qui font perdre le droit de citoyen. - On la perd également, lorsque, sans empêchement légitime, on n'a point assisté à trois réunions successives."
+          ]
+        },
+        {
+          "id": "a-29",
+          "title": "Article 23.",
+          "paragraphs": [
+            "Le Premier consul nomme les présidents des collèges électoraux à chaque session. - Le président a seul la police du collège électoral, lorsqu'il est assemblé."
+          ]
+        },
+        {
+          "id": "a-30",
+          "title": "Article 24.",
+          "paragraphs": [
+            "Les collèges électoraux nomment, à chaque session, deux scrutateurs et un secrétaire."
+          ]
+        },
+        {
+          "id": "a-31",
+          "title": "Article 25.",
+          "paragraphs": [
+            "Pour parvenir à la formation des collèges électoraux de département, il sera dressé dans chaque département, sous les ordres du ministre des Finances, une liste des six cents citoyens les plus imposés aux rôles des contributions foncière, mobilière et somptuaire, et au rôle des patentes. - On ajoute à la somme de la contribution, dans le domicile du département, celle qu'on peut justifier payer dans les autres parties du territoire de la France et de ses colonies. - Cette liste sera imprimée."
+          ]
+        },
+        {
+          "id": "a-32",
+          "title": "Article 26.",
+          "paragraphs": [
+            "L'assemblée de canton prendra sur cette liste les membres qu'elle devra nommer au collège électoral du département."
+          ]
+        },
+        {
+          "id": "a-33",
+          "title": "Article 27.",
+          "paragraphs": [
+            "Le Premier consul peut ajouter aux collèges électoraux d'arrondissement dix membres pris parmi les citoyens appartenant à la Légion d'honneur, ou qui ont rendu des services. - Il peut ajouter à chaque collège électoral de département vingt citoyens, dont dix pris parmi les trente plus imposés du département, et les dix autres, soit parmi les membres de la Légion d'honneur, soit parmi les citoyens qui ont rendu des services. Il n'est point assujetti, pour ces nominations, à des époques déterminées."
+          ]
+        },
+        {
+          "id": "a-34",
+          "title": "Article 28.",
+          "paragraphs": [
+            "Les collèges électoraux d'arrondissement présentent au Premier consul deux citoyens domiciliés dans l'arrondissement, pour chaque place vacante dans le conseil d'arrondissement. - Un au moins de ces citoyens doit être pris hors du collège électoral qui le désigne. - Les conseils d'arrondissement se renouvellent par tiers tous les cinq ans."
+          ]
+        },
+        {
+          "id": "a-35",
+          "title": "Article 29.",
+          "paragraphs": [
+            "Les collèges électoraux d'arrondissement présentent, à chaque réunion, deux citoyens pour faire partie de la liste sur laquelle doivent être choisis les membres du Tribunat. - Un au moins de ces citoyens doit être pris nécessairement hors du collège qui le présente. - Tous deux peuvent être pris hors du département."
+          ]
+        },
+        {
+          "id": "a-36",
+          "title": "Article 30.",
+          "paragraphs": [
+            "Les collèges électoraux de département présentent au Premier consul deux citoyens domiciliés dans le département pour chaque place vacante dans le conseil général du département. - Un de ces citoyens au moins doit être pris nécessairement hors du collège électoral qui le présente. - Les conseils généraux de département se renouvellent par tiers tous les cinq ans."
+          ]
+        },
+        {
+          "id": "a-37",
+          "title": "Article 31.",
+          "paragraphs": [
+            "Les collèges électoraux de département présentent, à chaque réunion, deux citoyens pour former la liste sur laquelle sont nommés les membres du Sénat. - Un au moins doit être nécessairement pris hors du collège qui le présente, et tous deux peuvent être pris hors du département. - Ils doivent avoir l'âge et les qualités exigés par la Constitution."
+          ]
+        },
+        {
+          "id": "a-38",
+          "title": "Article 32.",
+          "paragraphs": [
+            "Les collèges électoraux de département et d'arrondissement présentent chacun deux citoyens domiciliés dans le département, pour former la liste sur laquelle doivent être nommés les membres de la députation au Corps législatif. - Un de ces citoyens doit être pris nécessairement hors du collège qui le présente. - Il doit y avoir trois fois autant de candidats différents sur la liste formée par la réunion des présentations des collèges électoraux de département et d'arrondissement, qu'il y a de places vacantes."
+          ]
+        },
+        {
+          "id": "a-39",
+          "title": "Article 33.",
+          "paragraphs": [
+            "On peut être membre d'un conseil de commune et d'un collège électoral d'arrondissement ou de département. - On ne peut être à la fois membre d'un collège d'arrondissement et d'un collège de département."
+          ]
+        },
+        {
+          "id": "a-40",
+          "title": "Article 34.",
+          "paragraphs": [
+            "Les membres du Corps législatif et du Tribunat ne peuvent assister aux séances du collège électoral dont ils feront partie. Tous les autres fonctionnaires publics ont droit d'y assister et d'y voter."
+          ]
+        },
+        {
+          "id": "a-41",
+          "title": "Article 35.",
+          "paragraphs": [
+            "Il n'est procédé par aucune assemblée de canton, à la nomination des places qui lui appartiennent dans un collège électoral, que quand ces places sont réduites aux deux tiers."
+          ]
+        },
+        {
+          "id": "a-42",
+          "title": "Article 36.",
+          "paragraphs": [
+            "Les collèges électoraux ne s'assemblent qu'en vertu d'un acte de convocation émané du gouvernement, et dans le lieu qui leur est assigné. - Ils ne peuvent s'occuper que des opérations pour lesquelles ils sont convoqués, ni continuer leurs séances au-delà du terme fixé par l'acte de convocation. - S'ils sortent de ces bornes, le gouvernement a le droit de les dissoudre."
+          ]
+        },
+        {
+          "id": "a-43",
+          "title": "Article 37.",
+          "paragraphs": [
+            "Les collèges électoraux ne peuvent ni directement ni indirectement, sous quelque prétexte que ce soit, correspondre entre eux."
+          ]
+        },
+        {
+          "id": "a-44",
+          "title": "Article 38.",
+          "paragraphs": [
+            "La dissolution d'un corps électoral opère le renouvellement de tous ses membres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-7-titre-iv-des-consuls",
+      "title": "Titre IV - Des Consuls",
+      "articles": [
+        {
+          "id": "a-45",
+          "title": "Article 39.",
+          "paragraphs": [
+            "Les consuls sont à vie : - Ils sont membres du Sénat, et le président."
+          ]
+        },
+        {
+          "id": "a-46",
+          "title": "Article 40.",
+          "paragraphs": [
+            "Le second et le troisième consuls sont nommés par le Sénat, sur la présentation du premier."
+          ]
+        },
+        {
+          "id": "a-47",
+          "title": "Article 41.",
+          "paragraphs": [
+            "A cet effet, lorsque l'une des deux places vient à vaquer, le Premier consul présente au Sénat un premier sujet ; s'il n'est pas nommé, il en présente un second ; si le second n'est pas accepté, il en présente un troisième qui est nécessairement nommé."
+          ],
+          "notes": [
+            {
+              "title": "Succession préparée",
+              "text": "La question de la succession entre dans l'architecture du régime. C'est un signal clair : le Consulat quitte le terrain d'une République ordinaire."
+            }
+          ]
+        },
+        {
+          "id": "a-48",
+          "title": "Article 42.",
+          "paragraphs": [
+            "Lorsque le Premier consul le juge convenable, il présente un citoyen pour lui succéder après sa mort, dans les formes indiquées par l'article précédent."
+          ]
+        },
+        {
+          "id": "a-49",
+          "title": "Article 43.",
+          "paragraphs": [
+            "Le citoyen nommé pour succéder au Premier consul, prête serment à la République, entre les mains du Premier consul, assisté des second et troisième consuls, en présence du Sénat, des ministres, du Conseil d'État, du Corps législatif, du Tribunat, du Tribunal de cassation, des archevêques, des évêques, des présidents des tribunaux d'appel, des présidents des collèges électoraux, des présidents des assemblées de canton, des grands officiers de la Légion d'honneur, et des maires des vingt-quatre principales villes de la République. - Le secrétaire d'État dresse le procès-verbal de la prestation de serment."
+          ]
+        },
+        {
+          "id": "a-50",
+          "title": "Article 44.",
+          "paragraphs": [
+            "Le serment est ainsi conçu : - « Je jure de maintenir la Constitution, de respecter la liberté des consciences, de m'opposer au retour des institutions féodales, de ne jamais faire la guerre que pour la défense et la gloire de la République, et de n'employer le pouvoir dont je serai revêtu que pour le bonheur du peuple, de qui et pour qui je l'aurai reçu. »"
+          ]
+        },
+        {
+          "id": "a-51",
+          "title": "Article 45.",
+          "paragraphs": [
+            "Le serment prêté, il prend séance au Sénat, immédiatement après le troisième consul."
+          ]
+        },
+        {
+          "id": "a-52",
+          "title": "Article 46.",
+          "paragraphs": [
+            "Le Premier consul peut déposer aux archives du gouvernement son voeu sur la nomination de son successeur, pour être présenté au Sénat après sa mort."
+          ]
+        },
+        {
+          "id": "a-53",
+          "title": "Article 47.",
+          "paragraphs": [
+            "Dans ce cas, il appelle le second et le troisième consuls, les ministres, et les présidents des sections du Conseil d'État. - En leur présence, il remet au secrétaire d'État le papier scellé de son sceau, dans lequel est consigné son voeu. Ce papier est souscrit par tous ceux qui sont présents à l'acte. - Le secrétaire d'Etat le dépose aux archives du gouvernement, en présence des ministres et des présidents des sections du Conseil d'État."
+          ]
+        },
+        {
+          "id": "a-54",
+          "title": "Article 48.",
+          "paragraphs": [
+            "Le Premier consul peut retirer ce dépôt en observant les formalités prescrites dans l'article précédent."
+          ]
+        },
+        {
+          "id": "a-55",
+          "title": "Article 49.",
+          "paragraphs": [
+            "Après la mort du Premier consul, si son voeu est resté déposé, le papier qui le renferme est retiré des archives du gouvernement par le secrétaire d'État, en présence des ministres et des présidents des sections du Conseil d'État. L'intégrité et l'identité en sont reconnues en présence des second et troisième consuls. Il est adressé au Sénat par un message du gouvernement, avec expédition des procès-verbaux qui en ont constaté le dépôt, l'identité et l'intégrité."
+          ]
+        },
+        {
+          "id": "a-56",
+          "title": "Article 50.",
+          "paragraphs": [
+            "Si le sujet présenté par le Premier consul n'est pas nommé, le second et le troisième consuls en présentent chacun un : en cas de non-nomination, ils en présentent chacun un autre, et l'un des deux est nécessairement nommé."
+          ]
+        },
+        {
+          "id": "a-57",
+          "title": "Article 51.",
+          "paragraphs": [
+            "Si le Premier consul n'a point laissé de présentation, les second et troisième consuls font leurs présentations séparées ; une première, une seconde ; et si ni l'une ni l'autre n'a obtenu de nomination, une troisième. Le Sénat nomme nécessairement sur la troisième."
+          ]
+        },
+        {
+          "id": "a-58",
+          "title": "Article 52.",
+          "paragraphs": [
+            "Dans tous les cas, les présentations et la nomination devront être consommées dans les vingt-quatre heures qui suivront la mort du Premier consul."
+          ]
+        },
+        {
+          "id": "a-59",
+          "title": "Article 53.",
+          "paragraphs": [
+            "La loi fixe pour la vie de chaque Premier consul l'état des dépenses du gouvernement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-8-titre-v-du-s-nat",
+      "title": "Titre V - Du Sénat",
+      "articles": [
+        {
+          "id": "a-60",
+          "title": "Article 54.",
+          "paragraphs": [
+            "Le Sénat règle par un sénatus-consulte organique, - 1 ° La constitution des colonies ; - 2 ° Tout ce qui n'a pas été prévu par la Constitution, et qui est nécessaire à sa marche ; - 3 ° Il explique les articles de la Constitution qui donnent lieu à différentes interprétations."
+          ]
+        },
+        {
+          "id": "a-61",
+          "title": "Article 55.",
+          "paragraphs": [
+            "Le Sénat, par des actes intitulés sénatus-consultes, - 1 ° Suspend pour cinq ans les fonctions de jurés dans les départements où cette mesure est nécessaire ; - 2 ° Déclare, quand les circonstances l'exigent, des départements hors de la Constitution ; - 3 ° Détermine le temps dans lequel des individus arrêtés en vertu de l'article 46 de la Constitution, doivent être traduits devant les tribunaux, lorsqu'ils ne l'ont pas été dans les dix jours de leur arrestation ; - 4 ° Annule les jugements des tribunaux, lorsqu'ils sont attentatoires à la sûreté de l'État ; - 5 ° Dissout le Corps législatif et le Tribunat ; - 6 ° Nomme les consuls."
+          ]
+        },
+        {
+          "id": "a-62",
+          "title": "Article 56.",
+          "paragraphs": [
+            "Les sénatus-consultes organiques et les sénatus-consultes sont délibérés par le Sénat, sur l'initiative du gouvernement. - Une simple majorité suffit pour les sénatus-consultes ; il faut les deux tiers des voix des membres présents pour un sénatus-consulte organique."
+          ]
+        },
+        {
+          "id": "a-63",
+          "title": "Article 57.",
+          "paragraphs": [
+            "Les projets de sénatus-consultes pris en conséquence des articles 54 et 55, sont discutés dans un conseil privé, composé des consuls, de deux ministres, de deux sénateurs, de deux conseillers d'État, et de deux grands officiers de la Légion d'honneur. - Le Premier consul désigne, à chaque tenue, les membres qui doivent composer le conseil privé."
+          ]
+        },
+        {
+          "id": "a-64",
+          "title": "Article 58.",
+          "paragraphs": [
+            "Le Premier consul ratifie les traités de paix et d'alliance, après avoir pris l'avis du conseil privé. - Avant de les promulguer, il en donne connaissance au Sénat."
+          ]
+        },
+        {
+          "id": "a-65",
+          "title": "Article 59.",
+          "paragraphs": [
+            "L'acte de nomination d'un membre du Corps législatif, du Tribunat et du Tribunal de cassation, s'intitule Arrêté."
+          ]
+        },
+        {
+          "id": "a-66",
+          "title": "Article 60.",
+          "paragraphs": [
+            "Les actes du Sénat relatifs à sa police et à son administration intérieure, s'intitulent Délibérations."
+          ]
+        },
+        {
+          "id": "a-67",
+          "title": "Article 61.",
+          "paragraphs": [
+            "Dans le courant de l'an XI, il sera procédé à la nomination de quatorze citoyens pour compléter le nombre de quatre-vingts sénateurs, déterminé par l'article 15 de la Constitution. - Cette nomination sera faite par le Sénat, sur la présentation du Premier consul, qui, pour cette présentation, et pour les présentations ultérieures dans le nombre de quatre-vingts, prend trois sujets sur la liste des citoyens désignés par les collèges électoraux."
+          ]
+        },
+        {
+          "id": "a-68",
+          "title": "Article 62.",
+          "paragraphs": [
+            "Les membres du grand conseil de la Légion d'honneur sont membres du Sénat, quel que soit leur âge."
+          ]
+        },
+        {
+          "id": "a-69",
+          "title": "Article 63.",
+          "paragraphs": [
+            "Le Premier consul peut, en outre, nommer au Sénat, sans présentation préalable par les collèges électoraux de département, des citoyens distingués par leurs services et leurs talents, à condition néanmoins qu'ils auront l'âge requis par la Constitution, et que le nombre des sénateurs ne pourra, en aucun cas, excéder cent vingt."
+          ]
+        },
+        {
+          "id": "a-70",
+          "title": "Article 64.",
+          "paragraphs": [
+            "Les sénateurs pourront être consuls, ministres, membres de la Légion d'honneur, inspecteurs de l'Instruction publique, et employés dans des missions extraordinaires et temporaires. - Le Sénat nomme, chaque année, deux de ses membres pour remplir les fonctions de secrétaires."
+          ]
+        },
+        {
+          "id": "a-71",
+          "title": "Article 65.",
+          "paragraphs": [
+            "Les ministres ont séance au Sénat, mais sans voix délibérative, s'ils ne sont sénateurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-9-titre-vi-des-conseillers-d-tat",
+      "title": "Titre VI - Des conseillers d'État",
+      "articles": [
+        {
+          "id": "a-72",
+          "title": "Article 66.",
+          "paragraphs": [
+            "Les conseillers d'État n'excéderont jamais le nombre de cinquante."
+          ]
+        },
+        {
+          "id": "a-73",
+          "title": "Article 67.",
+          "paragraphs": ["Le Conseil d'État se divise en sections."]
+        },
+        {
+          "id": "a-74",
+          "title": "Article 68.",
+          "paragraphs": [
+            "Les ministres ont rang, séance et voix délibérative au Conseil d'État."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-10-titre-vii-du-corps-l-gislatif",
+      "title": "Titre VII - Du Corps législatif",
+      "articles": [
+        {
+          "id": "a-75",
+          "title": "Article 69.",
+          "paragraphs": [
+            "Chaque département aura dans le Corps législatif un nombre de membres proportionné à l'étendue de sa population, conformément au tableau ci-joint."
+          ]
+        },
+        {
+          "id": "a-76",
+          "title": "Article 70.",
+          "paragraphs": [
+            "Tous les membres du Corps législatif appartenant à la même députation sont nommés à la fois."
+          ]
+        },
+        {
+          "id": "a-77",
+          "title": "Article 71.",
+          "paragraphs": [
+            "Les départements de la République sont divisés en cinq séries, conformément au tableau ci-joint."
+          ]
+        },
+        {
+          "id": "a-78",
+          "title": "Article 72.",
+          "paragraphs": [
+            "Les députés actuels sont classés dans les cinq séries."
+          ]
+        },
+        {
+          "id": "a-79",
+          "title": "Article 73.",
+          "paragraphs": [
+            "Ils seront renouvelés dans l'année à laquelle appartiendra la série où sera placé le département auquel ils auront été attachés."
+          ]
+        },
+        {
+          "id": "a-80",
+          "title": "Article 74.",
+          "paragraphs": [
+            "Néanmoins les députés qui ont été nommés en l'an X, rempliront leurs cinq années."
+          ]
+        },
+        {
+          "id": "a-81",
+          "title": "Article 75.",
+          "paragraphs": [
+            "Le gouvernement convoque, ajourne et proroge le Corps législatif"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-11-titre-viii-du-tribunat",
+      "title": "Titre VIII - Du Tribunat",
+      "articles": [
+        {
+          "id": "a-82",
+          "title": "Article 76.",
+          "paragraphs": [
+            "A dater de l'an XIII, le Tribunat sera réduit à cinquante membres. - Moitié des cinquante sortira tous les trois ans. Jusqu'à cette réduction, les membres sortants ne seront pas remplacés. - Le Tribunat se divise en sections."
+          ]
+        },
+        {
+          "id": "a-83",
+          "title": "Article 77.",
+          "paragraphs": [
+            "Le Corps législatif et le Tribunat sont renouvelés dans tous leurs membres quand le Sénat en a prononcé la dissolution."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-12-titre-ix-de-la-justice-et-des-tribun",
+      "title": "Titre IX - De la justice et des tribunaux",
+      "articles": [
+        {
+          "id": "a-84",
+          "title": "Article 78.",
+          "paragraphs": ["Il y a un grand-juge ministre de la Justice."]
+        },
+        {
+          "id": "a-85",
+          "title": "Article 79.",
+          "paragraphs": [
+            "Il a une place distinguée au Sénat et au Conseil d'État."
+          ]
+        },
+        {
+          "id": "a-86",
+          "title": "Article 8",
+          "paragraphs": [
+            "o. - Il préside le Tribunal de cassation et les tribunaux d'appel, quand le Gouvernement le juge convenable"
+          ]
+        },
+        {
+          "id": "a-87",
+          "title": "Article 8",
+          "paragraphs": [
+            "I. - Il a sur les tribunaux, les justices de paix et les membres qui les composent, le droit de les surveiller, et de les reprendre."
+          ]
+        },
+        {
+          "id": "a-88",
+          "title": "Article 82.",
+          "paragraphs": [
+            "Le Tribunal de cassation, présidé par lui, a droit de censure et de discipline sur les tribunaux d'appel et les tribunaux criminels ; il peut, pour cause grave, suspendre les juges de leurs fonctions, les mander près du grand-juge, pour y rendre compte de leur conduite."
+          ]
+        },
+        {
+          "id": "a-89",
+          "title": "Article 83.",
+          "paragraphs": [
+            "Les tribunaux d'appel ont droit de surveillance sur les tribunaux civils de leur ressort, et les tribunaux civils sur les Juges de paix de leur arrondissement."
+          ]
+        },
+        {
+          "id": "a-90",
+          "title": "Article 84.",
+          "paragraphs": [
+            "Le commissaire du gouvernement près le Tribunal de cassation surveille les commissaires près les tribunaux d'appel et les tribunaux criminels. - Les commissaires près les tribunaux d'appel surveillent les commissaires près les tribunaux civils."
+          ]
+        },
+        {
+          "id": "a-91",
+          "title": "Article 85.",
+          "paragraphs": [
+            "Les membres du Tribunal de cassation sont nommés par le Sénat, sur la présentation du Premier consul. - Le Premier consul présente trois sujets pour chaque place vacante."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-13-titre-x-droit-de-faire-gr-ce",
+      "title": "Titre X - Droit de faire grâce",
+      "articles": [
+        {
+          "id": "a-92",
+          "title": "Article 86.",
+          "paragraphs": [
+            "Le Premier Consul a droit de faire grâce. - Il l'exerce après avoir entendu, dans un conseil privé, le grand-juge, deux ministres, deux sénateurs, deux conseillers d'État et deux juges du Tribunal de cassation.",
+            "Suivent les tableaux annoncés dans les articles 69 et 71."
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Le glissement plébiscitaire",
+      "text": "L'appel au peuple sert ici à confirmer un pouvoir déjà concentré. C'est une forme de participation qui légitime plus qu'elle ne contrôle."
+    }
+  ]
+}

@@ -10,6 +10,7 @@ Setup, scripts, CI, and project tree: `README.md`.
 ## Common Commands
 
 - `pnpm run dev` starts the local Next.js dev server on port 3000.
+- Do not start the dev server yourself; the user runs it locally when needed.
 - `pnpm run fix` runs Biome checks with write/unsafe fixes.
 - `pnpm run check` runs fixes, ESLint, TypeScript, and a production build.
 - `pnpm run build` creates a production build.

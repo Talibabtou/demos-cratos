@@ -1,0 +1,552 @@
+{
+  "id": "acte-additionnel-aux-constitutions-de-l-empire-du-22-avril-1815",
+  "year": "1815",
+  "shortLabel": "1815",
+  "title": "Acte additionnel aux Constitutions de l'Empire",
+  "sourceTitle": "Acte additionnel aux Constitutions de l'Empire - Cent-jours - 22 avril 1815",
+  "regime": "Cent-Jours",
+  "date": "22 avril 1815",
+  "sourceUrl": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/acte-additionnel-aux-constitutions-de-l-empire-du-22-avril-1815",
+  "localSourcePath": "/constitution-archive/Acte additionnel aux Constitutions de l'Empire du 22 avril 1815.pdf",
+  "summary": "Texte des Cent-Jours, rédigé pour donner à l'Empire restauré une forme plus libérale. Il reconnaît des droits et met en place deux chambres, mais il reste pris dans l'urgence politique du retour de Napoléon.",
+  "revisionGroups": [],
+  "sections": [
+    {
+      "id": "opening",
+      "title": "Texte d'ouverture",
+      "articles": [
+        {
+          "id": "p-1",
+          "title": "Text",
+          "paragraphs": [
+            "Depuis que nous avons été appelé, il y a quinze années, par le voeu de la France, au gouvernement de l'Etat, nous avons cherché à perfectionner, à diverses époques, les formes constitutionnelles, suivant les besoins et les désirs de la nation, et en profitant des leçons de l'expérience. Les constitutions de l'Empire se sont ainsi formées d'une série d'actes qui ont été revêtus de l'acceptation du peuple. Nous avions alors pour but d'organiser un grand système fédératif européen, que nous avions, adopté comme conforme à l'esprit du siècle, et favorable aux progrès de la civilisation. Pour parvenir à le compléter et à lui donner toute l'étendue et toute la stabilité dont il était susceptible, nous avions ajourné l'établissement de plusieurs institutions intérieures, plus spécialement destinées à protéger la liberté des citoyens. Notre but n'est plus désormais que d'accroître la prospérité de la France par l'affermissement de la liberté publique. De là résulte la nécessité de plusieurs modifications importantes dans les constitutions, sénatus-consultes et autres actes qui régissent cet empire.",
+            "A CES CAUSES, voulant, d'un côté, conserver du passé ce qu'il y a de bon et de salutaire, et, de l'autre, rendre les constitutions de notre Empire conformes en tout aux voeux et aux besoins nationaux, ainsi qu'à l'état de paix que nous désirons maintenir avec l'Europe, nous avons résolu de proposer au peuple une suite de dispositions tendant à modifier et perfectionner ses actes constitutionnels, à entourer les droits des citoyens de toutes leurs garanties, à donner au système représentatif toute son extension, à investir les corps intermédiaires de la considération et du pouvoir désirables ; en un mot, a combiner le plus haut point de liberté politique et de sûreté individuelle avec la force et la centralisation nécessaires pour faire respecter par l'étranger l'indépendance du peuple français et la dignité de notre couronne.",
+            "En conséquence les articles suivants, formant un acte supplémentaire aux constitutions de l'Empire, seront soumis à l'acceptation libre et solennelle de tous les citoyens, dans toute l'étendue de la France."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-1-titre-premier-dispositions-g-n-rales",
+      "title": "Titre Premier - Dispositions générales",
+      "articles": [
+        {
+          "id": "a-1",
+          "title": "Article 1.",
+          "paragraphs": [
+            "Les constitutions de l'Empire, nommément l'acte constitutionnel du 22 frimaire an VIII, les sénatus-consultes des 14 et 16 thermidor an X, et celui du 28 floréal an XII, seront modifiés par les dispositions qui suivent. Toutes leurs autres dispositions sont confirmées et maintenues."
+          ]
+        },
+        {
+          "id": "a-2",
+          "title": "Article 2.",
+          "paragraphs": [
+            "Le Pouvoir législatif est exercé par l'Empereur et par deux Chambres."
+          ],
+          "notes": [
+            {
+              "title": "Bicamérisme impérial",
+              "text": "Le texte introduit un partage formel de la loi entre l'Empereur et deux chambres. La question décisive reste la dépendance réelle de ces chambres face au chef du régime."
+            }
+          ]
+        },
+        {
+          "id": "a-3",
+          "title": "Article 3.",
+          "paragraphs": [
+            "La première Chambre, nommée Chambre des pairs, est héréditaire."
+          ]
+        },
+        {
+          "id": "a-4",
+          "title": "Article 4.",
+          "paragraphs": [
+            "L'Empereur en nomme les membres, qui sont irrévocables, eux et leurs descendants mâles, d'aîné en aîné en ligne directe. Le nombre des pairs est illimité. L'adoption ne transmet point la dignité de pair à celui qui en est l'objet. - Les pairs prennent séance à vingt et un ans, mais n'ont voix délibérative qu'à vingt-cinq."
+          ]
+        },
+        {
+          "id": "a-5",
+          "title": "Article 5.",
+          "paragraphs": [
+            "La Chambre des pairs est présidée par l'archichancelier de l'Empire, ou, dans le cas prévu par l'article 51 du sénatus-consulte du 28 floréal an XII, par un des membres de cette Chambre désigné spécialement par l'Empereur."
+          ]
+        },
+        {
+          "id": "a-6",
+          "title": "Article 6.",
+          "paragraphs": [
+            "Les membres de la famille impériale, dans l'ordre de l'hérédité, sont pairs, de droit. Ils siègent après le président. Ils prennent séance à dix-huit ans, mais n'ont voix délibérative qu'à vingt et un."
+          ]
+        },
+        {
+          "id": "a-7",
+          "title": "Article 7.",
+          "paragraphs": [
+            "La seconde Chambre, nommée Chambre des représentants est élue par le peuple."
+          ]
+        },
+        {
+          "id": "a-8",
+          "title": "Article 8.",
+          "paragraphs": [
+            "Les membres de cette Chambre sont au nombre de six cent vingt-neuf. Ils doivent être âgés de vingt-cinq ans au moins."
+          ]
+        },
+        {
+          "id": "a-9",
+          "title": "Article 9.",
+          "paragraphs": [
+            "Le président de la Chambre des représentants est nommé par la Chambre à l'ouverture de la première session. Il reste en fonctions jusqu'au renouvellement de la Chambre. Sa nomination est soumise à l'approbation de l'Empereur."
+          ]
+        },
+        {
+          "id": "a-10",
+          "title": "Article 10.",
+          "paragraphs": [
+            "La Chambre des représentants vérifie les pouvoirs de ses membres, et prononce sur la validité des élections contestées."
+          ]
+        },
+        {
+          "id": "a-11",
+          "title": "Article 11.",
+          "paragraphs": [
+            "Les membres de la Chambre des représentants reçoivent pour frais de voyage, et durant la session, l'indemnité décrétée par l'Assemblée constituante."
+          ]
+        },
+        {
+          "id": "a-12",
+          "title": "Article 12.",
+          "paragraphs": ["Ils sont indéfiniment rééligibles."]
+        },
+        {
+          "id": "a-13",
+          "title": "Article 13.",
+          "paragraphs": [
+            "La Chambre des représentants est renouvelée de droit en entier tous les cinq ans."
+          ]
+        },
+        {
+          "id": "a-14",
+          "title": "Article 14.",
+          "paragraphs": [
+            "Aucun membre de l'une ou de l'autre Chambre ne peut être arrêté, sauf le cas de flagrant délit, ni poursuivi en matière criminelle et correctionnelle, pendant les sessions, qu'en vertu d'une résolution de la Chambre dont il fait partie."
+          ]
+        },
+        {
+          "id": "a-15",
+          "title": "Article 15.",
+          "paragraphs": [
+            "Aucun ne peut être arrêté ni détenu pour dettes, à partir de la convocation, ni quarante jours après la session."
+          ]
+        },
+        {
+          "id": "a-16",
+          "title": "Article 16.",
+          "paragraphs": [
+            "Les pairs sont jugés par leur Chambre, en matière criminelle et correctionnelle, dans les formes qui seront réglées par la loi."
+          ]
+        },
+        {
+          "id": "a-17",
+          "title": "Article 17.",
+          "paragraphs": [
+            "La qualité de pair et de représentant est compatible avec toute fonction publique, hors celles de comptables. - Toutefois les préfets et sous-préfets ne sont pas éligibles par le collège électoral du département ou de l'arrondissement qu'ils administrent."
+          ]
+        },
+        {
+          "id": "a-18",
+          "title": "Article 18.",
+          "paragraphs": [
+            "L'Empereur envoie dans les Chambres des ministres d'Etat et des conseillers d'Etat, qui y siègent et prennent part aux discussions, mais qui n'ont voix délibérative que dans le cas où ils sont membres de la Chambre comme pairs ou élus du peuple."
+          ]
+        },
+        {
+          "id": "a-19",
+          "title": "Article 19.",
+          "paragraphs": [
+            "Les ministres qui sont membres de la Chambre des pairs ou de celle des représentants, ou qui siègent par mission du gouvernement, donnent aux Chambres les éclaircissements qui sont jugés nécessaires, quand leur publicité ne compromet pas l'intérêt de l'Etat."
+          ]
+        },
+        {
+          "id": "a-20",
+          "title": "Article 20.",
+          "paragraphs": [
+            "Les séances des deux Chambres sont publiques. Elles peuvent néanmoins se former en comité secret, la Chambre des pairs sur la demande de dix membres, celle des représentants sur la demande de vingt-cinq. Le gouvernement peut également requérir des comités secrets pour des communications à faire. Dans tous les cas, les délibérations et les votes ne peuvent avoir lieu qu'en séance publique."
+          ]
+        },
+        {
+          "id": "a-21",
+          "title": "Article 21.",
+          "paragraphs": [
+            "L'Empereur peut proroger, ajourner et dissoudre la Chambre des représentants. La proclamation qui prononce la dissolution, convoque les collèges électoraux pour une élection nouvelle, et indique la réunion des représentants, dans six mois au plus tard."
+          ]
+        },
+        {
+          "id": "a-22",
+          "title": "Article 22.",
+          "paragraphs": [
+            "Durant l'intervalle des sessions de la Chambre des représentants, ou en cas de dissolution de cette Chambre, la Chambre des pairs ne peut s'assembler."
+          ]
+        },
+        {
+          "id": "a-23",
+          "title": "Article 23.",
+          "paragraphs": [
+            "Le gouvernement a la proposition de la loi ; les Chambres peuvent proposer des amendements : si ces amendements ne sont pas adoptés par le gouvernement, les Chambres sont tenues de voter sur la loi, telle qu'elle a été proposée."
+          ]
+        },
+        {
+          "id": "a-24",
+          "title": "Article 24.",
+          "paragraphs": [
+            "Les Chambres ont la faculté d'inviter le gouvernement à proposer une loi sur un objet déterminé, et de rédiger ce qui leur paraît convenable d'insérer dans la loi. Cette demande peut être faite par chacune des deux Chambres."
+          ]
+        },
+        {
+          "id": "a-25",
+          "title": "Article 25.",
+          "paragraphs": [
+            "Lorsqu'une rédaction est adoptée dans l'une des deux Chambres, elle est portée à l'autre ; et si elle y est approuvée, elle est portée à l'Empereur."
+          ]
+        },
+        {
+          "id": "a-26",
+          "title": "Article 26.",
+          "paragraphs": [
+            "Aucun discours écrit, excepté les rapports des commissions, les rapports des ministres sur les lois qui sont présentées, et les comptes qui sont rendus, ne peut être lu dans l'une ou l'autre des Chambres."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-2-titre-ii-des-coll-ges-lectoraux-et-d",
+      "title": "Titre II - Des collèges électoraux et du mode d'élection",
+      "articles": [
+        {
+          "id": "a-27",
+          "title": "Article 27.",
+          "paragraphs": [
+            "Les collèges électoraux de département et d'arrondissement sont maintenus, conformément au sénatus-consulte du 16 thermidor an X, sauf les modifications qui suivent."
+          ]
+        },
+        {
+          "id": "a-28",
+          "title": "Article 28.",
+          "paragraphs": [
+            "Les assemblées de canton rempliront chaque année, par des élections annuelles, toutes les vacances dans les collèges électoraux."
+          ]
+        },
+        {
+          "id": "a-29",
+          "title": "Article 29.",
+          "paragraphs": [
+            "A dater de l'an 1816, un membre de la Chambre des pairs, désigné par l'Empereur, sera président à vie et inamovible de chaque collège électoral de département."
+          ]
+        },
+        {
+          "id": "a-30",
+          "title": "Article 30.",
+          "paragraphs": [
+            "A dater de la même époque, le collège électoral de chaque département nommera, parmi les membres de chaque collège d'arrondissement, le président et deux vice-présidents. A cet effet, l'assemblée du collège de département précédera de quinze jours celle du collège d'arrondissement."
+          ]
+        },
+        {
+          "id": "a-31",
+          "title": "Article 31.",
+          "paragraphs": [
+            "Les collèges de département et d'arrondissement nommeront le nombre de représentants établi pour chacun par l'acte et le tableau ci-annexé, n° 1."
+          ]
+        },
+        {
+          "id": "a-32",
+          "title": "Article 32.",
+          "paragraphs": [
+            "Les représentants peuvent être choisis indifféremment dans toute l'étendue de la France. - Chaque collège de département ou d'arrondissement qui choisira un représentant hors du département ou de l'arrondissement, nommera un suppléant qui sera pris nécessairement dans le département ou l'arrondissement."
+          ]
+        },
+        {
+          "id": "a-33",
+          "title": "Article 33.",
+          "paragraphs": [
+            "L'industrie et la propriété manufacturière et commerciale auront une représentation spéciale. - L'élection des représentants commerciaux et manufacturiers sera faite par le collège électoral de département, sur une liste d'éligibles dressée par les chambres de commerce et les chambres consultatives réunies, suivant l'acte et le tableau ci-annexé, n° 2."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-3-titre-iii-de-la-loi-de-l-imp-t",
+      "title": "Titre III - De la loi de l'impôt",
+      "articles": [
+        {
+          "id": "a-34",
+          "title": "Article 34.",
+          "paragraphs": [
+            "L'impôt général direct, soit foncier, soit mobilier, n'est voté que pour un an ; les impôts indirects peuvent être votés pour plusieurs années. - Dans le cas de la dissolution de la Chambre des représentants, les impositions votées dans la session précédente sont continuées jusqu'à la nouvelle réunion de la Chambre."
+          ]
+        },
+        {
+          "id": "a-35",
+          "title": "Article 35.",
+          "paragraphs": [
+            "Aucun impôt direct ou indirect en argent ou en nature ne peut être perçu, aucun emprunt ne peut avoir lieu, aucune inscription de créances au grand-livre de la dette publique ne peut être faite, aucun domaine ne peut être aliéné ni échangé, aucune levée d'hommes pour l'armée ne peut être ordonnée, aucune portion du territoire ne peut être changée qu'en vertu d'une loi."
+          ]
+        },
+        {
+          "id": "a-36",
+          "title": "Article 36.",
+          "paragraphs": [
+            "Toute proposition d'impôt, d'emprunt, ou de levée d'hommes, ne peut être faite qu'à la Chambre des représentants."
+          ]
+        },
+        {
+          "id": "a-37",
+          "title": "Article 37.",
+          "paragraphs": [
+            "C'est aussi à la Chambre des représentants qu'est porté d'abord, 1 ° le budget général de l'Etat, contenant l'aperçu des recettes et la proposition des fonds assignés pour l'année à chaque département du ministère ; 2 ° le compte des recettes et dépenses de l'année ou des années précédentes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-4-titre-iv-des-ministres-et-de-la-resp",
+      "title": "Titre IV - Des ministres, et de la responsabilité",
+      "articles": [
+        {
+          "id": "a-38",
+          "title": "Article 38.",
+          "paragraphs": [
+            "Tous les actes du gouvernement doivent être contresignés par un ministre ayant département."
+          ]
+        },
+        {
+          "id": "a-39",
+          "title": "Article 39.",
+          "paragraphs": [
+            "Les ministres sont responsables des actes du gouvernement signés par eux, ainsi que de l'exécution des lois."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité ministérielle",
+              "text": "La responsabilité des ministres apparaît comme garantie libérale. Elle ne suffit pourtant pas à créer un gouvernement responsable devant une majorité parlementaire."
+            }
+          ]
+        },
+        {
+          "id": "a-40",
+          "title": "Article 40.",
+          "paragraphs": [
+            "Ils peuvent être accusés par la Chambre des représentants, et sont jugés par celle des pairs."
+          ]
+        },
+        {
+          "id": "a-41",
+          "title": "Article 41.",
+          "paragraphs": [
+            "Tout ministre, tout commandant d'armée de terre ou de mer, peut être accusé par la Chambre des représentants et jugé par la Chambre des pairs, pour avoir compromis la sûreté ou l'honneur de la nation."
+          ]
+        },
+        {
+          "id": "a-42",
+          "title": "Article 42.",
+          "paragraphs": [
+            "La Chambre des pairs, en ce cas, exerce, soit pour caractériser le délit, soit pour infliger la peine, un pouvoir discrétionnaire."
+          ]
+        },
+        {
+          "id": "a-43",
+          "title": "Article 43.",
+          "paragraphs": [
+            "Avant de prononcer la mise en accusation d'un ministre, la Chambre des représentants doit déclarer qu'il y a lieu à examiner la proposition d'accusation."
+          ]
+        },
+        {
+          "id": "a-44",
+          "title": "Article 44.",
+          "paragraphs": [
+            "Cette déclaration ne peut se faire qu'après le rapport d'une commission de soixante membres tirés au sort. Cette commission ne fait son rapport que dix jours au plus tôt après sa nomination."
+          ]
+        },
+        {
+          "id": "a-45",
+          "title": "Article 45.",
+          "paragraphs": [
+            "Quand la Chambre a déclaré qu'il y a lieu à examen, elle peut appeler le ministre dans son sein pour lui demander des explications. Cet appel ne peut avoir lieu que dix jours après le rapport de la commission."
+          ]
+        },
+        {
+          "id": "a-46",
+          "title": "Article 46.",
+          "paragraphs": [
+            "Dans tout autre cas, les ministres ayant département ne peuvent être appelés ni mandés par les Chambres."
+          ]
+        },
+        {
+          "id": "a-47",
+          "title": "Article 47.",
+          "paragraphs": [
+            "Lorsque la Chambre des représentants a déclaré qu'il y a lieu à examen contre un ministre, il est formé une nouvelle commission de soixante membres tirés au sort, comme la première ; et il est fait, par cette commission, un nouveau rapport sur la mise en accusation. Cette commission ne fait son rapport que dix jours après sa nomination."
+          ]
+        },
+        {
+          "id": "a-48",
+          "title": "Article 48.",
+          "paragraphs": [
+            "La mise en accusation ne peut être prononcée que dix jours après la lecture et la distribution du rapport."
+          ]
+        },
+        {
+          "id": "a-49",
+          "title": "Article 49.",
+          "paragraphs": [
+            "L'accusation étant prononcée, la Chambre des représentants nomme cinq commissaires pris dans son sein, pour poursuivre l'accusation devant la Chambre des pairs."
+          ]
+        },
+        {
+          "id": "a-50",
+          "title": "Article 50.",
+          "paragraphs": [
+            "L'article 75 du titre VIII de 1'acte constitutionnel du 22 frimaire an VIII, portant que les agents du gouvernement ne peuvent être poursuivis qu'en vertu d'une décision du Conseil d'Etat, sera modifié par une loi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-5-titre-v-du-pouvoir-judiciaire",
+      "title": "Titre V - Du pouvoir Judiciaire",
+      "articles": [
+        {
+          "id": "a-51",
+          "title": "Article 51.",
+          "paragraphs": [
+            "L'Empereur nomme tous les juges. Ils sont inamovibles et à vie dès l'instant de leur nomination, sauf la nomination des juges de paix et des juges de commerce, qui aura lieu comme par le passé. Les juges actuels nommés par l'Empereur, aux termes du sénatus-consulte du 12 octobre 1807, et qu'il jugera convenable de conserver, recevront des provisions à vie avant le 1er janvier prochain."
+          ]
+        },
+        {
+          "id": "a-52",
+          "title": "Article 52.",
+          "paragraphs": ["L'institution des jurés est maintenue."]
+        },
+        {
+          "id": "a-53",
+          "title": "Article 53.",
+          "paragraphs": ["Les débats en matière criminelle sont publics."]
+        },
+        {
+          "id": "a-54",
+          "title": "Article 54.",
+          "paragraphs": [
+            "Les délits militaires seuls sont du ressort des tribunaux militaires."
+          ]
+        },
+        {
+          "id": "a-55",
+          "title": "Article 55.",
+          "paragraphs": [
+            "Tous les autres délits, même commis par les militaires, sont de la compétence des tribunaux civils."
+          ]
+        },
+        {
+          "id": "a-56",
+          "title": "Article 56.",
+          "paragraphs": [
+            "Tous les crimes et délits qui étaient attribués à la Haute Cour impériale et dont le jugement n'est pas réservé par le présent acte à la Chambre des pairs, seront portés devant les tribunaux ordinaires."
+          ]
+        },
+        {
+          "id": "a-57",
+          "title": "Article 57.",
+          "paragraphs": [
+            "L'Empereur a le droit de faire grâce, même en matière correctionnelle, et d'accorder des amnisties."
+          ]
+        },
+        {
+          "id": "a-58",
+          "title": "Article 58.",
+          "paragraphs": [
+            "Les interprétations des lois, demandées par la Cour de cassation, seront données dans la forme d'une loi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section-6-titre-vi-droits-des-citoyens",
+      "title": "Titre VI - Droits des citoyens",
+      "articles": [
+        {
+          "id": "a-59",
+          "title": "Article 59.",
+          "paragraphs": [
+            "Les Français sont égaux devant la loi, soit pour la contribution aux impôts et charges publiques, soit pour l'admission aux emplois civils et militaires."
+          ]
+        },
+        {
+          "id": "a-60",
+          "title": "Article 60.",
+          "paragraphs": [
+            "Nul ne peut, sous aucun prétexte, être distrait des juges qui lui sont assignés par la loi."
+          ]
+        },
+        {
+          "id": "a-61",
+          "title": "Article 61.",
+          "paragraphs": [
+            "Nul ne peut être poursuivi, arrêté, détenu ni exilé, que dans les cas prévus par la loi et suivant les formes prescrites."
+          ]
+        },
+        {
+          "id": "a-62",
+          "title": "Article 62.",
+          "paragraphs": ["La liberté des cultes est garantie à tous."]
+        },
+        {
+          "id": "a-63",
+          "title": "Article 63.",
+          "paragraphs": [
+            "Toutes les propriétés possédées ou acquises en vertu des lois et toutes les créances sur l'Etat, sont inviolables."
+          ]
+        },
+        {
+          "id": "a-64",
+          "title": "Article 64.",
+          "paragraphs": [
+            "Tout citoyen a le droit d'imprimer et de publier ses pensées, en les signant, sans aucune censure préalable, sauf la responsabilité légale, après la publication, par jugement par jurés, quand même il n'y aurait lieu qu'à l'application d'une peine correctionnelle."
+          ],
+          "notes": [
+            {
+              "title": "Liberté d’expression",
+              "text": "Les droits d'expression et de publication sont inscrits, mais le régime reste dans une logique de pouvoir personnel. La liberté dépend encore du rapport de force politique."
+            }
+          ]
+        },
+        {
+          "id": "a-65",
+          "title": "Article 65.",
+          "paragraphs": [
+            "Le droit de pétition est assuré à tous les citoyens. Toute pétition est individuelle. Ces pétitions peuvent être adressées, soit au gouvernement, soit aux deux Chambres : néanmoins ces dernières même doivent porter l'intitulé : A Sa Majesté l'Empereur. Elles seront présentées aux Chambres sous la garantie d'un membre qui recommande la pétition. Elles sont lues publiquement, et si la Chambre les prend en considération, elles sont portées à l'Empereur par le président."
+          ]
+        },
+        {
+          "id": "a-66",
+          "title": "Article 66.",
+          "paragraphs": [
+            "Aucune place, aucune partie du territoire, ne peut être déclarée en état de siège, que dans le cas d'invasion de la part d'une force étrangère, ou de troubles civils. - Dans le premier cas, la déclaration est faite par un acte du gouvernement. - Dans le second cas, elle ne peut l'être que par la loi. Toutefois, si, le cas arrivant, les Chambres ne sont pas assemblées, l'acte du gouvernement déclarant l'état de siège doit être converti en une proposition de loi dans les quinze premiers jours de la réunion des Chambres."
+          ]
+        },
+        {
+          "id": "a-67",
+          "title": "Article 67.",
+          "paragraphs": [
+            "Le peuple français déclare que, dans la délégation qu'il a faite et qu'il fait de ses pouvoirs, il n'a pas entendu et n'entend pas donner le droit de proposer le rétablissement des Bourbons ou d'aucun prince de cette famille sur le trône, même en cas d'extinction de la dynastie impériale, ni le droit de rétablir soit l'ancienne noblesse féodale, soit les droits féodaux et seigneuriaux, soit les dîmes, soit aucun culte privilégié et dominant, ni la faculté de porter aucune atteinte à l'irrévocabilité de la vente des domaines nationaux ; il interdit formellement au gouvernement, aux Chambres et aux citoyens toute proposition à cet égard.",
+            "Suivent l'acte et les tableaux fixant le nombre des députés à élire pour la Chambre des représentants."
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Libéralisation tardive",
+      "text": "L'Acte additionnel tente de corriger l'autoritarisme impérial par des garanties représentatives. Son contexte militaire et politique ne lui laisse presque pas le temps d'exister."
+    }
+  ]
+}
