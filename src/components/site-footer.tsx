@@ -1,4 +1,3 @@
-import { GitHubMark } from '@/components/github-mark';
 import { FileText } from 'lucide-react';
 import Link from 'next/link';
 
@@ -29,7 +28,11 @@ export function SiteFooter() {
             target="_blank"
             title="GitHub"
           >
-            <GitHubMark />
+            <span
+              aria-hidden="true"
+              className="size-[18px] bg-current [mask:url('/icons/github.svg')_center/contain_no-repeat]"
+            />
+            <span className="sr-only">GitHub</span>
           </a>
         </div>
       </div>

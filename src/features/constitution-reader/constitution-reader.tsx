@@ -56,8 +56,8 @@ function ConstitutionalMemoryTimeline({
   selectedConstitutionId: string;
 }) {
   return (
-    <section className="border-civic-line border-b bg-civic-paper">
-      <div className="mx-auto max-w-448 px-6 pt-10 pb-12 md:px-10 lg:px-14">
+    <section className="border-civic-line border-b bg-civic-wash">
+      <div className="mx-auto max-w-448 px-6 pt-10 pb-8 md:px-10 lg:px-14">
         <div className="grid gap-6 lg:grid-cols-[0.72fr_1.28fr]">
           <div>
             <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
@@ -83,7 +83,7 @@ function ConstitutionalMemoryTimeline({
           aria-label="French constitutional timeline"
           className="relative mt-8 overflow-x-auto py-3"
         >
-          <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-10 bg-gradient-to-l from-civic-paper to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-10 bg-linear-to-l from-civic-wash to-transparent" />
           <ol className="relative flex min-w-max items-center gap-0 pr-8 md:min-w-0">
             <div className="absolute top-1/2 right-5 left-5 h-px bg-civic-line" />
             {constitutionDocuments.map((document, index) => (
@@ -102,8 +102,8 @@ function ConstitutionalMemoryTimeline({
           </ol>
         </nav>
 
-        <div className="scroll-reveal mt-8 grid gap-8 border-civic-line border-t pt-7 lg:grid-cols-[0.72fr_1.28fr]">
-          <div>
+        <div className="scroll-reveal relative mt-8 border-civic-line border-t pt-7">
+          <div className="mx-auto flex max-w-3xl flex-col items-center justify-center text-center">
             <p className="font-semibold text-civic-red text-sm">
               {selectedConstitution.date}
             </p>
@@ -113,25 +113,17 @@ function ConstitutionalMemoryTimeline({
             <p className="mt-2 text-civic-muted text-sm">
               {selectedConstitution.regime}
             </p>
-            <div className="mt-6 flex flex-wrap gap-4">
-              <SourceLink
-                href={selectedConstitution.sourceUrl}
-                label="Official source"
-              />
-              {selectedConstitution.localSourcePath ? (
-                <SourceLink
-                  href={selectedConstitution.localSourcePath}
-                  label="Local archive"
-                />
-              ) : null}
-            </div>
           </div>
-          <div>
-            <p className="max-w-3xl text-civic-text leading-7">
-              {selectedConstitution.summary}
-            </p>
-            {selectedConstitution.revisionGroups.length > 0 ? (
-              <RevisionList document={selectedConstitution} />
+          <div className="absolute top-7 right-0 flex flex-wrap justify-end gap-4">
+            <SourceLink
+              href={selectedConstitution.sourceUrl}
+              label="Official source"
+            />
+            {selectedConstitution.localSourcePath ? (
+              <SourceLink
+                href={selectedConstitution.localSourcePath}
+                label="Local archive"
+              />
             ) : null}
           </div>
         </div>
@@ -215,41 +207,13 @@ function SourceLink({ href, label }: { href: string; label: string }) {
   );
 }
 
-function RevisionList({ document }: { document: ConstitutionDocument }) {
-  return (
-    <div className="mt-8">
-      <h4 className="font-semibold text-civic-ink text-sm uppercase tracking-[0.12em]">
-        Revisions and later adjustments
-      </h4>
-      <ol className="mt-5 grid gap-4 md:grid-cols-2">
-        {document.revisionGroups.map((period) => (
-          <li
-            className="border-civic-line border-l pl-4"
-            key={`${document.id}-${period.years}-${period.title}`}
-          >
-            <p className="font-semibold text-civic-red text-sm">
-              {period.years}
-            </p>
-            <p className="mt-1 font-serif text-civic-ink text-xl leading-7">
-              {period.title}
-            </p>
-            <p className="mt-2 text-civic-text text-sm leading-6">
-              {period.text}
-            </p>
-          </li>
-        ))}
-      </ol>
-    </div>
-  );
-}
-
 function ConstitutionWorkspace({
   document,
 }: {
   document: ConstitutionDocument;
 }) {
   return (
-    <section className="px-4 py-10 md:px-8 lg:px-10">
+    <section className="bg-civic-wash px-4 py-10 md:px-8 lg:px-10">
       <div className="mx-auto grid max-w-448 gap-8 xl:grid-cols-[17rem_minmax(0,1fr)]">
         <DocumentNavigation document={document} />
         <div className="min-w-0">

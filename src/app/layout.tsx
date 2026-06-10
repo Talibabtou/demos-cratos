@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
+import { ScrollToTopButton } from '@/components/scroll-to-top-button';
 import { SiteFooter } from '@/components/site-footer';
 import { getPreferencesHydrationScript } from '@/lib/preferences';
 import './globals.css';
@@ -20,7 +21,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html data-scroll-behavior="smooth" lang="en" suppressHydrationWarning>
       <head>
         <script
           // biome-ignore lint/security/noDangerouslySetInnerHtml: this prevents a theme flash before hydration.
@@ -40,6 +41,7 @@ export default function RootLayout({
         />
         {children}
         <SiteFooter />
+        <ScrollToTopButton />
         <Analytics />
         <SpeedInsights />
       </body>

@@ -1,4 +1,3 @@
-import { GitHubMark } from '@/components/github-mark';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FileText } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
@@ -69,7 +68,11 @@ export function SiteHeader({ locale, messages }: SiteHeaderProps) {
             target="_blank"
             title={messages.github}
           >
-            <GitHubMark />
+            <span
+              aria-hidden="true"
+              className="size-[18px] bg-current [mask:url('/icons/github.svg')_center/contain_no-repeat]"
+            />
+            <span className="sr-only">{messages.github}</span>
           </a>
           <ThemeToggle />
         </div>

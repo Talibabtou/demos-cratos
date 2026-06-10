@@ -56,6 +56,8 @@ Setup, scripts, CI, and project tree: `README.md`.
 - Calm civic identity: white, cool gray, pale sage, navy-charcoal, thin borders.
 - Use theme tokens for color choices; do not use one-off hard-coded colors in
   components because every UI must work in both light and dark mode.
+- Store logo and brand icon assets in `public/` as SVG, PNG, or WebP instead of
+  creating custom TypeScript icon components.
 - Use cards only for individual tools, mockups, tables, modals, or repeated
   items.
 - Keep radii at 0.5rem or below unless the design system changes intentionally.
