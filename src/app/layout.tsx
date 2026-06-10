@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/next';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
+import { SiteFooter } from '@/components/site-footer';
 import { getPreferencesHydrationScript } from '@/lib/preferences';
 import './globals.css';
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           className="fixed inset-y-0 right-0 z-50 w-1 bg-civic-red"
         />
         {children}
+        <SiteFooter />
         <Analytics />
         <SpeedInsights />
       </body>

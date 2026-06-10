@@ -28,7 +28,6 @@ export function ConstitutionReader({
   return (
     <main>
       <SiteHeader locale={locale} messages={messages.navigation} />
-      <ReaderHero document={selectedConstitution} />
       <ConstitutionalMemoryTimeline
         locale={locale}
         selectedConstitution={selectedConstitution}
@@ -47,30 +46,6 @@ function getSelectedConstitution(selectedConstitutionId: string) {
   );
 }
 
-function ReaderHero({ document }: { document: ConstitutionDocument }) {
-  return (
-    <section className="border-civic-line border-b">
-      <div className="mx-auto grid min-h-[calc(72svh-73px)] max-w-400 content-center gap-12 px-6 py-16 md:px-10 lg:grid-cols-[0.82fr_1.18fr] lg:px-14">
-        <div className="reveal-up">
-          <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
-            {document.regime}
-          </p>
-          <h1 className="mt-5 max-w-4xl font-semibold font-serif text-5xl text-civic-ink leading-[1.02] md:text-7xl">
-            Read France through its constitutional texts.
-          </h1>
-        </div>
-        <div className="reveal-up-delay max-w-2xl self-end">
-          <p className="font-serif text-2xl text-civic-text leading-10">
-            Start from the current Constitution, then move backward through the
-            archive to compare how France has defined sovereignty, rights, and
-            public power.
-          </p>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function ConstitutionalMemoryTimeline({
   locale,
   selectedConstitution,
@@ -82,34 +57,43 @@ function ConstitutionalMemoryTimeline({
 }) {
   return (
     <section className="border-civic-line border-b bg-civic-paper">
-      <div className="mx-auto max-w-448 px-6 py-14 md:px-10 lg:px-14">
-        <div className="grid gap-8 lg:grid-cols-[0.62fr_1.38fr]">
+      <div className="mx-auto max-w-448 px-6 pt-10 pb-12 md:px-10 lg:px-14">
+        <div className="grid gap-6 lg:grid-cols-[0.72fr_1.28fr]">
           <div>
             <p className="font-semibold text-civic-blue text-sm uppercase tracking-[0.12em]">
               Constitutional memory
             </p>
-            <h2 className="mt-4 font-semibold font-serif text-4xl text-civic-ink leading-tight">
-              Choose a period. The reader below changes with it.
-            </h2>
+            <h1 className="mt-3 font-semibold font-serif text-4xl text-civic-ink leading-tight md:text-5xl">
+              Read France through its constitutional texts.
+            </h1>
           </div>
-          <p className="max-w-3xl font-serif text-civic-text text-xl leading-9 lg:justify-self-end">
-            Each point is an archived source from the Conseil constitutionnel.
-            The selected text keeps its original French wording and receives the
-            same reading structure as the current Constitution.
-          </p>
+          <div className="max-w-3xl lg:justify-self-end">
+            <p className="font-serif text-civic-text text-xl leading-8">
+              Choose a period to compare how France has defined sovereignty,
+              rights, and public power.
+            </p>
+            <p className="mt-3 text-civic-muted text-sm leading-6">
+              Each point links to an archived source from the Conseil
+              constitutionnel. The original French wording stays intact.
+            </p>
+          </div>
         </div>
 
         <nav
           aria-label="French constitutional timeline"
-          className="relative mt-12 overflow-x-auto pb-5"
+          className="relative mt-8 overflow-x-auto py-3"
         >
-          <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-14 bg-gradient-to-l from-civic-paper to-transparent" />
-          <ol className="relative flex min-w-max items-start gap-3 pr-6">
-            <div className="absolute top-[2.68rem] right-10 left-10 h-px bg-civic-line" />
-            {constitutionDocuments.map((document) => (
-              <li key={document.id}>
+          <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-10 bg-gradient-to-l from-civic-paper to-transparent" />
+          <ol className="relative flex min-w-max items-center gap-0 pr-8 md:min-w-0">
+            <div className="absolute top-1/2 right-5 left-5 h-px bg-civic-line" />
+            {constitutionDocuments.map((document, index) => (
+              <li
+                className="relative flex w-26 shrink-0 md:w-auto md:flex-1"
+                key={document.id}
+              >
                 <TimelineButton
                   document={document}
+                  index={index}
                   isSelected={document.id === selectedConstitutionId}
                   locale={locale}
                 />
@@ -117,18 +101,15 @@ function ConstitutionalMemoryTimeline({
             ))}
           </ol>
         </nav>
-        <p className="mt-1 text-civic-muted text-xs">
-          Scroll the timeline horizontally to see the whole archive.
-        </p>
 
-        <div className="scroll-reveal mt-8 grid gap-8 border-civic-line border-t pt-8 lg:grid-cols-[0.8fr_1.2fr]">
+        <div className="scroll-reveal mt-8 grid gap-8 border-civic-line border-t pt-7 lg:grid-cols-[0.72fr_1.28fr]">
           <div>
             <p className="font-semibold text-civic-red text-sm">
               {selectedConstitution.date}
             </p>
-            <h3 className="mt-2 font-semibold font-serif text-3xl text-civic-ink">
+            <h2 className="mt-2 font-semibold font-serif text-3xl text-civic-ink">
               {selectedConstitution.title}
-            </h3>
+            </h2>
             <p className="mt-2 text-civic-muted text-sm">
               {selectedConstitution.regime}
             </p>
@@ -161,30 +142,32 @@ function ConstitutionalMemoryTimeline({
 
 function TimelineButton({
   document,
+  index,
   isSelected,
   locale,
 }: {
   document: ConstitutionDocument;
+  index: number;
   isSelected: boolean;
   locale: Locale;
 }) {
   return (
     <Link
+      aria-label={`${document.shortLabel}: ${document.title}, ${document.regime}`}
       aria-current={isSelected ? 'true' : undefined}
+      title={`${document.title} - ${document.regime}`}
       className={getTimelineButtonClassName(isSelected)}
       href={`/${locale}/constitution-reader?constitution=${document.id}`}
       scroll={false}
     >
+      <span className={getTimelineLabelClassName(index)}>
+        <span className={getTimelineYearClassName(isSelected)}>
+          {document.shortLabel}
+        </span>
+      </span>
       <span className={getTimelineDotClassName(isSelected)}>
-        <span className="size-2 rounded-full bg-current" />
+        <span className="size-1.5 rounded-full bg-current" />
       </span>
-      <span className={getTimelineYearClassName(isSelected)}>
-        {document.shortLabel}
-      </span>
-      <span className="mt-1 block font-serif text-lg leading-6">
-        {document.title}
-      </span>
-      <span className="mt-2 block text-xs leading-5">{document.regime}</span>
     </Link>
   );
 }
@@ -194,7 +177,7 @@ function getTimelineButtonClassName(isSelected: boolean) {
     ? 'text-civic-ink'
     : 'text-civic-muted hover:text-civic-ink';
 
-  return `focus-ring group relative flex w-[11.25rem] shrink-0 flex-col items-start pt-2 text-left transition duration-200 ${stateClassName}`;
+  return `focus-ring group relative flex h-20 w-full items-center justify-center px-1 text-center transition duration-200 ${stateClassName}`;
 }
 
 function getTimelineDotClassName(isSelected: boolean) {
@@ -202,13 +185,20 @@ function getTimelineDotClassName(isSelected: boolean) {
     ? 'border-civic-red bg-civic-red text-civic-action-text shadow-quiet'
     : 'border-civic-blue bg-civic-paper text-civic-blue group-hover:border-civic-red group-hover:text-civic-red';
 
-  return `relative z-10 flex size-6 items-center justify-center rounded-full border transition ${stateClassName}`;
+  return `relative z-10 flex size-5 items-center justify-center rounded-full border transition ${stateClassName}`;
 }
 
 function getTimelineYearClassName(isSelected: boolean) {
   const stateClassName = isSelected ? 'text-civic-red' : 'text-civic-blue';
 
-  return `mt-4 block font-semibold text-sm ${stateClassName}`;
+  return `block font-semibold text-sm ${stateClassName}`;
+}
+
+function getTimelineLabelClassName(index: number) {
+  const positionClassName =
+    index % 2 === 0 ? 'bottom-[calc(50%+1rem)]' : 'top-[calc(50%+1rem)]';
+
+  return `absolute ${positionClassName} left-1/2 -translate-x-1/2`;
 }
 
 function SourceLink({ href, label }: { href: string; label: string }) {

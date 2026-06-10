@@ -50,14 +50,14 @@ export function ThemeToggle() {
   return (
     <button
       aria-label={isDarkMode ? 'Switch to light mode' : 'Switch to dark mode'}
-      className="focus-ring inline-flex size-10 items-center justify-center rounded-full border border-civic-blue bg-civic-wash text-civic-ink transition hover:bg-civic-paper"
+      className="focus-ring inline-flex size-10 items-center justify-center rounded-full text-civic-ink transition hover:text-civic-blue"
       onClick={toggleTheme}
       type="button"
     >
       {isDarkMode ? (
-        <Sun aria-hidden="true" size={17} strokeWidth={1.8} />
+        <Sun aria-hidden="true" size={18} strokeWidth={1.9} />
       ) : (
-        <Moon aria-hidden="true" size={17} strokeWidth={1.8} />
+        <Moon aria-hidden="true" size={18} strokeWidth={1.9} />
       )}
     </button>
   );
