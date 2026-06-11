@@ -104,10 +104,10 @@ Design notes for Demos:Cratos:
 
 - Do not build generic comment threads as the main deliberation tool.
 - Let users classify their relation to a proposal: support, oppose, amend,
-  question, source request.
+question, source request.
 - Track whether proposals become decisions, rejections, or abandoned work.
 - Make public follow-up a first-class feature. Participation without follow-up
-  teaches citizens that participation is decorative.
+teaches citizens that participation is decorative.
 
 ### CONSUL Democracy
 
@@ -123,11 +123,11 @@ does a city need to let citizens propose, debate, support, and decide?
 Design notes:
 
 - Keep the municipality workspace concrete: active proposals, current votes,
-  meetings, budgets, petitions, studies.
+meetings, budgets, petitions, studies.
 - Separate public visibility from resident rights. Anyone can read Lyon. Only
-  verified residents should perform certain actions.
+verified residents should perform certain actions.
 - Do not hide administration work. Citizens need to see who answered, when, and
-  what changed.
+what changed.
 
 ### vTaiwan and JOIN
 
@@ -147,9 +147,9 @@ Design notes:
 - Build for consensus discovery before building for voting.
 - Do not ask for a vote when the real need is shared diagnosis.
 - Keep expert input visible but not sovereign. Experts should clarify facts,
-  constraints, and consequences; citizens still own the political question.
+constraints, and consequences; citizens still own the political question.
 - Treat online and offline processes as one process. A town-hall meeting should
-  not disappear from the digital record.
+not disappear from the digital record.
 
 ### Pol.is
 
@@ -168,9 +168,9 @@ Design notes:
 - Avoid ranking content only by popularity or recency.
 - Show cross-group agreement.
 - Make minority positions legible without letting small groups block the whole
-  process.
+process.
 - Use clustering carefully; citizens should not feel sorted into boxes by a
-  machine they cannot question.
+machine they cannot question.
 
 ### Better Reykjavík and Your Priorities
 
@@ -186,9 +186,9 @@ small institutional bridge changes the whole meaning of the platform.
 Design notes:
 
 - A proposal system needs a response duty. Otherwise it becomes a suggestion
-  box.
+box.
 - The municipality page should show the full path: idea, support, review,
-  answer, implementation, delay, rejection.
+answer, implementation, delay, rejection.
 - Rejection is acceptable if reasons are public and contestable.
 
 ### Stanford Participatory Budgeting Platform
@@ -210,7 +210,7 @@ Design notes:
 - Budget tools need plain explanations of constraints.
 - Let people inspect rejected projects and reasons.
 - Keep accessibility high; a budgeting vote that only works for already
-  comfortable digital users is not democratic enough.
+comfortable digital users is not democratic enough.
 
 ### Loomio
 
@@ -490,3 +490,6 @@ real, and the right to inspect how the current version came to be.
 - [Stanford Participatory Budgeting Platform](https://pbstanford.org/)
 - [Loomio](https://www.loomio.com/)
 - [LiquidFeedback](https://liquidfeedback.com/en/open-source.html)
+
+- https://www.youtube.com/watch?v=5NrDXZ78oCU
+- https://portail-municipal.fr/

@@ -1,3 +1,9 @@
+import {
+  readJsonStorageValue,
+  subscribeToJsonStorageValue,
+  writeJsonStorageValue,
+} from '@/lib/local-storage-json';
+
 const STORAGE_KEY = 'demos-cratos:preferences';
 const STORAGE_CHANGE_EVENT = 'demos-cratos:preferences-change';
 
@@ -7,15 +13,7 @@ type Preferences = {
 };
 
 const readPreferences = (): Preferences => {
-  if (typeof window === 'undefined') return {};
-
-  try {
-    return JSON.parse(
-      window.localStorage.getItem(STORAGE_KEY) ?? '{}',
-    ) as Preferences;
-  } catch {
-    return {};
-  }
+  return readJsonStorageValue<Preferences>(STORAGE_KEY, {});
 };
 
 export const readPreference = (key: keyof Preferences) =>
@@ -27,26 +25,19 @@ export const writePreference = (key: keyof Preferences, value: string) => {
     [key]: value,
   };
 
-  try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(nextPreferences));
-    window.dispatchEvent(new Event(STORAGE_CHANGE_EVENT));
-  } catch {}
+  writeJsonStorageValue({
+    changeEvent: STORAGE_CHANGE_EVENT,
+    storageKey: STORAGE_KEY,
+    value: nextPreferences,
+  });
 };
 
 export const subscribeToPreferences = (onStoreChange: () => void) => {
-  const handleStorageChange = (event: StorageEvent) => {
-    if (event.key === STORAGE_KEY) {
-      onStoreChange();
-    }
-  };
-
-  window.addEventListener('storage', handleStorageChange);
-  window.addEventListener(STORAGE_CHANGE_EVENT, onStoreChange);
-
-  return () => {
-    window.removeEventListener('storage', handleStorageChange);
-    window.removeEventListener(STORAGE_CHANGE_EVENT, onStoreChange);
-  };
+  return subscribeToJsonStorageValue({
+    changeEvent: STORAGE_CHANGE_EVENT,
+    onStoreChange,
+    storageKey: STORAGE_KEY,
+  });
 };
 
 export const getPreferencesHydrationScript = () =>
