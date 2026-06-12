@@ -90,3 +90,9 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 - Add SEO metadata and Open Graph images for stable public pages.
 - Add security review before accepting identity, submissions, votes, or municipal administration.
 - Define backups, export formats, and data portability so public work is never trapped inside the platform.
+
+Agregateur de petitions en introduction
+comment etre federateur et eviter le clivage gauche droit ?
+boussole: rouge/bleu, progressist/conservateur/reactionnaire
+glossaire de tous les mots importants et leur definition politique
+integrer le modele identique mais pour la suisse

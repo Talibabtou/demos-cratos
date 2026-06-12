@@ -21,7 +21,7 @@ export function DocumentNavigation({ document }: DocumentNavigationProps) {
   return (
     <aside>
       <p className="font-semibold text-civic-ink text-sm uppercase tracking-[0.12em]">
-        Glossaire
+        Contents
       </p>
       <nav className="mt-5 space-y-5" aria-label="Constitution contents">
         {document.sections.map((section) => (
