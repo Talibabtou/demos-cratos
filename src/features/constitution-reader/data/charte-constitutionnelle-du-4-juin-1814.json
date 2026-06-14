@@ -27,6 +27,12 @@
             "Nous avons remplacé, par la Chambre des députés, ces anciennes Assemblées des Champs de Mars et de Mai, et ces Chambres du tiers-état, qui ont si souvent donné tout à fois des preuves de zèle pour les intérêts du peuple, de fidélité et de respect pour l'autorité des rois. En cherchant ainsi à renouer la chaîne des temps, que de funestes écarts avaient interrompue, nous avons effacé de notre souvenir, comme nous voudrions qu'on pût les effacer de l'histoire, tous les maux qui ont affligé la patrie durant notre absence. Heureux de nous retrouver au sein de la grande famille, nous n'avons su répondre à l'amour dont nous recevons tant de témoignages, qu'en prononçant des paroles de paix et de consolation. Le voeu le plus cher à notre coeur, c'est que tous les Français vivent en frères, et que jamais aucun souvenir amer ne trouble la sécurité qui doit suivre l'acte solennel que nous leur accordons aujourd'hui.",
             "Sûrs de nos intentions, forts de notre conscience, nous nous engageons, devant l'Assemblée qui nous écoute, à être fidèles à cette Charte constitutionnelle, nous réservant d'en juger le maintien, avec une nouvelle solennité, devant les autels de celui qui pèse dans la même balance les rois et les nations.",
             "A CES CAUSES - NOUS AVONS volontairement, et par le libre exercice de notre autorité royale, ACCORDÉ ET ACCORDONS. FAIT CONCESSION ET OCTROI à nos sujets, tant pour nous que pour nos successeurs, et à toujours, de la Charte constitutionnelle qui suit :"
+          ],
+          "notes": [
+            {
+              "title": "Une constitution donnée par le roi",
+              "text": "L'ouverture parle au nom de la Providence et des sujets, pas au nom du peuple constituant. C'est le point de départ de 1814 : la Constitution vient d'en haut, même si elle conserve plusieurs conquêtes révolutionnaires."
+            }
           ]
         }
       ]
@@ -81,6 +87,12 @@
           "title": "Article 6.",
           "paragraphs": [
             "Cependant la religion catholique, apostolique et romaine est la religion de l'Etat."
+          ],
+          "notes": [
+            {
+              "title": "Religion d'État",
+              "text": "La liberté des cultes existe à l'article précédent, mais le catholicisme reçoit ici le rang de religion de l'État. La Restauration cherche l'apaisement sans séparer vraiment le politique et le religieux."
+            }
           ]
         },
         {
@@ -95,6 +107,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Les Français ont le droit de publier et de faire imprimer leurs opinions, en se conformant aux lois qui doivent réprimer les abus de cette liberté."
+          ],
+          "notes": [
+            {
+              "title": "Presse sous lois d'abus",
+              "text": "La liberté de publier est reconnue, mais elle dépend de lois chargées de réprimer les abus. La formule ouvre la porte à des restrictions fortes, qui nourriront les conflits politiques de la Restauration."
+            }
           ]
         },
         {
@@ -102,6 +120,12 @@
           "title": "Article 9.",
           "paragraphs": [
             "Toutes les propriétés sont inviolables, sans aucune exception de celles qu'on appelle nationales, la loi ne mettant aucune différence entre elles."
+          ],
+          "notes": [
+            {
+              "title": "Biens nationaux protégés",
+              "text": "Les propriétés issues des ventes révolutionnaires sont protégées comme les autres. Le roi rassure les acquéreurs : la Restauration ne défera pas en masse les transferts de biens opérés depuis 1789."
+            }
           ]
         },
         {
@@ -116,6 +140,12 @@
           "title": "Article 11.",
           "paragraphs": [
             "Toutes recherches des opinions et votes émis jusqu'à la restauration sont interdites. Le même oubli est commandé aux tribunaux et aux citoyens."
+          ],
+          "notes": [
+            {
+              "title": "Oublier les votes passés",
+              "text": "Le texte interdit de rechercher les opinions et votes antérieurs à la Restauration. Cette amnistie politique cherche à pacifier un pays qui a connu Révolution, Empire, fidélités contraires et changements de régime."
+            }
           ]
         },
         {
@@ -149,6 +179,12 @@
           "title": "Article 14.",
           "paragraphs": [
             "Le roi est le chef suprême de l'Etat, il commande les forces de terre et de mer, déclare la guerre, fait les traités de paix, d'alliance et de commerce, nomme à tous les emplois d'administration publique, et fait les règlements et ordonnances nécessaires pour l'exécution des lois et la sûreté de l'Etat."
+          ],
+          "notes": [
+            {
+              "title": "Ordonnances royales",
+              "text": "Le roi fait les règlements et ordonnances nécessaires à l'exécution des lois et à la sûreté de l'État. Cette formule deviendra explosive en 1830, quand Charles X utilisera des ordonnances contre la presse et la Chambre."
+            }
           ]
         },
         {
@@ -156,6 +192,12 @@
           "title": "Article 15.",
           "paragraphs": [
             "La puissance législative s'exerce collectivement par le roi, la Chambre des pairs, et la Chambre des députés des départements."
+          ],
+          "notes": [
+            {
+              "title": "Trois acteurs pour la loi",
+              "text": "La loi associe le roi, les pairs et les députés. Le Parlement existe, mais il ne domine pas le régime : le roi reste une partie du pouvoir législatif, pas un simple exécutant."
+            }
           ]
         },
         {
@@ -242,6 +284,12 @@
           "title": "Article 27.",
           "paragraphs": [
             "La nomination des pairs de France appartient au roi. Leur nombre est illimité ; il peut en varier les dignités, les nommer à vie ou les rendre héréditaires, selon sa volonté."
+          ],
+          "notes": [
+            {
+              "title": "Pairs nommés par le roi",
+              "text": "Le roi choisit les pairs, peut fixer leur nombre et rendre la dignité héréditaire. La Chambre haute sert donc aussi à entourer la monarchie d'un corps fidèle."
+            }
           ]
         },
         {
@@ -331,6 +379,12 @@
           "title": "Article 38.",
           "paragraphs": [
             "Aucun député ne peut être admis dans la Chambre, s'il n'est âgé de quarante ans, et s'il ne paie une contribution directe de mille francs."
+          ],
+          "notes": [
+            {
+              "title": "Éligibilité très censitaire",
+              "text": "Un député doit avoir quarante ans et payer mille francs de contribution directe. La représentation nationale existe, mais elle appartient à une fraction très aisée de la société."
+            }
           ]
         },
         {
@@ -345,6 +399,12 @@
           "title": "Article 40.",
           "paragraphs": [
             "Les électeurs qui concourent à la nomination des députés, ne peuvent avoir droit de suffrage s'ils ne paient une contribution directe de trois cent francs, et s'ils ont moins de trente ans."
+          ],
+          "notes": [
+            {
+              "title": "Électeurs restreints",
+              "text": "Il faut trente ans et trois cents francs de contribution directe pour voter. L'égalité civile cohabite donc avec une citoyenneté politique réservée aux grands contribuables."
+            }
           ]
         },
         {
@@ -387,6 +447,12 @@
           "title": "Article 46.",
           "paragraphs": [
             "Aucun amendement ne peut être fait à une loi, s'il n'a été proposé ou consenti par le roi, et s'il n'a été renvoyé et discuté dans les bureaux."
+          ],
+          "notes": [
+            {
+              "title": "Amender avec l'accord du roi",
+              "text": "Aucun amendement ne peut être fait sans proposition ou consentement royal. La Chambre discute, mais le roi garde la main sur la forme finale de la loi."
+            }
           ]
         },
         {
@@ -401,6 +467,12 @@
           "title": "Article 48.",
           "paragraphs": [
             "Aucun impôt ne peut être établi ni perçu, s'il n'a été consenti par les deux Chambres et sanctionné par le roi."
+          ],
+          "notes": [
+            {
+              "title": "Consentement à l'impôt",
+              "text": "Aucun impôt ne peut être perçu sans les deux Chambres et le roi. Même dans une monarchie restaurée, le vote de l'impôt reste le nerf du régime représentatif."
+            }
           ]
         },
         {
@@ -415,6 +487,12 @@
           "title": "Article 50.",
           "paragraphs": [
             "Le roi convoque chaque année les deux Chambres ; il les proroge, et peut dissoudre celle des députés des départements ; mais, dans ce cas, il doit en convoquer une nouvelle dans le délai de trois mois."
+          ],
+          "notes": [
+            {
+              "title": "Dissolution royale",
+              "text": "Le roi peut dissoudre la Chambre des députés, mais doit convoquer une nouvelle Chambre dans les trois mois. La dissolution devient un outil de conflit entre le roi et le pays électoral."
+            }
           ]
         },
         {
@@ -456,6 +534,12 @@
           "title": "Article 55.",
           "paragraphs": [
             "La Chambre des députés a le droit d'accuser les ministres, et de les traduire devant la Chambre des pairs qui seule a celui de les juger."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité des ministres",
+              "text": "La Chambre des députés peut accuser les ministres, qui sont jugés par les pairs. C'est une responsabilité encore pénale et étroite, pas la responsabilité politique quotidienne des régimes parlementaires."
+            }
           ]
         },
         {
@@ -507,7 +591,13 @@
         {
           "id": "a-62",
           "title": "Article 62.",
-          "paragraphs": ["Nul ne pourra être distrait de ses juges naturels."]
+          "paragraphs": ["Nul ne pourra être distrait de ses juges naturels."],
+          "notes": [
+            {
+              "title": "Juge naturel",
+              "text": "Nul ne peut être retiré aux juges prévus par la loi. La garantie vise les tribunaux d'exception et protège le justiciable contre une justice créée pour son cas."
+            }
+          ]
         },
         {
           "id": "a-63",
@@ -576,6 +666,12 @@
           "title": "Article 71.",
           "paragraphs": [
             "La noblesse ancienne reprend ses titres. La nouvelle conserve les siens. Le roi fait des nobles à volonté ; mais il ne leur accorde que des rangs et des honneurs, sans aucune exemption des charges et des devoirs de la société."
+          ],
+          "notes": [
+            {
+              "title": "Noblesse sans privilège fiscal",
+              "text": "La noblesse ancienne reprend ses titres et la nouvelle conserve les siens, mais sans exemption de charges. La Charte réintroduit les honneurs, pas l'ordre social privilégié d'avant 1789."
+            }
           ]
         },
         {
@@ -626,6 +722,18 @@
     {
       "title": "Un compromis octroyé",
       "text": "La Charte n'est pas présentée comme l'œuvre du peuple constituant. Elle vient du roi, tout en reconnaissant que la France de 1814 ne peut plus revenir entièrement avant 1789."
+    },
+    {
+      "title": "La Restauration accepte une partie de 1789",
+      "text": "Louis XVIII revient au pouvoir après la chute de Napoléon. La Charte est octroyée par le roi, mais elle maintient l'égalité civile, la dette publique, les biens nationaux et le Code civil : on ne revient pas juridiquement à l'Ancien Régime."
+    },
+    {
+      "title": "Une monarchie limitée, pas parlementaire",
+      "text": "Le texte crée deux Chambres et une responsabilité ministérielle, mais le roi garde l'exécutif, l'initiative de la loi, la sanction et la dissolution. La pratique parlementaire viendra par conflit et par usage, pas par un dessin clair."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel publié par le Conseil constitutionnel donne la Charte. Pour lire le contexte, comparez avec la Charte de 1830 : les différences montrent ce que la révolution de Juillet retirera au roi."
     }
   ]
 }

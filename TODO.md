@@ -91,8 +91,12 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 - Add security review before accepting identity, submissions, votes, or municipal administration.
 - Define backups, export formats, and data portability so public work is never trapped inside the platform.
 
-Agregateur de petitions en introduction
-comment etre federateur et eviter le clivage gauche droit ?
-boussole: rouge/bleu, progressist/conservateur/reactionnaire
-glossaire de tous les mots importants et leur definition politique
-integrer le modele identique mais pour la suisse
+## Possible Ideas
+
+These are not roadmap items yet. Keep them visible until the product direction is stable enough to accept or reject them properly.
+
+- Add a petition aggregator in the introduction.
+- Explore how the product can bring people together without trapping every debate in a left/right split.
+- Add a political compass view: red/blue, progressive/conservative/reactionary.
+- Build a glossary of political and constitutional terms.
+- Explore a similar model for Switzerland.

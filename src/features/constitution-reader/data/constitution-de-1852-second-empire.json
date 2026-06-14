@@ -56,6 +56,12 @@
             "Le Sénat peut, de concert avec le gouvernement, modifier tout ce qui n'est pas fondamental dans la Constitution ; mais quant aux modifications à apporter aux bases premières, sanctionnées par vos suffrages, elles ne peuvent devenir définitives qu'après avoir reçu votre ratification.",
             "Ainsi, le Peuple reste toujours maître de sa destinée. Rien de fondamental ne se fait en dehors de sa volonté.",
             "Telles sont les idées, tels sont les principes dont vous m'avez autorisé à faire l'application. Puisse cette constitution donner à notre patrie des jours calmes et prospères ! Puisse-t-elle prévenir le retour de ces luttes intestines où la victoire, quelque légitime qu'elle soit, est toujours chèrement achetée ! Puisse la sanction que vous avez donnée à mes efforts être bénie du ciel ! Alors la paix sera assurée au-dedans et au-dehors, mes voeux seront comblés, ma mission sera accomplis."
+          ],
+          "notes": [
+            {
+              "title": "La proclamation justifie le coup de force",
+              "text": "Le texte d'ouverture présente le nouveau régime comme une réponse au désordre et aux blocages parlementaires. C'est une écriture de légitimation : le coup d'État devient restauration de l'ordre."
+            }
           ]
         }
       ]
@@ -115,8 +121,8 @@
           ],
           "notes": [
             {
-              "title": "Exécutif dominant",
-              "text": "La Constitution place le pouvoir réel dans les mains du chef de l'État. Les ministres dépendent de lui plus que d'une chambre."
+              "title": "Chef élu pour dix ans",
+              "text": "Le Président de la République gouverne pour dix ans. Le mandat est long, et le texte concentre déjà autour de lui la réalité de l'exécutif."
             }
           ]
         },
@@ -138,6 +144,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Le président de la République est responsable devant le Peuple français, auquel il a toujours le droit de faire appel."
+          ],
+          "notes": [
+            {
+              "title": "Responsable devant le peuple",
+              "text": "Le chef de l'État est dit responsable devant le peuple, auquel il peut toujours faire appel. La responsabilité passe par la consultation populaire, pas par un contrôle parlementaire ordinaire."
+            }
           ]
         },
         {
@@ -195,6 +207,12 @@
           "title": "Article 14.",
           "paragraphs": [
             "Les ministres, les membres du Sénat, du Corps législatif et du Conseil d'Etat, les officiers de terre et de mer, les magistrats et les fonctionnaires publics prêtent le serment ainsi conçu : \" Je jure obéissance à la Constitution et fidélité au président. \""
+          ],
+          "notes": [
+            {
+              "title": "Ministres dépendants du chef",
+              "text": "Les ministres ne dépendent que du chef de l'État et ne forment pas un conseil de gouvernement solidaire. Le texte empêche la naissance d'un cabinet responsable devant une Chambre."
+            }
           ]
         },
         {
@@ -236,6 +254,12 @@
           "title": "Article 19.",
           "paragraphs": [
             "Le nombre des sénateurs ne pourra excéder cent cinquante : il est fixé pour la première année, à quatre-vingts."
+          ],
+          "notes": [
+            {
+              "title": "Sénat conservateur",
+              "text": "Le Sénat garde le pacte fondamental et les libertés publiques, mais il est construit dans l'orbite du chef de l'État. Comme sous l'an VIII, le gardien constitutionnel reste un organe politique."
+            }
           ]
         },
         {
@@ -349,7 +373,13 @@
         {
           "id": "a-34",
           "title": "Article 34.",
-          "paragraphs": ["L'élection a pour base la population."]
+          "paragraphs": ["L'élection a pour base la population."],
+          "notes": [
+            {
+              "title": "Corps législatif élu",
+              "text": "Les députés sont élus par le suffrage universel, sans scrutin de liste. Le suffrage existe donc réellement, mais l'assemblée qu'il produit dispose de moyens limités."
+            }
+          ]
         },
         {
           "id": "a-35",
@@ -407,6 +437,12 @@
           "title": "Article 42.",
           "paragraphs": [
             "Le compte rendu des séances du Corps législatif par les journaux ou tout autre moyen de publication, ne consistera que dans la reproduction du procès-verbal, dressé, à l'issue de chaque séance, par les soins du président du Corps législatif."
+          ],
+          "notes": [
+            {
+              "title": "Bureau nommé par le Président",
+              "text": "Le président et les vice-présidents du Corps législatif sont nommés par le chef de l'État. Même l'organisation interne de l'assemblée dépend du sommet."
+            }
           ]
         },
         {
@@ -455,6 +491,12 @@
           "title": "Article 48.",
           "paragraphs": [
             "Les conseillers d'État sont nommés par le président de la République, et révocables par lui."
+          ],
+          "notes": [
+            {
+              "title": "Conseil d'État sous direction présidentielle",
+              "text": "Le Conseil d'État rédige les projets de loi et les règlements d'administration publique sous la direction du Président. La fabrique de la loi passe d'abord par l'exécutif."
+            }
           ]
         },
         {
@@ -523,6 +565,12 @@
           "title": "Article 56.",
           "paragraphs": [
             "Les dispositions des codes, lois et règlements existants, qui ne sont pas contraires à la présente Constitution, restent en vigueur jusqu'à ce qu'il y soit légalement dérogé."
+          ],
+          "notes": [
+            {
+              "title": "Droits garantis par renvoi",
+              "text": "Le texte déclare confirmés les grands principes de 1789. La garantie est réelle dans les mots, mais l'organisation des pouvoirs donne peu de moyens parlementaires pour les défendre."
+            }
           ]
         },
         {
@@ -537,6 +585,12 @@
           "title": "Article 58.",
           "paragraphs": [
             "La présente Constitution sera en vigueur à dater du jour où les grands Corps de l'État qu'elle organise seront constitués. - Les décrets rendus par le président de la République, à partir du 2 décembre jusqu'à cette époque, auront force de loi."
+          ],
+          "notes": [
+            {
+              "title": "Révision par le peuple sur proposition du chef",
+              "text": "Les bases constitutionnelles ne peuvent changer qu'avec l'acceptation du peuple, mais seulement sur proposition du Président. Le peuple ratifie; il ne prend pas l'initiative."
+            }
           ]
         }
       ]
@@ -569,6 +623,12 @@
           "title": "Article 3.",
           "paragraphs": [
             "Louis Napoléon Bonaparte, s'il n'a pas d'enfants mâles, peut adopter les enfants et descendants légitimes, dans la ligne masculine des frères de l'Empereur Napoléon Ier. - Les formes de l'adoption sont réglées par un sénatus-consulte. - Si, postérieurement à l'adoption, il survient à Louis Napoléon des enfants mâles, ses fils adoptifs ne pourront être appelés à lui succéder qu'après ses descendants légitimes. - L'adoption est interdite aux successeurs de Louis Napoléon et à leur descendance."
+          ],
+          "notes": [
+            {
+              "title": "Empire héréditaire",
+              "text": "Le sénatus-consulte de novembre 1852 rétablit la dignité impériale dans la famille de Louis-Napoléon. La consultation populaire sert à transformer le pouvoir présidentiel en dynastie."
+            }
           ]
         },
         {
@@ -605,6 +665,12 @@
           "paragraphs": [
             "La proposition suivante sera présentée à l'acceptation du Peuple français dans les formes déterminées par les décrets des 2 et 4 décembre 1851 :",
             "« Le Peuple français veut le rétablissement de la dignité impériale dans la personne de Louis Napoléon Bonaparte, avec hérédité dans sa descendance directe, légitime ou adoptive, et lui donne le droit de régler l'ordre de succession au trône dans la famille Bonaparte, ainsi qu'il est prévu par le sénatus-consulte du 7 novembre 1852. »"
+          ],
+          "notes": [
+            {
+              "title": "Napoléon III",
+              "text": "Le décret impérial proclame Louis-Napoléon Bonaparte Empereur sous le nom de Napoléon III. La République de 1852 bascule officiellement dans le Second Empire."
+            }
           ]
         }
       ]
@@ -1277,6 +1343,12 @@
           "title": "Article 26.",
           "paragraphs": [
             "Le Sénat s'oppose à la promulgation : - 1 ° Des lois qui seraient contraires ou qui porteraient atteinte à la Constitution, à la religion, à la morale, à la liberté des cultes, à la liberté individuelle, à l'égalité des citoyens devant la loi, à l'inviolabilité de la propriété et au principe de l'inamovibilité de la magistrature ; - 2 ° De celles qui pourraient compromettre la défense du territoire. - Le Sénat peut en outre avant de se prononcer sur la promulgation d'une loi, décider, par une résolution motivée, que cette loi sera soumise à une nouvelle délibération du Corps législatif. - Cette nouvelle délibération n'aura lieu que dans une session suivante, à moins que le Sénat n'ait reconnu qu'il y a urgence. - Lorsque, dans une seconde délibération, le Corps législatif a adopté la loi sans changements, le Sénat, saisi de nouveau, délibère uniquement sur la question de savoir s'il s'oppose ou non à la promulgation de la loi conformément aux nos 1 et 2 du présent article."
+          ],
+          "notes": [
+            {
+              "title": "Interpellation",
+              "text": "Le sénatus-consulte de 1867 introduit l'interpellation. C'est une étape du libéralisme impérial : le Corps législatif peut questionner plus directement le gouvernement."
+            }
           ]
         }
       ]
@@ -1481,6 +1553,12 @@
           "paragraphs": [
             "L'empereur gouverne avec le concours des ministres, du Sénat, du Corps législatif et du Conseil d'Etat.",
             "ART. 11. - La puissance législative s'exerce collectivement par l'empereur, le Sénat et le Corps législatif."
+          ],
+          "notes": [
+            {
+              "title": "Le tournant parlementaire de 1870",
+              "text": "Le texte de 1870 associe l'Empereur, les ministres, le Sénat, le Corps législatif et le Conseil d'État. Il tente de transformer l'Empire en régime plus parlementaire, quelques mois avant sa chute."
+            }
           ]
         },
         {
@@ -1501,6 +1579,12 @@
           "title": "Article 13.",
           "paragraphs": [
             "L'empereur est responsable devant le Peuple français, auquel il a toujours le droit de faire appel."
+          ],
+          "notes": [
+            {
+              "title": "Responsable devant le peuple",
+              "text": "L'Empereur reste responsable devant le peuple, auquel il peut faire appel. Même dans la phase libérale, la légitimité directe impériale demeure le centre du régime."
+            }
           ]
         },
         {
@@ -1541,6 +1625,12 @@
           "title": "Article 19.",
           "paragraphs": [
             "L'empereur nomme et révoque les ministres. - Les ministres délibèrent en conseil sous la présidence de l'empereur. - Ils sont responsables."
+          ],
+          "notes": [
+            {
+              "title": "Ministres responsables",
+              "text": "Les ministres sont nommés et révoqués par l'Empereur, mais le texte affirme leur responsabilité. La formule cherche un équilibre tardif entre pouvoir impérial et gouvernement parlementaire."
+            }
           ]
         },
         {
@@ -1633,6 +1723,12 @@
           "title": "Article 31.",
           "paragraphs": [
             "Les députés sont élus par le suffrage universel, sans scrutin de liste."
+          ],
+          "notes": [
+            {
+              "title": "Suffrage universel maintenu",
+              "text": "Les députés restent élus par le suffrage universel. Le Second Empire n'a jamais abandonné ce ressort de légitimation; il en limite surtout les effets institutionnels."
+            }
           ]
         },
         {
@@ -1647,6 +1743,12 @@
           "title": "Article 33.",
           "paragraphs": [
             "Le Corps législatif discute et vote les projets de lois."
+          ],
+          "notes": [
+            {
+              "title": "Le Corps législatif discute et vote",
+              "text": "En 1870, le Corps législatif discute et vote les projets de lois. La différence avec 1852 est nette : l'assemblée retrouve une vraie fonction délibérative."
+            }
           ]
         },
         {
@@ -1736,6 +1838,12 @@
           "title": "Article 44.",
           "paragraphs": [
             "La Constitution ne peut être modifiée que par le Peuple, sur la proposition de l'empereur."
+          ],
+          "notes": [
+            {
+              "title": "Révision réservée au peuple",
+              "text": "La Constitution ne peut être modifiée que par le peuple, sur proposition de l'Empereur. Le principe garde la logique impériale : validation populaire, initiative au sommet."
+            }
           ]
         },
         {
@@ -1754,6 +1862,22 @@
     {
       "title": "Le suffrage sans contrôle parlementaire fort",
       "text": "Le régime utilise le suffrage universel comme source de légitimation, mais limite fortement la capacité des représentants à contrôler l'exécutif."
+    },
+    {
+      "title": "Après le coup d'État du 2 décembre 1851",
+      "text": "La Constitution de 1852 suit le coup d'État de Louis-Napoléon Bonaparte. Elle conserve le mot République au départ, mais elle donne le pouvoir réel au chef de l'État et prépare le retour de l'Empire."
+    },
+    {
+      "title": "Suffrage universel et pouvoir personnel",
+      "text": "Le régime ne supprime pas le suffrage universel masculin. Il l'utilise pour valider le chef, tandis que le Corps législatif, le Sénat et le Conseil d'État restent fortement encadrés."
+    },
+    {
+      "title": "Un fichier qui raconte une évolution",
+      "text": "Ce document contient aussi des sénatus-consultes ultérieurs, jusqu'au tournant libéral de 1870. Il faut donc le lire comme une trajectoire : autorité concentrée en 1852, parlementarisation partielle à la fin du Second Empire."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel permet de suivre les actes successifs. Pour le contexte, comparez avec l'an VIII : les outils napoléoniens reviennent, mais sous Louis-Napoléon."
     }
   ]
 }

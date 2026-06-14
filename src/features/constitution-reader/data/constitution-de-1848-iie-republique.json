@@ -44,8 +44,8 @@
           ],
           "notes": [
             {
-              "title": "Question sociale",
-              "text": "La Constitution de 1848 porte une attente sociale plus visible : travail, assistance, instruction, protection. La République ne se limite pas à l'organisation des pouvoirs."
+              "title": "Une République morale et sociale",
+              "text": "Le préambule parle de famille, travail, propriété, ordre public, instruction et assistance. La République de 1848 ne se présente pas seulement comme un mécanisme électoral; elle promet une société plus juste sans abolir la propriété."
             }
           ]
         }
@@ -98,13 +98,25 @@
         {
           "id": "a-5",
           "title": "Article 5.",
-          "paragraphs": ["La peine de mort est abolie en matière politique."]
+          "paragraphs": ["La peine de mort est abolie en matière politique."],
+          "notes": [
+            {
+              "title": "Peine de mort politique abolie",
+              "text": "La peine de mort disparaît en matière politique, pas pour tous les crimes. Le souvenir des violences révolutionnaires et des répressions politiques pèse sur cette garantie."
+            }
+          ]
         },
         {
           "id": "a-6",
           "title": "Article 6.",
           "paragraphs": [
             "L'esclavage ne peut exister sur aucune terre française."
+          ],
+          "notes": [
+            {
+              "title": "Abolition de l'esclavage",
+              "text": "L'article constitutionnalise l'abolition décidée par le décret du 27 avril 1848. La formule est courte, mais elle inscrit dans le droit constitutionnel qu'aucune terre française ne peut connaître l'esclavage."
+            }
           ]
         },
         {
@@ -119,6 +131,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Les citoyens ont le droit de s'associer, de s'assembler paisiblement et sans armes, de pétitionner, de manifester leurs pensées par la voie de la presse ou autrement. - L'exercice de ces droits n'a pour limites que les droits ou la liberté d'autrui et la sécurité publique. - La presse ne peut, en aucun cas, être soumise à la censure."
+          ],
+          "notes": [
+            {
+              "title": "Libertés publiques groupées",
+              "text": "Association, réunion, pétition et presse sont réunies dans un même article. Pour une République née d'une révolution politique, ces libertés servent à faire vivre l'espace public."
+            }
           ]
         },
         {
@@ -154,6 +172,12 @@
           "title": "Article 13.",
           "paragraphs": [
             "La Constitution garantit aux citoyens la liberté du travail et de l'industrie. La société favorise et encourage le développement du travail par l'enseignement primaire gratuit, l'éducation professionnelle, l'égalité de rapports, entre le patron et l'ouvrier, les institutions de prévoyance et de crédit, les institutions agricoles, les associations volontaires, et l'établissement, par l'Etat, les départements et les communes, de travaux publics propres à employer les bras inoccupés ; elle fournit l'assistance aux enfants abandonnés, aux infirmes et aux vieillards sans ressources, et que leurs familles ne peuvent secourir."
+          ],
+          "notes": [
+            {
+              "title": "La question du travail",
+              "text": "L'article garantit la liberté du travail et de l'industrie, puis parle d'enseignement, d'assistance et de travaux publics. Il cherche une réponse sociale sans reconnaître un droit au travail pleinement opposable."
+            }
           ]
         },
         {
@@ -195,6 +219,12 @@
           "title": "Article 18.",
           "paragraphs": [
             "Tous les pouvoirs publics, quels qu'ils soient, émanent du peuple. - Ils ne peuvent être délégués héréditairement."
+          ],
+          "notes": [
+            {
+              "title": "Pas d'hérédité politique",
+              "text": "Tous les pouvoirs émanent du peuple et ne peuvent être délégués héréditairement. La Deuxième République ferme la porte constitutionnelle au modèle dynastique."
+            }
           ]
         },
         {
@@ -215,6 +245,12 @@
           "title": "Article 20.",
           "paragraphs": [
             "Le peuple français délègue le pouvoir législatif à une Assemblée unique."
+          ],
+          "notes": [
+            {
+              "title": "Assemblée unique",
+              "text": "Le pouvoir législatif revient à une seule Assemblée. Le choix évite une chambre haute conservatrice, mais il supprime aussi un possible filtre institutionnel."
+            }
           ]
         },
         {
@@ -241,6 +277,12 @@
           "title": "Article 24.",
           "paragraphs": [
             "Le suffrage est direct et universel. Le scrutin est secret."
+          ],
+          "notes": [
+            {
+              "title": "Suffrage direct, universel, secret",
+              "text": "L'article consacre le suffrage universel masculin direct et le secret du vote. C'est un saut politique par rapport aux monarchies censitaires de 1814 et 1830."
+            }
           ]
         },
         {
@@ -309,6 +351,12 @@
           "title": "Article 34.",
           "paragraphs": [
             "Les membres de l'Assemblée nationale sont les représentants, non du département qui les nomme, mais de la France entière."
+          ],
+          "notes": [
+            {
+              "title": "Mandat national",
+              "text": "Le représentant élu dans un département représente la France entière. Le principe reprend une idée installée depuis 1791 : le député n'est pas le délégué juridiquement lié d'un territoire."
+            }
           ]
         },
         {
@@ -376,6 +424,12 @@
           "title": "Article 43",
           "paragraphs": [
             "Le peuple français délègue le Pouvoir exécutif à un citoyen qui reçoit le titre de président de la République."
+          ],
+          "notes": [
+            {
+              "title": "Un Président dans une République parlementaire",
+              "text": "Le pouvoir exécutif est confié à un Président de la République. La nouveauté n'est pas seulement le titre : l'exécutif reçoit une incarnation personnelle forte."
+            }
           ]
         },
         {
@@ -391,12 +445,7 @@
           "paragraphs": [
             "Le président de la République est élu pour quatre ans, et n'est rééligible qu'après un intervalle de quatre années. - Ne peuvent, non plus, être élus après lui, dans le même intervalle, ni le vice-président, ni aucun des parents ou alliés du président jusqu'au sixième degré inclusivement."
           ],
-          "notes": [
-            {
-              "title": "Président élu au suffrage direct",
-              "text": "L'élection directe donne au Président une légitimité propre face à l'Assemblée. Cette dualité pèsera lourd dans la crise qui mène au coup d'État de 1851."
-            }
-          ]
+          "notes": []
         },
         {
           "id": "a-46",
@@ -438,6 +487,12 @@
           "title": "Article 51.",
           "paragraphs": [
             "Il ne peut céder aucune portion du territoire, ni dissoudre ni proroger l'Assemblée nationale, ni suspendre, en aucune manière, l'empire de la Constitution et des lois."
+          ],
+          "notes": [
+            {
+              "title": "Pas de dissolution",
+              "text": "Le Président ne peut ni dissoudre ni proroger l'Assemblée, ni suspendre la Constitution. Si le conflit devient frontal, le texte offre peu de sortie institutionnelle."
+            }
           ]
         },
         {
@@ -487,6 +542,12 @@
           "title": "Article 58.",
           "paragraphs": [
             "Dans le délai fixé pour la promulgation, le président de la République peut, par un message motivé, demander une nouvelle délibération. - L'Assemblée délibère : sa résolution devient définitive ; elle est transmise au président de la République. - En ce cas, la promulgation a lieu dans le délai fixé pour les lois d'urgence."
+          ],
+          "notes": [
+            {
+              "title": "Nouvelle délibération seulement",
+              "text": "Le Président peut demander une nouvelle délibération, mais la décision de l'Assemblée devient ensuite définitive. Ce n'est pas un veto durable."
+            }
           ]
         },
         {
@@ -527,6 +588,12 @@
           "title": "Article 64.",
           "paragraphs": [
             "Le président de la République nomme et révoque les ministres. - Il nomme et révoque, en Conseil des Ministres, les agents diplomatiques, les commandants en chef des armées de terre et de mer, les préfets, le commandant supérieur des gardes nationales de la Seine, les gouverneurs de l'Algérie et des colonies, les procureurs généraux et autres fonctionnaires d'un ordre supérieurs - Il nomme et révoque, sur la proposition du ministre compétent, dans les conditions réglementaires déterminées par la loi, les agents secondaires du gouvernement."
+          ],
+          "notes": [
+            {
+              "title": "Nomination et administration",
+              "text": "Le Président nomme les ministres, les préfets, les officiers et de nombreux agents. Même sans pouvoir dissoudre, il tient une partie forte de l'administration d'État."
+            }
           ]
         },
         {
@@ -548,6 +615,12 @@
           "title": "Article 67.",
           "paragraphs": [
             "Les actes du président de la République, autres que ceux par lesquels il nomme et révoque les ministres, n'ont d'effet que s'ils sont contresignés par un ministre."
+          ],
+          "notes": [
+            {
+              "title": "Contreseing ministériel",
+              "text": "La plupart des actes présidentiels doivent être contresignés par un ministre. Le contreseing cherche à rattacher l'acte du Président à une responsabilité gouvernementale."
+            }
           ]
         },
         {
@@ -555,6 +628,12 @@
           "title": "Article 68.",
           "paragraphs": [
             "Le président de la République, les ministres, les agents et dépositaires de l'autorité publique, sont responsables, chacun en ce qui le concerne, de tous les actes du gouvernement et de l'administration. - Toute mesure par laquelle le président de la République dissout l'Assemblée nationale, la proroge ou met obstacle à l'exercice de son mandat, est un crime de haute trahison. - Par ce seul fait, le président est déchu de ses fonctions ; les citoyens sont tenus de lui refuser obéissance ; le pouvoir exécutif passe de plein droit à l'Assemblée nationale. Les juges de la Haute Cour de justice se réunissent immédiatement à peine de forfaiture : ils convoquent les jurés dans le lieu qu'ils désignent, pour procéder au jugement du président et de ses complices ; ils nomment eux-mêmes les magistrats chargés de remplir les fonctions du ministère public. - Une loi déterminera les autres cas de responsabilité, ainsi que les formes et les conditions de la poursuite."
+          ],
+          "notes": [
+            {
+              "title": "Haute trahison constitutionnelle",
+              "text": "Toute mesure par laquelle le Président dissout l'Assemblée ou suspend la Constitution est qualifiée de crime de haute trahison. L'article vise précisément le coup de force que le régime redoute."
+            }
           ]
         },
         {
@@ -610,6 +689,12 @@
           "title": "Article 75.",
           "paragraphs": [
             "Le Conseil d'État est consulté sur les projets de loi du Gouvernement qui, d'après la loi, devront être soumis à son examen préalable, et sur les projets d'initiative parlementaire que l'Assemblée lui aura renvoyés. - Il prépare les règlements d'administration publique ; il fait seul ceux de ces règlements à l'égard desquels l'Assemblée nationale lui a donné une délégation spéciale. - Il exerce, à l'égard des administrations publiques, tous les pouvoirs de contrôle et de surveillance qui lui sont déférés par la loi. - La loi règlera ses autres attributions."
+          ],
+          "notes": [
+            {
+              "title": "Conseil d'État consultatif",
+              "text": "Le Conseil d'État examine certains projets et prépare des règlements d'administration publique. Il reste une pièce technique du gouvernement, mais il est nommé par l'Assemblée."
+            }
           ]
         }
       ]
@@ -644,6 +729,12 @@
           "title": "Article 79.",
           "paragraphs": [
             "Les conseils généraux et les conseils municipaux sont élus par le suffrage direct de tous les citoyens domiciliés dans le département ou dans la commune. Chaque canton élit un membre du conseil général. - Une loi spéciale réglera le mode d'élection dans le département de la Seine, dans la ville de Paris et dans les villes de plus de vingt mille âmes."
+          ],
+          "notes": [
+            {
+              "title": "Élection locale directe",
+              "text": "Les conseils généraux et municipaux sont élus par le suffrage direct. La République de 1848 associe donc suffrage national et enracinement local."
+            }
           ]
         },
         {
@@ -678,6 +769,12 @@
           "title": "Article 83.",
           "paragraphs": [
             "La connaissance de tous les délits politiques et de tous les délits commis par la voie de la presse appartient exclusivement au jury. - Les lois organiques détermineront la compétence en matière de délits d'injures et de diffamation contre les particuliers."
+          ],
+          "notes": [
+            {
+              "title": "Jury pour presse et politique",
+              "text": "Les délits politiques et les délits de presse relèvent du jury. La règle protège la parole publique contre une justice trop directement gouvernementale."
+            }
           ]
         },
         {
@@ -942,6 +1039,18 @@
     {
       "title": "La République par le suffrage",
       "text": "Le texte fait entrer le suffrage universel masculin au centre du régime. Il crée aussi une tension durable entre un Président élu par le pays et une Assemblée qui se veut souveraine."
+    },
+    {
+      "title": "La République après février 1848",
+      "text": "La Constitution suit la chute de la monarchie de Juillet et l'instauration de la Deuxième République. Elle met le suffrage universel masculin au centre du régime et tente d'associer liberté politique, ordre public et question sociale."
+    },
+    {
+      "title": "Le nœud du texte",
+      "text": "La Constitution crée une Assemblée unique et un Président élu directement par les citoyens. Deux légitimités fortes coexistent sans vrai mécanisme d'arbitrage; cette faiblesse pèsera dans la crise de 1851."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel suffit pour suivre les articles. Pour comprendre les tensions, gardez en tête les journées de Juin 1848, le suffrage universel masculin et l'élection de Louis-Napoléon Bonaparte en décembre."
     }
   ]
 }

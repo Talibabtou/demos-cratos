@@ -20,6 +20,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "Il sera ouvert, dans chaque commune, des registres où les citoyens seront invités à consigner leur voeu sur cette question."
+          ],
+          "notes": [
+            {
+              "title": "Un vote encadré localement",
+              "text": "Les citoyens inscrivent leur vœu dans chaque commune. Le geste paraît participatif, mais la question posée vient du sommet et porte sur la confirmation d'un pouvoir déjà installé."
+            }
           ]
         },
         {
@@ -27,6 +33,12 @@
           "title": "Article 3.",
           "paragraphs": [
             "Ces registres seront ouverts aux secrétariats de toutes les administrations, aux greffes de tous les tribunaux, chez tous les maires et tous les notaires."
+          ],
+          "notes": [
+            {
+              "title": "Des registres partout",
+              "text": "Mairies, tribunaux, administrations et notaires reçoivent les votes. Cette présence large facilite la participation, mais elle rend aussi le vote socialement visible."
+            }
           ]
         },
         {
@@ -51,7 +63,7 @@
           "notes": [
             {
               "title": "Pouvoir à vie",
-              "text": "La durée du mandat change la logique du régime. Le chef de l'exécutif n'est plus seulement fort ; il devient durablement installé."
+              "text": "La durée du mandat change la logique du régime. Le chef de l'exécutif n'est plus seulement fort; il devient durablement installé."
             }
           ]
         },
@@ -60,6 +72,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "Une statue de la Paix, tenant d'une main le laurier de la Victoire, et de l'autre le décret du Sénat, attestera à la postérité la reconnaissance de la Nation."
+          ],
+          "notes": [
+            {
+              "title": "Une scène de reconnaissance",
+              "text": "La statue de la Paix associe victoire militaire, paix civile et gratitude nationale. L'article ne règle pas une institution; il organise une mémoire officielle autour de Bonaparte."
+            }
           ]
         },
         {
@@ -107,6 +125,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "L'assemblée de canton se compose de tous les citoyens domiciliés dans le canton, et qui y sont inscrits sur la liste communale d'arrondissement. - A dater de l'époque où, aux termes de la Constitution, les listes communales doivent être renouvelées, l'assemblée de canton sera composée de tous les citoyens domiciliés dans le canton, et qui y jouissent des droits de citoyen."
+          ],
+          "notes": [
+            {
+              "title": "L'assemblée de canton",
+              "text": "L'assemblée de canton rassemble les citoyens inscrits sur la liste communale. Le suffrage n'est pas supprimé, mais il sert surtout à présenter ou composer des corps électoraux."
+            }
           ]
         },
         {
@@ -114,6 +138,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Le Premier consul nomme le président de l'assemblée de canton ; - Ses fonctions durent cinq ans : il peut être renommé indéfiniment. - Il est assisté de quatre scrutateurs, dont deux sont les plus âgés, et les deux autres les plus imposés des citoyens ayant droit de voter dans l'assemblée de canton. - Le président et les quatre scrutateurs nomment le secrétaire."
+          ],
+          "notes": [
+            {
+              "title": "Le président vient du Premier consul",
+              "text": "Le Premier consul nomme le président de l'assemblée de canton pour cinq ans. Même au niveau local, l'organisation du vote dépend d'une autorité venue du centre."
+            }
           ]
         },
         {
@@ -135,6 +165,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "L'assemblée de canton désigne deux citoyens sur lesquels le Premier consul choisit le juge de paix du canton. - Elle désigne pareillement deux citoyens pour chaque place vacante de suppléant de juge de paix."
+          ],
+          "notes": [
+            {
+              "title": "Présenter deux noms, laisser choisir",
+              "text": "L'assemblée de canton propose deux citoyens pour le juge de paix; le Premier consul choisit. La participation locale prépare la nomination, elle ne la décide pas seule."
+            }
           ]
         },
         {
@@ -156,6 +192,12 @@
           "title": "Article 11.",
           "paragraphs": [
             "Les membres des conseils municipaux sont pris par chaque assemblée de canton, sur la liste des cent plus imposés du canton. Cette liste sera arrêtée et imprimée par ordre du préfet."
+          ],
+          "notes": [
+            {
+              "title": "Les plus imposés dans la commune",
+              "text": "Les conseils municipaux sont pris parmi les cent citoyens les plus imposés du canton. Le texte réintroduit une logique de notables : la contribution fiscale devient un signe de capacité politique locale."
+            }
           ]
         },
         {
@@ -170,6 +212,12 @@
           "title": "Article 13.",
           "paragraphs": [
             "Le Premier consul choisit les maires et adjoints dans les conseils municipaux ; ils sont cinq ans en place : ils peuvent être renommés."
+          ],
+          "notes": [
+            {
+              "title": "Maires choisis au sommet",
+              "text": "Le Premier consul choisit les maires et adjoints dans les conseils municipaux. Pour comprendre la centralisation française, cet article compte : la commune existe, mais sa tête dépend du pouvoir central."
+            }
           ]
         },
         {
@@ -198,6 +246,12 @@
           "title": "Article 17.",
           "paragraphs": [
             "Le gouvernement convoque les assemblées de canton, fixe le temps de leur durée et l'objet de leur réunion."
+          ],
+          "notes": [
+            {
+              "title": "Réunions sur convocation du gouvernement",
+              "text": "Les assemblées de canton ne se réunissent pas librement. Le gouvernement fixe le moment, la durée et l'objet de la réunion; la participation politique reste cadrée."
+            }
           ]
         }
       ]
@@ -223,7 +277,13 @@
         {
           "id": "a-26",
           "title": "Article 20.",
-          "paragraphs": ["Les membres des collèges électoraux sont à vie."]
+          "paragraphs": ["Les membres des collèges électoraux sont à vie."],
+          "notes": [
+            {
+              "title": "Collèges électoraux à vie",
+              "text": "Les membres des collèges électoraux siègent à vie. Le système fabrique des corps stables de notables, plus faciles à contrôler qu'un électorat renouvelé à chaque crise."
+            }
+          ]
         },
         {
           "id": "a-27",
@@ -258,6 +318,12 @@
           "title": "Article 25.",
           "paragraphs": [
             "Pour parvenir à la formation des collèges électoraux de département, il sera dressé dans chaque département, sous les ordres du ministre des Finances, une liste des six cents citoyens les plus imposés aux rôles des contributions foncière, mobilière et somptuaire, et au rôle des patentes. - On ajoute à la somme de la contribution, dans le domicile du département, celle qu'on peut justifier payer dans les autres parties du territoire de la France et de ses colonies. - Cette liste sera imprimée."
+          ],
+          "notes": [
+            {
+              "title": "Les six cents plus imposés",
+              "text": "Le collège de département se construit à partir d'une liste fiscale. Le texte donne un rôle privilégié aux grands contribuables, sans revenir franchement au suffrage censitaire de 1791."
+            }
           ]
         },
         {
@@ -272,6 +338,12 @@
           "title": "Article 27.",
           "paragraphs": [
             "Le Premier consul peut ajouter aux collèges électoraux d'arrondissement dix membres pris parmi les citoyens appartenant à la Légion d'honneur, ou qui ont rendu des services. - Il peut ajouter à chaque collège électoral de département vingt citoyens, dont dix pris parmi les trente plus imposés du département, et les dix autres, soit parmi les membres de la Légion d'honneur, soit parmi les citoyens qui ont rendu des services. Il n'est point assujetti, pour ces nominations, à des époques déterminées."
+          ],
+          "notes": [
+            {
+              "title": "Le Premier consul ajoute ses hommes",
+              "text": "Le Premier consul peut ajouter des membres aux collèges électoraux, notamment des légionnaires ou des citoyens distingués par leurs services. Le pouvoir corrige ainsi les viviers électoraux par nomination."
+            }
           ]
         },
         {
@@ -335,6 +407,12 @@
           "title": "Article 36.",
           "paragraphs": [
             "Les collèges électoraux ne s'assemblent qu'en vertu d'un acte de convocation émané du gouvernement, et dans le lieu qui leur est assigné. - Ils ne peuvent s'occuper que des opérations pour lesquelles ils sont convoqués, ni continuer leurs séances au-delà du terme fixé par l'acte de convocation. - S'ils sortent de ces bornes, le gouvernement a le droit de les dissoudre."
+          ],
+          "notes": [
+            {
+              "title": "Collèges convoqués et limités",
+              "text": "Les collèges électoraux ne s'assemblent que sur convocation du gouvernement et ne traitent que l'objet fixé. Le régime accepte l'élection, mais refuse l'assemblée politique autonome."
+            }
           ]
         },
         {
@@ -342,6 +420,12 @@
           "title": "Article 37.",
           "paragraphs": [
             "Les collèges électoraux ne peuvent ni directement ni indirectement, sous quelque prétexte que ce soit, correspondre entre eux."
+          ],
+          "notes": [
+            {
+              "title": "Pas de réseau entre collèges",
+              "text": "Les collèges électoraux ne peuvent pas correspondre entre eux. La règle empêche la formation d'une force politique nationale issue des collèges."
+            }
           ]
         },
         {
@@ -362,6 +446,12 @@
           "title": "Article 39.",
           "paragraphs": [
             "Les consuls sont à vie : - Ils sont membres du Sénat, et le président."
+          ],
+          "notes": [
+            {
+              "title": "Consuls à vie",
+              "text": "Les consuls deviennent membres du Sénat et le président. La fonction consulaire n'est plus seulement exécutive; elle se place au-dessus des organes qui devraient la contrôler."
+            }
           ]
         },
         {
@@ -389,6 +479,12 @@
           "title": "Article 42.",
           "paragraphs": [
             "Lorsque le Premier consul le juge convenable, il présente un citoyen pour lui succéder après sa mort, dans les formes indiquées par l'article précédent."
+          ],
+          "notes": [
+            {
+              "title": "Le Premier consul choisit l'après",
+              "text": "Bonaparte peut présenter un citoyen pour lui succéder après sa mort. Le texte ne dit pas encore hérédité, mais il retire déjà l'avenir du régime à une compétition politique ouverte."
+            }
           ]
         },
         {
@@ -403,6 +499,12 @@
           "title": "Article 44.",
           "paragraphs": [
             "Le serment est ainsi conçu : - « Je jure de maintenir la Constitution, de respecter la liberté des consciences, de m'opposer au retour des institutions féodales, de ne jamais faire la guerre que pour la défense et la gloire de la République, et de n'employer le pouvoir dont je serai revêtu que pour le bonheur du peuple, de qui et pour qui je l'aurai reçu. »"
+          ],
+          "notes": [
+            {
+              "title": "Un serment républicain très napoléonien",
+              "text": "Le serment promet la Constitution, la liberté des consciences et le refus du retour féodal. Il lie aussi la guerre à la défense et à la gloire de la République : la formule garde 1789 et annonce l'Empire."
+            }
           ]
         },
         {
@@ -479,6 +581,12 @@
           "title": "Article 54.",
           "paragraphs": [
             "Le Sénat règle par un sénatus-consulte organique, - 1 ° La constitution des colonies ; - 2 ° Tout ce qui n'a pas été prévu par la Constitution, et qui est nécessaire à sa marche ; - 3 ° Il explique les articles de la Constitution qui donnent lieu à différentes interprétations."
+          ],
+          "notes": [
+            {
+              "title": "Le Sénat complète la Constitution",
+              "text": "Le Sénat règle par sénatus-consulte ce que la Constitution n'a pas prévu et explique les articles douteux. Cette faculté transforme le Sénat en atelier de révision permanent."
+            }
           ]
         },
         {
@@ -486,6 +594,12 @@
           "title": "Article 55.",
           "paragraphs": [
             "Le Sénat, par des actes intitulés sénatus-consultes, - 1 ° Suspend pour cinq ans les fonctions de jurés dans les départements où cette mesure est nécessaire ; - 2 ° Déclare, quand les circonstances l'exigent, des départements hors de la Constitution ; - 3 ° Détermine le temps dans lequel des individus arrêtés en vertu de l'article 46 de la Constitution, doivent être traduits devant les tribunaux, lorsqu'ils ne l'ont pas été dans les dix jours de leur arrestation ; - 4 ° Annule les jugements des tribunaux, lorsqu'ils sont attentatoires à la sûreté de l'État ; - 5 ° Dissout le Corps législatif et le Tribunat ; - 6 ° Nomme les consuls."
+          ],
+          "notes": [
+            {
+              "title": "Départements hors Constitution",
+              "text": "Le Sénat peut suspendre les jurys, mettre des départements hors de la Constitution et dissoudre le Corps législatif ou le Tribunat. Le texte normalise des pouvoirs d'exception."
+            }
           ]
         },
         {
@@ -542,6 +656,12 @@
           "title": "Article 63.",
           "paragraphs": [
             "Le Premier consul peut, en outre, nommer au Sénat, sans présentation préalable par les collèges électoraux de département, des citoyens distingués par leurs services et leurs talents, à condition néanmoins qu'ils auront l'âge requis par la Constitution, et que le nombre des sénateurs ne pourra, en aucun cas, excéder cent vingt."
+          ],
+          "notes": [
+            {
+              "title": "Nommer au Sénat sans passer par les collèges",
+              "text": "Le Premier consul peut ajouter au Sénat des citoyens distingués sans présentation préalable par les collèges. Le contrôle du Sénat par le chef de l'exécutif devient plus direct."
+            }
           ]
         },
         {
@@ -636,6 +756,12 @@
           "title": "Article 75.",
           "paragraphs": [
             "Le gouvernement convoque, ajourne et proroge le Corps législatif"
+          ],
+          "notes": [
+            {
+              "title": "Le gouvernement tient le calendrier législatif",
+              "text": "Le gouvernement convoque, ajourne et proroge le Corps législatif. Même affaibli depuis l'an VIII, le pouvoir législatif dépend davantage encore de l'exécutif."
+            }
           ]
         }
       ]
@@ -649,6 +775,12 @@
           "title": "Article 76.",
           "paragraphs": [
             "A dater de l'an XIII, le Tribunat sera réduit à cinquante membres. - Moitié des cinquante sortira tous les trois ans. Jusqu'à cette réduction, les membres sortants ne seront pas remplacés. - Le Tribunat se divise en sections."
+          ],
+          "notes": [
+            {
+              "title": "Réduire le Tribunat",
+              "text": "Le Tribunat passe vers cinquante membres et se divise en sections. Ce corps, qui pouvait discuter les projets de loi, perd peu à peu sa capacité de gêner le gouvernement."
+            }
           ]
         },
         {
@@ -688,6 +820,12 @@
           "title": "Article 8",
           "paragraphs": [
             "I. - Il a sur les tribunaux, les justices de paix et les membres qui les composent, le droit de les surveiller, et de les reprendre."
+          ],
+          "notes": [
+            {
+              "title": "Surveiller les juges",
+              "text": "Le grand-juge peut surveiller et reprendre les tribunaux. Le régime renforce ainsi la hiérarchie judiciaire autour d'un ministre placé dans l'orbite du Premier consul."
+            }
           ]
         },
         {
@@ -730,6 +868,12 @@
           "paragraphs": [
             "Le Premier Consul a droit de faire grâce. - Il l'exerce après avoir entendu, dans un conseil privé, le grand-juge, deux ministres, deux sénateurs, deux conseillers d'État et deux juges du Tribunal de cassation.",
             "Suivent les tableaux annoncés dans les articles 69 et 71."
+          ],
+          "notes": [
+            {
+              "title": "Le droit de grâce",
+              "text": "Le Premier consul peut faire grâce après avis d'un conseil privé. Le pouvoir de clémence, très personnel, rapproche déjà la fonction consulaire d'une prérogative monarchique."
+            }
           ]
         }
       ]
@@ -737,8 +881,20 @@
   ],
   "notes": [
     {
-      "title": "Le glissement plébiscitaire",
-      "text": "L'appel au peuple sert ici à confirmer un pouvoir déjà concentré. C'est une forme de participation qui légitime plus qu'elle ne contrôle."
+      "title": "Du Consulat au Consulat à vie",
+      "text": "Le texte du 16 thermidor an X, soit le 4 août 1802, transforme la magistrature de Bonaparte. Le Premier consul n'est plus seulement nommé pour dix ans; il devient titulaire à vie, avec une succession déjà pensée."
+    },
+    {
+      "title": "Le vote par registres",
+      "text": "L'arrêté du 20 floréal an X organise le vote sur des registres ouverts dans les communes, administrations, tribunaux, mairies et études de notaires. Ce n'est pas un scrutin secret moderne : la procédure donne de la publicité au ralliement."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel montre bien la méthode napoléonienne : le peuple est consulté, le Sénat proclame, puis un sénatus-consulte organique réécrit l'équilibre des institutions."
+    },
+    {
+      "title": "Ce qui change vraiment",
+      "text": "L'an X renforce le Premier consul, encadre davantage les assemblées électorales et donne au Sénat des moyens de modifier ou suspendre l'ordre constitutionnel. La République reste dans les mots; le pouvoir personnel avance dans les mécanismes."
     }
   ]
 }

@@ -38,8 +38,8 @@
           ],
           "notes": [
             {
-              "title": "Responsabilité politique",
-              "text": "Même provisoire, le régime place le gouvernement sous le regard de l'Assemblée. La priorité est d'éviter un pouvoir sans contrôle pendant la transition."
+              "title": "Le Gouvernement vient de l'Assemblée",
+              "text": "L'Assemblée constituante élit le Président du Gouvernement provisoire, qui forme ensuite son Gouvernement. L'exécutif dépend donc de la nouvelle Assemblée issue du suffrage."
             }
           ]
         }
@@ -52,7 +52,13 @@
         {
           "id": "p-5",
           "title": "Text",
-          "paragraphs": ["L'Assemblée établit la Constitution nouvelle."]
+          "paragraphs": ["L'Assemblée établit la Constitution nouvelle."],
+          "notes": [
+            {
+              "title": "Mission constituante",
+              "text": "L'Assemblée doit établir la Constitution nouvelle. Sa fonction n'est pas seulement législative : elle reçoit explicitement la tâche de refonder les institutions."
+            }
+          ]
         }
       ]
     },
@@ -65,6 +71,12 @@
           "title": "Text",
           "paragraphs": [
             "La Constitution adoptée par l'assemblée sera soumise à l'approbation du corps électoral des citoyens français, par voie de referendum, dans le mois qui suivra son adoption par l'assemblée."
+          ],
+          "notes": [
+            {
+              "title": "Approbation par le corps électoral",
+              "text": "Le projet adopté par l'Assemblée doit être soumis aux citoyens par référendum. Après Vichy et la guerre, la Constitution doit revenir devant le corps électoral."
+            }
           ]
         }
       ]
@@ -82,8 +94,8 @@
           ],
           "notes": [
             {
-              "title": "Assemblée constituante",
-              "text": "La souveraineté constituante revient à une assemblée élue après la guerre. Le texte organise le passage de la légitimité résistante à la légitimité électorale."
+              "title": "Assemblée législative, mais frein gouvernemental",
+              "text": "L'Assemblée a le pouvoir législatif et l'initiative des lois avec le Gouvernement. Celui-ci peut demander une seconde délibération, ce qui évite que l'Assemblée soit sans contrepoids."
             }
           ]
         }
@@ -98,6 +110,12 @@
           "title": "Text",
           "paragraphs": [
             "L'Assemblée vote le budget, mais elle ne peut prendre l'initiative des dépenses."
+          ],
+          "notes": [
+            {
+              "title": "Budget sans initiative des dépenses",
+              "text": "L'Assemblée vote le budget, mais ne peut pas prendre l'initiative des dépenses. La règle cherche déjà à empêcher la dérive budgétaire par amendements parlementaires."
+            }
           ]
         }
       ]
@@ -111,6 +129,12 @@
           "title": "Text",
           "paragraphs": [
             "Les pouvoirs de l'Assemblée expireront le jour de la mise en application de la nouvelle Constitution et, au plus tard, sept mois après la première réunion de l'Assemblée."
+          ],
+          "notes": [
+            {
+              "title": "Sept mois maximum",
+              "text": "Les pouvoirs de l'Assemblée expirent au plus tard sept mois après sa première réunion. Le constituant veut éviter qu'une assemblée provisoire s'installe durablement."
+            }
           ]
         }
       ]
@@ -124,6 +148,12 @@
           "title": "Text",
           "paragraphs": [
             "Au cas où le corps électoral rejetterait la Constitution établit par l'Assemblée, ou au cas où celle-ci n'en aurait établi aucune dans le délai fixé à l'article 6, il serait procédé aussitôt, et dans les mêmes formes, à l'élection d'une nouvelle Assemblée constituante jouissant des mêmes pouvoirs, qui se réunirait de plein droit le deuxième mardi après son élection."
+          ],
+          "notes": [
+            {
+              "title": "Si le projet échoue",
+              "text": "Si le peuple rejette la Constitution ou si l'Assemblée dépasse le délai, une nouvelle Assemblée est élue. Le texte prévoit l'échec au lieu de laisser le pays sans procédure."
+            }
           ]
         }
       ]
@@ -147,6 +177,18 @@
     {
       "title": "Transition constituante",
       "text": "Ce texte ne cherche pas à durer. Il sert à faire passer le pays de la Libération vers une nouvelle constitution, avec une Assemblée constituante et un calendrier politique clair."
+    },
+    {
+      "title": "Sortir du provisoire de guerre",
+      "text": "La loi constitutionnelle du 2 novembre 1945 organise le passage du Gouvernement provisoire à une Assemblée constituante. Elle règle la transition après la Libération, avant le choix définitif des institutions."
+    },
+    {
+      "title": "Un mandat constituant limité",
+      "text": "L'Assemblée élue le 21 octobre 1945 reçoit le pouvoir de faire une Constitution, mais son mandat est borné dans le temps et soumis au vote du corps électoral. Le provisoire est encadré."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel doit être lu avec la Constitution de 1946. Cette loi n'organise pas un régime durable; elle fixe la méthode pour en produire un."
     }
   ]
 }

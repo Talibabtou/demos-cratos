@@ -20,6 +20,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "La République française est une et indivisible. - Son territoire européen est distribué en départements et arrondissements communaux."
+          ],
+          "notes": [
+            {
+              "title": "La République reste le cadre",
+              "text": "L'article conserve la République une et indivisible. C'est utile à repérer : Bonaparte ne fonde pas encore une monarchie; il installe un exécutif fort dans un vocabulaire républicain."
+            }
           ]
         },
         {
@@ -27,6 +33,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "Tout homme né et résidant en France qui, âgé de vingt et un ans accomplis, s'est fait inscrire sur le registre civique de son arrondissement communal, et qui a demeuré depuis pendant un an sur le territoire de la République, est citoyen français."
+          ],
+          "notes": [
+            {
+              "title": "Citoyenneté moins censitaire",
+              "text": "Le texte ne reprend pas directement les seuils de fortune de 1795 pour définir le citoyen. Le filtre politique se déplace ailleurs : les citoyens votent surtout pour composer des listes d'éligibles."
+            }
           ]
         },
         {
@@ -48,6 +60,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "L'exercice des droits de citoyen français est suspendu, par l'état de débiteur failli, ou d'héritier immédiat, détenteur à titre gratuit de la succession totale ou partielle d'un failli ; - Par l'état de domestique à gages, attaché au service de la personne ou du ménage ; - Par l'état d'interdiction judiciaire, d'accusation ou de contumace."
+          ],
+          "notes": [
+            {
+              "title": "Suspension des droits civiques",
+              "text": "La faillite, la domesticité ou l'accusation criminelle suspendent l'exercice des droits de cité. Le texte garde une méfiance sociale envers la dépendance économique et les situations jugées incompatibles avec l'indépendance civique."
+            }
           ]
         },
         {
@@ -75,6 +93,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Les citoyens compris dans les listes communales d'un département désignent également un dixième d'entre eux. Il en résulte une seconde liste dite départementale, dans laquelle doivent être pris les fonctionnaires publics du département."
+          ],
+          "notes": [
+            {
+              "title": "Un filtre de plus",
+              "text": "La liste départementale sort de la liste communale. À chaque étage, le nombre se resserre : le citoyen désigne des personnes jugées dignes de confiance, puis d'autres autorités choisissent dans ces viviers."
+            }
           ]
         },
         {
@@ -130,6 +154,12 @@
           "title": "Article 15.",
           "paragraphs": [
             "Le Sénat conservateur est composé de quatre-vingts membres, inamovibles et à vie, âgés de quarante ans au moins. - Pour la formation du Sénat, il sera d'abord nommé soixante membres : ce nombre sera porté à soixante-deux dans le cours de l'an VIII, à soixante-quatre en l'an IX, et s'élèvera ainsi graduellement à quatre-vingts par l'addition de deux membres en chacune des dix premières années."
+          ],
+          "notes": [
+            {
+              "title": "Un Sénat à vie",
+              "text": "Les sénateurs sont inamovibles et nommés à vie. Ce corps doit garder la Constitution, mais son mode de recrutement l'éloigne d'un contrôle direct par les citoyens."
+            }
           ]
         },
         {
@@ -165,6 +195,12 @@
           "title": "Article 20.",
           "paragraphs": [
             "Il élit dans cette liste les législateurs, les tribuns, les consuls, les juges de cassation, et les commissaires à la comptabilité."
+          ],
+          "notes": [
+            {
+              "title": "Le Sénat choisit les grands corps",
+              "text": "Le Sénat élit les législateurs, les tribuns, les consuls et les juges de cassation dans la liste nationale. Le vote populaire fournit une matière première; le Sénat fabrique ensuite l'État politique."
+            }
           ]
         },
         {
@@ -172,6 +208,12 @@
           "title": "Article 21.",
           "paragraphs": [
             "Il maintient ou annule tous les actes qui lui sont déférés comme inconstitutionnels par le Tribunat ou par le gouvernement : les listes d'éligibles sont comprises parmi ces actes."
+          ],
+          "notes": [
+            {
+              "title": "Contrôle constitutionnel politique",
+              "text": "Le Sénat peut annuler des actes jugés inconstitutionnels. Ce n'est pas une cour indépendante au sens moderne : il s'agit d'un organe politique placé au cœur du régime."
+            }
           ]
         },
         {
@@ -184,7 +226,13 @@
         {
           "id": "a-23",
           "title": "Article 23.",
-          "paragraphs": ["Les séances du Sénat ne sont pas publiques."]
+          "paragraphs": ["Les séances du Sénat ne sont pas publiques."],
+          "notes": [
+            {
+              "title": "Un gardien qui délibère hors public",
+              "text": "Les séances du Sénat ne sont pas publiques. Le régime confie donc une fonction de garantie à un corps fermé, ce qui réduit la visibilité du contrôle constitutionnel."
+            }
+          ]
         },
         {
           "id": "a-24",
@@ -204,6 +252,12 @@
           "title": "Article 25.",
           "paragraphs": [
             "Il ne sera promulgué de lois nouvelles que lorsque le projet en aura été proposé par le gouvernement, communiqué au Tribunat et décrété par le Corps législatif."
+          ],
+          "notes": [
+            {
+              "title": "L'initiative vient du gouvernement",
+              "text": "Une loi nouvelle suppose un projet proposé par le gouvernement. Le Tribunat discute, le Corps législatif vote, mais l'impulsion appartient à l'exécutif."
+            }
           ]
         },
         {
@@ -225,6 +279,12 @@
           "title": "Article 28.",
           "paragraphs": [
             "Le Tribunat discute les projets de loi ; il en vote l'adoption ou le rejet. - Il envoie trois orateurs pris dans son sein, par lesquels les motifs du voeu qu'il a exprimé sur chacun de ces projets sont exposés et défendus devant le Corps législatif. - Il défère au Sénat, pour cause d'inconstitutionnalité seulement, les listes d'éligibles, les actes du Corps législatif et ceux du gouvernement."
+          ],
+          "notes": [
+            {
+              "title": "Discuter sans décider",
+              "text": "Le Tribunat débat et donne un avis, puis envoie des orateurs. Il peut critiquer un projet, mais il ne fait pas la loi; cette séparation affaiblit la parole parlementaire."
+            }
           ]
         },
         {
@@ -267,6 +327,12 @@
           "title": "Article 34.",
           "paragraphs": [
             "Le Corps législatif fait la loi en statuant par scrutin secret, et sans aucune discussion de la part de ses membres, sur les projets de loi débattus devant lui par les orateurs du Tribunat et du gouvernement."
+          ],
+          "notes": [
+            {
+              "title": "Voter sans débattre",
+              "text": "Le Corps législatif statue au scrutin secret, sans discussion de ses membres. Le débat se tient ailleurs; le vote final devient un acte séparé de la délibération."
+            }
           ]
         },
         {
@@ -328,6 +394,12 @@
           "title": "Article 41.",
           "paragraphs": [
             "Le Premier consul promulgue les lois ; il nomme et révoque à volonté les membres du Conseil d'État, les ministres, les ambassadeurs et autres agents extérieurs en chef, les officiers de l'armée de terre et de mer, les membres des administrations locales et les commissaires du gouvernement près les tribunaux. Il nomme tous les juges criminels et civils autres que les juges de paix et les juges de cassation, sans pouvoir les révoquer."
+          ],
+          "notes": [
+            {
+              "title": "Nommer, révoquer, tenir l'administration",
+              "text": "Le Premier consul nomme les ministres, les ambassadeurs, les officiers et les membres des administrations locales. Dans un État centralisé, ce pouvoir de nomination vaut autant que beaucoup de pouvoirs écrits."
+            }
           ]
         },
         {
@@ -335,6 +407,12 @@
           "title": "Article 42.",
           "paragraphs": [
             "Dans les autres actes du gouvernement, le second et le troisième consuls ont voix consultative : ils signent le registre de ces actes pour constater leur présence ; et s'ils le veulent, y consignent leurs opinions ; après quoi, la décision du Premier consul suffit."
+          ],
+          "notes": [
+            {
+              "title": "Les deux autres consuls consultent",
+              "text": "Le second et le troisième consul donnent leur avis; la décision du Premier consul suffit. La collégialité existe dans la forme, mais le centre de décision tient dans une seule personne."
+            }
           ]
         },
         {
@@ -363,6 +441,12 @@
           "title": "Article 46.",
           "paragraphs": [
             "Si le gouvernement est informé qu'il se trame quelque conspiration contre l'État, il peut décerner des mandats d'amener et des mandats d'arrêt contre les personnes qui en sont présumées les auteurs ou les complices ; mais si, dans un délai de dix jours après leur arrestation, elles ne sont mises en liberté ou en réglée, il y a, de la part du ministre signataire du mandat, crime de détention arbitraire."
+          ],
+          "notes": [
+            {
+              "title": "Mandats d'arrêt politiques",
+              "text": "En cas de conspiration présumée, le gouvernement peut faire arrêter. Le délai de dix jours avant renvoi devant les tribunaux montre la tension du texte : sûreté de l'État d'un côté, garantie judiciaire de l'autre."
+            }
           ]
         },
         {
@@ -446,6 +530,12 @@
           "title": "Article 57.",
           "paragraphs": [
             "Les comptes détaillés de la dépense de chaque ministre, signés et certifiés par lui, sont rendus publics."
+          ],
+          "notes": [
+            {
+              "title": "Comptes ministériels publics",
+              "text": "Les dépenses détaillées des ministres doivent être rendues publiques. Dans un régime très exécutif, cette règle garde une trace de contrôle financier par la publicité."
+            }
           ]
         },
         {
@@ -460,6 +550,12 @@
           "title": "Article 59.",
           "paragraphs": [
             "Les administrations locales établies soit pour chaque arrondissement communal, soit pour des portions plus étendues du territoire, sont subordonnées aux ministres. Nul ne peut devenir ou rester membre de ces administrations, s'il n'est porté ou maintenu sur l'une des listes mentionnées aux articles 7 et 8."
+          ],
+          "notes": [
+            {
+              "title": "Administration locale subordonnée",
+              "text": "Les administrations locales dépendent des ministres. C'est un point à lire avec la loi du 28 pluviôse an VIII, qui installe préfets et sous-préfets : l'État napoléonien devient très vertical."
+            }
           ]
         }
       ]
@@ -487,6 +583,12 @@
           "title": "Article 62.",
           "paragraphs": [
             "En matière de délits emportant peine afflictive ou infamante, un premier jury admet ou rejette l'accusation : si elle est admise, un second jury reconnaît le fait ; et les juges, formant un tribunal criminel, appliquent la peine. Leur jugement est sans appel."
+          ],
+          "notes": [
+            {
+              "title": "Deux jurys en matière criminelle",
+              "text": "Le premier jury décide si l'accusation mérite d'aller au jugement; le second reconnaît le fait. Le Consulat conserve ici une garantie révolutionnaire au sein d'un régime plus autoritaire."
+            }
           ]
         },
         {
@@ -542,6 +644,12 @@
           "title": "Article 69.",
           "paragraphs": [
             "Les fonctions des membres soit du Sénat, soit du Corps législatif, soit du Tribunat, celles des consuls et des conseillers d'État ne donnent lieu à aucune responsabilité."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité politique très faible",
+              "text": "Les fonctions des consuls, sénateurs, législateurs, tribuns et conseillers d'État ne donnent lieu à aucune responsabilité. Le texte protège les grands organes du régime contre une mise en cause ordinaire."
+            }
           ]
         },
         {
@@ -584,6 +692,12 @@
           "title": "Article 75.",
           "paragraphs": [
             "Les agents du Gouvernement, autres que les ministres, ne peuvent être poursuivis pour des faits relatifs à leurs fonctions, qu'en vertu d'une décision du Conseil d'Etat : en ce cas, la poursuite a lieu devant les tribunaux ordinaires."
+          ],
+          "notes": [
+            {
+              "title": "L'origine de la garantie administrative",
+              "text": "Les agents du gouvernement ne peuvent être poursuivis pour leurs fonctions qu'après décision du Conseil d'État. Cette protection marque durablement le droit administratif français : l'administration se juge d'abord dans son propre ordre."
+            }
           ]
         }
       ]
@@ -597,6 +711,12 @@
           "title": "Article 76.",
           "paragraphs": [
             "La maison de toute personne habitant le territoire français, est un asile inviolable. - Pendant la nuit, nul n'a le droit d'y entrer que dans le cas d'incendie, d'inondation, ou de réclamation faite de l'intérieur de la maison. - Pendant le jour, on peut y entrer pour un objet spécial déterminé ou par une loi, ou par un ordre émané d'une autorité publique."
+          ],
+          "notes": [
+            {
+              "title": "Domicile inviolable",
+              "text": "Le domicile reste protégé avec des règles distinctes pour le jour et la nuit. C'est une des garanties concrètes qui compensent l'absence de déclaration générale des droits."
+            }
           ]
         },
         {
@@ -646,6 +766,12 @@
           "title": "Article 83.",
           "paragraphs": [
             "Toute personne a le droit d'adresser des pétitions individuelles à toute autorité constituée, et spécialement au Tribunat."
+          ],
+          "notes": [
+            {
+              "title": "Pétition individuelle",
+              "text": "Le droit de pétition subsiste, mais sous forme individuelle. Comme en 1795, le régime accepte la plainte du citoyen et se méfie de la pression collective organisée."
+            }
           ]
         },
         {
@@ -709,6 +835,12 @@
           "title": "Article 92.",
           "paragraphs": [
             "Dans le cas de révolte à main armée, ou de troubles qui menacent la sûreté de l'Etat, la loi peut suspendre, dans les lieux et pour le temps qu'elle détermine, l'empire de la Constitution. - Cette suspension peut être provisoirement déclarée dans les mêmes cas, par un arrêté du gouvernement, le Corps législatif étant en vacance, pourvu que ce Corps soit convoqué au plus court terme par un article du même arrêté."
+          ],
+          "notes": [
+            {
+              "title": "Suspendre la Constitution",
+              "text": "En cas de révolte armée ou de troubles graves, la Constitution peut être suspendue dans certains lieux. Cette clause donne un outil d'exception au gouvernement avant même l'Empire."
+            }
           ]
         },
         {
@@ -723,6 +855,12 @@
           "title": "Article 94.",
           "paragraphs": [
             "La Nation française déclare qu'après une vente légalement consommée de biens nationaux, quelle qu'en soit l'origine, l'acquéreur légitime ne peut en être dépossédé, sauf aux tiers réclamants à être, s'il y a lieu, indemnisés par le Trésor public."
+          ],
+          "notes": [
+            {
+              "title": "Protéger les biens nationaux vendus",
+              "text": "Les ventes de biens nationaux sont déclarées irrévocables. Le message vise les acquéreurs de biens confisqués pendant la Révolution : le nouveau régime ne remettra pas leurs titres en cause."
+            }
           ]
         },
         {
@@ -752,6 +890,22 @@
     {
       "title": "République à exécutif fort",
       "text": "Le vocabulaire reste républicain, mais le régime change de nature. La stabilité est recherchée par la concentration du pouvoir exécutif."
+    },
+    {
+      "title": "Après Brumaire",
+      "text": "Le texte suit le coup d'État du 18 Brumaire an VIII, soit le 9 novembre 1799. Il ne cherche pas seulement à remplacer le Directoire : il veut sortir des crises parlementaires et militaires en donnant la réalité du pouvoir au Premier consul."
+    },
+    {
+      "title": "République sans déclaration des droits",
+      "text": "La Constitution maintient le mot République, mais elle n'ouvre plus sur une déclaration des droits comme en 1791, 1793 ou 1795. Les garanties existent par fragments, surtout dans les dispositions générales sur le domicile, l'arrestation et la pétition."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel suffit pour suivre les articles. Pour le contexte, comparez-le avec la Constitution de l'an III : là où 1795 multipliait les freins, 1799 concentre la décision dans le gouvernement, le Sénat et le Conseil d'État."
+    },
+    {
+      "title": "Le vote populaire comme validation",
+      "text": "L'article 95 annonce l'acceptation du peuple, mais la Constitution fonctionne dans un climat de coup de force déjà accompli. Ici, la participation populaire confirme un nouvel ordre plus qu'elle ne le discute."
     }
   ]
 }

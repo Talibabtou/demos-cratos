@@ -46,6 +46,12 @@
           "title": "Article 3.",
           "paragraphs": [
             "Le président de la République a l'initiative des lois, concurremment avec les membres des deux chambres. Il promulgue les lois lorsqu'elles ont été votées par les deux chambres ; il en surveille et en assure l'exécution. - Il a le droit de faire grâce ; les amnisties ne peuvent être accordées que par une loi. - Il dispose de la force armée. - Il nomme à tous les emplois civils et militaires. - Il préside aux solennités nationales ; les envoyés et les ambassadeurs des puissances étrangères sont accrédités auprès de lui. - Chacun des actes du président de la République doit être contresigné par un ministre."
+          ],
+          "notes": [
+            {
+              "title": "Un Président actif sur le papier",
+              "text": "Le Président a l'initiative des lois, promulgue, nomme aux emplois et dispose de la force armée. La Constitution écrite n'en fait pas un simple figurant; la pratique parlementaire le deviendra davantage."
+            }
           ]
         },
         {
@@ -60,6 +66,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Le Président de la République peut, sur l'avis conforme du Sénat, dissoudre la Chambre des députés avant l'expiration légale de son mandat. - En ce cas, les collèges électoraux sont convoqués pour de nouvelles élections dans le délai de trois mois."
+          ],
+          "notes": [
+            {
+              "title": "Dissolution avec verrou sénatorial",
+              "text": "Le Président peut dissoudre la Chambre des députés, mais seulement avec l'avis conforme du Sénat. La dissolution existe, tout en dépendant d'une Chambre haute pensée comme stabilisatrice."
+            }
           ]
         },
         {
@@ -67,6 +79,12 @@
           "title": "Article 6.",
           "paragraphs": [
             "Les ministres sont solidairement responsables devant les chambres de la politique générale du Gouvernement, et individuellement de leurs actes personnels. - Le Président de la République n'est responsable que dans le cas de haute trahison."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité ministérielle",
+              "text": "Les ministres sont responsables devant les Chambres, tandis que le Président ne répond qu'en cas de haute trahison. La responsabilité politique passe donc par le gouvernement."
+            }
           ]
         },
         {
@@ -81,6 +99,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Les chambres auront le droit, par délibérations séparées prises dans chacune à la majorité absolue des voix, soit spontanément, soit sur la demande du Président de la République, de déclarer qu'il y a lieu de réviser les lois constitutionnelles. - Après que chacune des deux chambres aura pris cette résolution, elles se réuniront en Assemblée nationale pour procéder à la révision. - Les délibérations portant révision des lois constitutionnelles, en tout ou en partie, devront être prises à la majorité absolue des membres composant l'Assemblée nationale. - Toutefois, pendant la durée des pouvoirs conférés par la loi du 20 novembre 1873 à M. le maréchal de Mac-Mahon, cette révision ne peut avoir lieu que sur proposition du Président de la République."
+          ],
+          "notes": [
+            {
+              "title": "Révision par les Chambres",
+              "text": "Les deux Chambres peuvent déclarer qu'une révision est nécessaire, puis se réunir en Assemblée nationale. Le pouvoir constituant reste parlementaire, pas directement populaire."
+            }
           ]
         },
         {
@@ -122,6 +146,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "Les sénateurs des départements et des colonies sont élus à la majorité absolue, et, quand il y a lieu, au scrutin de liste, par un collège réuni au chef-lieu du département ou de la colonie, et composé : 1 ° des députés ; 2 ° des conseillers généraux ; 3 ° des conseillers d'arrondissement ; 4 ° des délégués élus, un par chaque conseil municipal, parmi les électeurs de la commune. - Dans l'Inde française, les membres du Conseil colonial ou des conseils locaux sont substitués aux conseillers généraux, aux conseillers d'arrondissement et aux délégués des conseils municipaux. - Ils votent au chef-lieu de chaque établissement."
+          ],
+          "notes": [
+            {
+              "title": "Le Sénat des communes",
+              "text": "Les sénateurs départementaux sont élus par un collège où les délégués des conseils municipaux jouent un rôle majeur. Ce mécanisme donnera au Sénat un ancrage rural durable."
+            }
           ]
         },
         {
@@ -143,6 +173,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "Les sénateurs élus par l'Assemblée sont inamovibles. - En cas de vacance par décès, démission ou autre cause, il sera, dans les deux mois, pourvu au remplacement par le Sénat lui-même."
+          ],
+          "notes": [
+            {
+              "title": "Sénateurs inamovibles",
+              "text": "Les 75 sénateurs élus par l'Assemblée sont inamovibles. Cette survivance de compromis rassure les conservateurs au moment où la République n'est pas encore définitivement acceptée."
+            }
           ]
         },
         {
@@ -150,6 +186,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Le Sénat a, concurremment avec la Chambre des députés, l'initiative et la confection des lois. - Toutefois, les lois de finances doivent être, en premier lieu, déposées à la Chambre des députés et votées par elle."
+          ],
+          "notes": [
+            {
+              "title": "Deux Chambres législatrices",
+              "text": "Le Sénat a l'initiative et la confection des lois avec la Chambre des députés, sauf priorité financière à cette dernière. Le bicamérisme de 1875 est fort."
+            }
           ]
         },
         {
@@ -233,6 +275,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Le Président de la République négocie et ratifie les traités. Il en donne connaissance aux Chambres aussitôt que l'intérêt et la sûreté de l'Etat le permettent. - Les traités de paix, de commerce, les traités qui engagent les finances de l'Etat, ceux qui sont relatifs à l'état des personnes et au droit de propriété des Français à l'étranger, ne sont définitifs qu'après avoir été votés par les deux chambres. Nulle cession, nul échange, nulle adjonction de territoire ne peut avoir lieu qu'en vertu d'une loi."
+          ],
+          "notes": [
+            {
+              "title": "Traités contrôlés par les Chambres",
+              "text": "Certains traités doivent être approuvés par les deux Chambres. La politique extérieure reste présidentielle dans la négociation, mais elle ne peut pas toujours se passer du Parlement."
+            }
           ]
         },
         {
@@ -261,6 +309,12 @@
           "title": "Article 12.",
           "paragraphs": [
             "Le Président de la République ne peut être mis en accusation que par la Chambre des députés, et ne peut être jugé que par le Sénat. - Les ministres peuvent être mis en accusation par la Chambre des députés pour crimes commis dans l'exercice de leurs fonctions. En ce cas, ils sont jugés par le Sénat. - Le Sénat peut être constitué en Cour de justice par un décret du Président de la République, rendu en Conseil des ministres, pour juger toute personne prévenue d'attentat contre la sûreté de l'Etat. - Si l'instruction est commencée par la justice ordinaire, le décret de convocation du Sénat peut être rendu jusqu'à l'arrêt de renvoi. - Une loi déterminera le mode de procéder pour l'accusation, l'instruction et le jugement."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité pénale au sommet",
+              "text": "Le Président et les ministres peuvent être mis en accusation par la Chambre des députés et jugés par le Sénat. La haute justice reste parlementaire."
+            }
           ]
         },
         {
@@ -288,6 +342,12 @@
           "title": "Article unique.",
           "paragraphs": [
             "L'article 9 de la loi constitutionnelle du 25 février 1875 est abrogé"
+          ],
+          "notes": [
+            {
+              "title": "Retour à Paris",
+              "text": "L'abrogation de l'article fixant le siège à Versailles ouvre le retour des pouvoirs publics à Paris. Le symbole compte après la Commune et les débuts prudents de la République."
+            }
           ]
         }
       ]
@@ -311,8 +371,8 @@
           ],
           "notes": [
             {
-              "title": "République verrouillée",
-              "text": "La révision de 1884 protège explicitement la forme républicaine. La République devient un principe constitutionnel non négociable."
+              "title": "République irrévisable",
+              "text": "La révision de 1884 interdit de proposer une révision contre la forme républicaine. La République cesse d'être seulement un compromis de circonstances; elle devient le verrou du régime."
             }
           ]
         },
@@ -346,6 +406,12 @@
             "2 ° Le produit de la taxe complémentaire et exceptionnelle sur la première mutation des droits de succession et les contributions volontaires ;",
             "Le produit des ressources ci-dessus énumérées au cours du premier exercice qui suivra la promulgation de la présente loi, constitue la dotation annuelle minimum de la caisse d'amortissement.",
             "3 ° En cas d'insuffisance des ressources ci-dessus pour assurer le service des bons gérés par la caisse et des titres créés par elle, une annuité au moins égale, inscrite au budget. \""
+          ],
+          "notes": [
+            {
+              "title": "Autonomie de la caisse d'amortissement",
+              "text": "La révision de 1926 constitutionnalise un mécanisme financier lié à la dette. C'est un rappel utile : les constitutions ne traitent pas seulement des pouvoirs, elles peuvent aussi protéger des choix budgétaires."
+            }
           ]
         }
       ]
@@ -355,6 +421,18 @@
     {
       "title": "Une République minimale, mais durable",
       "text": "Les lois de 1875 ne ressemblent pas à une grande constitution doctrinale. Leur sobriété laisse beaucoup de place à la pratique politique, ce qui explique une partie de leur longévité."
+    },
+    {
+      "title": "Trois lois plutôt qu'une grande Constitution",
+      "text": "La Troisième République naît de lois constitutionnelles adoptées en 1875, pas d'un texte unique solennel. Cette sobriété reflète un compromis fragile entre républicains, monarchistes et partisans d'un exécutif fort."
+    },
+    {
+      "title": "La pratique fera le régime",
+      "text": "Le texte donne au Président des pouvoirs réels, dont la dissolution avec accord du Sénat. Après la crise du 16 mai 1877, la pratique parlementaire réduira beaucoup son rôle politique."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le Conseil constitutionnel regroupe les lois de 1875 et leurs révisions. L'article de 1884 qui verrouille la forme républicaine doit être lu comme la victoire juridique de la République sur l'hypothèse monarchique."
     }
   ]
 }

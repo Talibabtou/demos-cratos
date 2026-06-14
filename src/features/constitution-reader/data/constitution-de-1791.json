@@ -59,6 +59,12 @@
             "Il sera créé et organisé un établissement général de Secours publics, pour élever les enfants abandonnés, soulager les pauvres infirmes, et fournir du travail aux pauvres valides qui n'auraient pu s'en procurer.",
             "Il sera créé et organisé une Instruction publique commune à tous les citoyens, gratuite à l'égard des parties d'enseignement indispensables pour tous les hommes et dont les établissements seront distribués graduellement, dans un rapport combiné avec la division du royaume. - Il sera établi des fêtes nationales pour conserver le souvenir de la Révolution française, entretenir la fraternité entre les citoyens, et les attacher à la Constitution, à la Patrie et aux lois.",
             "Il sera fait un Code de lois civiles communes à tout le Royaume."
+          ],
+          "notes": [
+            {
+              "title": "La Révolution devient droit écrit",
+              "text": "Ces garanties reprennent l'esprit de la Déclaration de 1789 et le transforment en promesses constitutionnelles : égalité devant l'impôt, accès aux emplois, liberté de mouvement, liberté d'expression, propriété. Le texte ne se contente plus de proclamer des principes; il annonce des institutions chargées de les faire vivre."
+            }
           ]
         }
       ]
@@ -72,6 +78,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "Le Royaume est un et indivisible : son territoire est distribué en quatre-vingt-trois départements, chaque département en districts, chaque district en cantons."
+          ],
+          "notes": [
+            {
+              "title": "Unifier sans effacer l'administration locale",
+              "text": "Les 83 départements, créés en 1790, remplacent la mosaïque des provinces, pays d'états, bailliages et privilèges territoriaux. Pour un lecteur d'aujourd'hui, cet article explique pourquoi le département reste une brique familière de l'État français."
+            }
           ]
         },
         {
@@ -120,6 +132,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "La loi ne considère le mariage que comme contrat civil. - Le Pouvoir législatif établira pour tous les habitants, sans distinction, le mode par lequel les naissances, mariages et décès seront constatés ; et il désignera les officiers publics qui en recevront et conserveront les actes."
+          ],
+          "notes": [
+            {
+              "title": "Naissance de l'état civil moderne",
+              "text": "Le mariage devient un contrat civil, séparé du sacrement religieux. La tenue publique des naissances, mariages et décès prépare l'état civil confié aux communes en 1792; c'est un basculement concret de l'Église vers l'État."
+            }
           ]
         },
         {
@@ -134,6 +152,12 @@
           "title": "Article 9.",
           "paragraphs": [
             "Les citoyens qui composent chaque commune, ont le droit d'élire à temps, suivant les formes déterminées par la loi, ceux d'entre eux qui, sous le titre d'Officiers municipaux, sont chargés de gérer les affaires particulières de la commune. - Il pourra être délégué aux officiers municipaux quelques fonctions relatives à l'intérêt général de l'Etat."
+          ],
+          "notes": [
+            {
+              "title": "La commune entre dans la Constitution",
+              "text": "La commune n'est pas seulement un décor local : les citoyens y élisent des officiers municipaux. Cela aide à comprendre la longue durée de la mairie française, lieu d'administration quotidienne autant que de représentation politique."
+            }
           ]
         },
         {
@@ -158,7 +182,7 @@
           "notes": [
             {
               "title": "Souveraineté nationale",
-              "text": "La souveraineté appartient à la Nation, pas au roi ni à une fraction du peuple. C'est le basculement central de 1789, mais son exercice reste filtré par la représentation."
+              "text": "La souveraineté appartient à la Nation, pas au roi ni à une fraction du peuple. Cette formule fixe le vocabulaire de 1791 : la Nation décide en principe, les représentants agissent en pratique."
             }
           ]
         },
@@ -167,6 +191,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "La Nation, de qui seule émanent tous les Pouvoirs, ne peut les exercer que par délégation. - La Constitution française est représentative : les représentants sont le Corps législatif et le roi."
+          ],
+          "notes": [
+            {
+              "title": "Représenter plutôt que voter directement",
+              "text": "La Nation est la source des pouvoirs, mais elle ne les exerce que par délégation. L'article justifie le régime représentatif : l'Assemblée et le roi agissent au nom de la Nation, sans mandat impératif donné par les électeurs."
+            }
           ]
         },
         {
@@ -181,6 +211,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "Le Gouvernement est monarchique : le Pouvoir exécutif est délégué au roi, pour être exercé sous son autorité, par des ministres et autres agents responsables, de la manière qui sera déterminée ci-après."
+          ],
+          "notes": [
+            {
+              "title": "Le roi devient un organe constitué",
+              "text": "La monarchie demeure, mais le roi n'est plus propriétaire du pouvoir. Il reçoit une fonction exécutive déléguée, exercée avec des ministres responsables; c'est la différence centrale avec la monarchie absolue."
+            }
           ]
         },
         {
@@ -188,6 +224,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Le Pouvoir Judiciaire est délégué à des juges élus à temps par le peuple."
+          ],
+          "notes": [
+            {
+              "title": "Juges élus, méfiance envers les anciens parlements",
+              "text": "Les révolutionnaires se méfient des cours souveraines de l'Ancien Régime, accusées d'avoir bloqué des réformes. L'élection des juges cherche à rapprocher la justice du peuple, tout en la gardant dans un cadre légal strict."
+            }
           ]
         }
       ]
@@ -201,6 +243,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "L'Assemblée nationale formant le corps législatif est permanente, et n'est composée que d'une Chambre."
+          ],
+          "notes": [
+            {
+              "title": "Une seule chambre",
+              "text": "La Constituante refuse une chambre haute qui aurait rappelé les ordres privilégiés ou la Chambre des lords britannique. Le choix d'une assemblée unique rend la loi plus directe, mais prive aussi le régime d'un filtre institutionnel."
+            }
           ]
         },
         {
@@ -229,6 +277,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Le Corps législatif ne pourra être dissous par le roi."
+          ],
+          "notes": [
+            {
+              "title": "Pas de dissolution royale",
+              "text": "Le roi ne peut pas renvoyer l'Assemblée devant les électeurs. C'est une protection contre le retour d'une monarchie dominante, mais aussi une source de blocage si l'exécutif et le législatif ne parviennent plus à travailler ensemble."
+            }
           ]
         }
       ]
@@ -290,6 +344,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "Pour être citoyen actif, il faut : - Être né ou devenu Français ; - Être âgé de vingt-cinq ans accomplis ; - Être domicilié dans la ville ou dans le canton depuis le temps déterminé par la loi ; - Payer, dans un lieu quelconque du Royaume, une contribution directe au moins égale à la valeur de trois journées de travail, et en représenter la quittance ; - N'être pas dans un état de domesticité, c'est-à-dire de serviteur à gages ; - Être inscrit dans la municipalité de son domicile au rôle des gardes nationales ; - Avoir prêté le serment civique."
+          ],
+          "notes": [
+            {
+              "title": "Le citoyen actif",
+              "text": "Le droit de vote dépend de critères masculins, fiscaux et civiques : âge, domicile, contribution directe, garde nationale, serment. Le texte affirme l'égalité civile, mais il réserve l'action politique à une partie seulement des citoyens."
+            }
           ]
         },
         {
@@ -325,6 +385,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "Nul ne pourra être nommé électeur, s'il ne réunit aux conditions nécessaires pour être citoyen actif, savoir : - Dans les villes au-dessus de six mille âmes, celle d'être propriétaire ou usufruitier d'un bien évalué sur les rôles de contribution à un revenu égal à la valeur locale de deux cents journées de travail, ou d'être locataire d'une habitation évaluée sur les mêmes rôles, à un revenu égal à la valeur de cent cinquante journées de travail ; - Dans les villes au-dessous de six mille âmes, celle d'être propriétaire ou usufruitier d'un bien évalué sur les rôles de contribution à un revenu égal à la valeur locale de cent cinquante journées de travail, ou d'être locataire d'une habitation évaluée sur les mêmes rôles à un revenu égal à la valeur de cent journées de travail ; - Et dans les campagnes, celle d'être propriétaire ou usufruitier d'un bien évalué sur les rôles de contribution à un revenu égal à la valeur locale de cent cinquante journées de travail, ou d'être fermier ou métayer de biens évalués sur les mêmes rôles à la valeur de quatre cents journées de travail ; - A l'égard de ceux qui seront en même temps propriétaires ou usufruitiers d'une part, et locataires, fermiers ou métayers de l'autre, leurs facultés à ces divers titres seront cumulées jusqu'au taux nécessaire pour établir leur éligibilité."
+          ],
+          "notes": [
+            {
+              "title": "Un second filtre social",
+              "text": "Pour devenir électeur au second degré, il faut plus que voter dans l'assemblée primaire : la propriété, l'usufruit ou un certain niveau de loyer entrent en jeu. Le système protège les propriétaires et éloigne les plus pauvres de la fabrication de la loi."
+            }
           ]
         }
       ]
@@ -380,6 +446,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "Les représentants nommés dans les départements, ne seront pas représentants d'un département particulier, mais de la Nation entière, et il ne pourra leur être donné aucun mandat."
+          ],
+          "notes": [
+            {
+              "title": "Le mandat national",
+              "text": "Le député représente la Nation entière, pas son département. Cette idée reste au cœur du droit parlementaire français : un élu peut écouter sa circonscription, mais il ne reçoit pas d'ordre juridique de ses électeurs."
+            }
           ]
         }
       ]
@@ -393,6 +465,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "Les fonctions des Assemblées primaires et électorales se bornent à élire ; elles se sépareront aussitôt après les élections faites, et ne pourront se former de nouveau que lorsqu'elles seront convoquées, si ce n'est au cas de l'article premier de la Section II et de l'article premier de la Section III ci-dessus."
+          ],
+          "notes": [
+            {
+              "title": "Des assemblées électorales tenues courtes",
+              "text": "Les assemblées primaires et électorales doivent élire puis se dissoudre. La Constitution redoute les clubs permanents, les pressions locales et les formes d'auto-organisation populaire qui pourraient concurrencer le pouvoir représentatif."
+            }
           ]
         },
         {
@@ -428,6 +506,12 @@
           "title": "Article 6.",
           "paragraphs": [
             "Dans aucun cas et sous aucun prétexte, le roi, ni aucun des agents nommés par lui, ne pourront prendre connaissance des questions relatives à la régularité des convocations, à la tenue des Assemblées, à la forme des élections, ni aux droits politiques des citoyens, sans préjudice des fonctions des commissaires du roi dans les cas déterminés par la loi, où les questions relatives aux droits politiques des citoyens doivent être portées dans les tribunaux."
+          ],
+          "notes": [
+            {
+              "title": "Protéger l'élection contre l'exécutif",
+              "text": "Le roi et ses agents ne peuvent pas contrôler la régularité des élections. Cette frontière sert un objectif simple : éviter que l'administration royale pèse sur la composition de l'Assemblée."
+            }
           ]
         }
       ]
@@ -524,6 +608,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "Le roi, à son avènement au trône, ou dès qu'il aura atteint sa majorité, prêtera à la Nation, en présence du Corps législatif, le serment d'être fidèle à la Nation et à la loi, d'employer tout le pouvoir qui lui est délégué, à maintenir la Constitution décrétée par l'Assemblée nationale constituante, aux années 1789, 1790 et 1791, et à faire exécuter les lois. - Si le Corps législatif n'est pas assemblé, le roi fera publier une proclamation, dans laquelle seront exprimés ce serment et la promesse de le réitérer aussitôt que le Corps législatif sera réuni."
+          ],
+          "notes": [
+            {
+              "title": "Le serment remplace le droit divin",
+              "text": "Le roi promet fidélité à la Nation et à la loi. La formule compte : le monarque n'est plus placé au-dessus de l'ordre constitutionnel; il doit jurer de le maintenir."
+            }
           ]
         },
         {
@@ -813,6 +903,12 @@
           "title": "Article 5.",
           "paragraphs": [
             "Les ministres sont responsables de tous les délits par eux commis contre la sûreté nationale et la Constitution ; - De tout attentat à la propriété et à la liberté individuelle ; - De toute dissipation des deniers destinés aux dépenses de leur département."
+          ],
+          "notes": [
+            {
+              "title": "Des ministres responsables",
+              "text": "La responsabilité ministérielle donne un point d'accroche juridique contre les abus de l'exécutif. Le roi reste inviolable dans le texte, mais ses ministres peuvent répondre des atteintes à la sûreté, à la propriété, à la liberté et aux deniers publics."
+            }
           ]
         },
         {
@@ -1020,6 +1116,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Les décrets du Corps législatif concernant l'établissement, la prorogation et la perception des contributions publiques, porteront le nom et l'intitulé de lois. Ils seront promulgués et exécutés sans être sujets à la sanction, si ce n'est pour les dispositions qui établiraient des peines autres que des amendes et contraintes pécuniaires. - Ces décrets ne pourront être rendus qu'après l'observation des formalités prescrites par les articles 4, 5, 6, 7, 8, et 9 de la section II du présent chapitre ; et le Corps législatif ne pourra y insérer aucunes dispositions étrangères à leur objet."
+          ],
+          "notes": [
+            {
+              "title": "L'impôt échappe au veto",
+              "text": "Les contributions publiques sont promulguées sans sanction royale. La Constituante protège ainsi le cœur du pouvoir parlementaire moderne : voter l'impôt, donc contrôler les moyens matériels de l'État."
+            }
           ]
         }
       ]
@@ -1392,6 +1494,12 @@
           "title": "Article 17.",
           "paragraphs": [
             "Nul homme ne peut être recherché ni poursuivi pour raison des écrits qu'il aura fait imprimer ou publier sur quelque matière que ce soit, si ce n'est qu'il ait provoqué à dessein la désobéissance à la loi, l'avilissement des pouvoirs constitués, la résistance à leurs actes, ou quelques-unes des actions déclarées crimes ou délits par la loi. - La censure sur les actes des Pouvoirs constitués est permise ; mais les calomnies volontaires contre la probité des fonctionnaires publics et la droiture de leurs intentions dans l'exercice de leurs fonctions, pourront être poursuivies par ceux qui en sont l'objet. - Les calomnies et injures contre quelques personnes que ce soit relatives aux actions de leur vie privée, seront punies sur leur poursuite."
+          ],
+          "notes": [
+            {
+              "title": "Liberté de la presse, limites politiques",
+              "text": "L'article protège l'écrit publié, sauf quand il appelle volontairement à désobéir à la loi ou à dégrader les pouvoirs constitués. La Révolution défend la presse, mais elle craint aussi qu'elle serve à faire tomber un régime encore neuf."
+            }
           ]
         },
         {
@@ -1475,6 +1583,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "La force publique est instituée pour défendre l'Etat contre les ennemis du dehors, et assurer au dedans le maintien de l'ordre et de l'exécution des lois."
+          ],
+          "notes": [
+            {
+              "title": "Force publique et ordre légal",
+              "text": "La force publique sert l'État contre les ennemis extérieurs et l'exécution des lois à l'intérieur. La formule répond à une peur très présente en 1791 : garder la force armée sous une finalité légale, pas sous la volonté d'un homme."
+            }
           ]
         },
         {
@@ -1613,6 +1727,12 @@
           "title": "Text",
           "paragraphs": [
             "La Nation française renonce à entreprendre aucune guerre dans la vue de faire des conquêtes, et n'emploiera jamais ses forces contre la liberté d'aucun peuple. - La Constitution n'admet point de droit d'aubaine. - Les étrangers établis ou non en France succèdent à leurs parents étrangers ou Français. - Ils peuvent contracter, acquérir et recevoir des biens situés en France, et en disposer, de même que tout citoyen français, par tous les moyens autorisés par les lois. - Les étrangers qui se trouvent en France sont soumis aux mêmes lois criminelles et de police que les citoyens français, sauf les conventions arrêtées par les Puissances étrangères ; leur personne, leurs biens, leur industrie, leur culte sont également protégés, par la loi."
+          ],
+          "notes": [
+            {
+              "title": "Une doctrine extérieure révolutionnaire",
+              "text": "La France renonce aux guerres de conquête et promet de ne pas employer ses forces contre la liberté d'un peuple. Le principe sera vite mis à l'épreuve par la guerre déclarée à l'Autriche en avril 1792."
+            }
           ]
         }
       ]
@@ -1626,6 +1746,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "L'Assemblée nationale constituante déclare que la Nation a le droit imprescriptible de changer sa Constitution ; et néanmoins, considérant qu'il est plus conforme à l'intérêt national d'user seulement, par les moyens pris dans la Constitution même, du droit d'en réformer les articles dont l'expérience aurait fait sentir les inconvénients, décrète qu'il y sera procédé par une Assemblée de révision en la forme suivante :"
+          ],
+          "notes": [
+            {
+              "title": "Changer la Constitution, mais lentement",
+              "text": "La Nation conserve le droit de changer sa Constitution, mais la procédure cherche à éviter les révisions à chaud. Le texte combine une idée révolutionnaire, la souveraineté constituante, avec une peur très réelle de l'instabilité."
+            }
           ]
         },
         {
@@ -1690,6 +1816,26 @@
     {
       "title": "Première charpente constitutionnelle",
       "text": "Ce texte essaie de faire tenir ensemble la souveraineté nationale, la monarchie et l'héritage de 1789. Sa faiblesse tient déjà dans cet équilibre instable."
+    },
+    {
+      "title": "Dates à garder en tête",
+      "text": "L'Assemblée nationale constituante adopte la Constitution le 3 septembre 1791. Louis XVI l'accepte le 13 septembre, puis prête serment le 14 septembre. Elle naît après deux années de Révolution et quelques semaines après la fuite à Varennes, les 20 et 21 juin 1791 : la confiance envers le roi est déjà cassée."
+    },
+    {
+      "title": "Un texte de transition",
+      "text": "Le texte ne crée pas une république. Il retire la souveraineté au roi pour la placer dans la Nation, tout en gardant une monarchie héréditaire chargée de l'exécution des lois."
+    },
+    {
+      "title": "Le point faible du régime",
+      "text": "La Constitution sépare fortement les pouvoirs, mais elle donne peu de moyens de résoudre un conflit entre l'Assemblée et le roi. Quand Louis XVI oppose son veto sur des sujets brûlants en 1792, la mécanique institutionnelle se grippe."
+    },
+    {
+      "title": "Pour lire ce texte",
+      "text": "Lisez-le comme une réponse juridique à l'Ancien Régime : fin des privilèges, justice élue, administration locale, impôt égal, mais participation politique encore réservée aux citoyens actifs."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Pour vérifier le texte article par article, partez de la version publiée par le Conseil constitutionnel. Pour le contexte, comparez avec la Déclaration de 1789 et les débats de l'Assemblée constituante sur le veto royal, le suffrage censitaire et l'organisation judiciaire."
     }
   ]
 }

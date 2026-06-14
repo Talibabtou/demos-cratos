@@ -22,6 +22,12 @@
             "Depuis que nous avons été appelé, il y a quinze années, par le voeu de la France, au gouvernement de l'Etat, nous avons cherché à perfectionner, à diverses époques, les formes constitutionnelles, suivant les besoins et les désirs de la nation, et en profitant des leçons de l'expérience. Les constitutions de l'Empire se sont ainsi formées d'une série d'actes qui ont été revêtus de l'acceptation du peuple. Nous avions alors pour but d'organiser un grand système fédératif européen, que nous avions, adopté comme conforme à l'esprit du siècle, et favorable aux progrès de la civilisation. Pour parvenir à le compléter et à lui donner toute l'étendue et toute la stabilité dont il était susceptible, nous avions ajourné l'établissement de plusieurs institutions intérieures, plus spécialement destinées à protéger la liberté des citoyens. Notre but n'est plus désormais que d'accroître la prospérité de la France par l'affermissement de la liberté publique. De là résulte la nécessité de plusieurs modifications importantes dans les constitutions, sénatus-consultes et autres actes qui régissent cet empire.",
             "A CES CAUSES, voulant, d'un côté, conserver du passé ce qu'il y a de bon et de salutaire, et, de l'autre, rendre les constitutions de notre Empire conformes en tout aux voeux et aux besoins nationaux, ainsi qu'à l'état de paix que nous désirons maintenir avec l'Europe, nous avons résolu de proposer au peuple une suite de dispositions tendant à modifier et perfectionner ses actes constitutionnels, à entourer les droits des citoyens de toutes leurs garanties, à donner au système représentatif toute son extension, à investir les corps intermédiaires de la considération et du pouvoir désirables ; en un mot, a combiner le plus haut point de liberté politique et de sûreté individuelle avec la force et la centralisation nécessaires pour faire respecter par l'étranger l'indépendance du peuple français et la dignité de notre couronne.",
             "En conséquence les articles suivants, formant un acte supplémentaire aux constitutions de l'Empire, seront soumis à l'acceptation libre et solennelle de tous les citoyens, dans toute l'étendue de la France."
+          ],
+          "notes": [
+            {
+              "title": "Napoléon parle en continuateur",
+              "text": "L'ouverture présente l'Acte comme un perfectionnement des constitutions impériales, pas comme une rupture. C'est une stratégie de légitimité : corriger l'Empire sans avouer qu'il change de nature."
+            }
           ]
         }
       ]
@@ -45,8 +51,8 @@
           ],
           "notes": [
             {
-              "title": "Bicamérisme impérial",
-              "text": "Le texte introduit un partage formel de la loi entre l'Empereur et deux chambres. La question décisive reste la dépendance réelle de ces chambres face au chef du régime."
+              "title": "Deux Chambres avec l'Empereur",
+              "text": "Le pouvoir législatif associe l'Empereur et deux Chambres. La formule rapproche le régime d'un modèle représentatif, mais l'exécutif impérial garde une place centrale."
             }
           ]
         },
@@ -83,6 +89,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "La seconde Chambre, nommée Chambre des représentants est élue par le peuple."
+          ],
+          "notes": [
+            {
+              "title": "Représentants élus",
+              "text": "La Chambre des représentants est élue par le peuple. Pour un Empire qui avait fortement encadré les assemblées, c'est une concession politique nette aux attentes libérales."
+            }
           ]
         },
         {
@@ -179,6 +191,12 @@
           "title": "Article 21.",
           "paragraphs": [
             "L'Empereur peut proroger, ajourner et dissoudre la Chambre des représentants. La proclamation qui prononce la dissolution, convoque les collèges électoraux pour une élection nouvelle, et indique la réunion des représentants, dans six mois au plus tard."
+          ],
+          "notes": [
+            {
+              "title": "Dissoudre, mais revenir aux électeurs",
+              "text": "L'Empereur peut dissoudre la Chambre des représentants, mais doit convoquer de nouvelles élections et réunir les représentants dans les six mois. Le droit de dissolution s'accompagne d'un retour obligatoire au pays électoral."
+            }
           ]
         },
         {
@@ -193,6 +211,12 @@
           "title": "Article 23.",
           "paragraphs": [
             "Le gouvernement a la proposition de la loi ; les Chambres peuvent proposer des amendements : si ces amendements ne sont pas adoptés par le gouvernement, les Chambres sont tenues de voter sur la loi, telle qu'elle a été proposée."
+          ],
+          "notes": [
+            {
+              "title": "Amendements sous contrôle gouvernemental",
+              "text": "Les Chambres peuvent proposer des amendements, mais si le gouvernement ne les adopte pas, elles votent le texte tel quel. Le débat parlementaire existe, sans pleine maîtrise du texte législatif."
+            }
           ]
         },
         {
@@ -289,6 +313,12 @@
           "title": "Article 35.",
           "paragraphs": [
             "Aucun impôt direct ou indirect en argent ou en nature ne peut être perçu, aucun emprunt ne peut avoir lieu, aucune inscription de créances au grand-livre de la dette publique ne peut être faite, aucun domaine ne peut être aliéné ni échangé, aucune levée d'hommes pour l'armée ne peut être ordonnée, aucune portion du territoire ne peut être changée qu'en vertu d'une loi."
+          ],
+          "notes": [
+            {
+              "title": "Pas d'impôt sans vote",
+              "text": "L'article encadre impôts, emprunts, dettes et aliénation des domaines. Il rappelle une règle centrale des régimes représentatifs : contrôler l'argent public, c'est contrôler une part du pouvoir."
+            }
           ]
         },
         {
@@ -316,6 +346,12 @@
           "title": "Article 38.",
           "paragraphs": [
             "Tous les actes du gouvernement doivent être contresignés par un ministre ayant département."
+          ],
+          "notes": [
+            {
+              "title": "Contreseing ministériel",
+              "text": "Tous les actes du gouvernement doivent être contresignés par un ministre. Le contreseing permet d'identifier un responsable politique ou juridique derrière l'acte impérial."
+            }
           ]
         },
         {
@@ -327,7 +363,7 @@
           "notes": [
             {
               "title": "Responsabilité ministérielle",
-              "text": "La responsabilité des ministres apparaît comme garantie libérale. Elle ne suffit pourtant pas à créer un gouvernement responsable devant une majorité parlementaire."
+              "text": "Les ministres répondent des actes qu'ils signent et de l'exécution des lois. L'Empire des Cent-Jours cherche ici à parler le langage du gouvernement responsable."
             }
           ]
         },
@@ -406,6 +442,12 @@
           "title": "Article 50.",
           "paragraphs": [
             "L'article 75 du titre VIII de 1'acte constitutionnel du 22 frimaire an VIII, portant que les agents du gouvernement ne peuvent être poursuivis qu'en vertu d'une décision du Conseil d'Etat, sera modifié par une loi."
+          ],
+          "notes": [
+            {
+              "title": "Modifier l'article 75 de l'an VIII",
+              "text": "L'article vise la vieille protection des agents du gouvernement par le Conseil d'État. Il annonce une correction d'un mécanisme souvent perçu comme un écran entre l'administration et les tribunaux."
+            }
           ]
         }
       ]
@@ -477,6 +519,12 @@
           "title": "Article 59.",
           "paragraphs": [
             "Les Français sont égaux devant la loi, soit pour la contribution aux impôts et charges publiques, soit pour l'admission aux emplois civils et militaires."
+          ],
+          "notes": [
+            {
+              "title": "Égalité devant la loi",
+              "text": "L'article reprend l'égalité devant l'impôt et l'accès aux emplois. L'Acte veut montrer que l'Empire libéral conserve les acquis civils de la Révolution."
+            }
           ]
         },
         {
@@ -513,8 +561,8 @@
           ],
           "notes": [
             {
-              "title": "Liberté d’expression",
-              "text": "Les droits d'expression et de publication sont inscrits, mais le régime reste dans une logique de pouvoir personnel. La liberté dépend encore du rapport de force politique."
+              "title": "Presse sans censure préalable",
+              "text": "Les citoyens peuvent publier leurs pensées en les signant, sans censure préalable, avec responsabilité après publication. C'est une différence majeure avec les pratiques autoritaires de l'Empire."
             }
           ]
         },
@@ -523,6 +571,12 @@
           "title": "Article 65.",
           "paragraphs": [
             "Le droit de pétition est assuré à tous les citoyens. Toute pétition est individuelle. Ces pétitions peuvent être adressées, soit au gouvernement, soit aux deux Chambres : néanmoins ces dernières même doivent porter l'intitulé : A Sa Majesté l'Empereur. Elles seront présentées aux Chambres sous la garantie d'un membre qui recommande la pétition. Elles sont lues publiquement, et si la Chambre les prend en considération, elles sont portées à l'Empereur par le président."
+          ],
+          "notes": [
+            {
+              "title": "Pétition individuelle",
+              "text": "Le droit de pétition est garanti, mais la pétition reste individuelle et adressée dans une formule monarchique à l'Empereur. La participation citoyenne demeure très encadrée."
+            }
           ]
         },
         {
@@ -530,6 +584,12 @@
           "title": "Article 66.",
           "paragraphs": [
             "Aucune place, aucune partie du territoire, ne peut être déclarée en état de siège, que dans le cas d'invasion de la part d'une force étrangère, ou de troubles civils. - Dans le premier cas, la déclaration est faite par un acte du gouvernement. - Dans le second cas, elle ne peut l'être que par la loi. Toutefois, si, le cas arrivant, les Chambres ne sont pas assemblées, l'acte du gouvernement déclarant l'état de siège doit être converti en une proposition de loi dans les quinze premiers jours de la réunion des Chambres."
+          ],
+          "notes": [
+            {
+              "title": "État de siège encadré",
+              "text": "L'état de siège ne peut être déclaré que pour invasion ou troubles civils, avec des formes distinctes selon le cas. Le texte essaie de légaliser l'exception plutôt que de la laisser au pur commandement."
+            }
           ]
         },
         {
@@ -538,6 +598,12 @@
           "paragraphs": [
             "Le peuple français déclare que, dans la délégation qu'il a faite et qu'il fait de ses pouvoirs, il n'a pas entendu et n'entend pas donner le droit de proposer le rétablissement des Bourbons ou d'aucun prince de cette famille sur le trône, même en cas d'extinction de la dynastie impériale, ni le droit de rétablir soit l'ancienne noblesse féodale, soit les droits féodaux et seigneuriaux, soit les dîmes, soit aucun culte privilégié et dominant, ni la faculté de porter aucune atteinte à l'irrévocabilité de la vente des domaines nationaux ; il interdit formellement au gouvernement, aux Chambres et aux citoyens toute proposition à cet égard.",
             "Suivent l'acte et les tableaux fixant le nombre des députés à élire pour la Chambre des représentants."
+          ],
+          "notes": [
+            {
+              "title": "Verrou anti-Bourbons",
+              "text": "Le peuple déclare qu'il ne délègue pas le droit de proposer le retour des Bourbons. Dans le contexte de 1815, cette clause est une arme politique directe contre la Restauration."
+            }
           ]
         }
       ]
@@ -547,6 +613,18 @@
     {
       "title": "Libéralisation tardive",
       "text": "L'Acte additionnel tente de corriger l'autoritarisme impérial par des garanties représentatives. Son contexte militaire et politique ne lui laisse presque pas le temps d'exister."
+    },
+    {
+      "title": "Les Cent-Jours en version libérale",
+      "text": "L'Acte additionnel est publié pendant le retour de Napoléon en 1815. Il essaie de donner à l'Empire une forme plus parlementaire, avec deux Chambres, des droits affichés et une responsabilité ministérielle mieux marquée."
+    },
+    {
+      "title": "Une réforme trop tardive",
+      "text": "Le texte intervient dans une séquence très courte : Napoléon revient de l'île d'Elbe en mars, Waterloo a lieu le 18 juin, puis la seconde abdication suit. L'Acte existe surtout comme tentative inaboutie de monarchie impériale libérale."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Pour le lire, gardez à côté la Constitution de l'an XII et la Charte de 1814. L'Acte emprunte aux deux : l'Empire reste, mais il accepte des garanties et des Chambres qui rappellent le constitutionnalisme libéral."
     }
   ]
 }

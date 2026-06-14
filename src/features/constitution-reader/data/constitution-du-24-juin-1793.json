@@ -8,7 +8,7 @@
   "date": "24 juin 1793",
   "sourceUrl": "https://www.conseil-constitutionnel.fr/les-constitutions-dans-l-histoire/constitution-du-24-juin-1793",
   "localSourcePath": "/constitution-archive/Constitution du 24 juin 1793.pdf",
-  "summary": "Texte républicain très démocratique, adopté par référendum mais jamais appliqué. Il pousse plus loin le suffrage, les droits sociaux et le contrôle populaire des lois, tout en restant suspendu par le gouvernement révolutionnaire.",
+  "summary": "Texte républicain à forte participation directe, accepté par les assemblées primaires mais jamais appliqué. Il pousse plus loin le suffrage, les droits sociaux et le contrôle populaire des lois, tout en restant suspendu par le gouvernement révolutionnaire.",
   "revisionGroups": [],
   "sections": [
     {
@@ -22,6 +22,12 @@
             "La Convention nationale déclare :",
             "1 ° Qu'il ne peut y avoir de Constitution que celle qui est acceptée par le Peuple ;",
             "2 ° Que les personnes et les propriétés sont sous la sauvegarde de la Nation."
+          ],
+          "notes": [
+            {
+              "title": "Acceptation populaire",
+              "text": "Le décret pose une règle nette : une Constitution n'est légitime que si le peuple l'accepte. Pour l'époque, cette consultation passe par les assemblées primaires, pas par un vote national organisé comme aujourd'hui."
+            }
           ]
         }
       ]
@@ -35,6 +41,12 @@
           "title": "Text",
           "paragraphs": [
             "La Convention nationale décrète à l'unanimité que la royauté est abolie en France."
+          ],
+          "notes": [
+            {
+              "title": "Fin juridique de la royauté",
+              "text": "La Convention abolit la royauté les 21 et 22 septembre 1792, au lendemain de sa première réunion. Le procès puis l'exécution de Louis XVI, le 21 janvier 1793, donneront à cette décision une portée irréversible."
+            }
           ]
         }
       ]
@@ -48,6 +60,12 @@
           "title": "Text",
           "paragraphs": [
             "La Convention nationale déclare que la République française est une et indivisible."
+          ],
+          "notes": [
+            {
+              "title": "Une République indivisible",
+              "text": "L'indivisibilité répond à deux peurs : le retour des pouvoirs locaux autonomes de l'Ancien Régime et l'éclatement du pays en pleine guerre. Ce mot reviendra souvent dans l'histoire républicaine française."
+            }
           ]
         }
       ]
@@ -95,6 +113,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "La loi est l'expression libre et solennelle de la volonté générale ; elle est la même pour tous, soit qu'elle protège, soit qu'elle punisse ; elle ne peut ordonner que ce qui est juste et utile à la société ; elle ne peut défendre que ce qui lui est nuisible."
+          ],
+          "notes": [
+            {
+              "title": "La loi sous condition de justice",
+              "text": "La loi exprime la volonté générale, mais l'article ajoute qu'elle ne peut ordonner que ce qui est juste et utile à la société. Ce n'est pas une simple règle de vote; c'est une exigence de contenu."
+            }
           ]
         },
         {
@@ -116,6 +140,12 @@
           "title": "Article 7.",
           "paragraphs": [
             "Le droit de manifester sa pensée et ses opinions, soit par la voie de la presse, soit de toute autre manière, le droit de s'assembler paisiblement, le libre exercice des cultes, ne peuvent être interdits. - La nécessité d'énoncer ces droits suppose ou la présence ou le souvenir récent du despotisme."
+          ],
+          "notes": [
+            {
+              "title": "Presse, réunion, cultes",
+              "text": "La Déclaration regroupe ici des libertés qui servent à fabriquer l'opinion publique : écrire, publier, se réunir, pratiquer un culte. Sans ces droits, le vote populaire peut devenir une cérémonie vide."
+            }
           ]
         },
         {
@@ -193,6 +223,12 @@
           "title": "Article 18.",
           "paragraphs": [
             "Tout homme peut engager ses services, son temps ; mais il ne peut se vendre, ni être vendu ; sa personne n'est pas une propriété aliénable. La loi ne reconnaît point de domesticité ; il ne peut exister qu'un engagement de soins et de reconnaissance, entre l'homme qui travaille et celui qui l'emploie."
+          ],
+          "notes": [
+            {
+              "title": "La personne ne se vend pas",
+              "text": "L'article affirme que la personne humaine ne peut pas devenir une propriété. Il résonne avec les débats révolutionnaires sur l'esclavage et la domesticité, même si l'abolition générale de l'esclavage n'intervient que le 4 février 1794."
+            }
           ]
         },
         {
@@ -214,6 +250,12 @@
           "title": "Article 21.",
           "paragraphs": [
             "Les secours publics sont une dette sacrée. La société doit la subsistance aux citoyens malheureux, soit en leur procurant du travail, soit en assurant les moyens d'exister à ceux qui sont hors d'état de travailler."
+          ],
+          "notes": [
+            {
+              "title": "Les secours publics comme dette",
+              "text": "La société doit aider les citoyens sans travail ou incapables de travailler. Pour un lecteur moderne, cet article annonce une idée de solidarité publique qui va bien au-delà de la charité privée."
+            }
           ]
         },
         {
@@ -221,6 +263,12 @@
           "title": "Article 22.",
           "paragraphs": [
             "L'instruction est le besoin de tous. La société doit favoriser de tout son pouvoir les progrès de la raison publique, et mettre l'instruction à la portée de tous les citoyens."
+          ],
+          "notes": [
+            {
+              "title": "L'instruction comme condition politique",
+              "text": "Le texte parle de raison publique, pas seulement d'école. La République a besoin de citoyens capables de lire, comprendre, juger, voter; l'instruction devient donc une affaire constitutionnelle."
+            }
           ]
         },
         {
@@ -242,6 +290,12 @@
           "title": "Article 25.",
           "paragraphs": [
             "La souveraineté réside dans le peuple ; elle est une et indivisible, imprescriptible et inaliénable."
+          ],
+          "notes": [
+            {
+              "title": "Souveraineté populaire",
+              "text": "Le peuple remplace la Nation abstraite de 1791 comme titulaire direct de la souveraineté. Ce déplacement explique le reste du texte : vote plus large, intervention des assemblées primaires, lois soumises à réclamation."
+            }
           ]
         },
         {
@@ -263,6 +317,12 @@
           "title": "Article 28.",
           "paragraphs": [
             "Un peuple a toujours le droit de revoir, de réformer et de changer sa Constitution. Une génération ne peut assujettir à ses lois les générations futures."
+          ],
+          "notes": [
+            {
+              "title": "Aucune génération ne verrouille les suivantes",
+              "text": "L'article donne une phrase décisive à toute culture constituante : les vivants peuvent changer la règle politique reçue. Une Constitution doit organiser sa propre révision, pas se présenter comme une fin de l'histoire."
+            }
           ]
         },
         {
@@ -270,6 +330,12 @@
           "title": "Article 29.",
           "paragraphs": [
             "Chaque citoyen a un droit égal de concourir à la formation de la loi et à la nomination de ses mandataires ou de ses agents."
+          ],
+          "notes": [
+            {
+              "title": "Égalité politique des citoyens",
+              "text": "Chaque citoyen concourt à la loi et au choix des agents publics. La formule rompt avec le suffrage censitaire de 1791, même si elle reste inscrite dans une société qui exclut encore les femmes de la citoyenneté politique."
+            }
           ]
         },
         {
@@ -291,6 +357,12 @@
           "title": "Article 32.",
           "paragraphs": [
             "Le droit de présenter des pétitions aux dépositaires de l'autorité publique ne peut, en aucun cas, être interdit, suspendu ni limité."
+          ],
+          "notes": [
+            {
+              "title": "Pétitionner sans permission",
+              "text": "Le droit de pétition permet de saisir les autorités sans passer par un élu. Dans une constitution démocratique, c'est un outil de rappel : le citoyen ne disparaît pas entre deux élections."
+            }
           ]
         },
         {
@@ -315,8 +387,8 @@
           ],
           "notes": [
             {
-              "title": "Droit d’insurrection",
-              "text": "Le droit de résistance devient ici un principe constitutionnel explicite. C'est une arme démocratique puissante, mais aussi une question difficile : qui décide que le gouvernement a rompu le pacte ?"
+              "title": "Insurrection et limite du pouvoir",
+              "text": "Le droit de résistance devient ici un principe constitutionnel explicite. L'article ne donne pas une procédure détaillée; il pose une limite morale au gouvernement : s'il détruit les droits du peuple, il perd son titre à obéir. La difficulté reste entière : qui constate la rupture du pacte ?"
             }
           ]
         }
@@ -362,6 +434,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "Tout homme né et domicilié en France, âgé de vingt et un ans accomplis ; - Tout étranger âgé de vingt et un ans accomplis, qui, domicilié en France depuis une année - Y vit de son travail - Ou acquiert une propriété - Ou épouse une Française - Ou adopte un enfant - Ou nourrit un vieillard ; - Tout étranger enfin, qui sera jugé par le Corps législatif avoir bien mérité de l'humanité - Est admis à l'exercice des Droits de citoyen français."
+          ],
+          "notes": [
+            {
+              "title": "Citoyenneté ouverte aux étrangers installés",
+              "text": "Un étranger de 21 ans peut devenir citoyen s'il vit de son travail en France, acquiert une propriété, épouse une Française, adopte un enfant ou nourrit un vieillard. Cette définition lie la citoyenneté à la vie commune plus qu'au seul sang."
+            }
           ]
         },
         {
@@ -392,8 +470,8 @@
           ],
           "notes": [
             {
-              "title": "Souveraineté populaire",
-              "text": "La souveraineté n'est plus seulement nationale et représentée. Le texte cherche à faire intervenir directement les assemblées primaires dans la fabrication de la loi."
+              "title": "Le peuple souverain",
+              "text": "La souveraineté n'est plus seulement nationale et représentée comme en 1791. Le texte veut faire intervenir directement les assemblées primaires dans la fabrication de la loi, même si l'application réelle n'aura pas lieu."
             }
           ]
         },
@@ -412,7 +490,13 @@
         {
           "id": "a-45",
           "title": "Article 10.",
-          "paragraphs": ["Il délibère sur les lois."]
+          "paragraphs": ["Il délibère sur les lois."],
+          "notes": [
+            {
+              "title": "Le peuple délibère sur les lois",
+              "text": "La Constitution ne limite pas le peuple à choisir des députés. Les assemblées primaires peuvent intervenir dans la formation de la loi, ce qui rapproche le texte d'un modèle semi-direct."
+            }
+          ]
         }
       ]
     },
@@ -497,6 +581,12 @@
           "title": "Article 21.",
           "paragraphs": [
             "La population est la seule base de la représentation nationale."
+          ],
+          "notes": [
+            {
+              "title": "La population comme base",
+              "text": "La représentation repose sur la population, pas sur la richesse, le territoire ou les anciens rangs sociaux. Cette règle simplifie le principe démocratique : là où vivent les citoyens, là se mesure la représentation."
+            }
           ]
         },
         {
@@ -545,7 +635,13 @@
         {
           "id": "a-63",
           "title": "Article 29.",
-          "paragraphs": ["Chaque député appartient à la nation entière."]
+          "paragraphs": ["Chaque député appartient à la nation entière."],
+          "notes": [
+            {
+              "title": "Député de la Nation entière",
+              "text": "Même dans une Constitution très démocratique, le député ne devient pas le mandataire juridique de son canton. Le texte garde l'idée française du mandat national, déjà présente en 1791."
+            }
+          ]
         },
         {
           "id": "a-64",
@@ -580,6 +676,12 @@
           "title": "Article 34.",
           "paragraphs": [
             "Les Assemblées primaires se forment extraordinairement, sur la demande du cinquième des citoyens qui ont droit d'y voter."
+          ],
+          "notes": [
+            {
+              "title": "Convocation par les citoyens",
+              "text": "Le cinquième des citoyens ayant droit de vote peut provoquer une assemblée primaire extraordinaire. C'est une soupape institutionnelle : la participation populaire ne dépend pas entièrement du calendrier fixé par le centre."
+            }
           ]
         },
         {
@@ -766,6 +868,12 @@
           "title": "Article 58.",
           "paragraphs": [
             "Le projet est imprimé et envoyé à toutes les communes de la République, sous ce titre : loi proposée."
+          ],
+          "notes": [
+            {
+              "title": "La loi envoyée aux communes",
+              "text": "Le projet de loi doit être imprimé et transmis à toutes les communes. Pour 1793, c'est une ambition matérielle considérable : faire circuler la loi avant son adoption définitive."
+            }
           ]
         },
         {
@@ -773,6 +881,12 @@
           "title": "Article 59.",
           "paragraphs": [
             "Quarante jours après l'envoi de la loi proposée, si, dans la moitié des départements, plus un, le dixième des Assemblées primaires de chacun d'eux, régulièrement formées, n'a pas réclamé, le projet est accepté et devient loi."
+          ],
+          "notes": [
+            {
+              "title": "Un veto populaire possible",
+              "text": "Si un nombre suffisant d'assemblées primaires réclame contre la loi proposée dans les quarante jours, le projet ne devient pas automatiquement loi. Le mécanisme cherche à contrôler l'Assemblée sans abolir la représentation."
+            }
           ]
         },
         {
@@ -806,6 +920,12 @@
           "title": "Article 62.",
           "paragraphs": [
             "Il y a un Conseil exécutif composé de vingt-quatre membres."
+          ],
+          "notes": [
+            {
+              "title": "Un exécutif nombreux et surveillé",
+              "text": "Le Conseil exécutif compte 24 membres. Le choix limite la personnalisation du pouvoir exécutif, réflexe compréhensible après la monarchie, mais il peut aussi rendre l'action gouvernementale lente."
+            }
           ]
         },
         {
@@ -968,6 +1088,12 @@
           "title": "Article 84.",
           "paragraphs": [
             "Les séances de municipalités et des administrations sont publiques."
+          ],
+          "notes": [
+            {
+              "title": "Publicité des administrations",
+              "text": "Les séances locales sont publiques. La transparence n'est pas ici une valeur abstraite : elle permet aux citoyens de voir comment les décisions municipales et départementales se prennent."
+            }
           ]
         }
       ]
@@ -1169,6 +1295,12 @@
           "title": "Article 107.",
           "paragraphs": [
             "La force générale de la République est composée du peuple entier."
+          ],
+          "notes": [
+            {
+              "title": "La force générale, c'est le peuple",
+              "text": "La défense de la République ne repose pas seulement sur une armée séparée de la société. L'article traduit une culture de mobilisation citoyenne; la levée en masse d'août 1793 prolongera cette logique dans la guerre."
+            }
           ]
         },
         {
@@ -1227,6 +1359,12 @@
           "title": "Article 115.",
           "paragraphs": [
             "Si dans la moitié des départements, plus un, le dixième des Assemblées primaires de chacun d'eux, régulièrement formées, demande la révision de l'acte constitutionnel, ou le changement de quelques-uns de ces articles, le Corps législatif est tenu de convoquer toutes les Assemblées primaires de la République, pour savoir s'il y a lieu à une Convention nationale."
+          ],
+          "notes": [
+            {
+              "title": "Réviser par demande populaire",
+              "text": "La révision peut partir des assemblées primaires, avec un seuil territorial élevé. Le texte reconnaît que le pouvoir constituant doit rester accessible, tout en évitant qu'une minorité locale impose seule une nouvelle Convention."
+            }
           ]
         },
         {
@@ -1268,6 +1406,12 @@
           "title": "Article 120.",
           "paragraphs": [
             "Il donne asile aux étrangers bannis de leur patrie pour la cause de la liberté. - Il le refuse aux tyrans."
+          ],
+          "notes": [
+            {
+              "title": "Asile pour la liberté",
+              "text": "La France promet l'asile aux étrangers bannis pour la cause de la liberté et le refuse aux tyrans. Cet article montre comment la République se pense comme cause politique européenne, pas seulement comme régime national."
+            }
           ]
         },
         {
@@ -1312,7 +1456,23 @@
   "notes": [
     {
       "title": "Une constitution votée, puis suspendue",
-      "text": "La Constitution de 1793 compte parmi les textes les plus démocratiques de la période révolutionnaire. Son paradoxe est brutal : elle promet le contrôle populaire au moment où l'état d'exception l'empêche de vivre."
+      "text": "La Convention adopte ce texte le 24 juin 1793. Les assemblées primaires l'acceptent durant l'été, mais la Convention suspend son application le 10 octobre 1793 au nom du gouvernement révolutionnaire, jusqu'à la paix. Il ne gouvernera jamais réellement la France."
+    },
+    {
+      "title": "Le texte de l'an I",
+      "text": "On l'appelle souvent Constitution de l'an I, car le calendrier républicain place 1792-1793 dans la première année de la République. Elle garde une place forte dans l'imaginaire républicain parce qu'elle associe suffrage masculin large, contrôle populaire de la loi et droits sociaux."
+    },
+    {
+      "title": "À lire avec la guerre autour",
+      "text": "En 1793, la République affronte des armées étrangères, des révoltes intérieures et une crise politique entre Girondins et Montagnards. Cette pression explique la tension du texte : très démocratique dans ses principes, mais né dans un moment où l'urgence domine les institutions."
+    },
+    {
+      "title": "Ce que ce texte ajoute à 1789",
+      "text": "La Déclaration de 1793 reprend les droits classiques, puis ajoute des formulations fortes sur les secours publics, l'instruction, la résistance à l'oppression et la révision constitutionnelle par les générations futures."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel publié par le Conseil constitutionnel donne la base. Pour comprendre son moment politique, lisez-le avec les décrets de septembre 1792, la guerre aux frontières, la crise fédéraliste et la Constitution de 1791 ouverte à côté."
     }
   ]
 }

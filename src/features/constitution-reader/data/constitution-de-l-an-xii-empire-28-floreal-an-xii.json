@@ -33,6 +33,12 @@
           "title": "Article 2.",
           "paragraphs": [
             "Napoléon Bonaparte, Premier consul actuel de la République, est Empereur des Français."
+          ],
+          "notes": [
+            {
+              "title": "Nommer l'homme dans la Constitution",
+              "text": "L'article ne crée pas seulement une fonction; il nomme Napoléon Bonaparte comme Empereur. Le régime se confond dès l'origine avec une personne."
+            }
           ]
         }
       ]
@@ -49,8 +55,8 @@
           ],
           "notes": [
             {
-              "title": "Hérédité",
-              "text": "L'hérédité ferme la parenthèse ouverte par la souveraineté élective. Le pouvoir redevient transmissible, même s'il garde une mise en scène populaire."
+              "title": "Hérédité masculine",
+              "text": "La dignité impériale passe de mâle en mâle, par primogéniture, avec exclusion des femmes et de leur descendance. Le pouvoir redevient transmissible dans une famille, même s'il garde une mise en scène populaire."
             }
           ]
         },
@@ -83,8 +89,8 @@
           ],
           "notes": [
             {
-              "title": "Hiérarchie impériale",
-              "text": "Le texte réorganise l'État autour de dignités, de serments et de charges. La citoyenneté passe derrière une architecture de fidélité."
+              "title": "Hérédité de secours",
+              "text": "Si les lignées prévues s'éteignent, un sénatus-consulte organique soumis au peuple nomme un nouvel Empereur. Le texte prévoit donc une solution dynastique avant de prévoir une vraie compétition politique."
             }
           ]
         },
@@ -127,6 +133,12 @@
           "title": "Article 12.",
           "paragraphs": [
             "Ils ne peuvent se marier sans l'autorisation de l'Empereur. - Le mariage d'un prince Français, fait sans l'autorisation de l'Empereur, emporte privation de tout droit à l'hérédité, tant pour celui qui l'a contracté que pour ses descendants. - Néanmoins, s'il n'existe point d'enfant de ce mariage, et qu'il vienne à se dissoudre, le prince qui l'avait contracté recouvre ses droits à l'hérédité."
+          ],
+          "notes": [
+            {
+              "title": "Le mariage devient affaire d'État",
+              "text": "Un prince français qui se marie sans autorisation perd ses droits héréditaires. Dans une monarchie dynastique, la famille du chef de l'État devient une institution politique."
+            }
           ]
         },
         {
@@ -141,6 +153,12 @@
           "title": "Article 14.",
           "paragraphs": [
             "Napoléon Bonaparte établit par des statuts auxquels ses successeurs sont tenus de se conformer, - 1 ° Les devoirs des individus de tout sexe, membres de la famille impériale, envers l'Empereur ; - 2 ° Une organisation du palais impérial conforme à la dignité du trône et à la grandeur de la nation."
+          ],
+          "notes": [
+            {
+              "title": "Statuts de famille",
+              "text": "Napoléon règle les devoirs des membres de la famille impériale et l'organisation du palais. Le texte fabrique une maison impériale, avec ses obligations, ses cérémonies et sa discipline."
+            }
           ]
         },
         {
@@ -168,6 +186,12 @@
           "title": "Article 17.",
           "paragraphs": [
             "L'Empereur est mineur jusqu'à l'âge de dix-huit ans accomplis ; pendant sa minorité, il y a un régent de l'Empire."
+          ],
+          "notes": [
+            {
+              "title": "Prévoir l'Empereur mineur",
+              "text": "La régence répond au risque central d'un régime héréditaire : que le successeur soit enfant. Une Constitution républicaine parle rarement de minorité du chef de l'État; une dynastie doit le faire."
+            }
           ]
         },
         {
@@ -210,6 +234,12 @@
           "title": "Article 23.",
           "paragraphs": [
             "Aucun sénatus-consulte organique ne peut être rendu pendant la régence, ni avant la fin de la troisième année qui suit la majorité."
+          ],
+          "notes": [
+            {
+              "title": "Pas de révision organique pendant la régence",
+              "text": "Le texte empêche les sénatus-consultes organiques pendant la régence et juste après la majorité. Il protège la dynastie contre les grandes manœuvres constitutionnelles durant une période faible."
+            }
           ]
         },
         {
@@ -279,6 +309,12 @@
           "title": "Article 32.",
           "paragraphs": [
             "Les grandes dignités de l'Empire sont celles, - De grand-électeur, - D'archichancelier de l'Empire, - D'archichancelier d'État, - D'architrésorier, - De connétable, - De grand-amiral."
+          ],
+          "notes": [
+            {
+              "title": "Grandes dignités",
+              "text": "Grand-électeur, archichanceliers, architrésorier, connétable, grand-amiral : ces titres recréent une hiérarchie d'Empire. On n'est plus dans la sobriété institutionnelle de 1791."
+            }
           ]
         },
         {
@@ -312,6 +348,12 @@
           "title": "Article 37.",
           "paragraphs": [
             "Le Sénat et le Conseil d'État sont présidés par l'Empereur. - Lorsque l'Empereur ne préside pas le Sénat ou le Conseil d'État, il désigne celui des titulaires des grandes dignités de l'Empire qui doit présider."
+          ],
+          "notes": [
+            {
+              "title": "L'Empereur préside les grands corps",
+              "text": "Le Sénat et le Conseil d'État sont présidés par l'Empereur. Deux organes censés structurer et contrôler l'État se retrouvent placés sous sa présence directe."
+            }
           ]
         },
         {
@@ -319,6 +361,12 @@
           "title": "Article 38.",
           "paragraphs": [
             "Tous les actes du Sénat et du Corps législatif sont rendus au nom de l'Empereur, et promulgués ou publiés sous le sceau impérial."
+          ],
+          "notes": [
+            {
+              "title": "Tout acte porte le sceau impérial",
+              "text": "Les actes du Sénat et du Corps législatif sont rendus au nom de l'Empereur. Même quand un organe délibère, la forme juridique ramène l'autorité vers le centre impérial."
+            }
           ]
         },
         {
@@ -368,6 +416,12 @@
           "title": "Article 45.",
           "paragraphs": [
             "Chaque titulaire des grandes dignités de l'Empire préside un collège électoral de département. - Le collège électoral séant à Bruxelles est présidé par le grand-électeur. - Le collège électoral séant à Bordeaux est présidé par l'archichancelier de l'Empire. - Le collège électoral séant à Nantes est présidé par l'archichancelier d'État. - Le collège électoral séant à Lyon est présidé par l'architrésorier de l'Empire. - Le collège électoral séant à Turin est présidé par le connétable. - Le collège électoral séant à Marseille est présidé par le grand-amiral."
+          ],
+          "notes": [
+            {
+              "title": "Dignitaires et collèges électoraux",
+              "text": "Chaque titulaire d'une grande dignité préside un collège électoral de département. Le lien entre représentation locale et hiérarchie impériale devient explicite."
+            }
           ]
         },
         {
@@ -395,6 +449,12 @@
           "title": "Article 48.",
           "paragraphs": [
             "Les grands officiers de l'Empire sont - 1 ° Des maréchaux de l'Empire, choisis parmi les généraux les plus distingués. - Leur nombre n'excède pas celui de seize. - Ne font point partie de ce nombre les maréchaux de l'Empire qui sont sénateurs. - 2 ° Huit inspecteurs et colonels généraux de l'artillerie et du génie, des troupes à cheval et de la marine. - 3 ° Des grands officiers civils de la couronne, tels qu'ils seront institués par les statuts de l'Empereur."
+          ],
+          "notes": [
+            {
+              "title": "Maréchaux et ordre militaire",
+              "text": "Le texte crée les maréchaux de l'Empire parmi les généraux les plus distingués. La gloire militaire entre dans la Constitution comme rang civil et politique."
+            }
           ]
         },
         {
@@ -427,6 +487,12 @@
           "title": "Article 52.",
           "paragraphs": [
             "Dans les deux ans qui suivent son avènement, ou sa majorité, l'Empereur, accompagné - Des titulaires des grandes dignités de l'Empire, - Des ministres, - Des grands officiers de l'Empire, - Prête serment au peuple français sur l'Evangile, et en présence - Du Sénat, - Du Conseil d'État, - Du Corps législatif, - Du Tribunat, - De la Cour de cassation, - Des archevêques, - Des évêques, - Des grands officiers de la Légion d'honneur, - De la comptabilité nationale, - Des présidents des cours d'appel, - Des présidents des collèges électoraux, - Des présidents des consistoires, - Et des maires des trente-six principales villes de l'Empire. - Le secrétaire d'Etat dresse procès-verbal de la prestation du serment."
+          ],
+          "notes": [
+            {
+              "title": "Serment sur l'Évangile",
+              "text": "L'Empereur prête serment au peuple français sur l'Évangile. La scène réunit Révolution, Concordat et monarchie : le peuple reste invoqué, mais la cérémonie prend une forme sacrale."
+            }
           ]
         },
         {
@@ -434,6 +500,12 @@
           "title": "Article 53.",
           "paragraphs": [
             "Le serment de l'Empereur est ainsi conçu : - « Je jure de maintenir l'intégrité du territoire de la République, de respecter et de faire respecter les lois du concordat et la liberté des cultes ; de respecter et faire respecter l'égalité des droits, la liberté politique et civile, l'irrévocabilité des ventes des biens nationaux ; de ne lever aucun impôt, de n'établir aucune taxe qu'en vertu de la loi ; de maintenir l'institution de la Légion d'honneur ; de gouverner dans la seule vue de l'intérêt, du bonheur et de la gloire du peuple français. »"
+          ],
+          "notes": [
+            {
+              "title": "Ce que l'Empereur promet",
+              "text": "Le serment promet l'intégrité du territoire, les lois du Concordat, l'égalité des droits, la liberté politique et civile, l'irrévocabilité des ventes de biens nationaux. L'Empire rassure les héritiers de 1789 en même temps qu'il fonde une dynastie."
+            }
           ]
         },
         {
@@ -455,6 +527,12 @@
           "title": "Article 56.",
           "paragraphs": [
             "Les titulaires des grandes dignités de l'Empire, les ministres et le secrétaire d'État, les grands officiers, les membres du Sénat, du Conseil d'État, du Corps législatif, du Tribunat, des collèges électoraux et des assemblées de canton, prêtent serment en ces termes : - « Je jure obéissance aux constitutions de l'Empire et fidélité à l'Empereur. » - Les fonctionnaires publics civils et judiciaires, et les officiers et les soldats de l'armée de terre et de mer, prêtent le même serment."
+          ],
+          "notes": [
+            {
+              "title": "Serment de fidélité",
+              "text": "Les grands corps, les collèges électoraux et les assemblées de canton jurent obéissance aux constitutions de l'Empire et fidélité à l'Empereur. La citoyenneté institutionnelle devient aussi fidélité personnelle."
+            }
           ]
         }
       ]
@@ -468,6 +546,12 @@
           "title": "Article 57.",
           "paragraphs": [
             "Le Sénat se compose, - 1 ° Des princes français ayant atteint leur dix-huitième année ; - 2 ° Des titulaires des grandes dignités de l'Empire ; - 3 ° Des quatre-vingts membres nommés sur la présentation de candidats choisis par l'Empereur sur les listes formées par les collèges électoraux de département ; - 4 ° Des citoyens que l'Empereur juge convenable d'élever à la dignité de sénateur. - Dans le cas où le nombre de sénateurs excédera celui qui a été fixé par l'article 63 du sénatus-consulte organique du 16 thermidor an X, il sera, à cet égard, pourvu par une loi à l'exécution de l'article 17 du sénatus-consulte du 14 nivôse an XI."
+          ],
+          "notes": [
+            {
+              "title": "Un Sénat impérial",
+              "text": "Le Sénat accueille princes français, grandes dignités et membres choisis sur présentation impériale. Il reste un organe constitutionnel, mais sa composition le rapproche du palais."
+            }
           ]
         },
         {
@@ -489,6 +573,12 @@
           "title": "Article 60.",
           "paragraphs": [
             "Une commission de sept membres nommés par le Sénat, et choisis dans son sein, prend connaissance, sur la communication qui lui en est donnée par les ministres, des arrestations effectuées conformément à l'article 46 de la Constitution lorsque les personnes arrêtées n'ont pas été traduites devant les tribunaux dans les dix jours de leur arrestation. - Cette commission est appelée commission sénatoriale de la liberté individuelle."
+          ],
+          "notes": [
+            {
+              "title": "Liberté individuelle sous commission",
+              "text": "Une commission sénatoriale examine certaines arrestations prolongées au-delà de dix jours. La garantie existe, mais elle passe par un Sénat très lié à l'Empereur."
+            }
           ]
         },
         {
@@ -517,6 +607,12 @@
           "title": "Article 64.",
           "paragraphs": [
             "Une commission de sept membres nommés par le Sénat et choisis dans son sein, est chargée de veiller à la liberté de la presse. - Ne sont point compris dans son attribution les ouvrages qui s'impriment et se distribuent par abonnement et à des époques périodiques. - Cette commission est appelée commission sénatoriale de la liberté de la presse."
+          ],
+          "notes": [
+            {
+              "title": "Presse surveillée par le Sénat",
+              "text": "Une commission veille à la liberté de la presse, mais les périodiques en sont exclus. Le texte protège surtout le livre et l'imprimé non périodique; la presse politique reste plus exposée."
+            }
           ]
         },
         {
@@ -559,6 +655,12 @@
           "title": "Article 70.",
           "paragraphs": [
             "Tout décret rendu par le Corps législatif peut être dénoncé au Sénat par un sénateur, 1 ° comme tendant au rétablissement du régime féodal ; 2 ° comme contraire à l'irrévocabilité des ventes des domaines nationaux ; 3 ° comme n'ayant pas été délibéré dans les formes prescrites par les constitutions de l'Empire, les règlements et les lois ; 4 ° comme portant atteinte aux prérogatives de la dignité impériale et à celles du Sénat : sans préjudice de l'exécution des articles 21 et 37 de l'acte des constitutions de l'Empire, en date du 22 frimaire an VIII."
+          ],
+          "notes": [
+            {
+              "title": "Ce que le Sénat peut dénoncer",
+              "text": "Un sénateur peut contester une loi qui rétablit le régime féodal, menace les biens nationaux ou viole des formes constitutionnelles. Les peurs de la Révolution restent inscrites dans le droit impérial."
+            }
           ]
         },
         {
@@ -573,6 +675,12 @@
           "title": "Article 72.",
           "paragraphs": [
             "L'Empereur, après avoir entendu le Conseil d'État, ou déclare par un décret son adhésion à la délibération du Sénat, ou fait promulguer la loi."
+          ],
+          "notes": [
+            {
+              "title": "Dernier mot impérial",
+              "text": "Après l'avis du Sénat, l'Empereur peut adhérer ou faire promulguer la loi. Même le contrôle sénatorial débouche sur une décision impériale."
+            }
           ]
         },
         {
@@ -655,6 +763,12 @@
           "title": "Article 82.",
           "paragraphs": [
             "En séance ordinaire, le Corps législatif entend les orateurs du Conseil d'État et ceux des trois sections du Tribunat, et vote sur le projet de loi. - En comité général, les membres du Corps législatif discutent entre eux les avantages et les inconvénients du projet de loi."
+          ],
+          "notes": [
+            {
+              "title": "Le Corps législatif discute en secret",
+              "text": "Le Corps législatif peut discuter en comité général, mais le vote en séance ordinaire reste encadré par les orateurs du Conseil d'État et du Tribunat. La discussion revient, sans devenir une pleine souveraineté parlementaire."
+            }
           ]
         },
         {
@@ -717,6 +831,12 @@
           "title": "Article 90.",
           "paragraphs": [
             "Le président du Tribunat est nommé par l'Empereur, sur une présentation de trois candidats faite par le Tribunat au scrutin secret et à la majorité absolue."
+          ],
+          "notes": [
+            {
+              "title": "Président du Tribunat nommé par l'Empereur",
+              "text": "Le Tribunat propose trois noms, l'Empereur choisit. Même l'organe chargé de discuter les lois reçoit sa direction du sommet."
+            }
           ]
         },
         {
@@ -766,6 +886,12 @@
           "title": "Article 97.",
           "paragraphs": [
             "En aucun cas les projets de lois ne peuvent être discutés par le Tribunat en assemblée générale. - Il se réunit en assemblée générale, sous la présidence de son président, pour l'exercice de ses autres attributions."
+          ],
+          "notes": [
+            {
+              "title": "Pas de débat général sur les lois",
+              "text": "Les projets de loi ne peuvent pas être discutés par le Tribunat en assemblée générale. La division en sections limite la force politique d'un débat public unique."
+            }
           ]
         }
       ]
@@ -806,6 +932,12 @@
           "title": "Article 101.",
           "paragraphs": [
             "Une Haute Cour impériale connaît, - 1 ° Des délits personnels commis par des membres de la famille impériale, par des titulaires des grandes dignités de l'Empire, par des ministres et par le secrétaire d'État, par de grands officiers, par des sénateurs, par des conseillers d'Etat ; - 2 ° Des crimes, attentats et complots contre la sûreté intérieure et extérieure de l'État, la personne de l'Empereur et celle de l'héritier présomptif de l'Empire ; - 3 ° Des délits de responsabilité d'office commis par les ministres et les conseillers d'État chargés spécialement d'une partie d'administration publique ; - 4 ° Des prévarications et abus de pouvoir, commis, soit par des capitaines généraux des colonies, des préfets coloniaux et des commandants des établissements français hors du continent, soit par des administrateurs généraux employés extraordinairement, soit par des généraux de terre ou de mer ; sans préjudice, à l'égard de ceux-ci, des poursuites de la juridiction militaire, dans les cas déterminés par les lois ; - 5 ° Du fait de désobéissance des généraux de terre ou de mer qui contreviennent à leurs instructions ; - 6 ° Des concussions et dilapidations dont les préfets de l'intérieur se rendent coupables dans l'exercice de leurs fonctions ; - 7 ° Des forfaitures ou prises à partie qui peuvent être encourues par une cour d'appel, ou par une cour de justice criminelle, ou par des membres de la Cour de cassation ; - 8 ° Des dénonciations pour cause de détention arbitraire et de violation de la liberté de la presse."
+          ],
+          "notes": [
+            {
+              "title": "Haute Cour impériale",
+              "text": "La Haute Cour juge les grands personnages de l'Empire et certains délits politiques. Elle donne une forme judiciaire aux conflits du sommet de l'État, mais elle reste composée par le monde impérial."
+            }
           ]
         },
         {
@@ -869,6 +1001,12 @@
           "title": "Article 110.",
           "paragraphs": [
             "Les ministres ou les conseillers d'État chargés d'une partie quelconque d'administration publique, peuvent être dénoncés par le Corps législatif, s'ils ont donné des ordres contraires aux constitutions et aux lois de l'Empire."
+          ],
+          "notes": [
+            {
+              "title": "Dénoncer les ministres",
+              "text": "Le Corps législatif peut dénoncer des ministres ou conseillers d'État pour ordres contraires aux constitutions et aux lois. Le mécanisme existe, mais la suite dépend d'une procédure lourde et très contrôlée."
+            }
           ]
         },
         {
@@ -993,7 +1131,13 @@
         {
           "id": "a-128",
           "title": "Article 128.",
-          "paragraphs": ["Les débats et le jugement ont lieu en public."]
+          "paragraphs": ["Les débats et le jugement ont lieu en public."],
+          "notes": [
+            {
+              "title": "Débats publics",
+              "text": "Les débats et le jugement de la Haute Cour sont publics. Cette publicité compte, car beaucoup d'autres lieux de décision du régime restent fermés ou filtrés."
+            }
+          ]
         },
         {
           "id": "a-129",
@@ -1014,6 +1158,12 @@
           "title": "Article 131.",
           "paragraphs": [
             "Lorsqu'elle acquitte, elle peut mettre ceux qui sont absous, sous la surveillance ou à la disposition de la haute police de l'Etat, pour le temps qu'elle détermine."
+          ],
+          "notes": [
+            {
+              "title": "Acquitté, mais surveillé",
+              "text": "Même après acquittement, la Haute Cour peut placer une personne sous surveillance ou à la disposition de la haute police. Le droit pénal et la police politique se touchent ici de très près."
+            }
           ]
         },
         {
@@ -1048,6 +1198,12 @@
           "title": "Article 135.",
           "paragraphs": [
             "Les présidents de la Cour de cassation, des cours d'appel et de justice criminelle, sont nommés à vie par l'Empereur, et peuvent être choisis hors des cours qu'ils doivent présider."
+          ],
+          "notes": [
+            {
+              "title": "Présidents de cour nommés à vie",
+              "text": "L'Empereur nomme à vie les présidents de la Cour de cassation, des cours d'appel et de justice criminelle. L'ordre judiciaire gagne en hiérarchie impériale."
+            }
           ]
         },
         {
@@ -1090,6 +1246,12 @@
           "paragraphs": [
             "La promulgation est ainsi conçue :",
             "« N. (le prénom de l'Empereur), par la grâce de Dieu et les constitutions de la République, Empereur des Français, à tous présents et à venir, SALUT. - Le Sénat, après avoir entendu les orateurs du Conseil d'État, a décrété ou arrêté, et nous ordonnons ce qui suit : - (Et s'il s'agit d'une loi) Le Corps législatif a rendu, le ... (la date), le décret suivant, conformément à la proposition faite au nom de l'Empereur, et après avoir entendu les orateurs du Conseil d'État et des sections du Tribunat, le ... - Mandons et ordonnons que les présentes, revêtues des sceaux de l'État, insérées au Bulletin des lois, soient adressées aux cours, aux tribunaux et aux autorités administratives, pour qu'ils les inscrivent dans leurs registres, les observent et les fassent observer, et le grand-juge, ministre de la justice, est chargé d'en surveiller la publication. »"
+          ],
+          "notes": [
+            {
+              "title": "La formule de promulgation",
+              "text": "La formule associe grâce de Dieu et constitutions de la République. En une ligne, elle résume le compromis napoléonien : sacralité monarchique, héritage révolutionnaire, autorité personnelle."
+            }
           ]
         },
         {
@@ -1111,6 +1273,12 @@
           "title": "Article 142.",
           "paragraphs": [
             "La proposition suivante sera présentée à l'acceptation du peuple, dans les formes déterminées par l'arrêté du 20 floréal an X : - « Le peuple veut l'hérédité de la dignité impériale dans la descendance directe, naturelle, légitime et adoptive de Napoléon Bonaparte, et dans la descendance directe, naturelle et légitime de Joseph Bonaparte et de Louis Bonaparte, ainsi qu'il est réglé par le sénatus-consulte organique de ce jour. »"
+          ],
+          "notes": [
+            {
+              "title": "Acceptation populaire de l'hérédité",
+              "text": "La question soumise au peuple porte sur l'hérédité de la dignité impériale dans la famille Bonaparte. Le vote populaire sert à ratifier la dynastie, pas à choisir entre plusieurs régimes."
+            }
           ]
         }
       ]
@@ -1120,6 +1288,22 @@
     {
       "title": "L’Empire dans les formes constitutionnelles",
       "text": "Le texte montre comment une rupture politique peut se présenter comme une continuité juridique. L'Empire n'efface pas l'appareil né depuis 1789 ; il le subordonne."
+    },
+    {
+      "title": "La République confiée à un Empereur",
+      "text": "Le sénatus-consulte du 28 floréal an XII, soit le 18 mai 1804, transforme le Consulat à vie en Empire héréditaire. Le texte garde des mots républicains, mais il place la justice, la promulgation et la hiérarchie politique sous le nom de l'Empereur."
+    },
+    {
+      "title": "La méthode institutionnelle",
+      "text": "L'Empire naît par sénatus-consulte, puis la proposition d'hérédité est présentée à l'acceptation du peuple. La rupture monarchique passe donc par les outils du Consulat, pas par un retour simple à l'Ancien Régime."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel du Conseil constitutionnel permet de suivre les 142 articles. Pour lire utilement l'an XII, gardez l'an VIII et l'an X ouverts : beaucoup d'organes restent en place, mais leur sens change autour de l'Empereur."
+    },
+    {
+      "title": "Ce que l'Empire conserve",
+      "text": "Le texte conserve le Sénat, le Conseil d'État, le Corps législatif, le Tribunat, les collèges électoraux et plusieurs garanties de procédure. Il les réorganise dans un ordre de fidélité impériale."
     }
   ]
 }

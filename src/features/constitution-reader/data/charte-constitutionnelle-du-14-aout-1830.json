@@ -21,6 +21,12 @@
           "paragraphs": [
             "LOUIS-PHILIPPE, ROI DES FRANÇAIS, à tous présents et à venir, SALUT.",
             "NOUS AVONS ORDONNÉ ET ORDONNONS que la Charte constitutionnelle de 1814, telle qu'elle a été amendée par les deux Chambres le 7 août et acceptée par nous le 9, sera de nouveau publiée dans les termes suivants :"
+          ],
+          "notes": [
+            {
+              "title": "Une Charte amendée par les Chambres",
+              "text": "Le texte indique que la Charte de 1814 a été amendée par les deux Chambres puis acceptée par Louis-Philippe. Le mouvement est inverse de 1814 : les Chambres pèsent d'abord, le roi accepte ensuite."
+            }
           ]
         }
       ]
@@ -72,8 +78,8 @@
           ],
           "notes": [
             {
-              "title": "Religion et État",
-              "text": "Le catholicisme n'est plus formulé comme religion d'État de la même manière qu'en 1814. Le changement dit quelque chose du compromis libéral de 1830."
+              "title": "Fin de la religion d'État",
+              "text": "Le catholicisme n'est plus nommé religion de l'État, mais religion professée par la majorité des Français. La nuance juridique traduit le compromis libéral de 1830."
             }
           ]
         },
@@ -85,8 +91,8 @@
           ],
           "notes": [
             {
-              "title": "Presse",
-              "text": "L'interdiction du retour de la censure répond directement aux ordonnances de 1830. La liberté de la presse devient un marqueur du régime."
+              "title": "Censure interdite",
+              "text": "La phrase répond directement aux ordonnances de Charles X contre la presse. En 1830, la liberté d'imprimer devient un marqueur du nouveau régime."
             }
           ]
         },
@@ -154,7 +160,7 @@
           "notes": [
             {
               "title": "Initiative partagée",
-              "text": "L'initiative de la loi s'ouvre aux chambres. Le Parlement gagne en poids, même si le corps électoral reste socialement restreint."
+              "text": "Les Chambres reçoivent l'initiative de la loi avec le roi. C'est une correction majeure de 1814, où les Chambres devaient supplier le roi de proposer."
             }
           ]
         },
@@ -216,6 +222,12 @@
           "title": "Article 23.",
           "paragraphs": [
             "La nomination des pairs de France appartient au roi. Leur nombre est illimité : il peut en varier les dignités, les nommer à vie ou les rendre héréditaires, selon sa volonté."
+          ],
+          "notes": [
+            {
+              "title": "Pairs toujours nommés",
+              "text": "Le roi nomme les pairs et leur nombre reste illimité. La Chambre haute demeure un outil royal, même si le régime de 1830 se veut plus libéral."
+            }
           ]
         },
         {
@@ -244,6 +256,12 @@
           "title": "Article 27.",
           "paragraphs": [
             "Les séances de la Chambre des pairs sont publiques, comme celles de la Chambre des députés."
+          ],
+          "notes": [
+            {
+              "title": "Pairs en séance publique",
+              "text": "Les séances des pairs deviennent publiques comme celles des députés. La visibilité parlementaire progresse : le secret n'est plus la règle ordinaire de la Chambre haute."
+            }
           ]
         },
         {
@@ -297,6 +315,12 @@
           "title": "Article 34.",
           "paragraphs": [
             "Nul n'est électeur, s'il a moins de vingt-cinq ans, et s'il ne réunit les autres conditions déterminées par la loi."
+          ],
+          "notes": [
+            {
+              "title": "Électorat encore censitaire",
+              "text": "L'âge baisse par rapport à 1814, mais les autres conditions restent fixées par la loi censitaire. La monarchie de Juillet élargit le jeu politique sans passer au suffrage universel."
+            }
           ]
         },
         {
@@ -304,6 +328,12 @@
           "title": "Article 35.",
           "paragraphs": [
             "Les présidents des collèges électoraux sont nommés par les électeurs."
+          ],
+          "notes": [
+            {
+              "title": "Présidents élus par les électeurs",
+              "text": "Les présidents des collèges électoraux ne sont plus nommés par le roi. C'est un signe concret d'autonomie électorale par rapport à 1814."
+            }
           ]
         },
         {
@@ -318,6 +348,12 @@
           "title": "Article 37.",
           "paragraphs": [
             "Le président de la Chambre des députés est élu par elle à l'ouverture de chaque session."
+          ],
+          "notes": [
+            {
+              "title": "La Chambre choisit son président",
+              "text": "La Chambre des députés élit son président. En 1814, le roi le nommait sur une liste; en 1830, la Chambre gagne un symbole d'indépendance."
+            }
           ]
         },
         {
@@ -353,6 +389,12 @@
           "title": "Article 42.",
           "paragraphs": [
             "Le roi convoque chaque année les deux Chambres : il les proroge et peut dissoudre celle des députés ; mais, dans ce cas, il doit en convoquer une nouvelle dans le délai de trois mois."
+          ],
+          "notes": [
+            {
+              "title": "Dissolution encadrée",
+              "text": "Le roi peut dissoudre la Chambre, mais doit convoquer de nouvelles élections dans les trois mois. La dissolution reste une arme royale, avec retour obligatoire aux électeurs censitaires."
+            }
           ]
         },
         {
@@ -394,6 +436,12 @@
           "title": "Article 47.",
           "paragraphs": [
             "La Chambre des députés a le droit d'accuser les ministres et de les traduire devant la Chambre des pairs qui seule a celui de les juger."
+          ],
+          "notes": [
+            {
+              "title": "Ministres accusables",
+              "text": "La Chambre des députés accuse les ministres, les pairs les jugent. Le régime parle davantage de responsabilité, même si la responsabilité politique moderne reste encore une construction de pratique."
+            }
           ]
         }
       ]
@@ -445,6 +493,12 @@
           "title": "Article 54.",
           "paragraphs": [
             "Il ne pourra en conséquence être créé de commissions et de tribunaux extraordinaires, à quelque titre et sous quelque dénomination que ce puisse être."
+          ],
+          "notes": [
+            {
+              "title": "Pas de tribunaux extraordinaires",
+              "text": "La Charte de 1830 supprime la réserve de 1814 sur les juridictions prévôtales. La garantie contre les tribunaux d'exception devient plus nette."
+            }
           ]
         },
         {
@@ -540,6 +594,12 @@
           "title": "Article 67.",
           "paragraphs": [
             "La France reprend ses couleurs. A l'avenir, il ne sera plus porté d'autre cocarde que la cocarde tricolore."
+          ],
+          "notes": [
+            {
+              "title": "Retour du tricolore",
+              "text": "La cocarde tricolore redevient le signe public du régime. La monarchie de Juillet se place ainsi dans l'héritage de 1789 plutôt que dans la symbolique blanche de la Restauration."
+            }
           ]
         }
       ]
@@ -560,6 +620,12 @@
           "title": "Article 69.",
           "paragraphs": [
             "Il sera pourvu successivement par des lois séparées et dans le plus court délai possible aux objets qui suivent : 1 ° L'application du jury aux délits de la presse et aux délits politiques ; 2 ° La responsabilité des ministres et des autres agents du pouvoir ; 3 ° La réélection des députés promus à des fonctions publiques salariées ; 4 ° Le vote annuel du contingent de l'armée ; 5 ° L'organisation de la garde nationale, avec intervention des gardes nationaux dans le choix de leurs officiers ; 6 ° Des dispositions qui assurent d'une manière légale l'état des officiers de tout grade de terre et de mer ; 7 ° Des institutions départementales et municipales fondées sur un système électif ; 8 ° L'instruction publique et la liberté de l'enseignements ; 9 ° L'abolition du double vote et la fixation des conditions électorales et d'éligibilité."
+          ],
+          "notes": [
+            {
+              "title": "Réformes promises",
+              "text": "Le texte annonce des lois sur le jury pour la presse et les délits politiques, la responsabilité ministérielle, l'organisation municipale et l'instruction publique. La Charte sert ici de programme libéral différé."
+            }
           ]
         },
         {
@@ -576,6 +642,18 @@
     {
       "title": "Une monarchie corrigée par la révolution",
       "text": "La Charte de 1830 naît d'une crise politique. Elle limite davantage le roi, mais ne donne pas encore le pouvoir politique au suffrage universel."
+    },
+    {
+      "title": "Après les Trois Glorieuses",
+      "text": "La Charte de 1830 suit la révolution des 27, 28 et 29 juillet 1830. Elle corrige la Charte de 1814 en faveur des Chambres et des libertés, mais elle garde une monarchie censitaire."
+    },
+    {
+      "title": "Le roi des Français",
+      "text": "Louis-Philippe n'est plus seulement roi de France par grâce dynastique. Le titre de roi des Français signale une monarchie liée à la nation, même si le suffrage reste réservé aux contribuables aisés."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "La comparaison la plus utile est celle avec 1814 : initiative des lois, censure, religion, présidence des collèges électoraux, publicité des pairs et cocarde tricolore montrent le déplacement libéral."
     }
   ]
 }

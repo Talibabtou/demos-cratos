@@ -74,6 +74,12 @@
           "title": "Article 6.",
           "paragraphs": [
             "La loi est la volonté générale, exprimée par la majorité ou des citoyens ou de leurs représentants."
+          ],
+          "notes": [
+            {
+              "title": "La volonté générale par majorité",
+              "text": "La loi peut venir de la majorité des citoyens ou de leurs représentants. La formule maintient le vocabulaire révolutionnaire, mais l'ensemble du texte favorise la médiation représentative plutôt que la délibération directe de 1793."
+            }
           ]
         },
         {
@@ -151,6 +157,12 @@
           "title": "Article 17.",
           "paragraphs": [
             "La souveraineté réside essentiellement dans l'universalité des citoyens."
+          ],
+          "notes": [
+            {
+              "title": "Le souverain, ce sont les citoyens",
+              "text": "La souveraineté réside dans l'universalité des citoyens, mais la citoyenneté politique dépend ensuite de conditions précises. Le texte proclame un principe large, puis construit un accès filtré au pouvoir."
+            }
           ]
         },
         {
@@ -172,6 +184,12 @@
           "title": "Article 20.",
           "paragraphs": [
             "Chaque citoyen a un droit égal de concourir, immédiatement ou médiatement, à la formation de la loi, à la nomination des représentants du peuple et des fonctionnaires publics."
+          ],
+          "notes": [
+            {
+              "title": "Immédiatement ou médiatement",
+              "text": "Le citoyen peut concourir à la loi directement ou par des représentants. En pratique, la Constitution de 1795 privilégie les élections à plusieurs degrés et les corps constitués."
+            }
           ]
         },
         {
@@ -186,6 +204,12 @@
           "title": "Article 22.",
           "paragraphs": [
             "La garantie sociale ne peut exister si la division des pouvoirs n'est pas établie, si leurs limites ne sont pas fixées, et si la responsabilité des fonctionnaires publics n'est pas assurée."
+          ],
+          "notes": [
+            {
+              "title": "Séparer, limiter, rendre responsable",
+              "text": "La garantie sociale dépend de trois idées liées : division des pouvoirs, limites fixées, responsabilité des fonctionnaires. L'article résume la peur de 1795 : un pouvoir sans frein finit par menacer les droits."
+            }
           ]
         }
       ]
@@ -199,6 +223,12 @@
           "title": "Article 1.",
           "paragraphs": [
             "La Déclaration des droits contient les obligations des législateurs : le maintien de la société demande que ceux qui la composent connaissent et remplissent également leurs devoirs."
+          ],
+          "notes": [
+            {
+              "title": "Les devoirs entrent en scène",
+              "text": "La Déclaration ne parle plus seulement de ce que le citoyen peut exiger de l'État. Elle rappelle aussi ce que la société attend de lui : obéissance aux lois, respect d'autrui, défense de l'ordre public."
+            }
           ]
         },
         {
@@ -220,6 +250,12 @@
           "title": "Article 4.",
           "paragraphs": [
             "Nul n'est bon citoyen, s'il n'est bon fils, bon père, bon frère, bon ami, bon époux."
+          ],
+          "notes": [
+            {
+              "title": "La morale familiale comme politique",
+              "text": "Le bon citoyen est décrit à partir de ses rôles familiaux et privés. Cette phrase peut surprendre aujourd'hui, mais elle révèle la volonté thermidorienne de reconstruire l'ordre politique par les mœurs."
+            }
           ]
         },
         {
@@ -248,6 +284,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "C'est sur le maintien des propriétés que reposent la culture des terres, toutes les productions, tout moyen de travail, et tout l'ordre social."
+          ],
+          "notes": [
+            {
+              "title": "La propriété comme socle social",
+              "text": "La propriété fonde ici le travail, la production agricole et l'ordre social. Après les confiscations, les assignats et les peurs de partage forcé, le texte rassure les propriétaires."
+            }
           ]
         },
         {
@@ -327,6 +369,12 @@
           "title": "Article 8.",
           "paragraphs": [
             "Tout homme né et résidant en France, qui, âgé de vingt et un ans accomplis, s'est fait inscrire sur le registre civique de son canton, qui a demeuré depuis pendant une année sur le territoire de la République, et qui paie une contribution directe, foncière ou personnelle, est citoyen français."
+          ],
+          "notes": [
+            {
+              "title": "Citoyenneté et contribution",
+              "text": "L'inscription civique et le paiement d'une contribution directe conditionnent l'exercice politique. La République de 1795 ne revient pas exactement au modèle de 1791, mais elle écarte le suffrage masculin large de 1793."
+            }
           ]
         },
         {
@@ -383,6 +431,12 @@
           "title": "Article 16.",
           "paragraphs": [
             "Les jeunes gens ne peuvent être inscrits sur le registre civique, s'ils ne prouvent qu'ils savent lire et écrire, et exercer une profession mécanique. Les opérations manuelles de l'agriculture appartiennent aux professions mécaniques. - Cet article n'aura d'exécution qu'à compter de l'an XII de la République."
+          ],
+          "notes": [
+            {
+              "title": "Lire, écrire, exercer un métier",
+              "text": "À partir de l'an XII, les jeunes citoyens doivent prouver qu'ils savent lire, écrire et exercer une profession. L'article lie l'accès civique à l'instruction minimale et au travail reconnu."
+            }
           ]
         }
       ]
@@ -457,6 +511,12 @@
           "title": "Article 26.",
           "paragraphs": [
             "Les Assemblées primaires se réunissent : 1 ° Pour accepter ou rejeter les changements à l'acte constitutionnel, proposés par les Assemblées de révision ; 2 ° Pour faire les élections qui leur appartiennent suivant l'acte constitutionnel."
+          ],
+          "notes": [
+            {
+              "title": "Assemblées primaires limitées",
+              "text": "Les assemblées primaires acceptent ou rejettent des changements constitutionnels et procèdent aux élections. Elles ne deviennent pas des lieux permanents de débat politique comme le souhaitait l'esprit de 1793."
+            }
           ]
         },
         {
@@ -490,7 +550,13 @@
         {
           "id": "a-62",
           "title": "Article 31.",
-          "paragraphs": ["Toutes les élections se font au scrutin secret."]
+          "paragraphs": ["Toutes les élections se font au scrutin secret."],
+          "notes": [
+            {
+              "title": "Le secret du vote",
+              "text": "Le scrutin secret protège l'électeur contre les pressions locales, familiales ou économiques. Dans un système où les notables pèsent lourd, cette garantie peut changer le rapport de force dans l'isoloir, même si l'isoloir moderne n'existe pas encore."
+            }
+          ]
         },
         {
           "id": "a-63",
@@ -524,6 +590,12 @@
           "title": "Article 35.",
           "paragraphs": [
             "Nul ne pourra être nommé électeur, s'il n'a vingt-cinq ans accomplis, et s'il ne réunit aux qualités nécessaires pour exercer les droits de citoyen français, l'une des conditions suivantes, savoir : - Dans les communes au-dessus de six mille habitants, celle d'être propriétaire ou usufruitier d'un bien évalué à un revenu égal à la valeur locale de deux cents journées de travail, ou d'être locataire, soit d'une habitation évaluée à un revenu égal à la valeur de cent cinquante journées de travail, soit d'un bien rural évalué à deux cents journées de travail ; Dans les communes au-dessous de six mille habitants, celle d'être propriétaire ou usufruitier d'un bien évalué à un revenu égal à la valeur locale de cent cinquante journées de travail, ou d'être locataire, soit d'une habitation évaluée à un revenu égal à la valeur de cent journées de travail, soit d'un bien rural évalué à cent journées de travail ; - Et dans les campagnes, celle d'être propriétaire ou usufruitier d'un bien évalué à un revenu égal à la valeur locale de cent cinquante journées de travail, ou d'être fermier ou métayer de biens évalués à la valeur de deux cents journées de travail. - A l'égard de ceux qui seront en même temps propriétaires ou usufruitiers d'une part, et locataires, fermiers ou métayers de l'autre, leurs facultés à ces divers titres seront cumulées jusqu'au taux nécessaire pour établir leur éligibilité."
+          ],
+          "notes": [
+            {
+              "title": "L'électeur du second degré",
+              "text": "Les électeurs chargés de choisir les responsables publics doivent remplir des conditions d'âge et de fortune. Le système donne un rôle politique renforcé aux propriétaires, aux fermiers aisés et aux citoyens installés."
+            }
           ]
         },
         {
@@ -538,6 +610,12 @@
           "title": "Article 37.",
           "paragraphs": [
             "Les Assemblées électorales ne peuvent s'occuper d'aucun objet étranger aux élections dont elles sont chargées ; elles ne peuvent envoyer ni recevoir aucune adresse, aucune pétition, aucune députation."
+          ],
+          "notes": [
+            {
+              "title": "Écarter les assemblées militantes",
+              "text": "Les assemblées électorales ne peuvent traiter que des élections, sans pétitions ni adresses. Le texte vise directement les pratiques révolutionnaires de mobilisation collective et de pression politique."
+            }
           ]
         },
         {
@@ -596,8 +674,8 @@
           ],
           "notes": [
             {
-              "title": "Deux conseils",
-              "text": "Le bicamérisme sert ici de frein interne : une chambre propose, l'autre accepte ou rejette. L'objectif est d'éviter qu'une seule assemblée emporte tout le régime."
+              "title": "Deux conseils pour ralentir la loi",
+              "text": "Le Conseil des Cinq-Cents propose, le Conseil des Anciens accepte ou rejette. Le bicamérisme sert ici de frein interne : il évite qu'une seule assemblée emporte tout le régime, sans revenir à une chambre aristocratique."
             }
           ]
         },
@@ -1220,8 +1298,8 @@
           ],
           "notes": [
             {
-              "title": "Exécutif collectif",
-              "text": "Le Directoire divise l'exécutif entre cinq personnes. Cette solution limite le césarisme, mais elle complique l'autorité en temps de crise."
+              "title": "Cinq directeurs, pas un chef unique",
+              "text": "L'exécutif revient à cinq directeurs élus par le Corps législatif. Cette solution limite le césarisme et évite qu'une seule assemblée gouverne directement, mais elle complique l'autorité en temps de crise."
             }
           ]
         },
@@ -1640,6 +1718,12 @@
           "title": "Article 191.",
           "paragraphs": [
             "Le Directoire exécutif nomme, auprès de chaque administration départementale et municipale, un commissaire qu'il révoque lorsqu'il le juge convenable. - Ce commissaire surveille et requiert l'exécution des lois."
+          ],
+          "notes": [
+            {
+              "title": "Les commissaires du Directoire",
+              "text": "Le Directoire place des commissaires auprès des administrations locales. Leur rôle est de surveiller l'exécution des lois; c'est une manière de reprendre la main sur des autorités élues localement."
+            }
           ]
         },
         {
@@ -1675,6 +1759,12 @@
           "title": "Article 196.",
           "paragraphs": [
             "Le Directoire peut aussi annuler immédiatement les actes des administrations départementales ou municipales. - Il peut suspendre ou destituer immédiatement, lorsqu'il le croit nécessaire, les administrateurs soit de département, soit de canton, et les envoyer devant les tribunaux de département lorsqu'il y a lieu."
+          ],
+          "notes": [
+            {
+              "title": "Centralisation de contrôle",
+              "text": "Le Directoire peut annuler des actes locaux et suspendre ou destituer des administrateurs. La République reste décentralisée dans ses élections, mais très centralisée dans sa surveillance."
+            }
           ]
         },
         {
@@ -1880,6 +1970,12 @@
           "title": "Article 223.",
           "paragraphs": [
             "Pour que l'acte qui ordonne l'arrestation puisse être exécuté, il faut : - 1 ° Qu'il exprime formellement le motif de l'arrestation, et la loi en conformité de laquelle elle est ordonnée ; 2 ° Qu'il ait été notifié à celui qui en est l'objet, et qu'il lui en ait été laissé copie."
+          ],
+          "notes": [
+            {
+              "title": "Motiver l'arrestation",
+              "text": "Un acte d'arrestation doit indiquer le motif et la loi qui le fonde. Cette exigence protège contre l'arbitraire : l'autorité ne peut pas se contenter de dire qu'elle commande."
+            }
           ]
         },
         {
@@ -1985,6 +2081,12 @@
           "title": "Article 238.",
           "paragraphs": [
             "Un premier jury déclare si l'accusation doit être admise, ou rejetée : le fait est reconnu par un second jury, et la peine déterminée par la loi est appliquée par des tribunaux criminels."
+          ],
+          "notes": [
+            {
+              "title": "Deux jurys avant la peine",
+              "text": "Un premier jury décide si l'accusation mérite d'être jugée, un second reconnaît le fait. La procédure cherche à entourer la justice criminelle de garanties populaires, dans un siècle marqué par la peur des tribunaux d'exception."
+            }
           ]
         },
         {
@@ -2079,6 +2181,12 @@
           "title": "Article 252.",
           "paragraphs": [
             "L'instruction devant le jury de jugement est publique, et l'on ne peut refuser aux accusés le secours d'un conseil qu'ils ont la faculté de choisir, ou qui leur est nommé d'office."
+          ],
+          "notes": [
+            {
+              "title": "Audience publique et défense",
+              "text": "L'accusé peut choisir un conseil ou en recevoir un d'office. La publicité de l'instruction devant le jury protège aussi le public : une justice visible se contrôle mieux qu'une justice close."
+            }
           ]
         },
         {
@@ -2106,6 +2214,12 @@
           "title": "Article 255.",
           "paragraphs": [
             "Le Tribunal de cassation ne peut jamais connaître du fond des affaires ; mais il casse les jugements rendus sur des procédures dans lesquelles les formes ont été violées, ou qui contiennent quelque contravention expresse à la loi, et il renvoie le fond du procès au tribunal qui doit en connaître."
+          ],
+          "notes": [
+            {
+              "title": "La cassation ne juge pas le fond",
+              "text": "Le Tribunal de cassation casse pour violation des formes ou de la loi, puis renvoie l'affaire. Cette logique subsiste aujourd'hui : la cassation contrôle le droit, pas la vérité complète du dossier."
+            }
           ]
         },
         {
@@ -2292,6 +2406,12 @@
           "title": "Article 279.",
           "paragraphs": [
             "Aucun Français ne peut exercer les droits de citoyen, s'il n'est inscrit au rôle de la garde nationale sédentaire."
+          ],
+          "notes": [
+            {
+              "title": "Citoyenneté et garde nationale",
+              "text": "L'exercice des droits politiques suppose l'inscription dans la garde nationale sédentaire. La citoyenneté reste liée à la défense de l'ordre républicain local, pas seulement au vote."
+            }
           ]
         },
         {
@@ -2368,6 +2488,12 @@
           "title": "Article 289.",
           "paragraphs": [
             "Le commandement général des armées de la République ne peut être confié à un seul homme."
+          ],
+          "notes": [
+            {
+              "title": "Pas de général unique",
+              "text": "Le commandement général des armées ne peut pas revenir à un seul homme. L'article montre une peur nette du pouvoir militaire personnel; quatre ans plus tard, Bonaparte renverse le régime par le coup d'État du 18 Brumaire."
+            }
           ]
         },
         {
@@ -2423,6 +2549,12 @@
           "title": "Article 296.",
           "paragraphs": [
             "Il y a dans la République des écoles primaires où les élèves apprennent à lire, à écrire, les éléments du calcul et ceux de la morale. La République pourvoit aux frais de logement des instituteurs préposés à ces écoles."
+          ],
+          "notes": [
+            {
+              "title": "Écoles primaires et morale",
+              "text": "La République organise des écoles où l'on apprend à lire, écrire, compter et recevoir les éléments de la morale. Le texte ne promet pas une école gratuite complète, mais il fait de l'instruction primaire une affaire publique."
+            }
           ]
         },
         {
@@ -2651,6 +2783,12 @@
           "title": "Article 326.",
           "paragraphs": [
             "La guerre ne peut être décidée que par un décret du Corps législatif, sur la proposition formelle et nécessaire du Directoire exécutif."
+          ],
+          "notes": [
+            {
+              "title": "Déclarer la guerre à deux mains",
+              "text": "La guerre exige une proposition formelle du Directoire et un décret du Corps législatif. Ni l'exécutif ni les conseils ne peuvent, seuls, engager la République dans une guerre."
+            }
           ]
         },
         {
@@ -2700,6 +2838,12 @@
           "title": "Article 333.",
           "paragraphs": [
             "Les traités ne sont valables qu'après avoir été examinés et ratifiés par le Corps législatif ; néanmoins les conditions secrètes peuvent recevoir provisoirement leur exécution dès l'instant même où elles sont arrêtées par le Directoire."
+          ],
+          "notes": [
+            {
+              "title": "Le problème des clauses secrètes",
+              "text": "Les traités doivent être ratifiés par le Corps législatif, mais des conditions secrètes peuvent recevoir une exécution provisoire. La diplomatie garde donc une zone d'ombre, même dans un régime qui encadre fortement les pouvoirs."
+            }
           ]
         },
         {
@@ -2741,6 +2885,12 @@
           "title": "Article 338.",
           "paragraphs": [
             "Lorsque, dans un espace de neuf années, la proposition du Conseil des Anciens, ratifiée par le Conseil des Cinq-Cents, a été faite à trois époques éloignées l'une de l'autre de trois années au moins, une Assemblée de révision est convoquée."
+          ],
+          "notes": [
+            {
+              "title": "Une révision presque verrouillée",
+              "text": "Il faut trois propositions espacées sur neuf ans pour convoquer une assemblée de révision. Les thermidoriens veulent éviter la réécriture permanente de la Constitution; en pratique, ils rendent aussi l'adaptation très difficile."
+            }
           ]
         },
         {
@@ -2852,6 +3002,12 @@
           "title": "Article 353.",
           "paragraphs": [
             "Nul ne peut être empêché de dire, écrire, imprimer et publier sa pensée. - Les écrits ne peuvent être soumis à aucune censure avant leur publication. - Nul ne peut être responsable de ce qu'il a écrit ou publié, que dans les cas prévus par la loi."
+          ],
+          "notes": [
+            {
+              "title": "Pas de censure préalable",
+              "text": "Personne ne peut empêcher une publication avant sa sortie, mais l'auteur répond ensuite dans les cas prévus par la loi. La liberté d'imprimer existe donc avec une responsabilité après publication."
+            }
           ]
         },
         {
@@ -2859,6 +3015,12 @@
           "title": "Article 354.",
           "paragraphs": [
             "Nul ne peut être empêché d'exercer, en se conformant aux lois, le culte qu'il a choisi. - Nul ne peut être forcé de contribuer aux dépenses d'un culte. La République n'en salarie aucun."
+          ],
+          "notes": [
+            {
+              "title": "Liberté des cultes sans salaire public",
+              "text": "La République protège l'exercice des cultes, mais n'en salarie aucun. Cette formule annonce une séparation financière entre puissance publique et religions, même si le cadre de 1905 viendra bien plus tard."
+            }
           ]
         },
         {
@@ -2908,6 +3070,12 @@
           "title": "Article 361.",
           "paragraphs": [
             "Aucune assemblée de citoyens ne peut se qualifier de société populaire."
+          ],
+          "notes": [
+            {
+              "title": "Méfiance envers les sociétés populaires",
+              "text": "Aucune assemblée de citoyens ne peut se dire société populaire. Le texte vise les clubs révolutionnaires, en particulier l'héritage jacobin, que les thermidoriens accusent d'avoir pesé sur les pouvoirs publics."
+            }
           ]
         },
         {
@@ -2929,6 +3097,12 @@
           "title": "Article 364.",
           "paragraphs": [
             "Tous les citoyens sont libres d'adresser aux autorités publiques des pétitions, mais elles doivent être individuelles ; nulle association ne peut en présenter de collectives, si ce n'est les autorités constituées, et pour des objets propres à leur attribution. - Les pétitionnaires ne doivent jamais oublier le respect dû aux autorités constituées."
+          ],
+          "notes": [
+            {
+              "title": "Pétitions individuelles seulement",
+              "text": "Les citoyens peuvent pétitionner, mais les associations ne peuvent pas porter de pétitions collectives. La Constitution accepte la plainte individuelle et refuse la pression organisée."
+            }
           ]
         },
         {
@@ -3013,6 +3187,12 @@
           "title": "Article 376.",
           "paragraphs": [
             "Les citoyens se rappelleront sans cesse que c'est de la sagesse des choix dans les Assemblées primaires et électorales, que dépendent principalement la durée, la conservation et la prospérité de la République."
+          ],
+          "notes": [
+            {
+              "title": "La République dépend des choix électoraux",
+              "text": "La dernière leçon du texte est très directe : la survie de la République dépend de la qualité des choix dans les assemblées. La Constitution ne prétend pas sauver le régime si les citoyens confient les fonctions publiques à ses ennemis."
+            }
           ]
         },
         {
@@ -3031,6 +3211,26 @@
     {
       "title": "La méfiance organisée",
       "text": "Après 1793 et la Terreur, le texte préfère les freins, les délais et les divisions. Il protège contre l'emballement révolutionnaire, mais il rend aussi le régime fragile."
+    },
+    {
+      "title": "La Constitution du Directoire",
+      "text": "Adoptée le 5 fructidor an III, soit le 22 août 1795, puis acceptée par vote populaire, cette Constitution fonde le Directoire. Elle reste en vigueur jusqu'au coup d'État du 18 Brumaire an VIII, le 9 novembre 1799."
+    },
+    {
+      "title": "Après la Terreur",
+      "text": "Le texte vient après la chute de Robespierre, le 9 thermidor an II, soit le 27 juillet 1794. Les constituants thermidoriens veulent empêcher à la fois le retour monarchique, la dictature d'une assemblée et la pression permanente des clubs parisiens."
+    },
+    {
+      "title": "Pourquoi tant d'articles",
+      "text": "La Constitution de l'an III est très longue parce qu'elle règle les détails : élections, conseils, Directoire, administrations, justice, armée, finances, instruction, révision. Cette précision traduit une méfiance politique presque partout."
+    },
+    {
+      "title": "Droits et devoirs",
+      "text": "Contrairement à 1789 et 1793, le préambule associe une déclaration des droits à une déclaration des devoirs. Le message politique est clair : après les violences révolutionnaires, l'ordre social et la propriété reprennent une place centrale."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Le texte officiel publié par le Conseil constitutionnel suffit pour contrôler les articles. Pour le contexte, gardez près de vous la Constitution de 1793 : l'an III reprend certains mots révolutionnaires, mais il referme beaucoup de mécanismes de démocratie directe."
     }
   ]
 }

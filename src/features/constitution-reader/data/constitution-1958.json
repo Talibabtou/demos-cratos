@@ -46,7 +46,7 @@
           "notes": [
             {
               "title": "Bloc de constitutionnalité",
-              "text": "Le préambule renvoie à la Déclaration de 1789, au préambule de 1946 et à la Charte de l'environnement de 2004. Ces textes servent au contrôle de constitutionnalité."
+              "text": "Le préambule renvoie à la Déclaration de 1789, au préambule de 1946 et à la Charte de l'environnement de 2004. Depuis la décision Liberté d'association du 16 juillet 1971, ces références peuvent servir au contrôle de constitutionnalité."
             },
             {
               "title": "À lire lentement",
@@ -69,8 +69,8 @@
           ],
           "notes": [
             {
-              "title": "Identité républicaine",
-              "text": "L'article 1 rassemble l'indivisibilité, la laïcité, la démocratie, l'égalité sociale et la décentralisation. Peu d'articles concentrent autant de principes."
+              "title": "La formule de base de la République",
+              "text": "Indivisible, laïque, démocratique, sociale, décentralisée : l'article premier réunit plusieurs principes que le reste du droit doit respecter. Il porte aussi l'égalité devant la loi et l'accès égal des femmes et des hommes aux responsabilités."
             }
           ]
         }
@@ -92,8 +92,8 @@
           ],
           "notes": [
             {
-              "title": "Shared symbols",
-              "text": "Language, flag, anthem, motto, and democratic principle sit in the same article. These are the public signs of the Republic."
+              "title": "Symboles et principe démocratique",
+              "text": "Langue, drapeau, hymne, devise et principe démocratique se trouvent dans le même article. Ce ne sont pas seulement des signes : ils fixent l'identité publique de la République."
             }
           ]
         },
@@ -108,8 +108,8 @@
           ],
           "notes": [
             {
-              "title": "Souveraineté nationale",
-              "text": "Le peuple est la source de la souveraineté, mais la Constitution en canalise l'exercice par les représentants et par le référendum."
+              "title": "Représentation et référendum",
+              "text": "Le peuple exerce la souveraineté par ses représentants et par référendum. La Constitution refuse qu'un groupe, un parti, une rue ou une institution s'approprie seul la volonté du peuple."
             }
           ]
         },
@@ -123,8 +123,8 @@
           ],
           "notes": [
             {
-              "title": "Political parties",
-              "text": "Parties help express the vote. The Constitution also sets a limit: they must respect national sovereignty and democracy."
+              "title": "Partis politiques",
+              "text": "Les partis concourent à l'expression du suffrage, mais ils doivent respecter la souveraineté nationale et la démocratie. La Constitution protège le pluralisme sans faire des partis des propriétaires du vote."
             }
           ]
         }
@@ -143,8 +143,8 @@
           ],
           "notes": [
             {
-              "title": "Président arbitre",
-              "text": "L'article 5 présente le Président comme garant et arbitre. Une grande partie de la pratique de la Cinquième République tourne autour de cette formule."
+              "title": "Président arbitre et garant",
+              "text": "L'article 5 présente le Président comme gardien de la Constitution, arbitre du fonctionnement régulier des pouvoirs publics et garant de la continuité de l'État. Beaucoup de débats sur la fonction présidentielle partent de cette phrase."
             }
           ]
         },
@@ -155,6 +155,12 @@
             "Le Président de la République est élu pour cinq ans au suffrage universel direct.",
             "Nul ne peut exercer plus de deux mandats consécutifs.",
             "Les modalités d'application du présent article sont fixées par une loi organique"
+          ],
+          "notes": [
+            {
+              "title": "Quinquennat et limite de deux mandats",
+              "text": "Le Président est élu pour cinq ans au suffrage universel direct. La limite de deux mandats consécutifs est récente à l'échelle du régime : elle date de la révision de 2008."
+            }
           ]
         },
         {
@@ -172,6 +178,12 @@
             "Dans tous les cas, le Conseil constitutionnel est saisi dans les conditions fixées au deuxième alinéa de l'article 61 ci-dessous ou dans celles déterminées pour la présentation d'un candidat par la loi organique prévue à l'article 6 ci-dessus.",
             "Le Conseil constitutionnel peut proroger les délais prévus aux troisième et cinquième alinéas sans que le scrutin puisse avoir lieu plus de trente-cinq jours après la date de la décision du Conseil constitutionnel. Si l'application des dispositions du présent alinéa a eu pour effet de reporter l'élection à une date postérieure à l'expiration des pouvoirs du Président en exercice, celui-ci demeure en fonction jusqu'à la proclamation de son successeur.",
             "Il ne peut être fait application ni des articles 49 et 50 ni de l'article 89 de la Constitution durant la vacance de la Présidence de la République ou durant la période qui s'écoule entre la déclaration du caractère définitif de l'empêchement du Président de la République et l'élection de son successeur."
+          ],
+          "notes": [
+            {
+              "title": "Vacance présidentielle",
+              "text": "L'article organise le scrutin présidentiel, mais aussi les décès, empêchements et reports possibles. Il évite que la fonction présidentielle reste sans titulaire ou que l'élection se déroule dans des conditions faussées."
+            }
           ]
         },
         {
@@ -180,6 +192,12 @@
           "paragraphs": [
             "Le Président de la République nomme le Premier ministre. Il met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement.",
             "Sur la proposition du Premier ministre, il nomme les autres membres du Gouvernement et met fin à leurs fonctions."
+          ],
+          "notes": [
+            {
+              "title": "Nommer le Premier ministre",
+              "text": "Le Président nomme le Premier ministre. En période de majorité présidentielle, ce choix paraît simple; en cohabitation, il doit tenir compte de la majorité de l'Assemblée nationale."
+            }
           ]
         },
         {
@@ -211,8 +229,8 @@
           ],
           "notes": [
             {
-              "title": "Referendum",
-              "text": "Article 11 organizes legislative referendums and, since 2008, the shared-initiative referendum under tight conditions."
+              "title": "Référendum législatif",
+              "text": "L'article 11 permet de soumettre certains projets de loi au référendum. Depuis 2008, il prévoit aussi le référendum d'initiative partagée, mais avec des seuils si élevés qu'il reste difficile à mener jusqu'au vote."
             }
           ]
         },
@@ -224,6 +242,12 @@
             "Les élections générales ont lieu vingt jours au moins et quarante jours au plus après la dissolution.",
             "L'Assemblée nationale se réunit de plein droit le deuxième jeudi qui suit son élection. Si cette réunion a lieu en dehors de la période prévue pour la session ordinaire, une session est ouverte de droit pour une durée de quinze jours.",
             "Il ne peut être procédé à une nouvelle dissolution dans l'année qui suit ces élections."
+          ],
+          "notes": [
+            {
+              "title": "Dissolution",
+              "text": "Le Président peut dissoudre l'Assemblée nationale après consultation. C'est l'un de ses pouvoirs propres : le contreseing du Premier ministre n'est pas requis."
+            }
           ]
         },
         {
@@ -264,12 +288,8 @@
           ],
           "notes": [
             {
-              "title": "Emergency powers",
-              "text": "This is one of the most sensitive articles. In a grave crisis, it places exceptional powers in the President’s hands."
-            },
-            {
               "title": "Pouvoirs exceptionnels",
-              "text": "L'article 16 est l'un des points les plus sensibles du texte : en crise grave, il concentre des pouvoirs exceptionnels entre les mains du Président."
+              "text": "L'article 16 concentre des pouvoirs exceptionnels entre les mains du Président en cas de crise grave menaçant les institutions, la nation, le territoire ou les engagements internationaux. Il a été utilisé en 1961 pendant la guerre d'Algérie."
             }
           ]
         },
@@ -309,6 +329,12 @@
             "Le Gouvernement détermine et conduit la politique de la nation.",
             "Il dispose de l'administration et de la force armée.",
             "Il est responsable devant le Parlement dans les conditions et suivant les procédures prévues aux articles 49 et 50."
+          ],
+          "notes": [
+            {
+              "title": "Le Gouvernement gouverne",
+              "text": "Le Gouvernement détermine et conduit la politique de la Nation. Cette phrase compte : même dans un régime présidentiel dans sa pratique, la Constitution donne une fonction de direction politique au Gouvernement."
+            }
           ]
         },
         {
@@ -319,6 +345,12 @@
             "Il peut déléguer certains de ses pouvoirs aux ministres.",
             "Il supplée, le cas échéant, le Président de la République dans la présidence des conseils et comités prévus à l'article 15.",
             "Il peut, à titre exceptionnel, le suppléer pour la présidence d'un conseil des ministres en vertu d'une délégation expresse et pour un ordre du jour déterminé."
+          ],
+          "notes": [
+            {
+              "title": "Premier ministre et pouvoir réglementaire",
+              "text": "Le Premier ministre dirige l'action du Gouvernement et exerce le pouvoir réglementaire sous réserve des pouvoirs du Président. C'est l'article qui porte la mécanique quotidienne de l'exécutif."
+            }
           ]
         },
         {
@@ -356,7 +388,7 @@
           "notes": [
             {
               "title": "Ce que fait le Parlement",
-              "text": "Depuis la révision de 2008, cet article dit clairement que le Parlement vote la loi, contrôle le Gouvernement et évalue les politiques publiques."
+              "text": "Depuis 2008, l'article dit clairement que le Parlement vote la loi, contrôle le Gouvernement et évalue les politiques publiques. Il ne se limite donc pas à produire des textes."
             }
           ]
         },
@@ -460,7 +492,7 @@
           "notes": [
             {
               "title": "Domaine de la loi",
-              "text": "L'article 34 trace la frontière entre ce qui relève de la loi et ce qui relève du règlement. Il est indispensable pour comprendre le parlementarisme rationalisé de 1958."
+              "text": "L'article 34 énumère les matières relevant de la loi. Tout le reste appartient en principe au règlement, ce qui rompt avec une tradition où le Parlement pouvait intervenir très largement."
             }
           ]
         },
@@ -496,6 +528,12 @@
           "paragraphs": [
             "Les matières autres que celles qui sont du domaine de la loi ont un caractère réglementaire.",
             "Les textes de forme législative intervenus en ces matières peuvent être modifiés par décrets pris après avis du Conseil d'État. Ceux de ces textes qui interviendraient après l'entrée en vigueur de la présente Constitution ne pourront être modifiés par décret que si le Conseil constitutionnel a déclaré qu'ils ont un caractère réglementaire en vertu de l'alinéa précédent."
+          ],
+          "notes": [
+            {
+              "title": "Domaine réglementaire",
+              "text": "Ce qui n'est pas du domaine de la loi relève du règlement. Le couple articles 34 et 37 sert à comprendre le parlementarisme rationalisé de 1958."
+            }
           ]
         },
         {
@@ -513,6 +551,12 @@
             "Les ordonnances sont prises en conseil des ministres après avis du Conseil d'État.",
             "Elles entrent en vigueur dès leur publication mais deviennent caduques si le projet de loi de ratification n'est pas déposé devant le Parlement avant la date fixée par la loi d'habilitation. Elles ne peuvent être ratifiées que de manière expresse.",
             "A l'expiration du délai mentionné au premier alinéa du présent article, les ordonnances ne peuvent plus être modifiées que par la loi dans les matières qui sont du domaine législatif."
+          ],
+          "notes": [
+            {
+              "title": "Ordonnances",
+              "text": "Le Gouvernement peut demander au Parlement l'autorisation de prendre par ordonnances des mesures normalement législatives. Le Parlement habilite d'abord, puis ratifie s'il veut donner valeur législative."
+            }
           ]
         },
         {
@@ -531,6 +575,12 @@
           "title": "Article 40",
           "paragraphs": [
             "Les propositions et amendements formulés par les membres du Parlement ne sont pas recevables lorsque leur adoption aurait pour conséquence soit une diminution des ressources publiques, soit la création ou l'aggravation d'une charge publique."
+          ],
+          "notes": [
+            {
+              "title": "Irrecevabilité financière",
+              "text": "Les parlementaires ne peuvent pas proposer une mesure qui diminue les ressources publiques ou crée une charge publique. L'article 40 limite fortement l'initiative financière du Parlement."
+            }
           ]
         },
         {
@@ -565,6 +615,12 @@
           "paragraphs": [
             "Les membres du Parlement et le Gouvernement ont le droit d'amendement. Ce droit s'exerce en séance ou en commission selon les conditions fixées par les règlements des assemblées, dans le cadre déterminé par une loi organique.",
             "Après l'ouverture du débat, le Gouvernement peut s'opposer à l'examen de tout amendement qui n'a pas été antérieurement soumis à la commission Si le Gouvernement le demande, l'assemblée saisie se prononce par un seul vote sur tout ou partie du texte en discussion en ne retenant que les amendements proposés ou acceptés par le Gouvernement."
+          ],
+          "notes": [
+            {
+              "title": "Vote bloqué",
+              "text": "Le Gouvernement peut demander à une assemblée de se prononcer par un seul vote sur tout ou partie d'un texte, en ne retenant que les amendements qu'il accepte. C'est un outil de maîtrise de la procédure parlementaire."
+            }
           ]
         },
         {
@@ -575,6 +631,12 @@
             "Lorsque, par suite d'un désaccord entre les deux assemblées, un projet ou une proposition de loi n'a pu être adopté après deux lectures par chaque assemblée ou, si le Gouvernement a décidé d'engager la procédure accélérée sans que les Conférences des présidents s'y soient conjointement opposées, après une seule lecture par chacune d'entre elles, le Premier ministre ou, pour une proposition de loi, les présidents des deux assemblées agissant conjointement, ont la faculté de provoquer la réunion d'une commission mixte paritaire chargée de proposer un texte sur les dispositions restant en discussion.",
             "Le texte élaboré par la commission mixte peut être soumis par le Gouvernement pour approbation aux deux assemblées. Aucun amendement n'est recevable sauf accord du Gouvernement.",
             "Si la commission mixte ne parvient pas à l'adoption d'un texte commun ou si ce texte n'est pas adopté dans les conditions prévues à l'alinéa précédent, le Gouvernement peut, après une nouvelle lecture par l'Assemblée nationale et par le Sénat, demander à l'Assemblée nationale de statuer définitivement. En ce cas, l'Assemblée nationale peut reprendre soit le texte élaboré par la commission mixte, soit le dernier texte voté par elle, modifié le cas échéant par un ou plusieurs des amendements adoptés par le Sénat."
+          ],
+          "notes": [
+            {
+              "title": "Navette et dernier mot",
+              "text": "L'article organise la navette entre Assemblée nationale et Sénat, puis la commission mixte paritaire. Si le désaccord persiste, l'Assemblée nationale peut avoir le dernier mot dans les conditions prévues."
+            }
           ]
         },
         {
@@ -597,6 +659,12 @@
             "Si le Parlement ne s'est pas prononcé dans un délai de soixante-dix jours, les dispositions du projet peuvent être mises en vigueur par ordonnance.",
             "Si la loi de finances fixant les ressources et les charges d'un exercice n'a pas été déposée en temps utile pour être promulguée avant le début de cet exercice, le Gouvernement demande d'urgence au Parlement l'autorisation de percevoir les impôts et ouvre par décret les crédits se rapportant aux services votés.",
             "Les délais prévus au présent article sont suspendus lorsque le Parlement n'est pas en session."
+          ],
+          "notes": [
+            {
+              "title": "Délais budgétaires",
+              "text": "Le Parlement vote la loi de finances dans des délais stricts. Si l'Assemblée ne se prononce pas à temps, le Gouvernement peut accélérer la procédure; le budget ne doit pas bloquer l'État."
+            }
           ]
         },
         {
@@ -641,7 +709,7 @@
           "notes": [
             {
               "title": "Responsabilité du Gouvernement",
-              "text": "L'article 49 contient plusieurs mécanismes de responsabilité, dont le 49.3. Il donne au Gouvernement des outils forts face à l'Assemblée."
+              "text": "L'article 49 contient la confiance, la motion de censure et l'engagement de responsabilité sur un texte. Le 49.3 n'est qu'un alinéa de cet ensemble, mais c'est le plus connu parce qu'il permet l'adoption d'un texte sauf censure."
             }
           ]
         },
@@ -693,6 +761,12 @@
           "paragraphs": [
             "Le Président de la République négocie et ratifie les traités.",
             "Il est informé de toute négociation tendant à la conclusion d'un accord international non soumis à ratification."
+          ],
+          "notes": [
+            {
+              "title": "Diplomatie présidentielle",
+              "text": "Le Président négocie et ratifie les traités. L'article donne au chef de l'État une place centrale dans les relations extérieures."
+            }
           ]
         },
         {
@@ -724,6 +798,12 @@
           "title": "Article 54",
           "paragraphs": [
             "Si le Conseil constitutionnel, saisi par le Président de la République, par le Premier ministre, par le président de l'une ou l'autre assemblée ou par soixante députés ou soixante sénateurs, a déclaré qu'un engagement international comporte une clause contraire à la Constitution, l'autorisation de ratifier ou d'approuver l'engagement international en cause ne peut intervenir qu'après révision de la Constitution."
+          ],
+          "notes": [
+            {
+              "title": "Traité contraire à la Constitution",
+              "text": "Si le Conseil constitutionnel juge qu'un engagement international contredit la Constitution, il faut réviser la Constitution avant de ratifier. Cet article protège la hiérarchie constitutionnelle."
+            }
           ]
         },
         {
@@ -731,6 +811,12 @@
           "title": "Article 55",
           "paragraphs": [
             "Les traités ou accords régulièrement ratifiés ou approuvés ont, dès leur publication, une autorité supérieure à celle des lois, sous réserve, pour chaque accord ou traité, de son application par l'autre partie."
+          ],
+          "notes": [
+            {
+              "title": "Supériorité des traités sur la loi",
+              "text": "Les traités régulièrement ratifiés ont une autorité supérieure aux lois, sous réserve de réciprocité. La Constitution place donc les engagements internationaux au-dessus de la loi ordinaire."
+            }
           ]
         }
       ]
@@ -746,6 +832,12 @@
             "Le Conseil constitutionnel comprend neuf membres, dont le mandat dure neuf ans et n'est pas renouvelable. Le Conseil constitutionnel se renouvelle par tiers tous les trois ans. Trois des membres sont nommés par le Président de la République, trois par le président de l'Assemblée nationale, trois par le président du Sénat. La procédure prévue au dernier alinéa de l'article 13 est applicable à ces nominations. Les nominations effectuées par le président de chaque assemblée sont soumises au seul avis de la commission permanente compétente de l'assemblée concernée.",
             "En sus des neuf membres prévus ci-dessus, font de droit partie à vie du Conseil constitutionnel les anciens Présidents de la République.",
             "Le président est nommé par le Président de la République. Il a voix prépondérante en cas de partage."
+          ],
+          "notes": [
+            {
+              "title": "Composition du Conseil constitutionnel",
+              "text": "Le Conseil constitutionnel compte neuf membres nommés pour neuf ans, renouvelés par tiers. Sa composition politique d'origine explique une partie des débats sur son rôle."
+            }
           ]
         },
         {
@@ -788,8 +880,8 @@
           ],
           "notes": [
             {
-              "title": "Review before promulgation",
-              "text": "This article allows the Constitutional Council to review a law before the President promulgates it."
+              "title": "Contrôle avant promulgation",
+              "text": "L'article 61 permet de contrôler une loi avant sa promulgation. Depuis 1974, soixante députés ou soixante sénateurs peuvent saisir le Conseil, ce qui a renforcé le contrôle de la majorité par l'opposition."
             }
           ]
         },
@@ -803,7 +895,7 @@
           "notes": [
             {
               "title": "Question prioritaire de constitutionnalité",
-              "text": "Depuis 2008, la QPC permet à un justiciable de contester une disposition législative déjà en vigueur si elle porte atteinte aux droits et libertés constitutionnels."
+              "text": "Depuis la révision de 2008 et l'entrée en vigueur de 2010, la QPC permet à un justiciable de contester une loi déjà applicable si elle porte atteinte aux droits et libertés garantis par la Constitution."
             }
           ]
         },
@@ -815,6 +907,12 @@
             "Une disposition déclarée inconstitutionnelle sur le fondement de l'article 61-1 est abrogée à compter de la publication de la décision du Conseil constitutionnel ou d'une date ultérieure fixée par cette décision. Le Conseil constitutionnel détermine les conditions et limites dans lesquelles les effets que la disposition a produits sont susceptibles d'être remis en cause.",
             "Les décisions du Conseil constitutionnel ne sont susceptibles d'aucun recours.",
             "Elles s'imposent aux pouvoirs publics et à toutes les autorités administratives et juridictionnelles."
+          ],
+          "notes": [
+            {
+              "title": "Effets des décisions",
+              "text": "Une disposition censurée avant promulgation ne peut pas entrer en vigueur. Une disposition censurée par QPC est abrogée selon la date fixée par le Conseil constitutionnel."
+            }
           ]
         },
         {
@@ -838,6 +936,12 @@
             "Il est assisté par le Conseil supérieur de la magistrature.",
             "Une loi organique porte statut des magistrats.",
             "Les magistrats du siège sont inamovibles."
+          ],
+          "notes": [
+            {
+              "title": "Indépendance de l'autorité judiciaire",
+              "text": "Le Président est garant de l'indépendance de l'autorité judiciaire, assisté par le Conseil supérieur de la magistrature. Le texte distingue autorité judiciaire et pouvoir judiciaire, choix typiquement français."
+            }
           ]
         },
         {
@@ -863,12 +967,24 @@
           "paragraphs": [
             "Nul ne peut être arbitrairement détenu.",
             "L'autorité judiciaire, gardienne de la liberté individuelle, assure le respect de ce principe dans les conditions prévues par la loi."
+          ],
+          "notes": [
+            {
+              "title": "Liberté individuelle",
+              "text": "L'autorité judiciaire garde la liberté individuelle et empêche la détention arbitraire. Cet article est un point d'appui majeur pour les garanties contre l'enfermement abusif."
+            }
           ]
         },
         {
           "id": "66-1",
           "title": "Article 66-1",
-          "paragraphs": ["Nul ne peut être condamné à la peine de mort."]
+          "paragraphs": ["Nul ne peut être condamné à la peine de mort."],
+          "notes": [
+            {
+              "title": "Peine de mort interdite",
+              "text": "L'interdiction constitutionnelle de la peine de mort date de 2007. Elle vient après l'abolition législative de 1981 et verrouille ce choix au niveau constitutionnel."
+            }
+          ]
         }
       ]
     },
@@ -895,6 +1011,12 @@
             "La Haute Cour est présidée par le président de l'Assemblée nationale. Elle statue dans un délai d'un mois, à bulletins secrets, sur la destitution. Sa décision est d'effet immédiat.",
             "Les décisions prises en application du présent article le sont à la majorité des deux tiers des membres composant l'assemblée concernée ou la Haute Cour. Toute délégation de vote est interdite. Seuls sont recensés les votes favorables à la proposition de réunion de la Haute Cour ou à la destitution.",
             "Une loi organique fixe les conditions d'application du présent article."
+          ],
+          "notes": [
+            {
+              "title": "Destitution du Président",
+              "text": "Le Président peut être destitué seulement en cas de manquement manifestement incompatible avec son mandat. La procédure relève du Parlement constitué en Haute Cour, pas d'un procès pénal ordinaire."
+            }
           ]
         }
       ]
@@ -910,6 +1032,12 @@
             "Les membres du Gouvernement sont pénalement responsables des actes accomplis dans l'exercice de leurs fonctions et qualifiés crimes ou délits au moment où ils ont été commis.",
             "Ils sont jugés par la Cour de justice de la République.",
             "La Cour de justice de la République est liée par la définition des crimes et délits ainsi que par la détermination des peines telles qu'elles résultent de la loi."
+          ],
+          "notes": [
+            {
+              "title": "Responsabilité pénale des ministres",
+              "text": "Les ministres répondent pénalement des crimes et délits commis dans l'exercice de leurs fonctions devant la Cour de justice de la République. Cette juridiction fait régulièrement débat."
+            }
           ]
         },
         {
@@ -974,6 +1102,12 @@
             "La loi organique définit les attributions et les modalités d'intervention du Défenseur des droits. Elle détermine les conditions dans lesquelles il peut être assisté par un collège pour l'exercice de certaines de ses attributions.",
             "Le Défenseur des droits est nommé par le Président de la République pour un mandat de six ans non renouvelable, après application de la procédure prévue au dernier alinéa de l'article 13. Ses fonctions sont incompatibles avec celles de membre du Gouvernement et de membre du Parlement. Les autres incompatibilités sont fixées par la loi organique.",
             "Le Défenseur des droits rend compte de son activité au Président de la République et au Parlement."
+          ],
+          "notes": [
+            {
+              "title": "Défenseur des droits",
+              "text": "Le Défenseur des droits protège les droits et libertés face aux administrations et organismes chargés d'une mission de service public. L'institution a été constitutionnalisée en 2008."
+            }
           ]
         }
       ]
@@ -993,6 +1127,12 @@
             "Aucune collectivité territoriale ne peut exercer une tutelle sur une autre.",
             "Cependant, lorsque l'exercice d'une compétence nécessite le concours de plusieurs collectivités territoriales, la loi peut autoriser l'une d'entre elles ou un de leurs groupements à organiser les modalités de leur action commune.",
             "Dans les collectivités territoriales de la République, le représentant de l'État, représentant de chacun des membres du Gouvernement, a la charge des intérêts nationaux, du contrôle administratif et du respect des lois."
+          ],
+          "notes": [
+            {
+              "title": "Décentralisation",
+              "text": "Communes, départements, régions, collectivités à statut particulier et collectivités d'outre-mer sont reconnus. Depuis 2003, la Constitution dit explicitement que l'organisation de la République est décentralisée."
+            }
           ]
         },
         {
@@ -1002,6 +1142,12 @@
             "La loi fixe les conditions dans lesquelles les électeurs de chaque collectivité territoriale peuvent, par l'exercice du droit de pétition, demander l'inscription à l'ordre du jour de l'assemblée délibérante de cette collectivité d'une question relevant de sa compétence.",
             "Dans les conditions prévues par la loi organique, les projets de délibération ou d'acte relevant de la compétence d'une collectivité territoriale peuvent, à son initiative, être soumis, par la voie du référendum, à la décision des électeurs de cette collectivité.",
             "Lorsqu'il est envisagé de créer une collectivité territoriale dotée d'un statut particulier ou de modifier son organisation, il peut être décidé par la loi de consulter les électeurs inscrits dans les collectivités intéressées. La modification des limites des collectivités territoriales peut également donner lieu à la consultation des électeurs dans les conditions prévues par la loi."
+          ],
+          "notes": [
+            {
+              "title": "Pétition et référendum local",
+              "text": "Les électeurs locaux peuvent demander l'inscription d'une question à l'ordre du jour et participer à des référendums locaux. La démocratie locale existe dans le texte, mais ses conditions restent fixées par la loi."
+            }
           ]
         },
         {
@@ -1014,6 +1160,12 @@
             "Les recettes fiscales et les autres ressources propres des collectivités territoriales représentent, pour chaque catégorie de collectivités, une part déterminante de l'ensemble de leurs ressources. La loi organique fixe les conditions dans lesquelles cette règle est mise en oeuvre.",
             "Tout transfert de compétences entre l'État et les collectivités territoriales s'accompagne de l'attribution de ressources équivalentes à celles qui étaient consacrées à leur exercice. Toute création ou extension de compétences ayant pour conséquence d'augmenter les dépenses des collectivités territoriales est accompagnée de ressources déterminées par la loi.",
             "La loi prévoit des dispositifs de péréquation destinés à favoriser l'égalité entre les collectivités territoriales."
+          ],
+          "notes": [
+            {
+              "title": "Autonomie financière locale",
+              "text": "Les collectivités disposent de ressources propres dans les conditions fixées par la loi. L'article protège une autonomie financière, sans leur donner une souveraineté fiscale complète."
+            }
           ]
         },
         {
@@ -1024,6 +1176,12 @@
             "La Guadeloupe, la Guyane, la Martinique, La Réunion, Mayotte, Saint-Barthélemy, Saint-Martin, Saint-Pierre-et-Miquelon, les îles Wallis et Futuna et la Polynésie française sont régis par l'article 73 pour les départements et les régions d'outre-mer, et pour les collectivités territoriales créées en application du dernier alinéa de l'article 73, et par l'article 74 pour les autres collectivités.",
             "Le statut de la Nouvelle-Calédonie est régi par le titre XIII.",
             "La loi détermine le régime législatif et l'organisation particulière des Terres australes et antarctiques françaises et de Clipperton."
+          ],
+          "notes": [
+            {
+              "title": "Outre-mer dans la République",
+              "text": "La République reconnaît les populations d'outre-mer au sein du peuple français. L'article nomme les collectivités concernées et donne une place constitutionnelle à leur diversité statutaire."
+            }
           ]
         },
         {
@@ -1045,6 +1203,12 @@
             "La disposition prévue aux deux précédents alinéas n'est pas applicable au département et à la région de La Réunion.",
             "Les habilitations prévues aux deuxième et troisième alinéas sont décidées, à la demande de la collectivité concernée, dans les conditions et sous les réserves prévues par une loi organique. Elles ne peuvent intervenir lorsque sont en cause les conditions essentielles d'exercice d'une liberté publique ou d'un droit constitutionnellement garanti.",
             "La création par la loi d'une collectivité se substituant à un département et une région d'outre-mer ou l'institution d'une assemblée délibérante unique pour ces deux collectivités ne peut intervenir sans qu'ait été recueilli, selon les formes prévues au second alinéa de l'article 72-4, le consentement des électeurs inscrits dans le ressort de ces collectivités."
+          ],
+          "notes": [
+            {
+              "title": "Assimilation adaptée",
+              "text": "Dans les départements et régions d'outre-mer, les lois s'appliquent de plein droit, avec adaptations possibles. C'est le modèle de l'identité législative modulée."
+            }
           ]
         },
         {
@@ -1055,6 +1219,12 @@
             "Ce statut est défini par une loi organique, adoptée après avis de l'assemblée délibérante, qui fixe : - les conditions dans lesquelles les lois et règlements y sont applicables ; - les compétences de cette collectivité ; sous réserve de celles déjà exercées par elle, le transfert de compétences de l'État ne peut porter sur les matières énumérées au quatrième alinéa de l'article 73, précisées et complétées, le cas échéant, par la loi organique ; - les règles d'organisation et de fonctionnement des institutions de la collectivité et le régime électoral de son assemblée délibérante ; - les conditions dans lesquelles ses institutions sont consultées sur les projets et propositions de loi et les projets d'ordonnance ou de décret comportant des dispositions particulières à la collectivité, ainsi que sur la ratification ou l'approbation d'engagements internationaux conclus dans les matières relevant de sa compétence.",
             "La loi organique peut également déterminer, pour celles de ces collectivités qui sont dotées de l'autonomie, les conditions dans lesquelles : - le Conseil d'État exerce un contrôle juridictionnel spécifique sur certaines catégories d'actes de l'assemblée délibérante intervenant au titre des compétences qu'elle exerce dans le domaine de la loi ; - l'assemblée délibérante peut modifier une loi promulguée postérieurement à l'entrée en vigueur du statut de la collectivité, lorsque le Conseil constitutionnel, saisi notamment par les autorités de la collectivité, a constaté que la loi était intervenue dans le domaine de compétence de cette collectivité ; - des mesures justifiées par les nécessités locales peuvent être prises par la collectivité en faveur de sa population, en matière d'accès à l'emploi, de droit d'établissement pour l'exercice d'une activité professionnelle ou de protection du patrimoine foncier ; - la collectivité peut participer, sous le contrôle de l'État, à l'exercice des compétences qu'il conserve, dans le respect des garanties accordées sur l'ensemble du territoire national pour l'exercice des libertés publiques.",
             "Les autres modalités de l'organisation particulière des collectivités relevant du présent article sont définies et modifiées par la loi après consultation de leur assemblée délibérante."
+          ],
+          "notes": [
+            {
+              "title": "Statuts propres outre-mer",
+              "text": "Les collectivités de l'article 74 ont un statut tenant compte de leurs intérêts propres. Elles relèvent d'une logique plus différenciée que les départements et régions d'outre-mer de l'article 73."
+            }
           ]
         },
         {
@@ -1077,6 +1247,12 @@
           "title": "Article 75-1",
           "paragraphs": [
             "Les langues régionales appartiennent au patrimoine de la France."
+          ],
+          "notes": [
+            {
+              "title": "Langues régionales",
+              "text": "Les langues régionales appartiennent au patrimoine de la France. L'article reconnaît une valeur culturelle, sans créer à lui seul un droit général à leur usage administratif."
+            }
           ]
         }
       ]
@@ -1134,6 +1310,12 @@
           "title": "Article 88-1",
           "paragraphs": [
             "La République participe à l’Union européenne constituée d’États qui ont choisi librement d’exercer en commun certaines de leurs compétences en vertu du traité sur l’Union européenne et du traité sur le fonctionnement de l’Union européenne, tels qu’ils résultent du traité signé à Lisbonne le 13 décembre 2007."
+          ],
+          "notes": [
+            {
+              "title": "Ancrage européen",
+              "text": "La participation de la France à l'Union européenne figure dans la Constitution. Cet article sert de fondement constitutionnel à l'exercice en commun de certaines compétences."
+            }
           ]
         },
         {
@@ -1148,6 +1330,12 @@
           "title": "Article 88-3",
           "paragraphs": [
             "Sous réserve de réciprocité et selon les modalités prévues par le Traité sur l'Union européenne signé le 7 février 1992, le droit de vote et d'éligibilité aux élections municipales peut être accordé aux seuls citoyens de l'Union résidant en France. Ces citoyens ne peuvent exercer les fonctions de maire ou d'adjoint ni participer à la désignation des électeurs sénatoriaux et à l'élection des sénateurs. Une loi organique votée dans les mêmes termes par les deux assemblées détermine les conditions d'application du présent article."
+          ],
+          "notes": [
+            {
+              "title": "Vote municipal des citoyens de l'Union",
+              "text": "Les citoyens de l'Union européenne résidant en France peuvent voter et être élus aux élections municipales, sous conditions de réciprocité et de loi organique. Ils ne peuvent pas participer à la désignation des sénateurs."
+            }
           ]
         },
         {
@@ -1166,6 +1354,12 @@
             "Tout projet de loi autorisant la ratification d'un traité relatif à l'adhésion d'un État à l'Union européenne est soumis au référendum par le Président de la République.",
             "Toutefois, par le vote d'une motion adoptée en termes identiques par chaque assemblée à la majorité des trois cinquièmes, le Parlement peut autoriser l'adoption du projet de loi selon la procédure prévue au troisième alinéa de l'article 89.",
             "[cet article n’est pas applicable aux adhésions faisant suite à une conférence intergouvernementale dont la convocation a été décidée par le Conseil européen avant le 1er juillet 2004]"
+          ],
+          "notes": [
+            {
+              "title": "Adhésion à l'Union européenne",
+              "text": "Tout traité d'adhésion d'un nouvel État à l'Union européenne passe en principe par référendum, sauf procédure parlementaire renforcée. L'article encadre politiquement les élargissements."
+            }
           ]
         },
         {
@@ -1203,8 +1397,8 @@
           ],
           "notes": [
             {
-              "title": "Revision procedure",
-              "text": "Article 89 is the ordinary path for changing the Constitution. Both chambers must vote the same text, then the revision goes to a referendum or to Congress."
+              "title": "Révision constitutionnelle",
+              "text": "L'article 89 est la voie ordinaire de révision. Les deux assemblées doivent adopter le même texte; ensuite, le peuple vote par référendum ou le Parlement réuni en Congrès approuve à la majorité des trois cinquièmes."
             }
           ]
         }
@@ -1214,11 +1408,23 @@
   "notes": [
     {
       "title": "Texte en vigueur",
-      "text": "Version à jour de la révision constitutionnelle du 8 mars 2024."
+      "text": "Version à jour de la révision constitutionnelle du 8 mars 2024, vérifiée sur QPC360, le portail du Conseil constitutionnel."
     },
     {
       "title": "Règle de révision",
       "text": "L'article 89 fixe la voie ordinaire de révision de la Constitution."
+    },
+    {
+      "title": "Lire 1958 contre 1946",
+      "text": "La Cinquième République répond à l'instabilité gouvernementale de la Quatrième. Elle renforce l'exécutif, encadre le domaine de la loi, donne un rôle nouveau au Conseil constitutionnel et organise des rapports plus stricts entre Gouvernement et Parlement."
+    },
+    {
+      "title": "Le texte a beaucoup changé",
+      "text": "La Constitution de 1958 n'est pas restée figée : élection présidentielle au suffrage universel direct, saisine parlementaire du Conseil constitutionnel, décentralisation, QPC, Union européenne, parité, environnement, interdiction de la peine de mort et liberté garantie à la femme de recourir à l'IVG."
+    },
+    {
+      "title": "Source à consulter",
+      "text": "Pour le texte actuel, utilisez QPC360 ou le site du Conseil constitutionnel. Pour comprendre les droits constitutionnels, ouvrez aussi la Déclaration de 1789, le préambule de 1946 et la Charte de l'environnement de 2004."
     }
   ]
 }
