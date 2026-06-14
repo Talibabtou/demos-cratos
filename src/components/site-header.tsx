@@ -1,3 +1,4 @@
+import { AuthButton } from '@/components/auth-button';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { FileText } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
@@ -74,6 +75,7 @@ export function SiteHeader({ locale, messages }: SiteHeaderProps) {
             />
             <span className="sr-only">{messages.github}</span>
           </a>
+          <AuthButton locale={locale} messages={messages} />
           <ThemeToggle />
         </div>
       </div>

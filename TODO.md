@@ -62,6 +62,7 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 
 ## 6. Identity And Legitimacy
 
+- Polish the first user profile: clearer account state, public contribution identity, avatar handling, saved profile feedback, and the user's note-request history.
 - Define what the platform must prove: municipality residence, uniqueness, eligibility, age if needed, and conflict-of-interest boundaries.
 - Explore privacy-preserving identity options, including zero-knowledge proofs, without coupling the first version to one vendor too early.
 - Separate identity proof from voting behavior so users can participate without exposing opinions.
@@ -70,6 +71,7 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 
 ## 7. Governance And Operations
 
+- Build an admin panel for the owner account: role assignment, moderator management, profile lookup, note-request review queues, and audit visibility.
 - Define project governance before real public participation starts: maintainers, reviewers, moderators, escalation, and content policy.
 - Add contribution guidelines for constitutional text, research notes, translations, and code.
 - Add abuse handling: spam, coordinated brigading, malicious edits, harassment, legal takedown requests, and emergency rollback.
