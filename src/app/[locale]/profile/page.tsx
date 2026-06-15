@@ -3,7 +3,7 @@ import { updateProfile } from '@/app/account/actions';
 import { SiteHeader } from '@/components/site-header';
 import { getMessages } from '@/i18n/messages';
 import { isLocale, locales, type Locale } from '@/i18n/routing';
-import { getCurrentAccount } from '@api/supabase/account';
+import { getCurrentAccount } from '@api/account/current-account';
 import { Clock3, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -225,6 +225,9 @@ function SignedInProfile({
                       <p className="mt-3 font-semibold text-civic-ink text-sm">
                         {messages.requestLocation}: {request.document_slug} /{' '}
                         {request.article_id}
+                      </p>
+                      <p className="mt-3 font-semibold text-civic-ink text-sm">
+                        {request.proposed_title}
                       </p>
                       <p className="mt-3 line-clamp-3 text-civic-text text-sm leading-6">
                         {request.proposed_text}

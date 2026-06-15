@@ -1,6 +1,6 @@
 import { createSupabaseServerClient } from '@api/supabase/server';
 
-export type AccountProfile = {
+type AccountProfile = {
   avatar_url: string | null;
   bio: string | null;
   display_name: string | null;
@@ -8,13 +8,14 @@ export type AccountProfile = {
   id: string;
 };
 
-export type NoteChangeRequestSummary = {
+type NoteChangeRequestSummary = {
   article_id: string;
   created_at: string;
   document_slug: string;
   id: string;
   kind: 'create' | 'update' | 'delete';
   moderator_comment: string | null;
+  proposed_title: string;
   proposed_text: string;
   status: 'pending' | 'approved' | 'rejected' | 'changes_requested';
 };
@@ -51,7 +52,7 @@ export async function getCurrentAccount() {
       supabase
         .from('note_change_requests')
         .select(
-          'id, document_slug, article_id, kind, status, proposed_text, moderator_comment, created_at',
+          'id, document_slug, article_id, kind, status, proposed_title, proposed_text, moderator_comment, created_at',
         )
         .eq('requester_id', user.id)
         .order('created_at', { ascending: false })

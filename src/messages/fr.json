@@ -67,6 +67,10 @@
     "signInWithGoogle": "Se connecter avec Google",
     "signOut": "Se déconnecter"
   },
+  "constitutionReader": {
+    "loadingError": "Le texte n’a pas pu être chargé.",
+    "loadingConstitution": "Chargement du texte"
+  },
   "profile": {
     "metadataTitle": "Profil",
     "signedOutTitle": "Connectez-vous pour ouvrir votre profil.",

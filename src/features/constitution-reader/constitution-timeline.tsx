@@ -1,19 +1,24 @@
-import {
-  constitutionDocuments,
-  type ConstitutionDocument,
-} from '@/features/constitution-reader/constitution-corpus';
+'use client';
+
 import type { Locale } from '@/i18n/routing';
+import type {
+  ConstitutionDocument,
+  ConstitutionDocumentSummary,
+} from '@api/constitution-reader/corpus';
 import { ExternalLink } from 'lucide-react';
-import Link from 'next/link';
 
 type ConstitutionTimelineProps = {
+  documents: readonly ConstitutionDocumentSummary[];
   locale: Locale;
+  onSelectConstitution?: (documentId: string) => void;
   selectedConstitution: ConstitutionDocument;
   selectedConstitutionId: string;
 };
 
 export function ConstitutionTimeline({
+  documents,
   locale,
+  onSelectConstitution,
   selectedConstitution,
   selectedConstitutionId,
 }: ConstitutionTimelineProps) {
@@ -48,7 +53,7 @@ export function ConstitutionTimeline({
           <div className="pointer-events-none absolute inset-y-0 right-0 z-20 w-10 bg-linear-to-l from-civic-wash to-transparent" />
           <div className="absolute top-1/2 right-5 left-5 h-px bg-civic-line" />
           <ol className="relative flex min-w-max items-center gap-0 pr-8 md:min-w-0">
-            {constitutionDocuments.map((document, index) => (
+            {documents.map((document, index) => (
               <li
                 className="relative flex w-26 shrink-0 md:w-auto md:flex-1"
                 key={document.id}
@@ -58,6 +63,7 @@ export function ConstitutionTimeline({
                   index={index}
                   isSelected={document.id === selectedConstitutionId}
                   locale={locale}
+                  onSelectConstitution={onSelectConstitution}
                 />
               </li>
             ))}
@@ -99,21 +105,67 @@ function TimelineButton({
   index,
   isSelected,
   locale,
+  onSelectConstitution,
 }: {
-  document: ConstitutionDocument;
+  document: ConstitutionDocumentSummary;
   index: number;
   isSelected: boolean;
   locale: Locale;
+  onSelectConstitution?: (documentId: string) => void;
+}) {
+  const href = `/${locale}/constitution-reader?constitution=${document.id}`;
+
+  if (onSelectConstitution) {
+    return (
+      <button
+        aria-current={isSelected ? 'true' : undefined}
+        aria-label={`${document.shortLabel}: ${document.title}, ${document.regime}`}
+        className={getTimelineButtonClassName(isSelected)}
+        onClick={() => {
+          if (!isSelected) {
+            onSelectConstitution(document.id);
+          }
+        }}
+        title={`${document.title} - ${document.regime}`}
+        type="button"
+      >
+        <TimelineButtonContent
+          document={document}
+          index={index}
+          isSelected={isSelected}
+        />
+      </button>
+    );
+  }
+
+  return (
+    <a
+      aria-current={isSelected ? 'true' : undefined}
+      aria-label={`${document.shortLabel}: ${document.title}, ${document.regime}`}
+      className={getTimelineButtonClassName(isSelected)}
+      href={href}
+      title={`${document.title} - ${document.regime}`}
+    >
+      <TimelineButtonContent
+        document={document}
+        index={index}
+        isSelected={isSelected}
+      />
+    </a>
+  );
+}
+
+function TimelineButtonContent({
+  document,
+  index,
+  isSelected,
+}: {
+  document: ConstitutionDocumentSummary;
+  index: number;
+  isSelected: boolean;
 }) {
   return (
-    <Link
-      aria-label={`${document.shortLabel}: ${document.title}, ${document.regime}`}
-      aria-current={isSelected ? 'true' : undefined}
-      title={`${document.title} - ${document.regime}`}
-      className={getTimelineButtonClassName(isSelected)}
-      href={`/${locale}/constitution-reader?constitution=${document.id}`}
-      scroll={false}
-    >
+    <>
       <span className={getTimelineLabelClassName(index)}>
         <span className={getTimelineYearClassName(isSelected)}>
           {document.shortLabel}
@@ -122,7 +174,7 @@ function TimelineButton({
       <span className={getTimelineDotClassName(isSelected)}>
         <span className="size-1.5 rounded-full bg-current" />
       </span>
-    </Link>
+    </>
   );
 }
 
@@ -131,7 +183,7 @@ function getTimelineButtonClassName(isSelected: boolean) {
     ? 'text-civic-ink'
     : 'text-civic-muted hover:text-civic-ink';
 
-  return `focus-ring group relative flex h-20 w-full items-center justify-center px-1 text-center transition duration-200 ${stateClassName}`;
+  return `focus-ring group relative flex h-20 w-full cursor-pointer items-center justify-center px-1 text-center transition duration-200 ${stateClassName}`;
 }
 
 function getTimelineDotClassName(isSelected: boolean) {

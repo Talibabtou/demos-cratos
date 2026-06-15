@@ -1,7 +1,3 @@
-import type {
-  ConstitutionDocument,
-  ConstitutionSection,
-} from '@/features/constitution-reader/constitution-corpus';
 import {
   getArticleDomId,
   getSectionDomId,
@@ -9,9 +5,13 @@ import {
 import {
   formatArticleTitle,
   formatSectionTitle,
+  hasSameConstitutionTitle,
   isGenericArticleTitle,
-  isGenericSectionTitle,
 } from '@/features/constitution-reader/constitution-formatting';
+import type {
+  ConstitutionDocument,
+  ConstitutionSection,
+} from '@api/constitution-reader/corpus';
 
 type DocumentNavigationProps = {
   document: ConstitutionDocument;
@@ -45,23 +45,19 @@ function NavigationSection({
 }) {
   const sectionTitle = formatSectionTitle(section.title);
   const visibleArticles = section.articles.filter(
-    (article) => !isGenericArticleTitle(article.title),
+    (article) =>
+      !isGenericArticleTitle(article.title) &&
+      !hasSameConstitutionTitle(article.title, sectionTitle),
   );
-
-  if (isGenericSectionTitle(sectionTitle) && visibleArticles.length === 0) {
-    return null;
-  }
 
   return (
     <div>
-      {isGenericSectionTitle(sectionTitle) ? null : (
-        <a
-          className="focus-ring block font-semibold text-civic-blue text-xs uppercase tracking-widest"
-          href={`#${getSectionDomId(documentId, section.id)}`}
-        >
-          {sectionTitle}
-        </a>
-      )}
+      <a
+        className="focus-ring block font-semibold text-civic-blue text-xs uppercase tracking-widest"
+        href={`#${getSectionDomId(documentId, section.id)}`}
+      >
+        {sectionTitle}
+      </a>
       {visibleArticles.length > 0 ? (
         <div className="mt-2 flex flex-wrap gap-2">
           {visibleArticles.map((article) => (

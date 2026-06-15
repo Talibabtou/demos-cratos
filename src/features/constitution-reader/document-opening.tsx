@@ -1,4 +1,4 @@
-import type { ConstitutionDocument } from '@/features/constitution-reader/constitution-corpus';
+import type { ConstitutionDocument } from '@api/constitution-reader/corpus';
 
 type DocumentOpeningProps = {
   document: ConstitutionDocument;

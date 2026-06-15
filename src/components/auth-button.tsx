@@ -2,7 +2,7 @@ import { signInWithGoogle, signOut } from '@/app/auth/actions';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import { withLocale } from '@/i18n/routing';
-import { createSupabaseServerClient } from '@api/supabase/server';
+import { getCurrentUser } from '@api/auth/session';
 import { LogIn, LogOut, UserCircle } from 'lucide-react';
 import Link from 'next/link';
 
@@ -15,10 +15,7 @@ type AuthButtonProps = {
 };
 
 export async function AuthButton({ locale, messages }: AuthButtonProps) {
-  const supabase = await createSupabaseServerClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+  const user = await getCurrentUser();
 
   if (!user) {
     return (

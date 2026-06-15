@@ -13,14 +13,6 @@ export function getSupabaseUrl() {
   );
 }
 
-export function getSupabaseBrowserKey() {
-  return requireEnv(
-    'NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY or NEXT_PUBLIC_SUPABASE_ANON_KEY',
-    process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
-      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY,
-  );
-}
-
 export function getSupabaseServerKey() {
   return requireEnv(
     'SUPABASE_PUBLISHABLE_KEY or SUPABASE_ANON_KEY',

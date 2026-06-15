@@ -67,6 +67,10 @@
     "signInWithGoogle": "Sign in with Google",
     "signOut": "Sign out"
   },
+  "constitutionReader": {
+    "loadingError": "The text could not be loaded.",
+    "loadingConstitution": "Loading text"
+  },
   "profile": {
     "metadataTitle": "Profile",
     "signedOutTitle": "Sign in to open your profile.",

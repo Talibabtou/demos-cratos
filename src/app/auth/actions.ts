@@ -1,7 +1,7 @@
 'use server';
 
 import { defaultLocale, type Locale, withLocale } from '@/i18n/routing';
-import { createSupabaseServerClient } from '@api/supabase/server';
+import { createGoogleSignInUrl, signOutCurrentUser } from '@api/auth/session';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 
@@ -21,28 +21,18 @@ async function getRequestOrigin() {
 }
 
 export async function signInWithGoogle(locale: Locale = defaultLocale) {
-  const supabase = await createSupabaseServerClient();
   const origin = await getRequestOrigin();
   const nextPath = getLocaleHome(locale);
-
-  const { data, error } = await supabase.auth.signInWithOAuth({
-    options: {
-      redirectTo: `${origin}/auth/callback?next=${encodeURIComponent(nextPath)}`,
-    },
-    provider: 'google',
+  const signInUrl = await createGoogleSignInUrl({
+    nextPath,
+    origin,
   });
 
-  if (error || !data.url) {
-    throw new Error('Google sign-in failed.');
-  }
-
-  redirect(data.url);
+  redirect(signInUrl);
 }
 
 export async function signOut(locale: Locale = defaultLocale) {
-  const supabase = await createSupabaseServerClient();
-
-  await supabase.auth.signOut();
+  await signOutCurrentUser();
 
   redirect(getLocaleHome(locale));
 }

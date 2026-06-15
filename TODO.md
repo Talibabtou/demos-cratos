@@ -23,6 +23,7 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 ## 2. Constitution Reader
 
 - Review the generated historical corpus against the official sources and fix extraction mistakes, missing headings, article boundaries, and old typography artifacts.
+- Repair documents whose article labels were not extracted cleanly, starting with the 2 November 1945 provisional powers law and any later texts where article boundaries differ from the Conseil constitutionnel source.
 - Add stable document URLs beyond query parameters if needed, such as `/constitution-reader/1958` or `/constitution-reader/constitution-1958`.
 - Improve the timeline for mobile: selected-state visibility, horizontal scroll affordance, and quick jump back to the active document.
 - Add reader search across the selected constitution first, then across the whole corpus.
@@ -62,6 +63,7 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 
 ## 6. Identity And Legitimacy
 
+- Rework the account creation funnel into a familiar flow: sign-in state, consent, profile completion, role visibility, and clear next actions after first login.
 - Polish the first user profile: clearer account state, public contribution identity, avatar handling, saved profile feedback, and the user's note-request history.
 - Define what the platform must prove: municipality residence, uniqueness, eligibility, age if needed, and conflict-of-interest boundaries.
 - Explore privacy-preserving identity options, including zero-knowledge proofs, without coupling the first version to one vendor too early.

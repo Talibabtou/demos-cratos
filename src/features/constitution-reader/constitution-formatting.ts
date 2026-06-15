@@ -19,10 +19,14 @@ export function isGenericArticleTitle(title: string) {
   return title.trim().toLowerCase() === 'text';
 }
 
-export function isGenericSectionTitle(title: string) {
-  return [
-    "texte d'ouverture",
-    'texte d’ouverture',
-    'dispositions initiales',
-  ].includes(title.trim().toLowerCase());
+export function isArticleSectionTitle(title: string) {
+  return /^article\s+/i.test(title.trim());
+}
+
+export function hasSameConstitutionTitle(left: string, right: string) {
+  return normalizeConstitutionTitle(left) === normalizeConstitutionTitle(right);
+}
+
+function normalizeConstitutionTitle(title: string) {
+  return formatSectionTitle(title).trim().replace(/\.$/, '').toLowerCase();
 }

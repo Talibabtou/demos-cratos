@@ -1,46 +1,35 @@
 import { SiteHeader } from '@/components/site-header';
-import {
-  constitutionDocuments,
-  defaultConstitutionId,
-  type ConstitutionDocument,
-} from '@/features/constitution-reader/constitution-corpus';
-import { ConstitutionTimeline } from '@/features/constitution-reader/constitution-timeline';
-import { ConstitutionWorkspace } from '@/features/constitution-reader/constitution-workspace';
+import { ConstitutionReaderClient } from '@/features/constitution-reader/constitution-reader-client';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
+import type {
+  ConstitutionDocument,
+  ConstitutionDocumentSummary,
+} from '@api/constitution-reader/corpus';
 
 type ConstitutionReaderProps = {
+  documents: readonly ConstitutionDocumentSummary[];
   locale: Locale;
-  messages: Pick<Messages, 'navigation'>;
-  selectedConstitutionId?: string;
+  messages: Pick<Messages, 'constitutionReader' | 'navigation'>;
+  selectedConstitution: ConstitutionDocument;
 };
 
 export function ConstitutionReader({
+  documents,
   locale,
   messages,
-  selectedConstitutionId = defaultConstitutionId,
+  selectedConstitution,
 }: ConstitutionReaderProps) {
-  const selectedConstitution = getSelectedConstitution(selectedConstitutionId);
-
   return (
     <main>
       <SiteHeader locale={locale} messages={messages.navigation} />
-      <ConstitutionTimeline
+      <ConstitutionReaderClient
+        documents={documents}
+        errorLabel={messages.constitutionReader.loadingError}
+        initialDocument={selectedConstitution}
+        loadingLabel={messages.constitutionReader.loadingConstitution}
         locale={locale}
-        selectedConstitution={selectedConstitution}
-        selectedConstitutionId={selectedConstitution.id}
       />
-      <ConstitutionWorkspace document={selectedConstitution} />
     </main>
-  );
-}
-
-function getSelectedConstitution(
-  selectedConstitutionId: string,
-): ConstitutionDocument {
-  return (
-    constitutionDocuments.find(
-      (document) => document.id === selectedConstitutionId,
-    ) ?? constitutionDocuments[constitutionDocuments.length - 1]
   );
 }

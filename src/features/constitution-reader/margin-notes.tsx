@@ -1,20 +1,24 @@
 'use client';
 
-import { Check, Pencil, Plus, Trash2, X } from 'lucide-react';
-import { type FormEvent, useState } from 'react';
-import type { ConstitutionNote } from '@/features/constitution-reader/constitution-corpus';
-import type {
-  ReaderNote,
-  ReaderNoteTarget,
-} from '@/features/constitution-reader/reader-notes';
-import { useReaderNotes } from '@/features/constitution-reader/reader-notes-provider';
+import { createNoteChangeRequest } from '@/app/constitution-reader/actions';
+import { Check, Plus, X } from 'lucide-react';
+import { type FormEvent, useState, useTransition } from 'react';
+import type { ConstitutionNote } from '@api/constitution-reader/corpus';
 
 type MarginNotesProps = {
   sourceNotes: readonly ConstitutionNote[];
-  target: ReaderNoteTarget;
+  target: {
+    articleDatabaseId: string;
+    articleId: string;
+    documentId: string;
+    sectionId: string;
+  };
 };
 
-type NoteFormValues = Pick<ReaderNote, 'text' | 'title'>;
+type NoteFormValues = {
+  text: string;
+  title: string;
+};
 
 const emptyDraft: NoteFormValues = {
   text: '',
@@ -22,22 +26,35 @@ const emptyDraft: NoteFormValues = {
 };
 
 export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
-  const { addNote, deleteNote, getNotes, updateNote } = useReaderNotes();
-  const readerNotes = getNotes(target);
-  const hasNotes = sourceNotes.length > 0 || readerNotes.length > 0;
+  const hasNotes = sourceNotes.length > 0;
   const [draft, setDraft] = useState<NoteFormValues>(emptyDraft);
-  const [editingNoteId, setEditingNoteId] = useState<string | null>(null);
   const [isComposing, setIsComposing] = useState(false);
+  const [submissionMessage, setSubmissionMessage] = useState<string | null>(
+    null,
+  );
+  const [isPending, startTransition] = useTransition();
 
   const onAddNote = (values: NoteFormValues) => {
-    addNote(target, values);
-    setDraft(emptyDraft);
-    setIsComposing(false);
-  };
+    startTransition(async () => {
+      const result = await createNoteChangeRequest({
+        articleDatabaseId: target.articleDatabaseId,
+        articleId: target.articleId,
+        documentId: target.documentId,
+        text: values.text,
+        title: values.title,
+      });
 
-  const onUpdateNote = (noteId: string, values: NoteFormValues) => {
-    updateNote(target, noteId, values);
-    setEditingNoteId(null);
+      if (result.ok) {
+        setDraft(emptyDraft);
+        setIsComposing(false);
+        setSubmissionMessage(
+          'Votre proposition est enregistrée et attend une relecture.',
+        );
+        return;
+      }
+
+      setSubmissionMessage(result.error);
+    });
   };
 
   return (
@@ -63,6 +80,11 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
             No public note has been written for this article yet.
           </p>
         )}
+        {submissionMessage ? (
+          <p className="border-civic-blue border-l pl-4 text-civic-muted text-sm leading-6">
+            {submissionMessage}
+          </p>
+        ) : null}
         {sourceNotes.map((note) => (
           <details
             className="border-civic-line border-l py-1 pl-4"
@@ -77,32 +99,14 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
             </p>
           </details>
         ))}
-        <div className="space-y-3 border-civic-blue border-l pl-4">
-          {readerNotes.map((note) =>
-            editingNoteId === note.id ? (
-              <ReaderNoteForm
-                key={note.id}
-                initialValues={note}
-                onCancel={() => setEditingNoteId(null)}
-                onSubmit={(values) => onUpdateNote(note.id, values)}
-                submitLabel="Save"
-              />
-            ) : (
-              <ReaderNoteBlock
-                key={note.id}
-                note={note}
-                onDelete={() => deleteNote(target, note.id)}
-                onEdit={() => setEditingNoteId(note.id)}
-              />
-            ),
-          )}
+        <div className="border-civic-blue border-l pl-4">
           {isComposing ? (
             <ReaderNoteForm
+              isPending={isPending}
               initialValues={draft}
               onCancel={() => setIsComposing(false)}
               onChange={setDraft}
               onSubmit={onAddNote}
-              submitLabel="Add"
             />
           ) : null}
         </div>
@@ -111,57 +115,18 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
   );
 }
 
-function ReaderNoteBlock({
-  note,
-  onDelete,
-  onEdit,
-}: {
-  note: ReaderNote;
-  onDelete: () => void;
-  onEdit: () => void;
-}) {
-  return (
-    <div className="py-1">
-      <div className="flex items-start justify-between gap-2">
-        <p className="font-semibold text-civic-ink text-sm">{note.title}</p>
-        <div className="flex shrink-0 items-center gap-1">
-          <button
-            aria-label={`Edit ${note.title}`}
-            className="focus-ring inline-flex size-7 items-center justify-center rounded-sm text-civic-muted transition hover:bg-civic-paper hover:text-civic-blue"
-            onClick={onEdit}
-            type="button"
-          >
-            <Pencil aria-hidden="true" className="size-3.5" strokeWidth={2} />
-          </button>
-          <button
-            aria-label={`Delete ${note.title}`}
-            className="focus-ring inline-flex size-7 items-center justify-center rounded-sm text-civic-muted transition hover:bg-civic-red-soft hover:text-civic-red"
-            onClick={onDelete}
-            type="button"
-          >
-            <Trash2 aria-hidden="true" className="size-3.5" strokeWidth={2} />
-          </button>
-        </div>
-      </div>
-      <p className="mt-2 whitespace-pre-wrap text-civic-text text-sm leading-6">
-        {note.text}
-      </p>
-    </div>
-  );
-}
-
 function ReaderNoteForm({
+  isPending,
   initialValues,
   onCancel,
   onChange,
   onSubmit,
-  submitLabel,
 }: {
+  isPending: boolean;
   initialValues: NoteFormValues;
   onCancel: () => void;
   onChange?: (values: NoteFormValues) => void;
   onSubmit: (values: NoteFormValues) => void;
-  submitLabel: 'Add' | 'Save';
 }) {
   const [values, setValues] = useState<NoteFormValues>(initialValues);
 
@@ -211,14 +176,15 @@ function ReaderNoteForm({
       <div className="flex flex-wrap items-center gap-2">
         <button
           className="focus-ring inline-flex items-center gap-2 rounded-sm bg-civic-action px-3 py-2 font-semibold text-civic-action-text text-sm transition hover:bg-civic-action-hover"
+          disabled={isPending}
           type="submit"
         >
-          {submitLabel === 'Add' ? (
-            <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
-          ) : (
+          {isPending ? (
             <Check aria-hidden="true" className="size-4" strokeWidth={2} />
+          ) : (
+            <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
           )}
-          {submitLabel}
+          {isPending ? 'Sending' : 'Propose'}
         </button>
         <button
           className="focus-ring inline-flex items-center gap-2 rounded-sm border border-civic-line px-3 py-2 font-semibold text-civic-muted text-sm transition hover:border-civic-blue hover:text-civic-blue"
