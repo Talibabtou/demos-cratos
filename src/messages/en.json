@@ -88,6 +88,8 @@
     "bio": "Bio",
     "bioPlaceholder": "A short note about how you read or work on constitutional texts",
     "save": "Save profile",
+    "reviewQueue": "Review queue",
+    "emptyReviewQueue": "No note request needs review.",
     "pendingRequests": "Note activity",
     "emptyRequests": "No note activity yet.",
     "requestStatus": "Status",

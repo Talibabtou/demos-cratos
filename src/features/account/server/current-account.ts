@@ -63,12 +63,31 @@ export async function getCurrentAccount() {
         .returns<NoteActivityItem[]>(),
     ]);
 
+  const sortedRoles = sortRoles(
+    roles?.map(({ role }) => role as AppRole) ?? [],
+  );
+  const canReviewNotes =
+    sortedRoles.includes('admin') || sortedRoles.includes('moderator');
+  const { data: moderationQueue } = canReviewNotes
+    ? await supabase
+        .from('note_change_requests')
+        .select(
+          'id, document_slug, article_id, kind, status, proposed_title, proposed_text, moderator_comment, created_at',
+        )
+        .eq('status', NOTE_CHANGE_STATUS.pending)
+        .neq('requester_id', user.id)
+        .order('created_at', { ascending: true })
+        .limit(50)
+        .returns<NoteActivityItem[]>()
+    : { data: [] };
+
   return {
     email: user.email ?? profile?.email ?? '',
     id: user.id,
+    moderationQueue: moderationQueue ?? [],
     noteActivity: noteActivity ?? [],
     profile,
-    roles: sortRoles(roles?.map(({ role }) => role as AppRole) ?? []),
+    roles: sortedRoles,
   };
 }
 

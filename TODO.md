@@ -22,16 +22,9 @@ This list is ordered by implementation logic, not by timeline. The goal is to ke
 
 ## 2. Constitution Reader
 
-- Review the generated historical corpus against the official sources and fix extraction mistakes, missing headings, article boundaries, and old typography artifacts.
-- Repair documents whose article labels were not extracted cleanly, starting with the 2 November 1945 provisional powers law and any later texts where article boundaries differ from the Conseil constitutionnel source.
-- Add stable document URLs beyond query parameters if needed, such as `/constitution-reader/1958` or `/constitution-reader/constitution-1958`.
-- Improve the timeline for mobile: selected-state visibility, horizontal scroll affordance, and quick jump back to the active document.
-- Add reader search across the selected constitution first, then across the whole corpus.
-- Add copyable anchors for sections, articles, and paragraphs.
-- Add source metadata to each constitution: official title, date, regime, source URL, local archive path, and extraction status.
-- Structure revision history for historical constitutions where the archive contains later amendments or linked laws.
-- Add plain-language notes, practical examples, strengths, weaknesses, historical context, and source citations.
-- Define an editorial review workflow before accepting external notes.
+- Treat the Reader as MVP-complete.
+- Keep later Reader work user-driven: citizens can add richer notes, context, examples, and citations through the contribution flow.
+- Defer mobile-specific polish until the three product areas exist, so the responsive pass can handle the whole website at once.
 
 ## 3. Research And Doctrine
 

@@ -10,6 +10,7 @@ import {
   isGenericArticleTitle,
 } from '@/features/constitution-reader/constitution-formatting';
 import { ConstitutionWorkspaceShell } from '@/features/constitution-reader/constitution-workspace-shell';
+import { CopyAnchorButton } from '@/features/constitution-reader/copy-anchor-button';
 import { DocumentNavigation } from '@/features/constitution-reader/document-navigation';
 import { MarginNotes } from '@/features/constitution-reader/margin-notes';
 import type {
@@ -95,14 +96,15 @@ function DocumentSection({
     isSingleArticleWrapper && isArticleSectionTitle(sectionTitle);
   const shouldHideArticleTitle =
     isSingleArticleWrapper && !shouldHideSectionTitle;
+  const sectionDomId = getSectionDomId(documentId, section.id);
 
   return (
-    <section
-      className="mt-16 scroll-mt-24"
-      id={getSectionDomId(documentId, section.id)}
-    >
+    <section className="mt-16 scroll-mt-24" id={sectionDomId}>
       {shouldHideSectionTitle ? null : (
-        <div className="mb-8 border-civic-line border-y py-5 text-center">
+        <div className="group relative mb-8 border-civic-line border-y py-5 text-center">
+          <div className="absolute top-1/2 left-0 -translate-y-1/2">
+            <CopyAnchorButton anchorId={sectionDomId} />
+          </div>
           <h2 className="font-semibold font-serif text-3xl text-civic-ink leading-tight">
             {sectionTitle}
           </h2>
@@ -135,16 +137,23 @@ function ArticleBlock({
   hideTitle?: boolean;
   sectionId: string;
 }) {
+  const articleDomId = getArticleDomId(documentId, sectionId, article.id);
+
   return (
     <section
       className="scroll-mt-24 border-civic-line border-b py-10 last:border-b-0 lg:grid lg:grid-cols-[minmax(0,52rem)_30rem] lg:justify-center lg:gap-12"
-      id={getArticleDomId(documentId, sectionId, article.id)}
+      id={articleDomId}
     >
       <div className="min-w-0">
         {hideTitle || isGenericArticleTitle(article.title) ? null : (
-          <h3 className="font-semibold font-serif text-3xl text-civic-ink">
-            {formatArticleTitle(article.title)}
-          </h3>
+          <div className="group relative">
+            <div className="absolute top-1/2 -left-9 -translate-y-1/2">
+              <CopyAnchorButton anchorId={articleDomId} />
+            </div>
+            <h3 className="font-semibold font-serif text-3xl text-civic-ink">
+              {formatArticleTitle(article.title)}
+            </h3>
+          </div>
         )}
         <div className="mt-7 space-y-8">
           {article.paragraphs.map((paragraph) => (

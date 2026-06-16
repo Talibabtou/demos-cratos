@@ -14,6 +14,7 @@ import { isLocale, locales, type Locale } from '@/i18n/routing';
 import { Clock3, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import type { ReactNode } from 'react';
 
 type ProfilePageProps = {
   params: Promise<{
@@ -105,6 +106,8 @@ function SignedInProfile({
   messages: ReturnType<typeof getMessages>['profile'];
 }) {
   const profile = account.profile;
+  const canReviewNotes =
+    account.roles.includes('admin') || account.roles.includes('moderator');
 
   return (
     <section className="civic-section bg-civic-paper">
@@ -202,6 +205,30 @@ function SignedInProfile({
               </button>
             </form>
 
+            {canReviewNotes ? (
+              <section className="rounded-panel border border-civic-line bg-civic-wash p-5 shadow-quiet sm:p-6">
+                <h2 className="font-semibold font-serif text-2xl text-civic-ink">
+                  {messages.reviewQueue}
+                </h2>
+                {account.moderationQueue.length > 0 ? (
+                  <div className="mt-6 grid gap-4">
+                    {account.moderationQueue.map((request) => (
+                      <NoteRequestCard
+                        key={request.id}
+                        locale={locale}
+                        messages={messages}
+                        request={request}
+                      />
+                    ))}
+                  </div>
+                ) : (
+                  <p className="mt-5 text-civic-text text-sm leading-7">
+                    {messages.emptyReviewQueue}
+                  </p>
+                )}
+              </section>
+            ) : null}
+
             <section className="rounded-panel border border-civic-line bg-civic-wash p-5 shadow-quiet sm:p-6">
               <h2 className="font-semibold font-serif text-2xl text-civic-ink">
                 {messages.pendingRequests}
@@ -209,42 +236,12 @@ function SignedInProfile({
               {account.noteActivity.length > 0 ? (
                 <div className="mt-6 grid gap-4">
                   {account.noteActivity.map((request) => (
-                    <article
-                      className="rounded-panel border border-civic-line bg-civic-paper p-4"
+                    <NoteRequestCard
                       key={request.id}
+                      locale={locale}
+                      messages={messages}
+                      request={request}
                     >
-                      <div className="flex flex-wrap items-center gap-3 text-civic-muted text-xs">
-                        <span className="inline-flex items-center gap-1">
-                          <Clock3
-                            aria-hidden="true"
-                            size={13}
-                            strokeWidth={2}
-                          />
-                          {formatDate(request.created_at, locale)}
-                        </span>
-                        <span>
-                          {messages.requestStatus}: {request.status}
-                        </span>
-                        <span>
-                          {messages.requestKind}: {request.kind}
-                        </span>
-                      </div>
-                      <p className="mt-3 font-semibold text-civic-ink text-sm">
-                        {messages.requestLocation}: {request.document_slug} /{' '}
-                        {request.article_id}
-                      </p>
-                      <p className="mt-3 font-semibold text-civic-ink text-sm">
-                        {request.proposed_title}
-                      </p>
-                      <p className="mt-3 line-clamp-3 text-civic-text text-sm leading-6">
-                        {request.proposed_text}
-                      </p>
-                      {request.moderator_comment ? (
-                        <p className="mt-3 border-civic-line border-l pl-3 text-civic-muted text-sm leading-6">
-                          {messages.moderatorComment}:{' '}
-                          {request.moderator_comment}
-                        </p>
-                      ) : null}
                       {request.status === 'pending' ? (
                         <form
                           action={deletePendingNoteRequest.bind(null, locale)}
@@ -263,7 +260,7 @@ function SignedInProfile({
                           </button>
                         </form>
                       ) : null}
-                    </article>
+                    </NoteRequestCard>
                   ))}
                 </div>
               ) : (
@@ -276,6 +273,53 @@ function SignedInProfile({
         </div>
       </div>
     </section>
+  );
+}
+
+function NoteRequestCard({
+  children,
+  locale,
+  messages,
+  request,
+}: {
+  children?: ReactNode;
+  locale: Locale;
+  messages: ReturnType<typeof getMessages>['profile'];
+  request: NonNullable<
+    Awaited<ReturnType<typeof getCurrentAccount>>
+  >['noteActivity'][number];
+}) {
+  return (
+    <article className="rounded-panel border border-civic-line bg-civic-paper p-4">
+      <div className="flex flex-wrap items-center gap-3 text-civic-muted text-xs">
+        <span className="inline-flex items-center gap-1">
+          <Clock3 aria-hidden="true" size={13} strokeWidth={2} />
+          {formatDate(request.created_at, locale)}
+        </span>
+        <span>
+          {messages.requestStatus}: {request.status}
+        </span>
+        <span>
+          {messages.requestKind}: {request.kind}
+        </span>
+      </div>
+      <p className="mt-3 font-semibold text-civic-ink text-sm">
+        {messages.requestLocation}: {request.document_slug} /{' '}
+        {request.article_id}
+      </p>
+      <p className="mt-3 font-semibold text-civic-ink text-sm">
+        {request.proposed_title}
+      </p>
+      <p className="mt-3 line-clamp-3 text-civic-text text-sm leading-6">
+        {request.proposed_text}
+      </p>
+      {request.moderator_comment ? (
+        <p className="mt-3 border-civic-line border-l pl-3 text-civic-muted text-sm leading-6">
+          {messages.moderatorComment}: {request.moderator_comment}
+        </p>
+      ) : null}
+      {children}
+    </article>
   );
 }
 
