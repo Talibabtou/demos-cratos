@@ -15,7 +15,11 @@ Setup, scripts, CI, and project tree: `README.md`.
   accessibility, or explicit requirements.
 - Always apply Caveman communication: concise, low-token updates and final
   answers. Keep technical names exact. Drop filler, but expand when precision,
-  safety, or multi-step instructions need it.
+  safety, or multi-step instructions need it. Caveman is for agent-to-user
+  communication, not for product copy.
+- Always use $anti-ai-slop-writing for website text content. Interface copy,
+  public pages, documentation, emails, and contribution text should read like a
+  person wrote it; keep it concrete, plain, and easy to read.
 - For substantial diffs, use Ponytail review before finishing: list what can be
   removed, merged, or replaced with existing platform/codebase behavior.
 
@@ -35,6 +39,7 @@ Setup, scripts, CI, and project tree: `README.md`.
 - Locale routing and messages: `src/i18n/`, `src/messages/`
 - Feature code and structured product data: `src/features/`
 - Shared UI: `src/components/`
+- Shared UI primitives used across unrelated features: `src/components/ui/`
 - Early product mockups: `src/components/ui-mocks/`
 - Civic visual tokens: `src/app/globals.css` via Tailwind 4 `@theme inline`
 - CI and deployment: `.github/workflows/ci.yml`, `vercel.json`
@@ -48,6 +53,19 @@ Setup, scripts, CI, and project tree: `README.md`.
   tokens, Biome 2, ESLint, typecheck, production build, smoke test, Vercel
   deploy through GitHub Actions.
 - Prefer small focused components over monolithic page files.
+- Keep product areas as feature capsules. Route files in `src/app/` should stay
+  thin; durable product logic, feature-specific server code, types, constants,
+  utilities, and components should live under `src/features/<feature>/`.
+- Keep shared folders honest. Put code in `src/components/`, `src/lib/`,
+  `src/server/`, `src/types.ts`, or `src/constants.ts` only when unrelated
+  features already use it or clearly need the same primitive. Otherwise keep it
+  inside the feature that owns it.
+- Add global UI primitives only after repetition appears. A shared button,
+  icon button, panel, toaster, or empty state is useful; a premature design
+  system is not.
+- Keep data boundaries visible. `src/app/api/` is for HTTP route handlers,
+  `src/server/` is for app-wide server infrastructure, and
+  `src/features/<feature>/server/` is for feature-owned database logic.
 - Respect the i18n structure. User-facing page routes live under
   `src/app/[locale]/`; shared locale helpers live in `src/i18n/`; visible copy
   that is not legal/source text should come from `src/messages/en.json` and
@@ -61,7 +79,8 @@ Setup, scripts, CI, and project tree: `README.md`.
   debates should become first-class concepts as the product matures.
 - Preserve accessibility: semantic HTML, visible focus states, readable
   contrast, and responsive layouts.
-- Always use $anti-ai-slop-writing skill for website text content.
+- Avoid junk-drawer files. Constants, helpers, hooks, and types should sit next
+  to the feature that owns them until at least two unrelated features need them.
 
 ## Visual Direction
 

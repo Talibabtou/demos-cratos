@@ -2,7 +2,7 @@ import {
   CONSTITUTION_CORPUS_CACHE_SECONDS,
   NOTE_CHANGE_STATUS,
   SUPABASE_PAGE_SIZE,
-} from '@/constants';
+} from '@/features/constitution-reader/constants';
 import { getSupabaseServerKey, getSupabaseUrl } from '@/server/supabase/config';
 import { createSupabaseServerClient } from '@/server/supabase/server';
 import type {

@@ -9,6 +9,7 @@
       "!dist",
       "!coverage",
       "!public",
+      "!monorepo",
       "!.pnpm-store",
       "!pnpm-lock.yaml"
     ]

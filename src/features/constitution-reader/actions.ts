@@ -1,6 +1,7 @@
 'use server';
 
-import { NOTE_CHANGE_KIND, PROFILE_REVALIDATE_PATHS } from '@/constants';
+import { PROFILE_REVALIDATE_PATHS } from '@/features/account/constants';
+import { NOTE_CHANGE_KIND } from '@/features/constitution-reader/constants';
 import { submitConstitutionNoteChange } from '@/features/constitution-reader/server/notes';
 import { revalidatePath } from 'next/cache';
 

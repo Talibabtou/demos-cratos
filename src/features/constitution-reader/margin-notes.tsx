@@ -5,13 +5,14 @@ import {
   deleteNoteChangeRequest,
   updateNoteChangeRequest,
 } from '@/features/constitution-reader/actions';
-import { NOTE_CHANGE_STATUS } from '@/constants';
 import { useToast } from '@/components/toaster';
+import { NOTE_CHANGE_STATUS } from '@/features/constitution-reader/constants';
 import type { ConstitutionNote } from '@/features/constitution-reader/types';
 import { Check, Pencil, Plus, Trash2, X } from 'lucide-react';
 import { type FormEvent, useState, useTransition } from 'react';
 
 type MarginNotesProps = {
+  canSuggestNotes: boolean;
   sourceNotes: readonly ConstitutionNote[];
   target: {
     articleDatabaseId: string;
@@ -28,7 +29,11 @@ const emptyDraft: NoteFormValues = {
   title: '',
 };
 
-export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
+export function MarginNotes({
+  canSuggestNotes,
+  sourceNotes,
+  target,
+}: MarginNotesProps) {
   const toast = useToast();
   const [notes, setNotes] = useState<readonly ConstitutionNote[]>(sourceNotes);
   const [editingNote, setEditingNote] = useState<ConstitutionNote | null>(null);
@@ -152,7 +157,7 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
             Notes
           </p>
           <AddNoteButton
-            isHidden={isComposing}
+            isHidden={!canSuggestNotes || isComposing}
             onClick={() => setIsComposing(true)}
           />
         </div>
@@ -171,6 +176,7 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
             onDelete={onDeleteNote}
             onEdit={setEditingNote}
             onSubmitEdit={onEditNote}
+            canSuggestNotes={canSuggestNotes}
           />
         ))}
         <div className="border-civic-blue border-l pl-4">
@@ -215,6 +221,7 @@ function AddNoteButton({
 }
 
 function ReaderNote({
+  canSuggestNotes,
   editingNoteId,
   isPending,
   note,
@@ -223,6 +230,7 @@ function ReaderNote({
   onEdit,
   onSubmitEdit,
 }: {
+  canSuggestNotes: boolean;
   editingNoteId?: string;
   isPending: boolean;
   note: ConstitutionNote;
@@ -256,7 +264,7 @@ function ReaderNote({
         {note.title}
       </summary>
       <p className="mt-2 text-civic-text text-sm leading-6">{note.text}</p>
-      {note.databaseId ? (
+      {canSuggestNotes && note.databaseId ? (
         <NoteActions
           isPending={isPending}
           note={note}

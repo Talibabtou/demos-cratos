@@ -23,7 +23,13 @@ const eslintConfig = [
   ...nextCoreWebVitals,
   ...nextTypeScript,
   {
-    ignores: ['.next/**', 'node_modules/**', 'out/**', 'public/**'],
+    ignores: [
+      '.next/**',
+      'monorepo/**',
+      'node_modules/**',
+      'out/**',
+      'public/**',
+    ],
   },
   {
     rules: customRules,

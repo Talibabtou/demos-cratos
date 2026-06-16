@@ -19,10 +19,12 @@ import type {
 } from '@/features/constitution-reader/types';
 
 type ConstitutionDocumentViewProps = {
+  canSuggestNotes: boolean;
   document: ConstitutionDocument;
 };
 
 export function ConstitutionDocumentView({
+  canSuggestNotes,
   document,
 }: ConstitutionDocumentViewProps) {
   return (
@@ -33,6 +35,7 @@ export function ConstitutionDocumentView({
         <DocumentOpening document={document} />
         {document.sections.map((section) => (
           <DocumentSection
+            canSuggestNotes={canSuggestNotes}
             documentId={document.id}
             key={`${document.id}-${section.id}`}
             section={section}
@@ -74,9 +77,11 @@ function DocumentOpening({ document }: { document: ConstitutionDocument }) {
 }
 
 function DocumentSection({
+  canSuggestNotes,
   documentId,
   section,
 }: {
+  canSuggestNotes: boolean;
   documentId: string;
   section: ConstitutionSection;
 }) {
@@ -106,6 +111,7 @@ function DocumentSection({
       {section.articles.map((article) => (
         <ArticleBlock
           article={article}
+          canSuggestNotes={canSuggestNotes}
           documentId={documentId}
           hideTitle={shouldHideArticleTitle}
           key={`${documentId}-${section.id}-${article.id}`}
@@ -118,11 +124,13 @@ function DocumentSection({
 
 function ArticleBlock({
   article,
+  canSuggestNotes,
   documentId,
   hideTitle = false,
   sectionId,
 }: {
   article: ConstitutionArticle;
+  canSuggestNotes: boolean;
   documentId: string;
   hideTitle?: boolean;
   sectionId: string;
@@ -148,6 +156,7 @@ function ArticleBlock({
         </div>
       </div>
       <MarginNotes
+        canSuggestNotes={canSuggestNotes}
         sourceNotes={article.notes ?? []}
         target={{
           articleDatabaseId: article.databaseId,

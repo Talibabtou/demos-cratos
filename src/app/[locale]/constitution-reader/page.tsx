@@ -5,6 +5,7 @@ import {
   getConstitutionDocument,
   getConstitutionDocumentSummaries,
 } from '@/features/constitution-reader/server/corpus';
+import { getCurrentUser } from '@/server/auth/session';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import {
@@ -54,6 +55,7 @@ export default async function FifthConstitutionPage({
     (await getConstitutionDocument(
       selectedConstitutionId ?? fallbackConstitutionId,
     )) ?? (await getConstitutionDocument(fallbackConstitutionId));
+  const user = await getCurrentUser();
 
   if (!selectedConstitution) {
     notFound();
@@ -62,6 +64,7 @@ export default async function FifthConstitutionPage({
   return (
     <ConstitutionReader
       documents={documents}
+      canSuggestNotes={Boolean(user)}
       locale={locale}
       messages={getMessages(locale)}
       selectedConstitution={selectedConstitution}

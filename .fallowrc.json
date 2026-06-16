@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.fallow.tools/schema.json",
-  "ignorePatterns": ["public/constitution-archive/**/*.html"]
+  "ignorePatterns": ["monorepo/**", "public/constitution-archive/**/*.html"]
 }

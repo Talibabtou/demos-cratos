@@ -3,8 +3,8 @@
 import {
   CONSTITUTION_DOCUMENT_CACHE_STORAGE_KEY,
   CONSTITUTION_DOCUMENTS_API_PATH,
-  ROUTES,
-} from '@/constants';
+} from '@/features/constitution-reader/constants';
+import { ROUTES } from '@/constants';
 import { ConstitutionDocumentView } from '@/features/constitution-reader/document-view';
 import { ConstitutionTimeline } from '@/features/constitution-reader/constitution-timeline';
 import type { Locale } from '@/i18n/routing';
@@ -15,6 +15,7 @@ import type {
 import { type ReactNode, useCallback, useEffect, useState } from 'react';
 
 type ConstitutionReaderClientProps = {
+  canSuggestNotes: boolean;
   documents: readonly ConstitutionDocumentSummary[];
   errorLabel: string;
   initialDocument: ConstitutionDocument;
@@ -25,6 +26,7 @@ type ConstitutionReaderClientProps = {
 type DocumentCache = Record<string, ConstitutionDocument>;
 
 export function ConstitutionReaderClient({
+  canSuggestNotes,
   documents,
   errorLabel,
   initialDocument,
@@ -124,7 +126,12 @@ export function ConstitutionReaderClient({
           selectedConstitutionId={selectedDocument.id}
         />
       }
-      workspace={<ConstitutionDocumentView document={selectedDocument} />}
+      workspace={
+        <ConstitutionDocumentView
+          canSuggestNotes={canSuggestNotes}
+          document={selectedDocument}
+        />
+      }
     />
   );
 }

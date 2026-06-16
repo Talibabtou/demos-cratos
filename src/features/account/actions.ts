@@ -1,9 +1,9 @@
 'use server';
 
-import { deleteCurrentAccountPendingNoteRequest } from '@/server/account/current-account';
+import { deleteCurrentAccountPendingNoteRequest } from '@/features/account/server/current-account';
+import { updateCurrentProfile } from '@/features/account/server/profile';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
-import { updateCurrentProfile } from '@/server/account/profile';
 
 export async function updateProfile(locale: string, formData: FormData) {
   await updateCurrentProfile(formData);

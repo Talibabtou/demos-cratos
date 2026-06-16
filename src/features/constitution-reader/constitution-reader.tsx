@@ -8,6 +8,7 @@ import type {
 } from '@/features/constitution-reader/types';
 
 type ConstitutionReaderProps = {
+  canSuggestNotes: boolean;
   documents: readonly ConstitutionDocumentSummary[];
   locale: Locale;
   messages: Pick<Messages, 'constitutionReader' | 'navigation'>;
@@ -15,6 +16,7 @@ type ConstitutionReaderProps = {
 };
 
 export function ConstitutionReader({
+  canSuggestNotes,
   documents,
   locale,
   messages,
@@ -24,6 +26,7 @@ export function ConstitutionReader({
     <main>
       <SiteHeader locale={locale} messages={messages.navigation} />
       <ConstitutionReaderClient
+        canSuggestNotes={canSuggestNotes}
         documents={documents}
         errorLabel={messages.constitutionReader.loadingError}
         initialDocument={selectedConstitution}

@@ -1,10 +1,10 @@
 import {
-  APP_ROLES,
   NOTE_CHANGE_KIND,
   NOTE_CHANGE_STATUS,
   NOTE_TEXT_MAX_LENGTH,
   NOTE_TITLE_MAX_LENGTH,
-} from '@/constants';
+} from '@/features/constitution-reader/constants';
+import { APP_ROLES } from '@/constants';
 import { createSupabaseServerClient } from '@/server/supabase/server';
 import type { ConstitutionNote } from '@/features/constitution-reader/types';
 import type { AppRole, NoteChangeKind } from '@/types';

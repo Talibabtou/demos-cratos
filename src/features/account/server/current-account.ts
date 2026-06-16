@@ -1,4 +1,5 @@
-import { APP_ROLES, NOTE_CHANGE_STATUS } from '@/constants';
+import { APP_ROLES } from '@/constants';
+import { NOTE_CHANGE_STATUS } from '@/features/constitution-reader/constants';
 import { createSupabaseServerClient } from '@/server/supabase/server';
 import type { AppRole, NoteChangeKind, NoteChangeRequestStatus } from '@/types';
 
@@ -10,7 +11,7 @@ type AccountProfile = {
   id: string;
 };
 
-type NoteChangeRequestSummary = {
+type NoteActivityItem = {
   article_id: string;
   created_at: string;
   document_slug: string;
@@ -43,7 +44,7 @@ export async function getCurrentAccount() {
     return null;
   }
 
-  const [{ data: profile }, { data: roles }, { data: noteRequests }] =
+  const [{ data: profile }, { data: roles }, { data: noteActivity }] =
     await Promise.all([
       supabase
         .from('profiles')
@@ -59,13 +60,13 @@ export async function getCurrentAccount() {
         .eq('requester_id', user.id)
         .order('created_at', { ascending: false })
         .limit(25)
-        .returns<NoteChangeRequestSummary[]>(),
+        .returns<NoteActivityItem[]>(),
     ]);
 
   return {
     email: user.email ?? profile?.email ?? '',
     id: user.id,
-    noteRequests: noteRequests ?? [],
+    noteActivity: noteActivity ?? [],
     profile,
     roles: sortRoles(roles?.map(({ role }) => role as AppRole) ?? []),
   };

@@ -1,8 +1,8 @@
+import type { APP_ROLES } from '@/constants';
 import type {
-  APP_ROLES,
   NOTE_CHANGE_KIND,
   NOTE_CHANGE_STATUS,
-} from '@/constants';
+} from '@/features/constitution-reader/constants';
 
 type ValueOf<T> = T[keyof T];
 

@@ -4,7 +4,7 @@ import Link from 'next/link';
 export function SiteFooter() {
   return (
     <footer className="border-civic-line border-t bg-civic-paper">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-5 px-6 py-8 text-civic-muted text-sm md:grid-cols-[1fr_auto_1fr] md:px-10 lg:px-12">
+      <div className="mx-auto grid min-h-[72px] max-w-7xl grid-cols-1 items-center gap-5 px-6 text-civic-muted text-sm md:grid-cols-[1fr_auto_1fr] md:px-10 lg:px-12">
         <p className="justify-self-start font-semibold font-serif text-civic-ink text-lg">
           Demos<span className="text-civic-blue">:</span>Cratos
         </p>

@@ -1,13 +1,16 @@
 import { signInWithGoogle } from '@/app/auth/actions';
-import { deletePendingNoteRequest, updateProfile } from '@/app/account/actions';
 import { SiteHeader } from '@/components/site-header';
+import {
+  deletePendingNoteRequest,
+  updateProfile,
+} from '@/features/account/actions';
 import {
   PROFILE_BIO_MAX_LENGTH,
   PROFILE_DISPLAY_NAME_MAX_LENGTH,
-} from '@/constants';
+} from '@/features/account/constants';
+import { getCurrentAccount } from '@/features/account/server/current-account';
 import { getMessages } from '@/i18n/messages';
 import { isLocale, locales, type Locale } from '@/i18n/routing';
-import { getCurrentAccount } from '@/server/account/current-account';
 import { Clock3, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -123,7 +126,7 @@ function SignedInProfile({
                 <dt className="font-semibold text-civic-muted text-xs uppercase tracking-[0.12em]">
                   {messages.email}
                 </dt>
-                <dd className="mt-2 break-words text-civic-ink text-sm">
+                <dd className="wrap-break-word mt-2 text-civic-ink text-sm">
                   {account.email}
                 </dd>
               </div>
@@ -203,9 +206,9 @@ function SignedInProfile({
               <h2 className="font-semibold font-serif text-2xl text-civic-ink">
                 {messages.pendingRequests}
               </h2>
-              {account.noteRequests.length > 0 ? (
+              {account.noteActivity.length > 0 ? (
                 <div className="mt-6 grid gap-4">
-                  {account.noteRequests.map((request) => (
+                  {account.noteActivity.map((request) => (
                     <article
                       className="rounded-panel border border-civic-line bg-civic-paper p-4"
                       key={request.id}
