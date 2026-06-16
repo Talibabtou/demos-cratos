@@ -1,9 +1,13 @@
 import { signInWithGoogle } from '@/app/auth/actions';
-import { updateProfile } from '@/app/account/actions';
+import { deletePendingNoteRequest, updateProfile } from '@/app/account/actions';
 import { SiteHeader } from '@/components/site-header';
+import {
+  PROFILE_BIO_MAX_LENGTH,
+  PROFILE_DISPLAY_NAME_MAX_LENGTH,
+} from '@/constants';
 import { getMessages } from '@/i18n/messages';
 import { isLocale, locales, type Locale } from '@/i18n/routing';
-import { getCurrentAccount } from '@api/account/current-account';
+import { getCurrentAccount } from '@/server/account/current-account';
 import { Clock3, ShieldCheck } from 'lucide-react';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
@@ -168,7 +172,7 @@ function SignedInProfile({
                   <input
                     className="focus-ring min-h-11 rounded-panel border border-civic-line bg-civic-paper px-3 text-civic-ink text-sm"
                     defaultValue={profile?.display_name ?? ''}
-                    maxLength={80}
+                    maxLength={PROFILE_DISPLAY_NAME_MAX_LENGTH}
                     name="displayName"
                     placeholder={messages.displayNamePlaceholder}
                     type="text"
@@ -181,7 +185,7 @@ function SignedInProfile({
                   <textarea
                     className="focus-ring min-h-32 resize-y rounded-panel border border-civic-line bg-civic-paper px-3 py-3 text-civic-ink text-sm leading-6"
                     defaultValue={profile?.bio ?? ''}
-                    maxLength={420}
+                    maxLength={PROFILE_BIO_MAX_LENGTH}
                     name="bio"
                     placeholder={messages.bioPlaceholder}
                   />
@@ -237,6 +241,24 @@ function SignedInProfile({
                           {messages.moderatorComment}:{' '}
                           {request.moderator_comment}
                         </p>
+                      ) : null}
+                      {request.status === 'pending' ? (
+                        <form
+                          action={deletePendingNoteRequest.bind(null, locale)}
+                          className="mt-4"
+                        >
+                          <input
+                            name="requestId"
+                            type="hidden"
+                            value={request.id}
+                          />
+                          <button
+                            className="focus-ring inline-flex h-9 items-center justify-center rounded-panel border border-civic-line px-3 font-semibold text-civic-muted text-xs transition hover:border-civic-red hover:text-civic-red"
+                            type="submit"
+                          >
+                            {messages.withdrawRequest}
+                          </button>
+                        </form>
                       ) : null}
                     </article>
                   ))}

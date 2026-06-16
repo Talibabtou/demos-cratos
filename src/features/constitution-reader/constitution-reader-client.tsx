@@ -1,14 +1,18 @@
 'use client';
 
-import { ConstitutionReaderPendingBoundary } from '@/features/constitution-reader/constitution-reader-pending-boundary';
+import {
+  CONSTITUTION_DOCUMENT_CACHE_STORAGE_KEY,
+  CONSTITUTION_DOCUMENTS_API_PATH,
+  ROUTES,
+} from '@/constants';
+import { ConstitutionDocumentView } from '@/features/constitution-reader/document-view';
 import { ConstitutionTimeline } from '@/features/constitution-reader/constitution-timeline';
-import { ConstitutionWorkspace } from '@/features/constitution-reader/constitution-workspace';
 import type { Locale } from '@/i18n/routing';
 import type {
   ConstitutionDocument,
   ConstitutionDocumentSummary,
-} from '@api/constitution-reader/corpus';
-import { useCallback, useEffect, useState } from 'react';
+} from '@/features/constitution-reader/types';
+import { type ReactNode, useCallback, useEffect, useState } from 'react';
 
 type ConstitutionReaderClientProps = {
   documents: readonly ConstitutionDocumentSummary[];
@@ -19,8 +23,6 @@ type ConstitutionReaderClientProps = {
 };
 
 type DocumentCache = Record<string, ConstitutionDocument>;
-
-const storageKey = 'demos-cratos:constitution-reader:documents:v1';
 
 export function ConstitutionReaderClient({
   documents,
@@ -109,7 +111,7 @@ export function ConstitutionReaderClient({
   }
 
   return (
-    <ConstitutionReaderPendingBoundary
+    <ReaderPendingBoundary
       isReaderPending={isLoadingDocument}
       loadingLabel={loadingLabel}
       loadingError={loadingError}
@@ -122,14 +124,60 @@ export function ConstitutionReaderClient({
           selectedConstitutionId={selectedDocument.id}
         />
       }
-      workspace={<ConstitutionWorkspace document={selectedDocument} />}
+      workspace={<ConstitutionDocumentView document={selectedDocument} />}
     />
+  );
+}
+
+function ReaderPendingBoundary({
+  isReaderPending,
+  loadingError,
+  loadingLabel,
+  timeline,
+  workspace,
+}: {
+  isReaderPending: boolean;
+  loadingError: string | null;
+  loadingLabel: string;
+  timeline: ReactNode;
+  workspace: ReactNode;
+}) {
+  return (
+    <>
+      {timeline}
+      <div className="relative">
+        <div
+          aria-busy={isReaderPending}
+          className={
+            isReaderPending
+              ? 'pointer-events-none opacity-60 blur-lg transition duration-200 motion-reduce:transition-none'
+              : 'opacity-100 blur-0 transition duration-200 motion-reduce:transition-none'
+          }
+        >
+          {workspace}
+        </div>
+        {isReaderPending ? (
+          <div className="pointer-events-none fixed top-24 left-1/2 z-50 inline-flex -translate-x-1/2 items-center gap-2 rounded-full border border-civic-line bg-civic-paper px-4 py-2 font-medium text-civic-ink text-sm shadow-quiet">
+            <span
+              aria-hidden="true"
+              className="size-2 rounded-full bg-civic-blue"
+            />
+            {loadingLabel}
+          </div>
+        ) : null}
+        {loadingError ? (
+          <div className="pointer-events-none fixed top-24 left-1/2 z-50 inline-flex -translate-x-1/2 rounded-full border border-civic-red bg-civic-paper px-4 py-2 font-medium text-civic-red text-sm shadow-quiet">
+            {loadingError}
+          </div>
+        ) : null}
+      </div>
+    </>
   );
 }
 
 async function fetchConstitutionDocument(documentId: string) {
   const response = await fetch(
-    `/api/constitution-reader/documents/${encodeURIComponent(documentId)}`,
+    `${CONSTITUTION_DOCUMENTS_API_PATH}/${encodeURIComponent(documentId)}`,
   );
 
   if (!response.ok) {
@@ -141,7 +189,9 @@ async function fetchConstitutionDocument(documentId: string) {
 
 function readDocumentCache(): DocumentCache {
   try {
-    const cachedValue = window.sessionStorage.getItem(storageKey);
+    const cachedValue = window.sessionStorage.getItem(
+      CONSTITUTION_DOCUMENT_CACHE_STORAGE_KEY,
+    );
 
     if (!cachedValue) {
       return {};
@@ -155,13 +205,16 @@ function readDocumentCache(): DocumentCache {
 
 function writeDocumentCache(cache: DocumentCache) {
   try {
-    window.sessionStorage.setItem(storageKey, JSON.stringify(cache));
+    window.sessionStorage.setItem(
+      CONSTITUTION_DOCUMENT_CACHE_STORAGE_KEY,
+      JSON.stringify(cache),
+    );
   } catch {
     // If storage is full or blocked, the in-memory cache still works.
   }
 }
 
 function replaceConstitutionUrl(locale: Locale, documentId: string) {
-  const nextUrl = `/${locale}/constitution-reader?constitution=${encodeURIComponent(documentId)}`;
+  const nextUrl = `/${locale}${ROUTES.constitutionReader}?constitution=${encodeURIComponent(documentId)}`;
   window.history.pushState(null, '', nextUrl);
 }

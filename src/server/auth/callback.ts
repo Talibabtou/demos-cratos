@@ -1,4 +1,4 @@
-import { createSupabaseServerClient } from '@api/supabase/server';
+import { createSupabaseServerClient } from '@/server/supabase/server';
 import { NextResponse, type NextRequest } from 'next/server';
 
 function getSafeNextPath(value: string | null) {

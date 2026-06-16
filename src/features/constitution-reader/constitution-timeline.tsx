@@ -1,10 +1,11 @@
 'use client';
 
+import { ROUTES } from '@/constants';
 import type { Locale } from '@/i18n/routing';
 import type {
   ConstitutionDocument,
   ConstitutionDocumentSummary,
-} from '@api/constitution-reader/corpus';
+} from '@/features/constitution-reader/types';
 import { ExternalLink } from 'lucide-react';
 
 type ConstitutionTimelineProps = {
@@ -113,7 +114,7 @@ function TimelineButton({
   locale: Locale;
   onSelectConstitution?: (documentId: string) => void;
 }) {
-  const href = `/${locale}/constitution-reader?constitution=${document.id}`;
+  const href = `/${locale}${ROUTES.constitutionReader}?constitution=${document.id}`;
 
   if (onSelectConstitution) {
     return (

@@ -1,4 +1,6 @@
-import { createSupabaseServerClient } from '@api/supabase/server';
+import { APP_ROLES, NOTE_CHANGE_STATUS } from '@/constants';
+import { createSupabaseServerClient } from '@/server/supabase/server';
+import type { AppRole, NoteChangeKind, NoteChangeRequestStatus } from '@/types';
 
 type AccountProfile = {
   avatar_url: string | null;
@@ -13,17 +15,17 @@ type NoteChangeRequestSummary = {
   created_at: string;
   document_slug: string;
   id: string;
-  kind: 'create' | 'update' | 'delete';
+  kind: NoteChangeKind;
   moderator_comment: string | null;
   proposed_title: string;
   proposed_text: string;
-  status: 'pending' | 'approved' | 'rejected' | 'changes_requested';
+  status: NoteChangeRequestStatus;
 };
 
-function sortRoles(roles: string[]) {
+function sortRoles(roles: AppRole[]) {
   const order = new Map([
-    ['admin', 0],
-    ['moderator', 1],
+    [APP_ROLES[0], 0],
+    [APP_ROLES[1], 1],
   ]);
 
   return roles.toSorted(
@@ -65,6 +67,30 @@ export async function getCurrentAccount() {
     id: user.id,
     noteRequests: noteRequests ?? [],
     profile,
-    roles: sortRoles(roles?.map(({ role }) => role as string) ?? []),
+    roles: sortRoles(roles?.map(({ role }) => role as AppRole) ?? []),
   };
+}
+
+export async function deleteCurrentAccountPendingNoteRequest(
+  requestId: string,
+) {
+  const supabase = await createSupabaseServerClient();
+  const {
+    data: { user },
+  } = await supabase.auth.getUser();
+
+  if (!user) {
+    throw new Error('You must be signed in to delete a note request.');
+  }
+
+  const { error } = await supabase
+    .from('note_change_requests')
+    .delete()
+    .eq('id', requestId)
+    .eq('requester_id', user.id)
+    .eq('status', NOTE_CHANGE_STATUS.pending);
+
+  if (error) {
+    throw new Error('Note request deletion failed.');
+  }
 }

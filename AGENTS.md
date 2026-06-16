@@ -7,6 +7,18 @@ democratic participation at the municipality level.
 
 Setup, scripts, CI, and project tree: `README.md`.
 
+## Agent Defaults
+
+- Always apply Ponytail judgment: do less, delete first, use platform/stdlib
+  before new code, avoid speculative abstractions, and keep the smallest diff
+  that solves the request. Do not simplify away security, data-loss handling,
+  accessibility, or explicit requirements.
+- Always apply Caveman communication: concise, low-token updates and final
+  answers. Keep technical names exact. Drop filler, but expand when precision,
+  safety, or multi-step instructions need it.
+- For substantial diffs, use Ponytail review before finishing: list what can be
+  removed, merged, or replaced with existing platform/codebase behavior.
+
 ## Common Commands
 
 - `pnpm run dev` starts the local Next.js dev server on port 3000.
@@ -65,11 +77,9 @@ Setup, scripts, CI, and project tree: `README.md`.
 
 ## Verify
 
-```bash
-pnpm run check
-```
-
-After a substantial new feature or broad refactor, also run `npx fallow` and
-review the report for dead code, wasteful patterns, and avoidable
-bundle/performance issues. Do not make it part of every small copy or styling
-change.
+- Do not run `pnpm run check` after every small edit. Run it before finalizing
+  substantial code changes, before push, or when TypeScript/build risk is
+  likely. For tiny copy/import/style edits, prefer targeted checks or say what
+  was not run.
+- Do not run `npx fallow` by default. Run it after substantial feature work,
+  broad refactors, or explicit cleanup/audit requests.

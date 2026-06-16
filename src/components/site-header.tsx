@@ -1,5 +1,6 @@
 import { AuthButton } from '@/components/auth-button';
 import { ThemeToggle } from '@/components/theme-toggle';
+import { ROUTES } from '@/constants';
 import { FileText } from 'lucide-react';
 import type { Locale } from '@/i18n/routing';
 import { withLocale } from '@/i18n/routing';
@@ -14,15 +15,15 @@ type SiteHeaderProps = {
 export function SiteHeader({ locale, messages }: SiteHeaderProps) {
   const navItems = [
     {
-      href: withLocale(locale, '/constitution-reader'),
+      href: withLocale(locale, ROUTES.constitutionReader),
       label: messages.constitutionReader,
     },
     {
-      href: withLocale(locale, '/constitution-workshop'),
+      href: withLocale(locale, ROUTES.constitutionWorkshop),
       label: messages.constitutionWorkshop,
     },
     {
-      href: withLocale(locale, '/municipal-democracy'),
+      href: withLocale(locale, ROUTES.municipalDemocracy),
       label: messages.municipalDemocracy,
     },
   ];

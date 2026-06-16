@@ -1,4 +1,4 @@
-import { handleAuthCallback } from '@api/auth/callback';
+import { handleAuthCallback } from '@/server/auth/callback';
 import type { NextRequest } from 'next/server';
 
 export async function GET(request: NextRequest) {

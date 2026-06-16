@@ -1,4 +1,5 @@
-import { createSupabaseServerClient } from '@api/supabase/server';
+import { ROUTES } from '@/constants';
+import { createSupabaseServerClient } from '@/server/supabase/server';
 
 export async function getCurrentUser() {
   const supabase = await createSupabaseServerClient();
@@ -19,7 +20,7 @@ export async function createGoogleSignInUrl({
   const supabase = await createSupabaseServerClient();
   const { data, error } = await supabase.auth.signInWithOAuth({
     options: {
-      redirectTo: `${origin}/auth/callback?next=${encodeURIComponent(nextPath)}`,
+      redirectTo: `${origin}${ROUTES.authCallback}?next=${encodeURIComponent(nextPath)}`,
     },
     provider: 'google',
   });

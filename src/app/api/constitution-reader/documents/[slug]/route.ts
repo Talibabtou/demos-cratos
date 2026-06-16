@@ -1,4 +1,4 @@
-import { getConstitutionDocument } from '@api/constitution-reader/corpus';
+import { getConstitutionDocument } from '@/features/constitution-reader/server/corpus';
 import { NextResponse } from 'next/server';
 
 type ConstitutionDocumentRouteProps = {

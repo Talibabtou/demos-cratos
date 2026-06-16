@@ -93,7 +93,8 @@
     "requestStatus": "Status",
     "requestKind": "Kind",
     "requestLocation": "Location",
-    "moderatorComment": "Moderator comment"
+    "moderatorComment": "Moderator comment",
+    "withdrawRequest": "Withdraw request"
   },
   "sectionPage": {
     "backToOverview": "Back to overview",

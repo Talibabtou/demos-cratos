@@ -2,7 +2,7 @@ import { signInWithGoogle, signOut } from '@/app/auth/actions';
 import type { Messages } from '@/i18n/messages';
 import type { Locale } from '@/i18n/routing';
 import { withLocale } from '@/i18n/routing';
-import { getCurrentUser } from '@api/auth/session';
+import { getCurrentUser } from '@/server/auth/session';
 import { LogIn, LogOut, UserCircle } from 'lucide-react';
 import Link from 'next/link';
 

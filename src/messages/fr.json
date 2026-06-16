@@ -93,7 +93,8 @@
     "requestStatus": "Statut",
     "requestKind": "Type",
     "requestLocation": "Emplacement",
-    "moderatorComment": "Commentaire de modération"
+    "moderatorComment": "Commentaire de modération",
+    "withdrawRequest": "Retirer la demande"
   },
   "sectionPage": {
     "backToOverview": "Back to overview",

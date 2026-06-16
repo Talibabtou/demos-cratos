@@ -1,7 +1,10 @@
 'use server';
 
 import { defaultLocale, type Locale, withLocale } from '@/i18n/routing';
-import { createGoogleSignInUrl, signOutCurrentUser } from '@api/auth/session';
+import {
+  createGoogleSignInUrl,
+  signOutCurrentUser,
+} from '@/server/auth/session';
 import { headers } from 'next/headers';
 import { redirect } from 'next/navigation';
 

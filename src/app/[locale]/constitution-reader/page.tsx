@@ -1,10 +1,10 @@
-import { ConstitutionReader } from '@/features/constitution-reader';
+import { ConstitutionReader } from '@/features/constitution-reader/constitution-reader';
 import { getMessages } from '@/i18n/messages';
 import { isLocale } from '@/i18n/routing';
 import {
   getConstitutionDocument,
   getConstitutionDocumentSummaries,
-} from '@api/constitution-reader/corpus';
+} from '@/features/constitution-reader/server/corpus';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import {

@@ -1,4 +1,8 @@
-import { createSupabaseServerClient } from '@api/supabase/server';
+import {
+  PROFILE_BIO_MAX_LENGTH,
+  PROFILE_DISPLAY_NAME_MAX_LENGTH,
+} from '@/constants';
+import { createSupabaseServerClient } from '@/server/supabase/server';
 
 function normalizeProfileText(
   value: FormDataEntryValue | null,
@@ -27,8 +31,11 @@ export async function updateCurrentProfile(formData: FormData) {
     throw new Error('You must be signed in to update your profile.');
   }
 
-  const displayName = normalizeProfileText(formData.get('displayName'), 80);
-  const bio = normalizeProfileText(formData.get('bio'), 420);
+  const displayName = normalizeProfileText(
+    formData.get('displayName'),
+    PROFILE_DISPLAY_NAME_MAX_LENGTH,
+  );
+  const bio = normalizeProfileText(formData.get('bio'), PROFILE_BIO_MAX_LENGTH);
 
   const { error } = await supabase
     .from('profiles')

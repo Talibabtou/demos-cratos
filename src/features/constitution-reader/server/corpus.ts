@@ -1,42 +1,21 @@
+import {
+  CONSTITUTION_CORPUS_CACHE_SECONDS,
+  NOTE_CHANGE_STATUS,
+  SUPABASE_PAGE_SIZE,
+} from '@/constants';
+import { getSupabaseServerKey, getSupabaseUrl } from '@/server/supabase/config';
+import { createSupabaseServerClient } from '@/server/supabase/server';
+import type {
+  ConstitutionArticle,
+  ConstitutionDocument,
+  ConstitutionDocumentSummary,
+  ConstitutionNote,
+  ConstitutionParagraph,
+  ConstitutionSection,
+  RevisionGroup,
+} from '@/features/constitution-reader/types';
 import { createClient } from '@supabase/supabase-js';
-import { getSupabaseServerKey, getSupabaseUrl } from '@api/supabase/config';
-import { createSupabaseServerClient } from '@api/supabase/server';
 import { unstable_cache } from 'next/cache';
-
-export type ConstitutionNote = { title: string; text: string };
-export type ConstitutionParagraph = { databaseId: string; text: string };
-export type ConstitutionArticle = {
-  databaseId: string;
-  id: string;
-  title: string;
-  paragraphs: readonly ConstitutionParagraph[];
-  notes?: readonly ConstitutionNote[];
-};
-export type ConstitutionSection = {
-  databaseId: string;
-  id: string;
-  title: string;
-  articles: readonly ConstitutionArticle[];
-};
-export type RevisionGroup = { years: string; title: string; text: string };
-export type ConstitutionDocumentSummary = {
-  databaseId: string;
-  id: string;
-  year: string;
-  shortLabel: string;
-  title: string;
-  sourceTitle: string;
-  regime: string;
-  date: string;
-  summary: string;
-  sourceUrl: string;
-  localSourcePath?: string;
-  revisionGroups: readonly RevisionGroup[];
-};
-export type ConstitutionDocument = ConstitutionDocumentSummary & {
-  sections: readonly ConstitutionSection[];
-  notes: readonly ConstitutionNote[];
-};
 
 type DocumentRow = {
   id: string;
@@ -85,7 +64,9 @@ type ParagraphRow = {
 };
 
 type NoteRow = {
+  author_id?: string | null;
   article_id: string;
+  id?: string;
   position: number;
   title: string;
   text: string;
@@ -93,9 +74,6 @@ type NoteRow = {
 
 const emptyConstitutionDocumentSummaries: readonly ConstitutionDocumentSummary[] =
   [];
-const constitutionCorpusCacheSeconds = 60 * 60 * 24;
-const pageSize = 1000;
-
 export const getConstitutionDocumentSummaries = unstable_cache(
   async () => {
     const supabase = createSupabasePublicCorpusClient();
@@ -110,15 +88,13 @@ export const getConstitutionDocumentSummaries = unstable_cache(
         .returns<DocumentRow[]>(),
     );
 
-    if (documents.length === 0) {
-      return emptyConstitutionDocumentSummaries;
-    }
-
-    return documents.map(mapConstitutionDocumentSummary);
+    return documents.length === 0
+      ? emptyConstitutionDocumentSummaries
+      : documents.map(mapConstitutionDocumentSummary);
   },
   ['constitution-document-summaries'],
   {
-    revalidate: constitutionCorpusCacheSeconds,
+    revalidate: CONSTITUTION_CORPUS_CACHE_SECONDS,
     tags: ['constitution-corpus'],
   },
 );
@@ -213,7 +189,7 @@ const getConstitutionDocumentStructure = unstable_cache(
   },
   ['constitution-document-structure'],
   {
-    revalidate: constitutionCorpusCacheSeconds,
+    revalidate: CONSTITUTION_CORPUS_CACHE_SECONDS,
     tags: ['constitution-corpus'],
   },
 );
@@ -228,9 +204,9 @@ async function getApprovedArticleNotes(articleIds: readonly string[]) {
   return fetchAllRows<NoteRow>((from, to) =>
     supabase
       .from('constitution_notes')
-      .select('article_id, position, title, text')
+      .select('id, article_id, author_id, position, title, text')
       .in('article_id', articleIds)
-      .eq('status', 'approved')
+      .eq('status', NOTE_CHANGE_STATUS.approved)
       .order('position', { ascending: true })
       .range(from, to)
       .returns<NoteRow[]>(),
@@ -276,8 +252,8 @@ async function fetchAllRows<T>(
 ) {
   const rows: T[] = [];
 
-  for (let from = 0; ; from += pageSize) {
-    const to = from + pageSize - 1;
+  for (let from = 0; ; from += SUPABASE_PAGE_SIZE) {
+    const to = from + SUPABASE_PAGE_SIZE - 1;
     const { data, error } = await createQuery(from, to);
 
     if (error) {
@@ -287,7 +263,7 @@ async function fetchAllRows<T>(
     const page = data ?? [];
     rows.push(...page);
 
-    if (page.length < pageSize) {
+    if (page.length < SUPABASE_PAGE_SIZE) {
       return rows;
     }
   }
@@ -369,8 +345,12 @@ function mapConstitutionDocumentSummary(
   };
 }
 
-function mapConstitutionNote(note: DocumentNoteRow | NoteRow) {
+function mapConstitutionNote(
+  note: DocumentNoteRow | NoteRow,
+): ConstitutionNote {
   return {
+    authorId: 'author_id' in note ? (note.author_id ?? undefined) : undefined,
+    databaseId: 'id' in note ? note.id : undefined,
     text: note.text,
     title: note.title,
   };

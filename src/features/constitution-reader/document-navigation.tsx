@@ -11,7 +11,7 @@ import {
 import type {
   ConstitutionDocument,
   ConstitutionSection,
-} from '@api/constitution-reader/corpus';
+} from '@/features/constitution-reader/types';
 
 type DocumentNavigationProps = {
   document: ConstitutionDocument;

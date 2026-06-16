@@ -1,17 +1,19 @@
 'use client';
 
-import { createNoteChangeRequest } from '@/app/constitution-reader/actions';
-import { Check, Plus, X } from 'lucide-react';
+import {
+  createNoteChangeRequest,
+  deleteNoteChangeRequest,
+  updateNoteChangeRequest,
+} from '@/features/constitution-reader/actions';
+import { NOTE_CHANGE_STATUS } from '@/constants';
+import type { ConstitutionNote } from '@/features/constitution-reader/types';
+import { Check, Pencil, Plus, Trash2, X } from 'lucide-react';
 import { type FormEvent, useState, useTransition } from 'react';
-import type { ConstitutionNote } from '@api/constitution-reader/corpus';
 
 type MarginNotesProps = {
   sourceNotes: readonly ConstitutionNote[];
   target: {
     articleDatabaseId: string;
-    articleId: string;
-    documentId: string;
-    sectionId: string;
   };
 };
 
@@ -26,7 +28,9 @@ const emptyDraft: NoteFormValues = {
 };
 
 export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
-  const hasNotes = sourceNotes.length > 0;
+  const [notes, setNotes] = useState<readonly ConstitutionNote[]>(sourceNotes);
+  const [editingNote, setEditingNote] = useState<ConstitutionNote | null>(null);
+  const hasNotes = notes.length > 0;
   const [draft, setDraft] = useState<NoteFormValues>(emptyDraft);
   const [isComposing, setIsComposing] = useState(false);
   const [submissionMessage, setSubmissionMessage] = useState<string | null>(
@@ -38,17 +42,92 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
     startTransition(async () => {
       const result = await createNoteChangeRequest({
         articleDatabaseId: target.articleDatabaseId,
-        articleId: target.articleId,
-        documentId: target.documentId,
         text: values.text,
         title: values.title,
       });
 
       if (result.ok) {
+        const nextNote = result.note;
+
+        if (nextNote) {
+          setNotes((currentNotes) => [...currentNotes, nextNote]);
+        }
+
         setDraft(emptyDraft);
         setIsComposing(false);
         setSubmissionMessage(
-          'Votre proposition est enregistrée et attend une relecture.',
+          result.status === NOTE_CHANGE_STATUS.approved
+            ? 'La note est publiée.'
+            : 'Votre proposition est enregistrée et attend une relecture.',
+        );
+        return;
+      }
+
+      setSubmissionMessage(result.error);
+    });
+  };
+
+  const onEditNote = (note: ConstitutionNote, values: NoteFormValues) => {
+    if (!note.databaseId) {
+      return;
+    }
+
+    startTransition(async () => {
+      const result = await updateNoteChangeRequest({
+        noteId: note.databaseId ?? '',
+        text: values.text,
+        title: values.title,
+      });
+
+      if (result.ok) {
+        const nextNote = result.note;
+
+        if (nextNote?.databaseId) {
+          setNotes((currentNotes) =>
+            currentNotes.map((currentNote) =>
+              currentNote.databaseId === nextNote.databaseId
+                ? nextNote
+                : currentNote,
+            ),
+          );
+        }
+
+        setEditingNote(null);
+        setSubmissionMessage(
+          result.status === NOTE_CHANGE_STATUS.approved
+            ? 'La note est modifiée.'
+            : 'Votre modification attend une relecture.',
+        );
+        return;
+      }
+
+      setSubmissionMessage(result.error);
+    });
+  };
+
+  const onDeleteNote = (note: ConstitutionNote) => {
+    if (!note.databaseId) {
+      return;
+    }
+
+    startTransition(async () => {
+      const result = await deleteNoteChangeRequest({
+        noteId: note.databaseId ?? '',
+      });
+
+      if (result.ok) {
+        if (result.status === NOTE_CHANGE_STATUS.approved) {
+          setNotes((currentNotes) =>
+            currentNotes.filter(
+              (currentNote) => currentNote.databaseId !== note.databaseId,
+            ),
+          );
+        }
+
+        setSubmissionMessage(
+          result.status === NOTE_CHANGE_STATUS.approved
+            ? 'La note est supprimée.'
+            : 'La suppression attend une relecture.',
         );
         return;
       }
@@ -64,40 +143,31 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
           <p className="font-semibold text-civic-muted text-xs uppercase tracking-[0.12em]">
             Notes
           </p>
-          {isComposing ? null : (
-            <button
-              className="focus-ring inline-flex size-7 items-center justify-center rounded-sm text-civic-muted transition hover:bg-civic-paper hover:text-civic-blue"
-              onClick={() => setIsComposing(true)}
-              type="button"
-            >
-              <span className="sr-only">Add note</span>
-              <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
-            </button>
-          )}
+          <AddNoteButton
+            isHidden={isComposing}
+            onClick={() => setIsComposing(true)}
+          />
         </div>
-        {hasNotes ? null : (
-          <p className="border-civic-line border-l pl-4 text-civic-muted text-sm leading-6">
-            No public note has been written for this article yet.
-          </p>
-        )}
-        {submissionMessage ? (
-          <p className="border-civic-blue border-l pl-4 text-civic-muted text-sm leading-6">
-            {submissionMessage}
-          </p>
-        ) : null}
-        {sourceNotes.map((note) => (
-          <details
-            className="border-civic-line border-l py-1 pl-4"
-            key={note.title}
-            open
-          >
-            <summary className="cursor-pointer font-semibold text-civic-ink text-sm">
-              {note.title}
-            </summary>
-            <p className="mt-2 text-civic-text text-sm leading-6">
-              {note.text}
-            </p>
-          </details>
+        <NoteStatusMessage
+          message={
+            hasNotes
+              ? submissionMessage
+              : (submissionMessage ??
+                'No public note has been written for this article yet.')
+          }
+          tone={submissionMessage ? 'info' : 'muted'}
+        />
+        {notes.map((note) => (
+          <ReaderNote
+            editingNoteId={editingNote?.databaseId}
+            isPending={isPending}
+            key={note.databaseId ?? note.title}
+            note={note}
+            onCancelEdit={() => setEditingNote(null)}
+            onDelete={onDeleteNote}
+            onEdit={setEditingNote}
+            onSubmitEdit={onEditNote}
+          />
         ))}
         <div className="border-civic-blue border-l pl-4">
           {isComposing ? (
@@ -107,6 +177,8 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
               onCancel={() => setIsComposing(false)}
               onChange={setDraft}
               onSubmit={onAddNote}
+              pendingLabel="Sending"
+              submitLabel="Propose"
             />
           ) : null}
         </div>
@@ -115,18 +187,182 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
   );
 }
 
+function AddNoteButton({
+  isHidden,
+  onClick,
+}: {
+  isHidden: boolean;
+  onClick: () => void;
+}) {
+  if (isHidden) {
+    return null;
+  }
+
+  return (
+    <button
+      className="focus-ring inline-flex size-7 items-center justify-center rounded-sm text-civic-muted transition hover:bg-civic-paper hover:text-civic-blue"
+      onClick={onClick}
+      type="button"
+    >
+      <span className="sr-only">Add note</span>
+      <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
+    </button>
+  );
+}
+
+function NoteStatusMessage({
+  message,
+  tone,
+}: {
+  message: string | null;
+  tone: 'info' | 'muted';
+}) {
+  if (!message) {
+    return null;
+  }
+
+  return (
+    <p
+      className={`border-l pl-4 text-civic-muted text-sm leading-6 ${
+        tone === 'info' ? 'border-civic-blue' : 'border-civic-line'
+      }`}
+    >
+      {message}
+    </p>
+  );
+}
+
+function ReaderNote({
+  editingNoteId,
+  isPending,
+  note,
+  onCancelEdit,
+  onDelete,
+  onEdit,
+  onSubmitEdit,
+}: {
+  editingNoteId?: string;
+  isPending: boolean;
+  note: ConstitutionNote;
+  onCancelEdit: () => void;
+  onDelete: (note: ConstitutionNote) => void;
+  onEdit: (note: ConstitutionNote) => void;
+  onSubmitEdit: (note: ConstitutionNote, values: NoteFormValues) => void;
+}) {
+  const isEditing =
+    Boolean(note.databaseId) && editingNoteId === note.databaseId;
+
+  if (isEditing) {
+    return (
+      <div className="border-civic-blue border-l py-1 pl-4">
+        <ReaderNoteForm
+          compactActions
+          initialValues={{ text: note.text, title: note.title }}
+          isPending={isPending}
+          onCancel={onCancelEdit}
+          onSubmit={(values) => onSubmitEdit(note, values)}
+          pendingLabel="Sending"
+          submitLabel="Propose edit"
+        />
+      </div>
+    );
+  }
+
+  return (
+    <details className="border-civic-line border-l py-1 pl-4" open>
+      <summary className="cursor-pointer font-semibold text-civic-ink text-sm">
+        {note.title}
+      </summary>
+      <p className="mt-2 text-civic-text text-sm leading-6">{note.text}</p>
+      {note.databaseId ? (
+        <NoteActions
+          isPending={isPending}
+          note={note}
+          onDelete={onDelete}
+          onEdit={onEdit}
+        />
+      ) : null}
+    </details>
+  );
+}
+
+function NoteActions({
+  isPending,
+  note,
+  onDelete,
+  onEdit,
+}: {
+  isPending: boolean;
+  note: ConstitutionNote;
+  onDelete: (note: ConstitutionNote) => void;
+  onEdit: (note: ConstitutionNote) => void;
+}) {
+  const [isConfirmingDelete, setIsConfirmingDelete] = useState(false);
+
+  return (
+    <div className="mt-3 flex flex-wrap gap-2">
+      <button
+        className="focus-ring inline-flex items-center gap-1.5 rounded-sm border border-civic-line px-2 py-1 font-semibold text-civic-muted text-xs transition hover:border-civic-blue hover:text-civic-blue"
+        onClick={() => onEdit(note)}
+        type="button"
+      >
+        <Pencil aria-hidden="true" className="size-3.5" />
+        Edit
+      </button>
+      {isConfirmingDelete ? (
+        <div className="flex gap-2">
+          <button
+            aria-label="Confirm delete"
+            className="focus-ring inline-flex h-[26px] items-center justify-center rounded-sm border border-civic-line px-2 text-civic-muted transition hover:border-civic-red hover:text-civic-red"
+            disabled={isPending}
+            onClick={() => onDelete(note)}
+            type="button"
+          >
+            <Check aria-hidden="true" className="size-3.5" />
+          </button>
+          <button
+            aria-label="Cancel delete"
+            className="focus-ring inline-flex h-[26px] items-center justify-center rounded-sm border border-civic-line px-2 text-civic-muted transition hover:border-civic-blue hover:text-civic-blue"
+            disabled={isPending}
+            onClick={() => setIsConfirmingDelete(false)}
+            type="button"
+          >
+            <X aria-hidden="true" className="size-3.5" />
+          </button>
+        </div>
+      ) : (
+          <button
+            className="focus-ring inline-flex items-center gap-1.5 rounded-sm border border-civic-line px-2 py-1 font-semibold text-civic-muted text-xs transition hover:border-civic-red hover:text-civic-red"
+            disabled={isPending}
+            onClick={() => setIsConfirmingDelete(true)}
+            type="button"
+          >
+            <Trash2 aria-hidden="true" className="size-3.5" />
+            Delete
+          </button>
+      )}
+    </div>
+  );
+}
+
 function ReaderNoteForm({
+  compactActions = false,
   isPending,
   initialValues,
   onCancel,
   onChange,
   onSubmit,
+  pendingLabel,
+  submitLabel,
 }: {
+  compactActions?: boolean;
   isPending: boolean;
   initialValues: NoteFormValues;
   onCancel: () => void;
   onChange?: (values: NoteFormValues) => void;
   onSubmit: (values: NoteFormValues) => void;
+  pendingLabel: string;
+  submitLabel: string;
 }) {
   const [values, setValues] = useState<NoteFormValues>(initialValues);
 
@@ -147,6 +383,13 @@ function ReaderNoteForm({
 
     onSubmit({ text, title });
   };
+  const actionButtonClass = compactActions
+    ? 'focus-ring inline-flex h-[26px] items-center gap-1.5 rounded-sm bg-civic-action px-2 font-semibold text-civic-action-text text-xs transition hover:bg-civic-action-hover'
+    : 'focus-ring inline-flex items-center gap-2 rounded-sm bg-civic-action px-3 py-2 font-semibold text-civic-action-text text-sm transition hover:bg-civic-action-hover';
+  const cancelButtonClass = compactActions
+    ? 'focus-ring inline-flex h-[26px] items-center gap-1.5 rounded-sm border border-civic-line px-2 font-semibold text-civic-muted text-xs transition hover:border-civic-blue hover:text-civic-blue'
+    : 'focus-ring inline-flex items-center gap-2 rounded-sm border border-civic-line px-3 py-2 font-semibold text-civic-muted text-sm transition hover:border-civic-blue hover:text-civic-blue';
+  const iconClassName = compactActions ? 'size-3.5' : 'size-4';
 
   return (
     <form className="space-y-2 pt-1" onSubmit={handleSubmit}>
@@ -175,23 +418,23 @@ function ReaderNoteForm({
       </label>
       <div className="flex flex-wrap items-center gap-2">
         <button
-          className="focus-ring inline-flex items-center gap-2 rounded-sm bg-civic-action px-3 py-2 font-semibold text-civic-action-text text-sm transition hover:bg-civic-action-hover"
+          className={actionButtonClass}
           disabled={isPending}
           type="submit"
         >
           {isPending ? (
-            <Check aria-hidden="true" className="size-4" strokeWidth={2} />
+            <Check aria-hidden="true" className={iconClassName} strokeWidth={2} />
           ) : (
-            <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
+            <Plus aria-hidden="true" className={iconClassName} strokeWidth={2} />
           )}
-          {isPending ? 'Sending' : 'Propose'}
+          {isPending ? pendingLabel : submitLabel}
         </button>
         <button
-          className="focus-ring inline-flex items-center gap-2 rounded-sm border border-civic-line px-3 py-2 font-semibold text-civic-muted text-sm transition hover:border-civic-blue hover:text-civic-blue"
+          className={cancelButtonClass}
           onClick={onCancel}
           type="button"
         >
-          <X aria-hidden="true" className="size-4" strokeWidth={2} />
+          <X aria-hidden="true" className={iconClassName} strokeWidth={2} />
           Cancel
         </button>
       </div>

@@ -5,7 +5,7 @@ import type { Locale } from '@/i18n/routing';
 import type {
   ConstitutionDocument,
   ConstitutionDocumentSummary,
-} from '@api/constitution-reader/corpus';
+} from '@/features/constitution-reader/types';
 
 type ConstitutionReaderProps = {
   documents: readonly ConstitutionDocumentSummary[];
