@@ -331,15 +331,15 @@ function NoteActions({
           </button>
         </div>
       ) : (
-          <button
-            className="focus-ring inline-flex items-center gap-1.5 rounded-sm border border-civic-line px-2 py-1 font-semibold text-civic-muted text-xs transition hover:border-civic-red hover:text-civic-red"
-            disabled={isPending}
-            onClick={() => setIsConfirmingDelete(true)}
-            type="button"
-          >
-            <Trash2 aria-hidden="true" className="size-3.5" />
-            Delete
-          </button>
+        <button
+          className="focus-ring inline-flex items-center gap-1.5 rounded-sm border border-civic-line px-2 py-1 font-semibold text-civic-muted text-xs transition hover:border-civic-red hover:text-civic-red"
+          disabled={isPending}
+          onClick={() => setIsConfirmingDelete(true)}
+          type="button"
+        >
+          <Trash2 aria-hidden="true" className="size-3.5" />
+          Delete
+        </button>
       )}
     </div>
   );
@@ -423,17 +423,21 @@ function ReaderNoteForm({
           type="submit"
         >
           {isPending ? (
-            <Check aria-hidden="true" className={iconClassName} strokeWidth={2} />
+            <Check
+              aria-hidden="true"
+              className={iconClassName}
+              strokeWidth={2}
+            />
           ) : (
-            <Plus aria-hidden="true" className={iconClassName} strokeWidth={2} />
+            <Plus
+              aria-hidden="true"
+              className={iconClassName}
+              strokeWidth={2}
+            />
           )}
           {isPending ? pendingLabel : submitLabel}
         </button>
-        <button
-          className={cancelButtonClass}
-          onClick={onCancel}
-          type="button"
-        >
+        <button className={cancelButtonClass} onClick={onCancel} type="button">
           <X aria-hidden="true" className={iconClassName} strokeWidth={2} />
           Cancel
         </button>

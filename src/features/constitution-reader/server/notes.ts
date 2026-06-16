@@ -72,10 +72,7 @@ export async function submitConstitutionNoteChange(input: NoteChangeInput) {
     targetNoteId: 'noteId' in input ? input.noteId : undefined,
   };
 
-  if (
-    input.kind === NOTE_CHANGE_KIND.delete &&
-    !isAdmin
-  ) {
+  if (input.kind === NOTE_CHANGE_KIND.delete && !isAdmin) {
     return rejectedNoteResponse(
       'Vous ne pouvez supprimer que vos demandes en attente.',
     );
