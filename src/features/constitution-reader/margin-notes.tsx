@@ -6,6 +6,7 @@ import {
   updateNoteChangeRequest,
 } from '@/features/constitution-reader/actions';
 import { NOTE_CHANGE_STATUS } from '@/constants';
+import { useToast } from '@/components/toaster';
 import type { ConstitutionNote } from '@/features/constitution-reader/types';
 import { Check, Pencil, Plus, Trash2, X } from 'lucide-react';
 import { type FormEvent, useState, useTransition } from 'react';
@@ -28,14 +29,12 @@ const emptyDraft: NoteFormValues = {
 };
 
 export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
+  const toast = useToast();
   const [notes, setNotes] = useState<readonly ConstitutionNote[]>(sourceNotes);
   const [editingNote, setEditingNote] = useState<ConstitutionNote | null>(null);
   const hasNotes = notes.length > 0;
   const [draft, setDraft] = useState<NoteFormValues>(emptyDraft);
   const [isComposing, setIsComposing] = useState(false);
-  const [submissionMessage, setSubmissionMessage] = useState<string | null>(
-    null,
-  );
   const [isPending, startTransition] = useTransition();
 
   const onAddNote = (values: NoteFormValues) => {
@@ -55,15 +54,18 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
 
         setDraft(emptyDraft);
         setIsComposing(false);
-        setSubmissionMessage(
-          result.status === NOTE_CHANGE_STATUS.approved
-            ? 'La note est publiée.'
-            : 'Votre proposition est enregistrée et attend une relecture.',
-        );
+        toast({
+          message:
+            result.status === NOTE_CHANGE_STATUS.approved
+              ? 'La note est publiée.'
+              : 'Votre proposition est enregistrée et attend une relecture.',
+          tone:
+            result.status === NOTE_CHANGE_STATUS.approved ? 'success' : 'info',
+        });
         return;
       }
 
-      setSubmissionMessage(result.error);
+      toast({ message: result.error, tone: 'error' });
     });
   };
 
@@ -93,15 +95,18 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
         }
 
         setEditingNote(null);
-        setSubmissionMessage(
-          result.status === NOTE_CHANGE_STATUS.approved
-            ? 'La note est modifiée.'
-            : 'Votre modification attend une relecture.',
-        );
+        toast({
+          message:
+            result.status === NOTE_CHANGE_STATUS.approved
+              ? 'La note est modifiée.'
+              : 'Votre modification attend une relecture.',
+          tone:
+            result.status === NOTE_CHANGE_STATUS.approved ? 'success' : 'info',
+        });
         return;
       }
 
-      setSubmissionMessage(result.error);
+      toast({ message: result.error, tone: 'error' });
     });
   };
 
@@ -124,15 +129,18 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
           );
         }
 
-        setSubmissionMessage(
-          result.status === NOTE_CHANGE_STATUS.approved
-            ? 'La note est supprimée.'
-            : 'La suppression attend une relecture.',
-        );
+        toast({
+          message:
+            result.status === NOTE_CHANGE_STATUS.approved
+              ? 'La note est supprimée.'
+              : 'La suppression attend une relecture.',
+          tone:
+            result.status === NOTE_CHANGE_STATUS.approved ? 'success' : 'info',
+        });
         return;
       }
 
-      setSubmissionMessage(result.error);
+      toast({ message: result.error, tone: 'error' });
     });
   };
 
@@ -148,15 +156,11 @@ export function MarginNotes({ sourceNotes, target }: MarginNotesProps) {
             onClick={() => setIsComposing(true)}
           />
         </div>
-        <NoteStatusMessage
-          message={
-            hasNotes
-              ? submissionMessage
-              : (submissionMessage ??
-                'No public note has been written for this article yet.')
-          }
-          tone={submissionMessage ? 'info' : 'muted'}
-        />
+        {hasNotes ? null : (
+          <p className="border-civic-line border-l pl-4 text-civic-muted text-sm leading-6">
+            No public note has been written for this article yet.
+          </p>
+        )}
         {notes.map((note) => (
           <ReaderNote
             editingNoteId={editingNote?.databaseId}
@@ -207,28 +211,6 @@ function AddNoteButton({
       <span className="sr-only">Add note</span>
       <Plus aria-hidden="true" className="size-4" strokeWidth={2} />
     </button>
-  );
-}
-
-function NoteStatusMessage({
-  message,
-  tone,
-}: {
-  message: string | null;
-  tone: 'info' | 'muted';
-}) {
-  if (!message) {
-    return null;
-  }
-
-  return (
-    <p
-      className={`border-l pl-4 text-civic-muted text-sm leading-6 ${
-        tone === 'info' ? 'border-civic-blue' : 'border-civic-line'
-      }`}
-    >
-      {message}
-    </p>
   );
 }
 

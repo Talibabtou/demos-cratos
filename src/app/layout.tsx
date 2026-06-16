@@ -3,6 +3,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { ScrollToTopButton } from '@/components/scroll-to-top-button';
 import { SiteFooter } from '@/components/site-footer';
+import { ToasterProvider } from '@/components/toaster';
 import { getPreferencesHydrationScript } from '@/lib/preferences';
 import './globals.css';
 
@@ -39,11 +40,13 @@ export default function RootLayout({
           aria-hidden="true"
           className="fixed inset-y-0 right-0 z-50 w-1 bg-civic-red"
         />
-        {children}
-        <SiteFooter />
-        <ScrollToTopButton />
-        <Analytics />
-        <SpeedInsights />
+        <ToasterProvider>
+          {children}
+          <SiteFooter />
+          <ScrollToTopButton />
+          <Analytics />
+          <SpeedInsights />
+        </ToasterProvider>
       </body>
     </html>
   );
