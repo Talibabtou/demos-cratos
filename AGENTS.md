@@ -96,9 +96,6 @@ Setup, scripts, CI, and project tree: `README.md`.
 
 ## Verify
 
-- Do not run `pnpm run check` after every small edit. Run it before finalizing
-  substantial code changes, before push, or when TypeScript/build risk is
-  likely. For tiny copy/import/style edits, prefer targeted checks or say what
-  was not run.
+- Run `pnpm check` at the end of a task.
 - Do not run `npx fallow` by default. Run it after substantial feature work,
   broad refactors, or explicit cleanup/audit requests.

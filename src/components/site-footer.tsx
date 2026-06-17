@@ -15,7 +15,7 @@ export function SiteFooter() {
           <Link
             aria-label="Research"
             className="focus-ring inline-flex size-10 items-center justify-center rounded-full text-civic-ink transition hover:text-civic-blue"
-            href="/research.md"
+            href="/en/research"
             title="Research"
           >
             <FileText aria-hidden="true" size={18} strokeWidth={1.9} />

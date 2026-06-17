@@ -57,7 +57,7 @@ export function SiteHeader({ locale, messages }: SiteHeaderProps) {
           <Link
             aria-label={messages.research}
             className="focus-ring inline-flex size-10 items-center justify-center rounded-full text-civic-ink transition hover:text-civic-blue"
-            href="/research.md"
+            href={withLocale(locale, '/research')}
             title={messages.research}
           >
             <FileText aria-hidden="true" size={18} strokeWidth={1.9} />
