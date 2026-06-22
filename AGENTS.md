@@ -1,137 +1,136 @@
 # AGENTS.md
 
-Demos:Cratos is civic software for French citizens. Keep the product clear,
-sober, and operational. The long-term goal is to help people read constitutional
-texts, build a Sixth Republic constitution collaboratively, and organize local
-democratic participation at the municipality level.
+Demos:Cratos is civic software for French citizens. Keep it sober, readable,
+and operational. The product helps people read constitutional texts, draft a
+Sixth Republic constitution together, and later organize local democratic work
+at the municipality level.
 
 Setup, scripts, CI, and project tree: `README.md`.
 
-## Agent Defaults
+## Operating Mode
 
-- Always apply Ponytail judgment: do less, delete first, use platform/stdlib
-  before new code, avoid speculative abstractions, and keep the smallest diff
-  that solves the request. Do not simplify away security, data-loss handling,
-  accessibility, or explicit requirements.
-- Always apply Caveman communication: concise, low-token updates and final
-  answers. Keep technical names exact. Drop filler, but expand when precision,
-  safety, or multi-step instructions need it. Caveman is for agent-to-user
-  communication, not for product copy.
-- Always use $anti-ai-slop-writing for website text content. Interface copy,
-  public pages, documentation, emails, and contribution text should read like a
-  person wrote it; keep it concrete, plain, and easy to read.
-- For substantial diffs, use Ponytail review before finishing: list what can be
-  removed, merged, or replaced with existing platform/codebase behavior.
-- Infer the task mode from the user request:
-  - Quick fix: small UI, copy, import, route, style, or one-file bug. Read only
-    the touched area and run the smallest relevant check.
-  - Feature work: new behavior in one product area. Inspect the route, feature
-    folder, actions/server code, types, and constants involved.
-  - Audit/refactor: only when the user asks for architecture, cleanup,
-    duplication, security, or repo-wide review. Broad scans are allowed here.
-- When the user asks architecture questions during implementation, answer the
-  architecture point but keep the current task scoped unless they explicitly ask
-  for a broader cleanup.
-- Do not audit the full repo unless the request asks for it. For ordinary
-  feature work, stay inside the relevant route, feature capsule, shared UI
-  component, and database migration.
+- Use Ponytail judgment by default: smallest diff, delete first, platform before
+  custom code, no speculative abstraction. Do not remove security, validation,
+  accessibility, or data-loss protection.
+- Use Caveman communication for agent-to-user messages: terse, exact technical
+  names, no filler. Relax it when compression would make a risky action unclear.
+- Use $anti-ai-slop-writing for website text, documentation, public pages,
+  emails, and product copy. Product writing should sound human, concrete, and
+  easy to read.
+- Infer scope from the request:
+  - Quick fix: inspect touched file plus direct imports; run the smallest check.
+  - Feature work: inspect route, feature folder, actions/server code, types,
+    constants, and related migration.
+  - Audit/refactor: broad scans only when user asks for architecture, cleanup,
+    duplication, security, or repo-wide review.
+- If the user asks architecture questions during implementation, answer the
+  point but keep the current task scoped unless they ask for cleanup.
+- Do not inspect `monorepo/` unless user explicitly asks for comparison.
+- Do not start the dev server; user runs it locally.
 
-## Common Commands
+## Commands
 
-- `pnpm run dev` starts the local Next.js dev server on port 3000.
-- Do not start the dev server yourself; the user runs it locally when needed.
-- `pnpm run fix` runs Biome checks with write/unsafe fixes.
-- `pnpm run check` runs fixes, ESLint, TypeScript, and a production build.
-- `pnpm run build` creates a production build.
-- `npx fallow` reviews dead code, wasteful patterns, and avoidable
-  bundle/performance issues after substantial feature work.
+- `pnpm run dev`: local Next.js dev server on port 3000.
+- `pnpm run fix`: Biome check with write/unsafe fixes.
+- `pnpm run lint`: ESLint with zero warnings.
+- `pnpm run typecheck`: TypeScript no-emit check.
+- `pnpm run build`: production build.
+- `pnpm run check`: fix, lint, typecheck, and production build.
+- `npx fallow`: dead-code and waste review after broad feature work, refactors,
+  or explicit audit requests.
 
-## Where To Edit
+## Tooling
+
+| Purpose | Tool |
+| --- | --- |
+| App | Next 16 App Router |
+| Styling | Tailwind 4 CSS-first tokens |
+| Database / auth | Supabase |
+| Formatting | Biome 2 |
+| Linting | ESLint + Biome |
+| Type checking | TypeScript |
+| Package manager | pnpm 11 |
+| Deployment | Vercel through GitHub Actions |
+
+## Project Boundaries
 
 - Localized routes and page shells: `src/app/[locale]/`
-- Locale routing and messages: `src/i18n/`, `src/messages/`
-- Feature code and structured product data: `src/features/`
+- API route handlers: `src/app/api/`
+- Auth callback route: `src/app/auth/callback/`
+- Feature capsules: `src/features/<feature>/`
+- Feature server reads: `src/features/<feature>/server/`
+- Feature mutations: `src/features/<feature>/actions.ts`
+- Locale helpers and messages: `src/i18n/`, `src/messages/`
 - Shared UI: `src/components/`
-- Shared UI primitives used across unrelated features: `src/components/ui/`
-- Early product mockups: `src/components/ui-mocks/`
-- Civic visual tokens: `src/app/globals.css` via Tailwind 4 `@theme inline`
-- CI and deployment: `.github/workflows/ci.yml`, `vercel.json`
+- Shared UI primitives: `src/components/ui/`
+- App-wide server infrastructure: `src/server/`
+- App-wide constants/types only after real reuse: `src/constants.ts`,
+  `src/types.ts`
+- Visual tokens: `src/app/globals.css` via Tailwind 4 `@theme inline`
+- CI/deploy: `.github/workflows/ci.yml`, `vercel.json`
 
-## Rules
+## Architecture Rules
 
-- Scoped changes only; do not edit unrelated local work.
+- Keep routes thin. Route files compose pages and metadata; durable product
+  logic belongs in feature capsules.
+- Keep feature code local until at least two unrelated features need it.
+- Shared components must not import feature code.
+- Avoid cross-feature imports unless the product concept is genuinely shared.
+- Supabase access stays in server code, route handlers, or auth plumbing.
+- Client components can submit forms or call safe actions, but they do not own
+  database authorization.
+- Server actions stay small: parse input, authorize, mutate, revalidate or
+  redirect.
+- RLS and server-side role checks must match. UI permissions are presentation,
+  not security.
+- Supabase is the source of truth for notes, research CMS content, profiles,
+  roles, and future product data.
+- Public readers see the published view by default. Admin tools stay hidden
+  unless the task is editing.
+
+## Code Rules
+
+- Scoped changes only. Do not edit unrelated local work.
 - Never touch `.vercel/` or `.env*`; do not commit secrets.
-- Use pnpm for scripts and `rg` for search.
-- Match the portfolio repo development pattern: Next 16, Tailwind 4 CSS-first
-  tokens, Biome 2, ESLint, typecheck, production build, smoke test, Vercel
-  deploy through GitHub Actions.
-- Prefer small focused components over monolithic page files.
-- Keep product areas as feature capsules. Route files in `src/app/` should stay
-  thin; durable product logic, feature-specific server code, types, constants,
-  utilities, and components should live under `src/features/<feature>/`.
-- Keep shared folders honest. Put code in `src/components/`, `src/lib/`,
-  `src/server/`, `src/types.ts`, or `src/constants.ts` only when unrelated
-  features already use it or clearly need the same primitive. Otherwise keep it
-  inside the feature that owns it.
-- Add global UI primitives only after repetition appears. A shared button,
-  icon button, panel, toaster, or empty state is useful; a premature design
-  system is not.
-- Keep data boundaries visible. `src/app/api/` is for HTTP route handlers,
-  `src/server/` is for app-wide server infrastructure, and
-  `src/features/<feature>/server/` is for feature-owned database logic.
-- Respect the i18n structure. User-facing page routes live under
-  `src/app/[locale]/`; shared locale helpers live in `src/i18n/`; visible copy
-  that is not legal/source text should come from `src/messages/en.json` and
-  `src/messages/fr.json` when it belongs to reusable navigation, metadata, or
-  stable page content. Do not create duplicate non-localized page files for
-  redirects; use `next.config.ts` redirects for legacy URLs.
-- Keep original legal/source texts in their source language. Translate the
-  interface around them, explanations, notes, labels, and navigation separately.
-- Keep routes and data models explicit. Constitutional articles, drafts,
-  proposals, reviews, municipalities, verified residents, votes, petitions, and
-  debates should become first-class concepts as the product matures.
+- Use `pnpm` for scripts and `rg` for search.
+- Prefer `type` for object shapes and unions.
+- Use explicit constants for reused statuses, kinds, roles, route segments,
+  limits, and magic numbers.
+- Keep original legal/source texts in their source language. Translate UI,
+  explanations, notes, labels, and navigation separately.
+- Visible copy that belongs to stable navigation, metadata, or reusable UI
+  should live in `src/messages/en.json` and `src/messages/fr.json`.
+- Do not create duplicate non-localized pages for redirects; use
+  `next.config.ts` redirects for legacy URLs.
+- Keep data models explicit. Constitutional articles, drafts, proposals,
+  reviews, municipalities, verified residents, votes, petitions, and debates
+  should become first-class concepts as the product grows.
 - Preserve accessibility: semantic HTML, visible focus states, readable
   contrast, and responsive layouts.
-- Avoid junk-drawer files. Constants, helpers, hooks, and types should sit next
-  to the feature that owns them until at least two unrelated features need them.
-- Build speed facts:
-  - Supabase is the source of truth for notes, research CMS content, profiles,
-    roles, and future product data.
-  - Public readers should see the published view by default; admin tools should
-    be hidden unless editing is the task.
-  - Admin-only mutations must be enforced in server actions and RLS, not only in
-    the UI.
-  - Keep routes thin. Put durable logic in `src/features/<feature>/`; only lift
-    code to shared folders after real reuse.
-  - Do not start the dev server; the user runs it locally.
-  - Do not inspect `monorepo/` unless the user explicitly asks to compare
-    architecture against it.
 
-## Visual Direction
+## Visual Rules
 
-- Calm civic identity: white, cool gray, pale sage, navy-charcoal, thin borders.
-- Use theme tokens for color choices; do not use one-off hard-coded colors in
-  components because every UI must work in both light and dark mode.
-- Store logo and brand icon assets in `public/` as SVG, PNG, or WebP instead of
-  creating custom TypeScript icon components.
+- Civic identity: white, cool gray, pale sage, navy-charcoal, thin borders.
+- Use theme tokens for colors. Do not hard-code one-off component colors.
+- Store logo and brand assets in `public/` as SVG, PNG, or WebP.
 - Use cards only for individual tools, mockups, tables, modals, or repeated
   items.
-- Keep radii at 0.5rem or below unless the design system changes intentionally.
+- Keep radii at `0.5rem` or below unless the design system changes.
 - Avoid loud gradients, decorative blobs, and marketing-heavy hero composition.
 
-## Verify
+## Verification
 
-- Pick the shortest verification that matches the risk:
-  - No check: docs-only edits, TODO wording, comments, or clearly inert copy.
-  - `pnpm run typecheck`: TypeScript, server actions, route props, data shapes,
-    imports, or DB client usage.
-  - `pnpm run lint`: JSX/React structure, hooks, accessibility-prone component
-    edits, or after formatter-sensitive changes.
-  - `pnpm run fix`: formatting-heavy edits or when Biome is likely to rewrite
-    imports/classes.
-  - `pnpm run build`: routing, metadata, dynamic/static rendering, Next config,
-    or deployment-risk changes.
-  - `pnpm run check`: broad refactors, substantial feature completion, before a
-    push, or when multiple risk areas changed.
-- Do not run `npx fallow` by default. Run it after substantial feature work,
-  broad refactors, or explicit cleanup/audit requests.
+Pick the shortest check that fits the risk.
+
+- No check: docs-only edits, TODO wording, comments, inert copy.
+- `pnpm run typecheck`: TypeScript, imports, route props, server actions, data
+  shapes, DB client usage.
+- `pnpm run lint`: JSX/React structure, hooks, accessibility-prone components.
+- `pnpm run fix`: formatting-heavy edits or likely Biome import/class rewrites.
+- `pnpm run build`: routing, metadata, dynamic/static rendering, Next config,
+  deployment-risk changes.
+- `pnpm run check`: broad refactors, substantial feature completion, before
+  push, or multiple risk areas changed.
+
+Before push, prefer `pnpm run check` unless user says they already ran it.
+Do not run `npx fallow` by default.
