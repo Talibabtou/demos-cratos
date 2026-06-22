@@ -494,3 +494,5 @@ real, and the right to inspect how the current version came to be.
 - https://www.youtube.com/watch?v=5NrDXZ78oCU
 - https://portail-municipal.fr/
 - https://fr.wikipedia.org/wiki/Elinor_Ostrom
+- https://www.mouvement-constituant-populaire.fr/
+

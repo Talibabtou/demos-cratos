@@ -22,6 +22,19 @@ Setup, scripts, CI, and project tree: `README.md`.
   person wrote it; keep it concrete, plain, and easy to read.
 - For substantial diffs, use Ponytail review before finishing: list what can be
   removed, merged, or replaced with existing platform/codebase behavior.
+- Infer the task mode from the user request:
+  - Quick fix: small UI, copy, import, route, style, or one-file bug. Read only
+    the touched area and run the smallest relevant check.
+  - Feature work: new behavior in one product area. Inspect the route, feature
+    folder, actions/server code, types, and constants involved.
+  - Audit/refactor: only when the user asks for architecture, cleanup,
+    duplication, security, or repo-wide review. Broad scans are allowed here.
+- When the user asks architecture questions during implementation, answer the
+  architecture point but keep the current task scoped unless they explicitly ask
+  for a broader cleanup.
+- Do not audit the full repo unless the request asks for it. For ordinary
+  feature work, stay inside the relevant route, feature capsule, shared UI
+  component, and database migration.
 
 ## Common Commands
 
@@ -81,6 +94,18 @@ Setup, scripts, CI, and project tree: `README.md`.
   contrast, and responsive layouts.
 - Avoid junk-drawer files. Constants, helpers, hooks, and types should sit next
   to the feature that owns them until at least two unrelated features need them.
+- Build speed facts:
+  - Supabase is the source of truth for notes, research CMS content, profiles,
+    roles, and future product data.
+  - Public readers should see the published view by default; admin tools should
+    be hidden unless editing is the task.
+  - Admin-only mutations must be enforced in server actions and RLS, not only in
+    the UI.
+  - Keep routes thin. Put durable logic in `src/features/<feature>/`; only lift
+    code to shared folders after real reuse.
+  - Do not start the dev server; the user runs it locally.
+  - Do not inspect `monorepo/` unless the user explicitly asks to compare
+    architecture against it.
 
 ## Visual Direction
 
@@ -96,6 +121,17 @@ Setup, scripts, CI, and project tree: `README.md`.
 
 ## Verify
 
-- Run `pnpm check` at the end of a task.
+- Pick the shortest verification that matches the risk:
+  - No check: docs-only edits, TODO wording, comments, or clearly inert copy.
+  - `pnpm run typecheck`: TypeScript, server actions, route props, data shapes,
+    imports, or DB client usage.
+  - `pnpm run lint`: JSX/React structure, hooks, accessibility-prone component
+    edits, or after formatter-sensitive changes.
+  - `pnpm run fix`: formatting-heavy edits or when Biome is likely to rewrite
+    imports/classes.
+  - `pnpm run build`: routing, metadata, dynamic/static rendering, Next config,
+    or deployment-risk changes.
+  - `pnpm run check`: broad refactors, substantial feature completion, before a
+    push, or when multiple risk areas changed.
 - Do not run `npx fallow` by default. Run it after substantial feature work,
   broad refactors, or explicit cleanup/audit requests.

@@ -41,8 +41,10 @@ export default function RootLayout({
           className="fixed inset-y-0 right-0 z-50 w-1 bg-civic-red"
         />
         <ToasterProvider>
-          {children}
-          <SiteFooter />
+          <div className="flex min-h-screen flex-col">
+            <div className="flex-1">{children}</div>
+            <SiteFooter />
+          </div>
           <ScrollToTopButton />
           <Analytics />
           <SpeedInsights />
